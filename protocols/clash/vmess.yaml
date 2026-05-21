@@ -52,8 +52,8 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   cipher: auto
-  alterId: 1
-  network: tcp
+  alterId: 0
+  network: raw
   tls: false
 - name: " Unsorted 0669"
   server: 23.226.135.232
@@ -73,7 +73,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   cipher: auto
   alterId: 0
-  network: raw
+  network: tcp
   tls: false
 - name: " Unsorted 0f51"
   server: 47.91.10.237
@@ -105,16 +105,6 @@ proxies:
   alterId: 0
   network: tcp
   tls: false
-- name: " Unsorted 209d"
-  server: 47.81.15.70
-  port: 4274
-  udp: true
-  type: vmess
-  uuid: a3de462b-0276-4003-8f34-536b0f9d340c
-  cipher: auto
-  alterId: 0
-  network: tcp
-  tls: false
 - name: " Unsorted 2176"
   server: 27.122.57.43
   port: 11638
@@ -123,7 +113,7 @@ proxies:
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
   cipher: auto
   alterId: 0
-  network: raw
+  network: tcp
   tls: false
 - name: " Unsorted 2535"
   server: 47.81.15.70
@@ -235,32 +225,12 @@ proxies:
   alterId: 0
   network: tcp
   tls: false
-- name: " Unsorted 40e2"
-  server: 159.223.13.109
-  port: 1234
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  cipher: auto
-  alterId: 0
-  network: raw
-  tls: true
 - name: " Unsorted 44e2"
   server: 149.88.23.207
   port: 18000
   udp: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  cipher: auto
-  alterId: 0
-  network: raw
-  tls: false
-- name: " Unsorted 465e"
-  server: 47.74.8.80
-  port: 29583
-  udp: true
-  type: vmess
-  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
   cipher: auto
   alterId: 0
   network: tcp
@@ -283,7 +253,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   cipher: auto
   alterId: 0
-  network: tcp
+  network: raw
   tls: false
 - name: " Unsorted 4b72"
   server: 5.188.190.252
@@ -292,7 +262,7 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   cipher: auto
-  alterId: 0
+  alterId: 1
   network: tcp
   tls: false
 - name: " Unsorted 4dd6"
@@ -312,7 +282,7 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   cipher: auto
-  alterId: 1
+  alterId: 0
   network: tcp
   tls: false
 - name: " Unsorted 55f8"
@@ -433,7 +403,7 @@ proxies:
   uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
   cipher: auto
   alterId: 0
-  network: raw
+  network: tcp
   tls: false
 - name: " Unsorted 6c3c"
   server: 47.237.109.67
@@ -515,16 +485,6 @@ proxies:
   alterId: 0
   network: tcp
   tls: false
-- name: " Unsorted 79a6"
-  server: 69.12.91.52
-  port: 3593
-  udp: true
-  type: vmess
-  uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
-  cipher: auto
-  alterId: 0
-  network: tcp
-  tls: false
 - name: " Unsorted 7e1a"
   server: 47.239.132.90
   port: 47286
@@ -543,7 +503,7 @@ proxies:
   uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
   cipher: auto
   alterId: 0
-  network: none
+  network: tcp
   tls: false
 - name: " Unsorted 8815"
   server: 82.198.246.233
@@ -571,16 +531,6 @@ proxies:
   udp: true
   type: vmess
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-  cipher: auto
-  alterId: 0
-  network: tcp
-  tls: false
-- name: " Unsorted 9064"
-  server: 8.209.218.109
-  port: 38510
-  udp: true
-  type: vmess
-  uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
   cipher: auto
   alterId: 0
   network: tcp
@@ -621,16 +571,6 @@ proxies:
   udp: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  cipher: auto
-  alterId: 0
-  network: tcp
-  tls: false
-- name: " Unsorted 9b52"
-  server: 47.91.19.32
-  port: 15777
-  udp: true
-  type: vmess
-  uuid: a3de462b-0276-4003-8f34-536b0f9d340c
   cipher: auto
   alterId: 0
   network: tcp
@@ -753,7 +693,7 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   cipher: auto
   alterId: 0
-  network: raw
+  network: tcp
   tls: true
 - name: " Unsorted bfc9"
   server: 216.106.185.141
@@ -763,7 +703,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   cipher: auto
   alterId: 0
-  network: raw
+  network: tcp
   tls: false
 - name: " Unsorted c2c0"
   server: 47.74.59.195
@@ -831,16 +771,6 @@ proxies:
   udp: true
   type: vmess
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-  cipher: auto
-  alterId: 0
-  network: tcp
-  tls: false
-- name: " Unsorted d0cb"
-  server: 47.239.69.43
-  port: 56698
-  udp: true
-  type: vmess
-  uuid: a3de462b-0276-4003-8f34-536b0f9d340c
   cipher: auto
   alterId: 0
   network: tcp
@@ -975,32 +905,12 @@ proxies:
   alterId: 1
   network: tcp
   tls: false
-- name: " Unsorted f141"
-  server: 47.239.132.90
-  port: 47286
-  udp: true
-  type: vmess
-  uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
-  cipher: auto
-  alterId: 0
-  network: tcp
-  tls: false
 - name: " Unsorted f152"
   server: 47.81.15.70
   port: 4274
   udp: true
   type: vmess
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
-  cipher: auto
-  alterId: 0
-  network: tcp
-  tls: false
-- name: " Unsorted f71b"
-  server: 47.81.15.70
-  port: 4274
-  udp: true
-  type: vmess
-  uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
   cipher: auto
   alterId: 0
   network: tcp
@@ -1023,7 +933,7 @@ proxies:
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
   cipher: auto
   alterId: 0
-  network: raw
+  network: tcp
   tls: false
 rules:
 - GEOSITE,category-ads-all,REJECT
