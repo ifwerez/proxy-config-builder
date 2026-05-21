@@ -36,24 +36,27 @@
         "🇰🇿 Kazakhstan 0347 | SNI - www.id.vk.ru",
         "🇰🇿 Kazakhstan 0a91 | SNI - panel.cvs-a.com",
         "🇰🇿 Kazakhstan 2a1b | SNI - kz2-in.api.dznn.net",
+        "🇰🇿 Kazakhstan 35dd | SNI - bucket-ru-5.extravpn.io",
         "🇰🇿 Kazakhstan 3d87 | SNI - sun6-21.userapi.com",
         "🇰🇿 Kazakhstan 6a43 | SNI - 194.58.41.88.fwqfw783rg2dad.website",
         "🇰🇿 Kazakhstan 8ed1 | SNI - kz.trustnet.sbs",
         "🇰🇿 Kazakhstan 91b2",
         "🇰🇿 Kazakhstan 94fb | SNI - kz.trustnet.sbs",
-        "🇰🇿 Kazakhstan b762 | SNI - bucket-ru-5.extravpn.io",
         "🇰🇿 Kazakhstan d1e2 | SNI - www.google.com",
+        "🇸🇬 Singapore 8fc9 | SNI - api-maps.yandex.ru",
         "🇸🇬 Singapore 9b0f",
-        "🇸🇬 Singapore e856 | SNI - api-maps.yandex.ru",
         "🇹🇷 Turkey 0c2d | SNI - tr-in.api.dznn.net",
         "🇹🇷 Turkey 2960 | SNI - sun9-37.userapi.com",
         "🇹🇷 Turkey 30a4",
         "🇹🇷 Turkey 5fd6 | SNI - api.cvs-a.com",
+        "🇹🇷 Turkey 91a3 | SNI - ads.x5.ru",
+        "🇹🇷 Turkey 9508 | SNI - max.ru",
         "🇹🇷 Turkey 9775 | SNI - eh.vk.com",
         "🇹🇷 Turkey bc5b | SNI - 194.58.41.88.fwqfw783rg2dad.website",
         "🇹🇷 Turkey dbb9 | SNI - tr1.cvs-a.com",
         "🇹🇷 Turkey e11f | SNI - sun9-37.userapi.com",
         "🇹🇷 Turkey e1df | SNI - sun9-37.userapi.com",
+        "🇹🇷 Turkey e679 | SNI - sso.passport.yandex.ru",
         "🇹🇼 Taiwan 4987 | SNI - www.python.org",
         "🇹🇼 Taiwan 9860 | SNI - www.python.org",
         "🇹🇼 Taiwan 9c5f | SNI - www.python.org"
@@ -254,6 +257,23 @@
     },
     {
       "type": "vless",
+      "tag": "🇰🇿 Kazakhstan 35dd | SNI - bucket-ru-5.extravpn.io",
+      "server": "5.188.115.27",
+      "server_port": 443,
+      "uuid": "324ed16f-83d5-0014-81b9-d3b3e5ed6609",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "bucket-ru-5.extravpn.io",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "mcSB8VHQwqXzWo7oA7RWii3SLVngh63eJOEjxqHKzn8"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇰🇿 Kazakhstan 3d87 | SNI - sun6-21.userapi.com",
       "server": "188.225.31.52",
       "server_port": 47006,
@@ -339,23 +359,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇰🇿 Kazakhstan b762 | SNI - bucket-ru-5.extravpn.io",
-      "server": "5.188.115.27",
-      "server_port": 443,
-      "uuid": "e000e5ed-ca85-0014-a537-b7f232306a51",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "bucket-ru-5.extravpn.io",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "mcSB8VHQwqXzWo7oA7RWii3SLVngh63eJOEjxqHKzn8"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇰🇿 Kazakhstan d1e2 | SNI - www.google.com",
       "server": "46.247.40.229",
       "server_port": 8443,
@@ -374,6 +377,24 @@
     },
     {
       "type": "vless",
+      "tag": "🇸🇬 Singapore 8fc9 | SNI - api-maps.yandex.ru",
+      "server": "194.55.239.193",
+      "server_port": 443,
+      "uuid": "99b6acae-4782-4566-babc-daf349ad942d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE",
+          "short_id": "abbcd128"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇸🇬 Singapore 9b0f",
       "server": "170.114.46.6",
       "server_port": 80,
@@ -384,24 +405,6 @@
         "path": "/@Tech_Sonic",
         "headers": {
           "Host": "free-server.techsonic.ggff.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Singapore e856 | SNI - api-maps.yandex.ru",
-      "server": "194.55.239.193",
-      "server_port": 443,
-      "uuid": "3e7804b7-a5fd-42cf-be3a-322071b2d2d5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE",
-          "short_id": "abbcd128"
         }
       }
     },
@@ -464,6 +467,42 @@
           "enabled": true,
           "public_key": "vgmo5AxgVJfSME3mlK4ulM4HeVAn6eS2UO9wYEPNFiY",
           "short_id": "bb55683efa59799d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 Turkey 91a3 | SNI - ads.x5.ru",
+      "server": "91.219.227.203",
+      "server_port": 7443,
+      "uuid": "0c42af97-b62b-428e-bf76-de09288afcfd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 Turkey 9508 | SNI - max.ru",
+      "server": "95.163.211.237",
+      "server_port": 7443,
+      "uuid": "0c42af97-b62b-428e-bf76-de09288afcfd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
         }
       }
     },
@@ -554,6 +593,24 @@
           "enabled": true,
           "public_key": "RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE",
           "short_id": "abbcd128"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 Turkey e679 | SNI - sso.passport.yandex.ru",
+      "server": "95.163.211.240",
+      "server_port": 7443,
+      "uuid": "0c42af97-b62b-428e-bf76-de09288afcfd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "sso.passport.yandex.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
         }
       }
     },
