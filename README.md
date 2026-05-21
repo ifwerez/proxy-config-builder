@@ -43,9 +43,6 @@ auto-generated proxy configurations
 <details>
 <summary><b>jsdelivr cdn</b></summary>
 
-> [!warning]
-> update delays of hours to days
-
 | format | url |
 |--------|-----|
 | clash | `https://cdn.jsdelivr.net/gh/ifwerez/proxy-config-builder@main/clash.yaml#All-In-One` |
@@ -107,5 +104,5 @@ you can add new proxy source URLs via a pull request:
 
 new sources are automatically merged on the next update cycle.
 
-last updated: 2026-05-21 20:54:39
-proxies: 6400
+last updated: 2026-05-21 21:05:29
+proxies: 6393
