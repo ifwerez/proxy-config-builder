@@ -1301,6 +1301,7 @@
         "🇸🇪 Sweden 6702 | SNI - www.deepl.com",
         "🇸🇪 Sweden 6ac3 | SNI - sni.111000.dns.army",
         "🇸🇪 Sweden 71e2",
+        "🇸🇪 Sweden 72de | SNI - ads.x5.ru",
         "🇸🇪 Sweden 7431",
         "🇸🇪 Sweden 75e2",
         "🇸🇪 Sweden 76eb",
@@ -1371,7 +1372,6 @@
         "🇸🇪 Sweden fa39 | SNI - babayaga-6i7.pages.dev",
         "🇸🇪 Sweden faeb | SNI - www.blocket.se",
         "🇸🇪 Sweden fed8 | SNI - ads.x5.ru",
-        "🇸🇪 Sweden — #621",
         "🇸🇬 Singapore 02b5 | SNI - babayaga-6i7.pages.dev",
         "🇸🇬 Singapore 04e6 | SNI - sni.jpmj.dev",
         "🇸🇬 Singapore 05c4 | SNI - sn1.skylee5.cloudns.ch",
@@ -20276,6 +20276,24 @@
       "packet_encoding": "xudp"
     },
     {
+      "type": "vless",
+      "tag": "🇸🇪 Sweden 72de | SNI - ads.x5.ru",
+      "server": "194.55.239.181",
+      "server_port": 9443,
+      "uuid": "b4bcdea0-7272-42d9-9df2-2001a55282d6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "r6lN34m1nN-xQZ458j5NPD5xJ3_QBF2bGzY4KJEo4ic",
+          "short_id": "abbcd128"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "🇸🇪 Sweden 7431",
       "server": "78.40.116.25",
@@ -21376,24 +21394,6 @@
           "enabled": true,
           "public_key": "6NHx7OBkTEppAb58ke8XhLDoBrutczt_JPUWP_h9DRE",
           "short_id": "a9c4f17e3b62d8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 Sweden — #621",
-      "server": "194.55.239.181",
-      "server_port": 9443,
-      "uuid": "b4bcdea0-7272-42d9-9df2-2001a55282d6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "r6lN34m1nN-xQZ458j5NPD5xJ3_QBF2bGzY4KJEo4ic",
-          "short_id": "abbcd128"
         }
       }
     },
