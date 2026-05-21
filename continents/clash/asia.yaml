@@ -183,6 +183,21 @@ proxies:
   reality-opts:
     public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
     short-id: "19aa22f681923dc8"
+- name: "🇰🇿 Kazakhstan 35dd | SNI - bucket-ru-5.extravpn.io"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KZ.png
+  server: 5.188.115.27
+  port: 443
+  udp: true
+  type: vless
+  uuid: 324ed16f-83d5-0014-81b9-d3b3e5ed6609
+  network: grpc
+  tls: true
+  servername: bucket-ru-5.extravpn.io
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mcSB8VHQwqXzWo7oA7RWii3SLVngh63eJOEjxqHKzn8
+  grpc-opts:
+    grpc-service-name: bucket-ru-5.extravpn.io
 - name: "🇰🇿 Kazakhstan 3d87 | SNI - sun6-21.userapi.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KZ.png
   server: 188.225.31.52
@@ -255,21 +270,6 @@ proxies:
   flow: xtls-rprx-vision
   reality-opts:
     public-key: m1Za2Yc6uySqcliTEysWGVuV9RILbOKqAyINFnmKSUc
-- name: "🇰🇿 Kazakhstan b762 | SNI - bucket-ru-5.extravpn.io"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KZ.png
-  server: 5.188.115.27
-  port: 443
-  udp: true
-  type: vless
-  uuid: e000e5ed-ca85-0014-a537-b7f232306a51
-  network: grpc
-  tls: true
-  servername: bucket-ru-5.extravpn.io
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mcSB8VHQwqXzWo7oA7RWii3SLVngh63eJOEjxqHKzn8
-  grpc-opts:
-    grpc-service-name: bucket-ru-5.extravpn.io
 - name: "🇰🇿 Kazakhstan d1e2 | SNI - www.google.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KZ.png
   server: 46.247.40.229
@@ -285,6 +285,21 @@ proxies:
   reality-opts:
     public-key: mVdzom1e9afBTvsad76ZEsyQh9xSCZPUKo7CPPLaZAc
     short-id: "196dad1410aa3891"
+- name: "🇸🇬 Singapore 8fc9 | SNI - api-maps.yandex.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
+  server: 194.55.239.193
+  port: 443
+  udp: true
+  type: vless
+  uuid: 99b6acae-4782-4566-babc-daf349ad942d
+  network: tcp
+  tls: true
+  servername: api-maps.yandex.ru
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE
+    short-id: "abbcd128"
 - name: "🇸🇬 Singapore 9b0f"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
   server: 170.114.46.6
@@ -299,21 +314,6 @@ proxies:
     path: "/@Tech_Sonic"
     headers:
       Host: free-server.techsonic.ggff.net
-- name: "🇸🇬 Singapore e856 | SNI - api-maps.yandex.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
-  server: 194.55.239.193
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3e7804b7-a5fd-42cf-be3a-322071b2d2d5
-  network: tcp
-  tls: true
-  servername: api-maps.yandex.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE
-    short-id: "abbcd128"
 - name: "🇹🇷 Turkey 0c2d | SNI - tr-in.api.dznn.net"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TR.png
   server: tr-in.api.dznn.net
@@ -369,6 +369,34 @@ proxies:
   reality-opts:
     public-key: vgmo5AxgVJfSME3mlK4ulM4HeVAn6eS2UO9wYEPNFiY
     short-id: "bb55683efa59799d"
+- name: "🇹🇷 Turkey 91a3 | SNI - ads.x5.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TR.png
+  server: 91.219.227.203
+  port: 7443
+  udp: true
+  type: vless
+  uuid: 0c42af97-b62b-428e-bf76-de09288afcfd
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw
+    short-id: "7dbf7d3233971d5c"
+- name: "🇹🇷 Turkey 9508 | SNI - max.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TR.png
+  server: 95.163.211.237
+  port: 7443
+  udp: true
+  type: vless
+  uuid: 0c42af97-b62b-428e-bf76-de09288afcfd
+  network: tcp
+  tls: true
+  servername: max.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw
+    short-id: "7dbf7d3233971d5c"
 - name: "🇹🇷 Turkey 9775 | SNI - eh.vk.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TR.png
   server: 91.219.227.203
@@ -443,6 +471,20 @@ proxies:
   reality-opts:
     public-key: RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE
     short-id: "abbcd128"
+- name: "🇹🇷 Turkey e679 | SNI - sso.passport.yandex.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TR.png
+  server: 95.163.211.240
+  port: 7443
+  udp: true
+  type: vless
+  uuid: 0c42af97-b62b-428e-bf76-de09288afcfd
+  network: tcp
+  tls: true
+  servername: sso.passport.yandex.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw
+    short-id: "7dbf7d3233971d5c"
 - name: "🇹🇼 Taiwan 4987 | SNI - www.python.org"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TW.png
   server: tw1.344233.cc
