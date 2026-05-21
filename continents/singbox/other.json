@@ -48,6 +48,7 @@
         " Unsorted 1caf | SNI - cdp.x5.ru",
         " Unsorted 1cdb | SNI - dl.k8s.io",
         " Unsorted 1d74",
+        " Unsorted 1e25 | SNI - cdp.x5.ru",
         " Unsorted 1e3d",
         " Unsorted 1f62 | SNI - ads.x5.ru",
         " Unsorted 1fdd",
@@ -55,6 +56,7 @@
         " Unsorted 23d0",
         " Unsorted 24f5 | SNI - www.tesla.com",
         " Unsorted 26d1",
+        " Unsorted 29f5 | SNI - cdp.x5.ru",
         " Unsorted 2a45 | SNI - max.ru",
         " Unsorted 2bb8 | SNI - cdp.x5.ru",
         " Unsorted 2bb9 | SNI - t39sed.gateway-api.sh21.eu.org",
@@ -65,9 +67,9 @@
         " Unsorted 2d83 | SNI - travel.yandex.ru",
         " Unsorted 2eb8",
         " Unsorted 2ef2 | SNI - ads.x5.ru",
-        " Unsorted 2f6b | SNI - api-maps.yandex.ru",
         " Unsorted 3088",
         " Unsorted 30a6 | SNI - ads.x5.ru",
+        " Unsorted 30d4 | SNI - cdp.x5.ru",
         " Unsorted 3358",
         " Unsorted 336f",
         " Unsorted 3762 | SNI - finite-node.rtxconfigz.com",
@@ -79,7 +81,6 @@
         " Unsorted 3a8c",
         " Unsorted 3bdd",
         " Unsorted 3d80",
-        " Unsorted 3f8a | SNI - 5post-gate.x5.ru",
         " Unsorted 4332",
         " Unsorted 435f",
         " Unsorted 45a6",
@@ -106,6 +107,7 @@
         " Unsorted 5f5e | SNI - ads.x5.ru",
         " Unsorted 601d",
         " Unsorted 6187 | SNI - api-maps.yandex.ru",
+        " Unsorted 6238 | SNI - cdp.x5.ru",
         " Unsorted 6332",
         " Unsorted 665f",
         " Unsorted 672c",
@@ -114,7 +116,6 @@
         " Unsorted 6a38",
         " Unsorted 6cde",
         " Unsorted 6dc2",
-        " Unsorted 6e50 | SNI - ads.x5.ru",
         " Unsorted 6f6d",
         " Unsorted 7095 | SNI - cdp.x5.ru",
         " Unsorted 7199 | SNI - github.com",
@@ -129,8 +130,11 @@
         " Unsorted 7f8f | SNI - max.ru",
         " Unsorted 8281",
         " Unsorted 8345",
+        " Unsorted 86ae | SNI - ads.x5.ru",
         " Unsorted 883c | SNI - et.seaspirit.dpdns.org",
         " Unsorted 89e8",
+        " Unsorted 8a3d | SNI - cdp.x5.ru",
+        " Unsorted 8b09 | SNI - lk.x5.ru",
         " Unsorted 8c5b | SNI - moon1.realm-of-ultramar.ru",
         " Unsorted 8c8d | SNI - ads.x5.ru",
         " Unsorted 8d91 | SNI - w1ws.listwhite.cc",
@@ -169,7 +173,6 @@
         " Unsorted b2f1",
         " Unsorted b70a | SNI - cdp.x5.ru",
         " Unsorted bb51",
-        " Unsorted bcf6 | SNI - disk.yandex.ru",
         " Unsorted bebf",
         " Unsorted bfd9 | SNI - cdp.x5.ru",
         " Unsorted c05f",
@@ -187,8 +190,10 @@
         " Unsorted ccea | SNI - cdp.x5.ru",
         " Unsorted d0c7",
         " Unsorted d0ee",
+        " Unsorted d20f | SNI - ads.x5.ru",
         " Unsorted d3fb",
         " Unsorted d54a",
+        " Unsorted d58b | SNI - cdp.x5.ru",
         " Unsorted d797",
         " Unsorted d8d0",
         " Unsorted d92a",
@@ -199,6 +204,7 @@
         " Unsorted dfed",
         " Unsorted e13b | SNI - cdp.x5.ru",
         " Unsorted e1c7",
+        " Unsorted e28d | SNI - cdp.x5.ru",
         " Unsorted e2b2 | SNI - et.seaspirit.dpdns.org",
         " Unsorted e33f",
         " Unsorted e35b | SNI - cdp.x5.ru",
@@ -209,11 +215,11 @@
         " Unsorted e754",
         " Unsorted e76a",
         " Unsorted e8eb",
-        " Unsorted e992 | SNI - 5post-gate.x5.ru",
         " Unsorted ea79 | SNI - t39sed.gateway-api.sh21.eu.org",
         " Unsorted ebe9 | SNI - t39sed.gateway-api.sh21.eu.org",
         " Unsorted ec9d",
         " Unsorted ed5d | SNI - max.ru",
+        " Unsorted ede1 | SNI - cdp.x5.ru",
         " Unsorted efc7",
         " Unsorted f141 | SNI - t39sed.gateway-api.sh21.eu.org",
         " Unsorted f1cb",
@@ -574,6 +580,24 @@
       }
     },
     {
+      "type": "vless",
+      "tag": " Unsorted 1e25 | SNI - cdp.x5.ru",
+      "server": "158.160.136.203",
+      "server_port": 443,
+      "uuid": "cb3d46ff-5a28-40f0-94fb-47a6b2146d58",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": " Unsorted 1e3d",
       "server": "89.110.108.189",
@@ -666,6 +690,24 @@
         "enabled": true,
         "server_name": "Koma-YT.PAGeS.Dev",
         "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " Unsorted 29f5 | SNI - cdp.x5.ru",
+      "server": "51.250.97.18",
+      "server_port": 443,
+      "uuid": "cb3d46ff-5a28-40f0-94fb-47a6b2146d58",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
       }
     },
     {
@@ -844,24 +886,6 @@
     },
     {
       "type": "vless",
-      "tag": " Unsorted 2f6b | SNI - api-maps.yandex.ru",
-      "server": "ydlte.fluxorvpn.net",
-      "server_port": 443,
-      "uuid": "c2c2ec90-56f7-4361-9bd6-03876e1309cd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "DrWq_ysFaGPGgRFcHevMPoruwYMRXryW6i_cwE7CuCM",
-          "short_id": "d7e1a2bb"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": " Unsorted 3088",
       "server": "108.165.152.30",
       "server_port": 8880,
@@ -890,6 +914,24 @@
           "enabled": true,
           "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
           "short_id": "844352756c1fabba"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " Unsorted 30d4 | SNI - cdp.x5.ru",
+      "server": "84.201.168.220",
+      "server_port": 443,
+      "uuid": "cb3d46ff-5a28-40f0-94fb-47a6b2146d58",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
@@ -1055,23 +1097,6 @@
         "enabled": true,
         "server_name": "Koma-YT.PAGeS.Dev",
         "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": " Unsorted 3f8a | SNI - 5post-gate.x5.ru",
-      "server": "158.160.193.151",
-      "server_port": 443,
-      "uuid": "eacdf9f8-2543-46f3-9436-ed4458fe0ad1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "5post-gate.x5.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "XSyv5Fi_gW72GREh-PyGjfNfN4_Zyuuq6A-klKEU2Hc"
-        }
       }
     },
     {
@@ -1470,6 +1495,24 @@
       }
     },
     {
+      "type": "vless",
+      "tag": " Unsorted 6238 | SNI - cdp.x5.ru",
+      "server": "84.201.168.186",
+      "server_port": 443,
+      "uuid": "cb3d46ff-5a28-40f0-94fb-47a6b2146d58",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": " Unsorted 6332",
       "server": "152.53.147.108",
@@ -1569,24 +1612,6 @@
         "enabled": true,
         "server_name": "Koma-YT.PAGeS.Dev",
         "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": " Unsorted 6e50 | SNI - ads.x5.ru",
-      "server": "ydlte.fluxorvpn.net",
-      "server_port": 8443,
-      "uuid": "c2c2ec90-56f7-4361-9bd6-03876e1309cd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "DrWq_ysFaGPGgRFcHevMPoruwYMRXryW6i_cwE7CuCM",
-          "short_id": "d7e1a111"
-        }
       }
     },
     {
@@ -1806,6 +1831,24 @@
     },
     {
       "type": "vless",
+      "tag": " Unsorted 86ae | SNI - ads.x5.ru",
+      "server": "193.33.133.171",
+      "server_port": 6443,
+      "uuid": "443c9e66-43b9-4a65-91d9-a77524dfe7f5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "kKQkhsertIxMJdzFzMrzM_F0NWx6Ig6f_yICasQMhEA",
+          "short_id": "25b19ab8cfd78fe5"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": " Unsorted 883c | SNI - et.seaspirit.dpdns.org",
       "server": "163.61.103.239",
       "server_port": 443,
@@ -1834,6 +1877,42 @@
         "enabled": true,
         "server_name": "Koma-YT.PAGeS.Dev",
         "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " Unsorted 8a3d | SNI - cdp.x5.ru",
+      "server": "84.201.168.186",
+      "server_port": 443,
+      "uuid": "cbb739c2-34d9-4ec5-b229-9c1f42ae0c62",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " Unsorted 8b09 | SNI - lk.x5.ru",
+      "server": "84.201.152.247",
+      "server_port": 443,
+      "uuid": "cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "lk.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "gs8bT5NMOtrvvHxmCi_siXbVY6WhQcBV4tEgFk4ohgA",
+          "short_id": "46ceaa0ac75f90dc"
+        }
       }
     },
     {
@@ -2374,24 +2453,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": " Unsorted bcf6 | SNI - disk.yandex.ru",
-      "server": "158.160.122.82",
-      "server_port": 443,
-      "uuid": "c508c6d2-0466-447e-83ad-84a4cbe35492",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "disk.yandex.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "zVkSQiDMvCFk2zmmvChQlDA24K2QUdoq1-IyFw5nMTw",
-          "short_id": "96d0a6e8a6c0d73a"
-        }
-      }
-    },
-    {
       "type": "trojan",
       "tag": " Unsorted bebf",
       "server": "77.110.104.41",
@@ -2630,6 +2691,24 @@
       }
     },
     {
+      "type": "vless",
+      "tag": " Unsorted d20f | SNI - ads.x5.ru",
+      "server": "193.33.133.143",
+      "server_port": 8443,
+      "uuid": "443c9e66-43b9-4a65-91d9-a77524dfe7f5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "xLfTq-rzjNrNzAy7VBIuntmr_3uTNkduP6hWj8-MjgQ",
+          "short_id": "ad39874fc6f17823"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": " Unsorted d3fb",
       "server": "185.65.202.101",
@@ -2651,6 +2730,24 @@
         "enabled": true,
         "server_name": "Koma-YT.PAGeS.Dev",
         "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " Unsorted d58b | SNI - cdp.x5.ru",
+      "server": "84.201.180.242",
+      "server_port": 443,
+      "uuid": "cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "DK98HQGIBGOFbAqKggMXduwYNjlKfOBiARKfO8wEeXk",
+          "short_id": "0fb689ad101948ba"
+        }
       }
     },
     {
@@ -2777,6 +2874,24 @@
         "enabled": true,
         "server_name": "Koma-YT.PAGeS.Dev",
         "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " Unsorted e28d | SNI - cdp.x5.ru",
+      "server": "51.250.108.162",
+      "server_port": 443,
+      "uuid": "cb3d46ff-5a28-40f0-94fb-47a6b2146d58",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
       }
     },
     {
@@ -2921,23 +3036,6 @@
     },
     {
       "type": "vless",
-      "tag": " Unsorted e992 | SNI - 5post-gate.x5.ru",
-      "server": "51.250.30.235",
-      "server_port": 443,
-      "uuid": "eacdf9f8-2543-46f3-9436-ed4458fe0ad1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "5post-gate.x5.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "XSyv5Fi_gW72GREh-PyGjfNfN4_Zyuuq6A-klKEU2Hc"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": " Unsorted ea79 | SNI - t39sed.gateway-api.sh21.eu.org",
       "server": "62.133.60.155",
       "server_port": 443,
@@ -3003,6 +3101,24 @@
           "enabled": true,
           "public_key": "NTuI1KllPR2DtdPM5mqJBzOCVGuHyQNY8gCkx2f2CBk",
           "short_id": "35a84908e9cfa95c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " Unsorted ede1 | SNI - cdp.x5.ru",
+      "server": "158.160.57.73",
+      "server_port": 443,
+      "uuid": "cbb739c2-34d9-4ec5-b229-9c1f42ae0c62",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
