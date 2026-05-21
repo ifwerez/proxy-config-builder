@@ -27,7 +27,6 @@
       "outbounds": [
         "🇦🇲 Armenia ce82 | SNI - api.cvs-a.com",
         "🇨🇳 China fa0a | SNI - ch.jugploer.icu",
-        "🇨🇾 Cyprus 9f1c | SNI - cnmfangbinxingnmsl.cnm--fangbinxing.workers.dev [geo]",
         "🇭🇰 Hong Kong 1606 | SNI - cz.rumost.top",
         "🇭🇰 Hong Kong 5540 | SNI - google.com",
         "🇮🇩 Indonesia 02b1 | SNI - max.ru",
@@ -41,8 +40,6 @@
         "🇯🇵 Japan 3c39 | SNI - jp.jugploer.icu",
         "🇯🇵 Japan ae07 | SNI - www.microsoft.com",
         "🇯🇵 Japan aff5 | SNI - api.cvs-a.com",
-        "🇯🇵 Japan fd3c | SNI - adv2m5gy-wrhiahph85c.ovtc.qzz.io [geo]",
-        "🇰🇷 South Korea 00fd | SNI - rolaqoubhqt.bpd67081tsq.ddns-ip.net [geo]",
         "🇰🇷 South Korea 4c25",
         "🇰🇿 Kazakhstan 0347 | SNI - www.id.vk.ru",
         "🇰🇿 Kazakhstan 0a91 | SNI - panel.cvs-a.com",
@@ -54,11 +51,8 @@
         "🇰🇿 Kazakhstan 94fb | SNI - kz.trustnet.sbs",
         "🇰🇿 Kazakhstan 9934 | SNI - bucket-ru-2.extravpn.io",
         "🇰🇿 Kazakhstan d1e2 | SNI - www.google.com",
-        "🇸🇬 Singapore 3a6e [geo]",
-        "🇸🇬 Singapore 5778 [geo]",
         "🇸🇬 Singapore 8a63",
         "🇸🇬 Singapore 9b0f",
-        "🇸🇬 Singapore abf4 | SNI - vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net [geo]",
         "🇸🇬 Singapore bc9a | SNI - api-maps.yandex.ru",
         "🇹🇷 Turkey 02f0 | SNI - max.ru",
         "🇹🇷 Turkey 0c2d | SNI - tr-in.api.dznn.net",
@@ -112,21 +106,6 @@
         "reality": {
           "enabled": true,
           "public_key": "agsQSpidbSZMSzm4t1Bhe57wSta_CTcUktkB7GQ9YBM"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇾 Cyprus 9f1c | SNI - cnmfangbinxingnmsl.cnm--fangbinxing.workers.dev [geo]",
-      "server": "www.csgo.net",
-      "server_port": 2095,
-      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/fp=randomized",
-        "headers": {
-          "Host": "cnmfangbinxingnmsl.cnm--fangbinxing.workers.dev"
         }
       }
     },
@@ -358,46 +337,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇯🇵 Japan fd3c | SNI - adv2m5gy-wrhiahph85c.ovtc.qzz.io [geo]",
-      "server": "8.211.161.124",
-      "server_port": 25809,
-      "uuid": "00000000-0000-4000-8000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "adv2m5gy-wrhiahph85c.ovtc.qzz.io",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristifp=chrome",
-        "headers": {
-          "Host": "adv2m5gy-wrhiahph85c.ovtc.qzz.io"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇷 South Korea 00fd | SNI - rolaqoubhqt.bpd67081tsq.ddns-ip.net [geo]",
-      "server": "103.133.240.115",
-      "server_port": 17416,
-      "uuid": "00000000-0000-4000-8000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "rolaqoubhqt.bpd67081tsq.ddns-ip.net",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristifp=chrome",
-        "headers": {
-          "Host": "rolaqoubhqt.bpd67081tsq.ddns-ip.net"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
       "tag": "🇰🇷 South Korea 4c25",
       "server": "47.80.6.141",
@@ -584,36 +523,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 Singapore 3a6e [geo]",
-      "server": "154.194.12.40",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560&https://t.me/youtube@ZYFXS🇨🇳",
-        "headers": {
-          "Host": "vms.lifetime35.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Singapore 5778 [geo]",
-      "server": "154.194.12.50",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560&https://t.me/youtube@ZYFXS🇨🇳",
-        "headers": {
-          "Host": "vms.lifetime35.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇸🇬 Singapore 8a63",
       "server": "141.193.213.21",
       "server_port": 80,
@@ -639,26 +548,6 @@
         "path": "/@Tech_Sonic",
         "headers": {
           "Host": "free-server.techsonic.ggff.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Singapore abf4 | SNI - vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net [geo]",
-      "server": "149.129.36.200",
-      "server_port": 25006,
-      "uuid": "00000000-0000-4000-8000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristifp=chrome",
-        "headers": {
-          "Host": "vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net"
         }
       }
     },
