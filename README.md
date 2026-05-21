@@ -4,47 +4,26 @@ auto-generated proxy configurations
 
 ## sources
 
-- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 634 proxies]
-- https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt [online, 198 proxies]
+- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 495 proxies]
+- https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt [online, 113 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt [online, 51 proxies]
 - 8f5c4a1faeb5 [online, 244 proxies]
 - https://internet-tenshi.kangel.tech/1 [online, 2247 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt [online, 8639 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/2.txt [online, 50379 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/3.txt [online, 7282 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/4.txt [online, 107 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/5.txt [online, 876 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt [online, 143 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/7.txt [online, 310 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/8.txt [online, 321 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/9.txt [online, 251 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/10.txt [online, 4145 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/11.txt [online, 350 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/12.txt [online, 4503 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/13.txt [online, 4 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/14.txt [online, 285 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/15.txt [online, 307 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/16.txt [online, 10 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/17.txt [online, 512 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/18.txt [online, 177 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/19.txt [online, 369 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/20.txt [online, 1705 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/21.txt [online, 672 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt [online, 8621 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt [online, 145 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt [online, 222 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt [online, 50 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt [online, 1063 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt [online, 115 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt [online, 1183 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt [online, 1061 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt [online, 104 proxies]
 
 ## formats
 
 - **clash (all)**: `clash.yaml`
-- **clash (checked)**: `clash_checked.yaml`
 - **sing-box**: `singbox.json`
 - **raw vless urls**: `raw.txt`
-- **per continent clash**: `continents/clash/*.yaml`
-- **per continent singbox**: `continents/singbox/*.json`
-- **per continent raw**: `continents/raw/*.txt`
+- **per protocol clash**: `protocols/clash/*.yaml`
+- **per protocol singbox**: `protocols/singbox/*.json`
+- **per protocol raw**: `protocols/raw/*.txt`
 
 ## subscription urls
 
@@ -52,7 +31,6 @@ auto-generated proxy configurations
 
 ```
 https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/clash.yaml#All-In-One
-https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/clash_checked.yaml#All-In-One
 https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/singbox.json#All-In-One
 https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/raw.txt#All-In-One
 ```
@@ -113,5 +91,5 @@ you can add new proxy source URLs via a pull request:
 
 new sources are automatically merged on the next update cycle.
 
-last updated: 2026-05-21 17:57:29
-proxies: 19617
+last updated: 2026-05-21 20:20:51
+proxies: 6418
