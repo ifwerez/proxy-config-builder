@@ -42,16 +42,16 @@
         "🇸🇬 Singapore 1224 | SNI - partner.zoom.us",
         "🇸🇬 Singapore 8a63",
         "🇸🇬 Singapore 8ada",
-        "🇸🇬 Singapore c296 | SNI - api-maps.yandex.ru",
+        "🇸🇬 Singapore f515 | SNI - api-maps.yandex.ru",
         "🇹🇷 Turkey 0c2d | SNI - tr-in.api.dznn.net",
         "🇹🇷 Turkey 2960 | SNI - sun9-37.userapi.com",
-        "🇹🇷 Turkey 2cda | SNI - max.ru",
         "🇹🇷 Turkey 30a4",
+        "🇹🇷 Turkey 45c1 | SNI - ads.x5.ru",
+        "🇹🇷 Turkey 480b | SNI - eh.vk.com",
         "🇹🇷 Turkey 5fd6 | SNI - api.cvs-a.com",
         "🇹🇷 Turkey 9775 | SNI - eh.vk.com",
-        "🇹🇷 Turkey 9e23 | SNI - sso.passport.yandex.ru",
         "🇹🇷 Turkey bc5b | SNI - 194.58.41.88.fwqfw783rg2dad.website",
-        "🇹🇷 Turkey c50f | SNI - max.ru",
+        "🇹🇷 Turkey c245 | SNI - ads.x5.ru",
         "🇹🇷 Turkey dbb9 | SNI - tr1.cvs-a.com",
         "🇹🇷 Turkey e11f | SNI - sun9-37.userapi.com",
         "🇹🇷 Turkey e1df | SNI - sun9-37.userapi.com"
@@ -352,10 +352,10 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 Singapore c296 | SNI - api-maps.yandex.ru",
-      "server": "194.55.239.193",
+      "tag": "🇸🇬 Singapore f515 | SNI - api-maps.yandex.ru",
+      "server": "194.55.239.222",
       "server_port": 443,
-      "uuid": "aae4ef3f-43d2-47ec-9fc2-aa0855ace24f",
+      "uuid": "88a90d16-5cbf-4334-8f9a-d95030cfb670",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -406,14 +406,22 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 Turkey 2cda | SNI - max.ru",
-      "server": "91.219.227.203",
+      "tag": "🇹🇷 Turkey 30a4",
+      "server": "tr1.datatowers.net",
+      "server_port": 64534,
+      "uuid": "b43a13be-150c-4a6a-8501-b71c1b6476fb",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 Turkey 45c1 | SNI - ads.x5.ru",
+      "server": "95.163.211.240",
       "server_port": 7443,
-      "uuid": "b35cb61b-d819-449c-adaf-dd4a2fc809a4",
+      "uuid": "f7bd5b93-2906-454f-acce-a911cba94543",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "ads.x5.ru",
         "insecure": false,
         "reality": {
           "enabled": true,
@@ -424,11 +432,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 Turkey 30a4",
-      "server": "tr1.datatowers.net",
-      "server_port": 64534,
-      "uuid": "b43a13be-150c-4a6a-8501-b71c1b6476fb",
-      "packet_encoding": "xudp"
+      "tag": "🇹🇷 Turkey 480b | SNI - eh.vk.com",
+      "server": "91.219.227.203",
+      "server_port": 7443,
+      "uuid": "f7bd5b93-2906-454f-acce-a911cba94543",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "eh.vk.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
+        }
+      }
     },
     {
       "type": "vless",
@@ -468,24 +486,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 Turkey 9e23 | SNI - sso.passport.yandex.ru",
-      "server": "95.163.211.240",
-      "server_port": 7443,
-      "uuid": "b35cb61b-d819-449c-adaf-dd4a2fc809a4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "sso.passport.yandex.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
-          "short_id": "7dbf7d3233971d5c"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇹🇷 Turkey bc5b | SNI - 194.58.41.88.fwqfw783rg2dad.website",
       "server": "194.58.41.88.fwqfw783rg2dad.website",
       "server_port": 443,
@@ -504,14 +504,14 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 Turkey c50f | SNI - max.ru",
+      "tag": "🇹🇷 Turkey c245 | SNI - ads.x5.ru",
       "server": "95.163.211.237",
       "server_port": 7443,
-      "uuid": "b35cb61b-d819-449c-adaf-dd4a2fc809a4",
+      "uuid": "f7bd5b93-2906-454f-acce-a911cba94543",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "ads.x5.ru",
         "insecure": false,
         "reality": {
           "enabled": true,
