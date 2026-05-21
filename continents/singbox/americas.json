@@ -26,9 +26,8 @@
       "tag": "proxy",
       "outbounds": [
         "🇧🇷 Brazil 2f4b | SNI - api.cvs-a.com",
-        "🇺🇸 United States 087c | SNI - ads.x5.ru",
+        "🇺🇸 United States 0109 | SNI - eh.vk.com",
         "🇺🇸 United States 23b1 | SNI - ussun.api.dznn.net",
-        "🇺🇸 United States 2e60 | SNI - ads.x5.ru",
         "🇺🇸 United States 339b | SNI - www.apple.com",
         "🇺🇸 United States 345c | SNI - us.nodes.rocketnetwork.ru",
         "🇺🇸 United States 3901 | SNI - us1.cvs-a.com",
@@ -38,20 +37,21 @@
         "🇺🇸 United States 4b9d | SNI - sun6-21.userapi.com",
         "🇺🇸 United States 4c1b | SNI - us-in.api.dznn.net",
         "🇺🇸 United States 5aec | SNI - talas.realm-of-ultramar.ru",
+        "🇺🇸 United States 5e1c | SNI - sso.passport.yandex.ru",
         "🇺🇸 United States 71e9 | SNI - listwhite.cc",
         "🇺🇸 United States 7ae2",
-        "🇺🇸 United States 8698 | SNI - ads.x5.ru",
         "🇺🇸 United States 8c75 | SNI - usa1.jugploer.icu",
         "🇺🇸 United States a70e",
         "🇺🇸 United States ae70 | SNI - de6.x3vpn.ru",
         "🇺🇸 United States b153 | SNI - panel.cvs-a.com",
         "🇺🇸 United States ca6b | SNI - stats.vk-portal.net",
+        "🇺🇸 United States cbb8 | SNI - ads.x5.ru",
         "🇺🇸 United States cdd4 | SNI - usa.xtrustnet.sbs",
         "🇺🇸 United States cfe8 | SNI - n11.com",
         "🇺🇸 United States d8e4 | SNI - sun6-21.userapi.com",
         "🇺🇸 United States dfce | SNI - sun6-21.userapi.com",
-        "🇺🇸 United States f413 | SNI - sso.passport.yandex.ru",
-        "🇺🇸 United States f826 | SNI - sso.passport.yandex.ru"
+        "🇺🇸 United States f747 | SNI - ads.x5.ru",
+        "🇺🇸 United States fea9 | SNI - ads.x5.ru"
       ]
     },
     {
@@ -78,19 +78,19 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States 087c | SNI - ads.x5.ru",
-      "server": "178.250.243.142",
-      "server_port": 443,
-      "uuid": "eda3b640-7501-4f43-8f33-0715c5204848",
+      "tag": "🇺🇸 United States 0109 | SNI - eh.vk.com",
+      "server": "95.163.211.240",
+      "server_port": 8080,
+      "uuid": "3287d6ce-4375-4e63-96c3-18edc521c63e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "eh.vk.com",
         "insecure": false,
         "reality": {
           "enabled": true,
-          "public_key": "mmRxGpjdNa9x1s8uUHCqRl6Fopna5F212-8Px6URI2o",
-          "short_id": "25b19ab8cfd78fe5"
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
         }
       }
     },
@@ -109,24 +109,6 @@
           "enabled": true,
           "public_key": "9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg",
           "short_id": "0a6ba2716a409da6"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States 2e60 | SNI - ads.x5.ru",
-      "server": "193.33.133.143",
-      "server_port": 8443,
-      "uuid": "eda3b640-7501-4f43-8f33-0715c5204848",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "xLfTq-rzjNrNzAy7VBIuntmr_3uTNkduP6hWj8-MjgQ",
-          "short_id": "ad39874fc6f17823"
         }
       }
     },
@@ -291,6 +273,24 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 United States 5e1c | SNI - sso.passport.yandex.ru",
+      "server": "95.163.211.237",
+      "server_port": 8080,
+      "uuid": "3287d6ce-4375-4e63-96c3-18edc521c63e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "sso.passport.yandex.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 United States 71e9 | SNI - listwhite.cc",
       "server": "autobus.api.dznn.net",
       "server_port": 443,
@@ -318,24 +318,6 @@
         "type": "ws",
         "path": "/",
         "headers": {}
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States 8698 | SNI - ads.x5.ru",
-      "server": "91.219.227.203",
-      "server_port": 8080,
-      "uuid": "2aa1253c-9978-4a97-9603-d4f632c86ec7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
-          "short_id": "7dbf7d3233971d5c"
-        }
       }
     },
     {
@@ -429,6 +411,24 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 United States cbb8 | SNI - ads.x5.ru",
+      "server": "193.33.133.143",
+      "server_port": 8443,
+      "uuid": "07e1276e-4497-4640-9f5b-59883e005431",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "xLfTq-rzjNrNzAy7VBIuntmr_3uTNkduP6hWj8-MjgQ",
+          "short_id": "ad39874fc6f17823"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 United States cdd4 | SNI - usa.xtrustnet.sbs",
       "server": "usa.xtrustnet.sbs",
       "server_port": 443,
@@ -495,32 +495,32 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States f413 | SNI - sso.passport.yandex.ru",
-      "server": "95.163.211.240",
-      "server_port": 8080,
-      "uuid": "2aa1253c-9978-4a97-9603-d4f632c86ec7",
+      "tag": "🇺🇸 United States f747 | SNI - ads.x5.ru",
+      "server": "178.250.243.142",
+      "server_port": 443,
+      "uuid": "07e1276e-4497-4640-9f5b-59883e005431",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "sso.passport.yandex.ru",
+        "server_name": "ads.x5.ru",
         "insecure": false,
         "reality": {
           "enabled": true,
-          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
-          "short_id": "7dbf7d3233971d5c"
+          "public_key": "mmRxGpjdNa9x1s8uUHCqRl6Fopna5F212-8Px6URI2o",
+          "short_id": "25b19ab8cfd78fe5"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States f826 | SNI - sso.passport.yandex.ru",
-      "server": "95.163.211.237",
+      "tag": "🇺🇸 United States fea9 | SNI - ads.x5.ru",
+      "server": "91.219.227.203",
       "server_port": 8080,
-      "uuid": "2aa1253c-9978-4a97-9603-d4f632c86ec7",
+      "uuid": "3287d6ce-4375-4e63-96c3-18edc521c63e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "sso.passport.yandex.ru",
+        "server_name": "ads.x5.ru",
         "insecure": false,
         "reality": {
           "enabled": true,
