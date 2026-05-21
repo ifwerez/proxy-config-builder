@@ -45,6 +45,7 @@
         " Unsorted 8d91 | SNI - w1ws.listwhite.cc",
         " Unsorted 917c | SNI - io.ozone.ru",
         " Unsorted a572 | SNI - api-maps.yandex.ru",
+        " Unsorted e3b0 | SNI - sn1.skylee5.cloudns.ch",
         " Unsorted e41b | SNI - max.ru",
         " Unsorted ed5d | SNI - max.ru",
         " Unsorted fe79 | SNI - max.ru",
@@ -666,8 +667,7 @@
         "🇺🇸 United States cdd4 | SNI - usa.xtrustnet.sbs",
         "🇺🇸 United States cfe8 | SNI - n11.com",
         "🇺🇸 United States d8e4 | SNI - sun6-21.userapi.com",
-        "🇺🇸 United States dfce | SNI - sun6-21.userapi.com",
-        "🇺🇸 United States e3b0 | SNI - sn1.skylee5.cloudns.ch [geo]"
+        "🇺🇸 United States dfce | SNI - sun6-21.userapi.com"
       ]
     },
     {
@@ -1037,6 +1037,26 @@
           "enabled": true,
           "public_key": "1L89euUftEWspViGKdG7Ivwj-k1ySPROZEfZWaL5Hhw",
           "short_id": "6cc5290e6f0b47c3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " Unsorted e3b0 | SNI - sn1.skylee5.cloudns.ch",
+      "server": "154.17.22.207",
+      "server_port": 443,
+      "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "sn1.skylee5.cloudns.ch",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sn1.skylee5.cloudns.ch"
         }
       }
     },
@@ -11997,26 +12017,6 @@
           "enabled": true,
           "public_key": "NTuI1KllPR2DtdPM5mqJBzOCVGuHyQNY8gCkx2f2CBk",
           "short_id": "35a84908e9cfa95c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States e3b0 | SNI - sn1.skylee5.cloudns.ch [geo]",
-      "server": "154.17.22.207",
-      "server_port": 443,
-      "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "sn1.skylee5.cloudns.ch",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sn1.skylee5.cloudns.ch"
         }
       }
     }
