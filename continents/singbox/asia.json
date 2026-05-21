@@ -27,25 +27,21 @@
       "outbounds": [
         "🇦🇲 Armenia ce82 | SNI - api.cvs-a.com",
         "🇨🇳 China fa0a | SNI - ch.jugploer.icu",
-        "🇭🇰 Hong Kong 1606 | SNI - cz.rumost.top",
         "🇭🇰 Hong Kong 5540 | SNI - google.com",
+        "🇭🇰 Hong Kong 6881 | SNI - buylite.music.apple.com",
         "🇮🇳 India 0658 | SNI - api.cvs-a.com",
         "🇯🇵 Japan 3c39 | SNI - jp.jugploer.icu",
-        "🇯🇵 Japan ae07 | SNI - www.microsoft.com",
         "🇯🇵 Japan aff5 | SNI - api.cvs-a.com",
         "🇰🇿 Kazakhstan 0347 | SNI - www.id.vk.ru",
         "🇰🇿 Kazakhstan 0a91 | SNI - panel.cvs-a.com",
         "🇰🇿 Kazakhstan 2a1b | SNI - kz2-in.api.dznn.net",
         "🇰🇿 Kazakhstan 3d87 | SNI - sun6-21.userapi.com",
         "🇰🇿 Kazakhstan 6a43 | SNI - 194.58.41.88.fwqfw783rg2dad.website",
-        "🇰🇿 Kazakhstan 8ed1 | SNI - kz.trustnet.sbs",
         "🇰🇿 Kazakhstan 91b2",
         "🇰🇿 Kazakhstan 94fb | SNI - kz.trustnet.sbs",
-        "🇰🇿 Kazakhstan d1e2 | SNI - www.google.com",
         "🇸🇬 Singapore 1224 | SNI - partner.zoom.us",
         "🇸🇬 Singapore 8a63",
         "🇸🇬 Singapore 8ada",
-        "🇸🇬 Singapore 9b0f",
         "🇸🇬 Singapore c296 | SNI - api-maps.yandex.ru",
         "🇹🇷 Turkey 0c2d | SNI - tr-in.api.dznn.net",
         "🇹🇷 Turkey 2960 | SNI - sun9-37.userapi.com",
@@ -58,10 +54,7 @@
         "🇹🇷 Turkey c50f | SNI - max.ru",
         "🇹🇷 Turkey dbb9 | SNI - tr1.cvs-a.com",
         "🇹🇷 Turkey e11f | SNI - sun9-37.userapi.com",
-        "🇹🇷 Turkey e1df | SNI - sun9-37.userapi.com",
-        "🇹🇼 Taiwan 4987 | SNI - www.python.org",
-        "🇹🇼 Taiwan 9860 | SNI - www.python.org",
-        "🇹🇼 Taiwan 9c5f | SNI - www.python.org"
+        "🇹🇷 Turkey e1df | SNI - sun9-37.userapi.com"
       ]
     },
     {
@@ -105,19 +98,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 Hong Kong 1606 | SNI - cz.rumost.top",
-      "server": "103.119.18.58",
-      "server_port": 443,
-      "uuid": "7f3921d9-196c-4116-954f-228bc2e62449",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cz.rumost.top",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇭🇰 Hong Kong 5540 | SNI - google.com",
       "server": "94.26.249.65",
       "server_port": 9830,
@@ -130,6 +110,24 @@
         "reality": {
           "enabled": true,
           "public_key": "im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 Hong Kong 6881 | SNI - buylite.music.apple.com",
+      "server": "hkt1.xn--9kqp42aims.top",
+      "server_port": 20417,
+      "uuid": "2af33ace-1131-4c66-b5e4-47743d17dfbd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "buylite.music.apple.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI",
+          "short_id": "4b070735"
         }
       }
     },
@@ -165,24 +163,6 @@
         "reality": {
           "enabled": true,
           "public_key": "agsQSpidbSZMSzm4t1Bhe57wSta_CTcUktkB7GQ9YBM"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 Japan ae07 | SNI - www.microsoft.com",
-      "server": "142.91.108.122",
-      "server_port": 443,
-      "uuid": "2543bbe1-baba-45ab-b56f-5434887c3e61",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "o2sBcv6OpeOURd_leqNKmEx8v_eEsI6GARQBHwTyJWI",
-          "short_id": "981becc7"
         }
       }
     },
@@ -295,23 +275,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇰🇿 Kazakhstan 8ed1 | SNI - kz.trustnet.sbs",
-      "server": "31.130.153.79",
-      "server_port": 443,
-      "uuid": "7f3921d9-196c-4116-954f-228bc2e62449",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "kz.trustnet.sbs",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "m1Za2Yc6uySqcliTEysWGVuV9RILbOKqAyINFnmKSUc"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇰🇿 Kazakhstan 91b2",
       "server": "srv179.towersflowerss.com",
       "server_port": 443,
@@ -339,24 +302,6 @@
         "reality": {
           "enabled": true,
           "public_key": "m1Za2Yc6uySqcliTEysWGVuV9RILbOKqAyINFnmKSUc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇿 Kazakhstan d1e2 | SNI - www.google.com",
-      "server": "46.247.40.229",
-      "server_port": 8443,
-      "uuid": "f8eaf16d-14ac-4c8d-990b-8e49f9b1fc2c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "mVdzom1e9afBTvsad76ZEsyQh9xSCZPUKo7CPPLaZAc",
-          "short_id": "196dad1410aa3891"
         }
       }
     },
@@ -394,21 +339,6 @@
       "type": "vless",
       "tag": "🇸🇬 Singapore 8ada",
       "server": "support.zoom.us",
-      "server_port": 80,
-      "uuid": "fac62eac-1eec-4260-a991-0cac2f8745a3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/@Tech_Sonic",
-        "headers": {
-          "Host": "free-server.techsonic.ggff.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Singapore 9b0f",
-      "server": "170.114.46.6",
       "server_port": 80,
       "uuid": "fac62eac-1eec-4260-a991-0cac2f8745a3",
       "packet_encoding": "xudp",
@@ -641,60 +571,6 @@
           "enabled": true,
           "public_key": "RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE",
           "short_id": "abbcd128"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 Taiwan 4987 | SNI - www.python.org",
-      "server": "tw1.344233.cc",
-      "server_port": 8443,
-      "uuid": "8d9ddfb4-7583-45b3-acf1-5343db385a38",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.python.org",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE",
-          "short_id": "04d59340"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 Taiwan 9860 | SNI - www.python.org",
-      "server": "tw5.453521.xyz",
-      "server_port": 8443,
-      "uuid": "8d9ddfb4-7583-45b3-acf1-5343db385a38",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.python.org",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE",
-          "short_id": "04d59340"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 Taiwan 9c5f | SNI - www.python.org",
-      "server": "tw06.352343.cc",
-      "server_port": 8443,
-      "uuid": "8d9ddfb4-7583-45b3-acf1-5343db385a38",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.python.org",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE",
-          "short_id": "04d59340"
         }
       }
     }
