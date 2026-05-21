@@ -1,9 +1,6 @@
 # qr codes
 
-scan these qr codes to quickly import proxy configurations into your client.
-
-> [!tip]
-> **recommended:** use **github raw** qr codes for fastest updates.
+scan to import configurations into your client.
 
 ### github raw (recommended)
 
@@ -48,8 +45,50 @@ scan these qr codes to quickly import proxy configurations into your client.
 
 </details>
 
+## split config qr codes
+
+<details>
+<summary><b>by protocol</b></summary>
+
+### vless
+
+| clash | sing-box | raw |
+|:-----:|:--------:|:---:|
+| ![clash](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/clash/vless.yaml#All-In-One) | ![singbox](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/singbox/vless.json#All-In-One) | ![raw](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/raw/vless.txt#All-In-One) |
+| [clash](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/clash/vless.yaml#All-In-One) | [singbox](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/singbox/vless.json#All-In-One) | [raw](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/raw/vless.txt#All-In-One) |
+
+### vmess
+
+| clash | sing-box | raw |
+|:-----:|:--------:|:---:|
+| ![clash](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/clash/vmess.yaml#All-In-One) | ![singbox](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/singbox/vmess.json#All-In-One) | ![raw](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/raw/vmess.txt#All-In-One) |
+| [clash](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/clash/vmess.yaml#All-In-One) | [singbox](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/singbox/vmess.json#All-In-One) | [raw](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/raw/vmess.txt#All-In-One) |
+
+### ss
+
+| clash | sing-box | raw |
+|:-----:|:--------:|:---:|
+| ![clash](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/clash/ss.yaml#All-In-One) | ![singbox](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/singbox/ss.json#All-In-One) | ![raw](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/raw/ss.txt#All-In-One) |
+| [clash](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/clash/ss.yaml#All-In-One) | [singbox](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/singbox/ss.json#All-In-One) | [raw](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/raw/ss.txt#All-In-One) |
+
+### trojan
+
+| clash | sing-box | raw |
+|:-----:|:--------:|:---:|
+| ![clash](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/clash/trojan.yaml#All-In-One) | ![singbox](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/singbox/trojan.json#All-In-One) | ![raw](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/raw/trojan.txt#All-In-One) |
+| [clash](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/clash/trojan.yaml#All-In-One) | [singbox](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/singbox/trojan.json#All-In-One) | [raw](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/raw/trojan.txt#All-In-One) |
+
+### hysteria2
+
+| clash | sing-box | raw |
+|:-----:|:--------:|:---:|
+| ![clash](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/clash/hysteria2.yaml#All-In-One) | ![singbox](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/singbox/hysteria2.json#All-In-One) | ![raw](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/raw/hysteria2.txt#All-In-One) |
+| [clash](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/clash/hysteria2.yaml#All-In-One) | [singbox](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/singbox/hysteria2.json#All-In-One) | [raw](https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/protocols/raw/hysteria2.txt#All-In-One) |
+
+</details>
+
 ---
 
 > [!note]
 > qr codes are generated dynamically using [qrserver.com](https://goqr.me/api/).
-> last updated: 2026-05-21 20:40:39
+> last updated: 2026-05-21 20:54:41
