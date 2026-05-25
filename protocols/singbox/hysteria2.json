@@ -25,26 +25,12 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
-        "🇷🇺 Russia 7f9a",
-        "🇷🇺 Russia fb75 [CIDR]",
-        "🇺🇸 United States ef6b"
+        "🇷🇺 Russia fb75 [CIDR]"
       ]
     },
     {
       "type": "direct",
       "tag": "direct"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 Russia 7f9a",
-      "server": "195.133.53.33",
-      "server_port": 443,
-      "password": "10550754-cf62-3d3b-ba6a-50be27a275d7",
-      "tls": {
-        "enabled": true,
-        "server_name": "s516.okgfw.top",
-        "insecure": false
-      }
     },
     {
       "type": "hysteria2",
@@ -55,18 +41,6 @@
       "tls": {
         "enabled": true,
         "server_name": "s463.okgfwbackxyz.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 United States ef6b",
-      "server": "185.106.96.231",
-      "server_port": 443,
-      "password": "10550754-cf62-3d3b-ba6a-50be27a275d7",
-      "tls": {
-        "enabled": true,
-        "server_name": "s559.ccgfw.top",
         "insecure": false
       }
     }
