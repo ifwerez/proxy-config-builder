@@ -25,13 +25,6 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: " Unsorted 0eef"
-  server: 15.237.10.72
-  port: 22222
-  udp: true
-  type: trojan
-  password: telegram-id-privatevpns
-  tls: true
 - name: " Unsorted 23bb"
   server: www.host-tracker.com
   port: 443
@@ -72,14 +65,6 @@ proxies:
   password: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   tls: true
   sni: cloudflare-proxy-1jk.pages.dev
-- name: " Unsorted 45ce"
-  server: 208.103.161.1
-  port: 443
-  udp: true
-  type: trojan
-  password: Mitivpn
-  tls: true
-  sni: dash.hitgram.ir
 - name: " Unsorted 474c"
   server: www.speedtest.net
   port: 8443
@@ -128,6 +113,14 @@ proxies:
   password: humanity
   tls: true
   sni: www.creationlong.org
+- name: " Unsorted 601c"
+  server: mitivpn.ws-ws-ws.workers.dev
+  port: 443
+  udp: true
+  type: trojan
+  password: mitivpn
+  tls: true
+  sni: mitivpn.ws-ws-ws.workers.dev
 - name: " Unsorted 6590"
   server: www.hitgram.ir
   port: 443
@@ -280,14 +273,6 @@ proxies:
   password: bpb-trojan
   tls: true
   sni: mashdt.pages.dev
-- name: " Unsorted eb17"
-  server: 208.103.161.33
-  port: 443
-  udp: true
-  type: trojan
-  password: Mitivpn
-  tls: true
-  sni: cdn.hitgram.ir
 - name: " Unsorted f340"
   server: srv1.khatibirepair.ir
   port: 443
@@ -355,15 +340,6 @@ proxies:
   password: "8r%3C%5B9%27l6hAO%238ZQi"
   tls: true
   sni: Koma-YT.PAGeS.Dev
-- name: "🇦🇹 Austria b2f6"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AT.png
-  server: 212.183.88.136
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  tls: true
-  sni: www.calmlunch.com
 - name: "🇦🇹 Austria cdf1"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AT.png
   server: 46.102.156.144
@@ -723,6 +699,15 @@ proxies:
   password: 25ae6230-7834-41dc-94a4-586e1a79ea89
   tls: true
   sni: shy-brook-df1e.amirkhan69.workers.dev
+- name: "🇨🇭 Switzerland 4956"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CH.png
+  server: 89.125.95.152
+  port: 11300
+  udp: true
+  type: trojan
+  password: "duaR-NjjdGGLeZ+W6j=3NY46vZW+zyMD1z"
+  tls: true
+  sni: www.toughapp.click
 - name: "🇨🇱 Chile 1224"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CL.png
   server: 130.94.104.210
@@ -741,6 +726,15 @@ proxies:
   password: humanity
   tls: true
   sni: www.creationlong.org
+- name: "🇨🇳 China 4b71"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CN.png
+  server: 130.94.92.144
+  port: 443
+  udp: true
+  type: trojan
+  password: "oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F"
+  tls: true
+  sni: www.node-finder.click
 - name: "🇨🇳 China 80c7"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CN.png
   server: 130.94.29.102
@@ -759,24 +753,6 @@ proxies:
   password: "oUAfbL8z87q-mhgjZ6g7mWQobf9%3Db7ut_F"
   tls: true
   sni: www.node-finder.click
-- name: "🇨🇳 China 941a"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CN.png
-  server: 130.94.68.100
-  port: 443
-  udp: true
-  type: trojan
-  password: "l64tlWoGT6USQr%3D3WnjWedzvVSHXn8TNTE"
-  tls: true
-  sni: www.rolll.click
-- name: "🇨🇳 China b8d9"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CN.png
-  server: 130.94.65.52
-  port: 443
-  udp: true
-  type: trojan
-  password: IbezlLAYfrLRwFn9.mHn5FDwk1asLi599U
-  tls: true
-  sni: www.static-cast.click
 - name: "🇨🇳 China c659"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CN.png
   server: 213.159.70.10
@@ -804,14 +780,24 @@ proxies:
   password: "8r%3C%5B9%27l6hAO%238ZQi"
   tls: true
   sni: Koma-YT.PAGeS.Dev
-- name: "🇩🇪 Germany 07cf"
+- name: "🇩🇪 Germany 1f37"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 198.105.115.100
-  port: 3554
+  server: 91.233.8.142
+  port: 443
   udp: true
   type: trojan
-  password: HmR0Oph6BvB_GHpFvmMhZg
+  password: "d-VoBikwImgO9HMG7YWANlh=QNlHzjK32P"
   tls: true
+  sni: fra142.plasmaapp.click
+- name: "🇩🇪 Germany 3b55"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 45.130.125.76
+  port: 443
+  udp: true
+  type: trojan
+  password: ylRh2jfDft
+  tls: true
+  sni: da.aananas.ir
 - name: "🇩🇪 Germany 3d78"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 91.233.8.208
@@ -821,6 +807,15 @@ proxies:
   password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
   tls: true
   sni: fra31.homelywebs.click
+- name: "🇩🇪 Germany 3f04"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 172.104.237.100
+  port: 443
+  udp: true
+  type: trojan
+  password: "VPTFm=oZ++SuNT+jMRqGZqrAnWq-r8KJyY"
+  tls: true
+  sni: 172.104.237.100
 - name: "🇩🇪 Germany 43ef"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 185.137.157.254
@@ -848,23 +843,15 @@ proxies:
   password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
   tls: true
   sni: 172.238.120.124
-- name: "🇩🇪 Germany 5c4c"
+- name: "🇩🇪 Germany 6dde"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 178.63.244.9
-  port: 8443
-  udp: true
-  type: trojan
-  password: Q40WHz2g1k-dqYqraBP6Ow
-  tls: true
-- name: "🇩🇪 Germany 70c8"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 45.130.125.76
+  server: 91.233.8.116
   port: 443
   udp: true
   type: trojan
-  password: jAck1mS8h3
+  password: "d-VoBikwImgO9HMG7YWANlh=QNlHzjK32P"
   tls: true
-  sni: de.aananas.ir
+  sni: fra116.plasmaapp.click
 - name: "🇩🇪 Germany c6e2"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 185.235.137.43
@@ -892,6 +879,14 @@ proxies:
   password: "d-VoBikwImgO9HMG7YWANlh%3DQNlHzjK32P"
   tls: true
   sni: fra142.plasmaapp.click
+- name: "🇩🇪 Germany f4e5"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 172.236.220.10
+  port: 443
+  udp: true
+  type: trojan
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  tls: true
 - name: "🇪🇪 Estonia 35e7"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/EE.png
   server: 185.252.177.115
@@ -964,24 +959,6 @@ proxies:
   password: "YGWIMlg.W1wRWQkRDcKfjZY7sng09aC=Yh"
   tls: true
   sni: www.weavenet.click
-- name: "🇫🇷 France 43c8 [CIDR]"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
-  server: 216.24.57.6
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  tls: true
-  sni: www.calmloud.com
-- name: "🇫🇷 France 91d6"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
-  server: 104.18.8.83
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  tls: true
-  sni: www.calmlunch.com
 - name: "🇫🇷 France d13b [CIDR]"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
   server: 216.24.57.7
@@ -1027,15 +1004,6 @@ proxies:
   password: "8r%3C%5B9%27l6hAO%238ZQi"
   tls: true
   sni: Koma-YT.PAGeS.Dev
-- name: "🇮🇩 Indonesia 4b71"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ID.png
-  server: 130.94.92.144
-  port: 443
-  udp: true
-  type: trojan
-  password: "oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F"
-  tls: true
-  sni: www.node-finder.click
 - name: "🇮🇳 India 378a"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IN.png
   server: 65.20.90.225
@@ -1045,23 +1013,6 @@ proxies:
   password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
   tls: true
   sni: www.sandbox-cloud.click
-- name: "🇮🇹 Italy 3bf5"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IT.png
-  server: 172.232.194.147
-  port: 443
-  udp: true
-  type: trojan
-  password: G2qM_GHnAEpbuIp1mcZh3mGvVn3+rHrwNe
-  tls: true
-  sni: 172.232.194.147
-- name: "🇮🇹 Italy 417f"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IT.png
-  server: 172.232.194.147
-  port: 443
-  udp: true
-  type: trojan
-  password: "G2qM_GHnAEpbuIp1mcZh3mGvVn3%2BrHrwNe"
-  tls: true
 - name: "🇯🇵 Japan 1966"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
   server: ty-2.tr202604.com
@@ -1096,15 +1047,6 @@ proxies:
   password: GKHWMe2R4qwNcNxu6l3KMkdd
   tls: true
   sni: vpn1.rnmcnm.com
-- name: "🇰🇷 South Korea 8d55"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KR.png
-  server: 121.154.96.50
-  port: 18000
-  udp: true
-  type: trojan
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  tls: true
-  sni: vpn.rnmcnm.com
 - name: "🇰🇷 South Korea efb5"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KR.png
   server: 121.180.171.43
@@ -1212,15 +1154,6 @@ proxies:
   password: "8r%3C%5B9%27l6hAO%238ZQi"
   tls: true
   sni: Koma-YT.PAGeS.Dev
-- name: "🇱🇻 Latvia 5b23"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/LV.png
-  server: 169.40.2.93
-  port: 8443
-  udp: true
-  type: trojan
-  password: "8r%3C%5B9%27l6hAO%238ZQi"
-  tls: true
-  sni: Koma-YT.PAGeS.Dev
 - name: "🇱🇻 Latvia 6c9b"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/LV.png
   server: 5.34.213.168
@@ -1279,15 +1212,6 @@ proxies:
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/LV.png
   server: 31.58.77.194
   port: 8443
-  udp: true
-  type: trojan
-  password: "8r%3C%5B9%27l6hAO%238ZQi"
-  tls: true
-  sni: Koma-YT.PAGeS.Dev
-- name: "🇱🇻 Latvia a1ca"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/LV.png
-  server: 169.40.2.93
-  port: 2053
   udp: true
   type: trojan
   password: "8r%3C%5B9%27l6hAO%238ZQi"
@@ -1355,15 +1279,15 @@ proxies:
   password: "8r%3C%5B9%27l6hAO%238ZQi"
   tls: true
   sni: Koma-YT.PAGeS.Dev
-- name: "🇲🇾 Malaysia 0fe8"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/MY.png
-  server: 130.94.68.100
+- name: "🇲🇽 Mexico e716"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/MX.png
+  server: 149.104.87.182
   port: 443
   udp: true
   type: trojan
-  password: "l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE"
+  password: "PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA"
   tls: true
-  sni: www.rolll.click
+  sni: www.jewelapp.click
 - name: "🇳🇱 Netherlands 24fb"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
   server: nl-1.tr202605.com
@@ -1381,6 +1305,15 @@ proxies:
   password: 50ad7b7681494900887bbf80ab3722d0
   tls: true
   sni: apple.com
+- name: "🇵🇱 Poland 3793"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PL.png
+  server: 104.17.121.71
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  tls: true
+  sni: www.creationlong.org
 - name: "🇵🇱 Poland c1d4"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PL.png
   server: 64.176.65.85
@@ -1434,6 +1367,15 @@ proxies:
   password: WiqtB8V23f
   tls: true
   sni: www.intel.com
+- name: "🇸🇬 Singapore 527c"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
+  server: jpbgp.netvigor.cc
+  port: 19128
+  udp: true
+  type: trojan
+  password: gcuCpQfaiVeDBdWG
+  tls: true
+  sni: yazhou10.dynu.net
 - name: "🇹🇼 Taiwan 9b13"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TW.png
   server: 211.76.176.99
@@ -1488,32 +1430,15 @@ proxies:
   password: shabrangvpn
   tls: true
   sni: shabrangvpn.anarcloud.ir
-- name: "🇺🇸 United States 650f"
+- name: "🇺🇸 United States 4fd4"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: 216.24.57.7
+  server: 45.79.8.17
   port: 443
   udp: true
   type: trojan
-  password: Mitivpn
+  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   tls: true
-  sni: cdn.hitgram.ir
-- name: "🇺🇸 United States 66e4"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: link.honghongai.top
-  port: 8443
-  udp: true
-  type: trojan
-  password: 8f3a2b1c9d4e5f6a7b8c9d0e1f2a3b4c
-  tls: true
-- name: "🇺🇸 United States 8513"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: 216.24.57.6
-  port: 443
-  udp: true
-  type: trojan
-  password: Mitivpn
-  tls: true
-  sni: dash.hitgram.ir
+  sni: 45.79.8.17
 - name: "🇺🇸 United States 8710"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 130.94.107.171
@@ -1532,6 +1457,14 @@ proxies:
   password: 83415538c52f48d4b4ddf839a0727325
   tls: true
   sni: apple.com
+- name: "🇺🇸 United States bd87"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: 199.195.254.136
+  port: 27427
+  udp: true
+  type: trojan
+  password: f7J0Sli5s1m25DJbfulPtXAu
+  tls: true
 - name: "🇺🇸 United States c0d3"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 64.94.95.118
@@ -1549,24 +1482,15 @@ proxies:
   password: "A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM"
   tls: true
   sni: 172.237.145.189
-- name: "🇺🇸 United States ed4c"
+- name: "🇺🇸 United States f657"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: 216.24.57.251
+  server: 172.235.63.252
   port: 443
   udp: true
   type: trojan
-  password: Mitivpn
+  password: "bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E"
   tls: true
-  sni: dash.hitgram.ir
-- name: "🇺🇸 United States ee84"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: 23.227.193.173
-  port: 443
-  udp: true
-  type: trojan
-  password: "AZWY=WAZk5TeVYmMUudr2xmeb00I3ymeMQ"
-  tls: true
-  sni: www.dataset-logger.click
+  sni: 172.235.63.252
 - name: "🇻🇳 Vietnam 9a13"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VN.png
   server: 130.94.3.146
@@ -1576,6 +1500,24 @@ proxies:
   password: "DX4wKmVl.CNIjwO5CYf7_qg%2Bf1eMN4yt_F"
   tls: true
   sni: www.event-snapshot.click
+- name: "🇻🇳 Vietnam e7b2"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VN.png
+  server: 130.94.3.146
+  port: 443
+  udp: true
+  type: trojan
+  password: DX4wKmVl.CNIjwO5CYf7_qg+f1eMN4yt_F
+  tls: true
+  sni: www.event-snapshot.click
+- name: "🇿🇦 South Africa 46e6"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ZA.png
+  server: 38.54.63.105
+  port: 443
+  udp: true
+  type: trojan
+  password: "avA=NpxA2_yNqY11PT=OrbCXh8C4LdYUeS"
+  tls: true
+  sni: www.cdn-setting.click
 rules:
 - GEOSITE,category-ads-all,REJECT
 - GEOSITE,cn,DIRECT
