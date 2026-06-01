@@ -1,0 +1,63 @@
+# name: Clash - hysteria2
+# title: Clash - hysteria2
+# https://github.com/ifwerez/proxy-config-builder
+port: 7890
+socks-port: 7891
+mixed-port: 7893
+bind-address: 127.0.0.1
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+  - https://1.1.1.1/dns-query
+  - tls://8.8.8.8:853
+  fallback:
+  - 8.8.4.4
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+proxies:
+- name: " Unsorted e5c6"
+  server: s544.ccgfw.online
+  port: 443
+  udp: true
+  type: hysteria2
+  password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
+  sni: u712927us544.ccgfw.online
+- name: " Unsorted fdd0"
+  server: s473.okgfw.top
+  port: 443
+  udp: true
+  type: hysteria2
+  password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
+  sni: u712927us473.okgfw.top
+- name: "🇷🇺 Russia 7f9a"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
+  server: 195.133.53.33
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  sni: s516.okgfw.top
+- name: "🇺🇸 United States ef6b"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: 185.106.96.231
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  sni: s559.ccgfw.top
+rules:
+- GEOSITE,category-ads-all,REJECT
+- GEOSITE,cn,DIRECT
+- GEOIP,cn,DIRECT
+- GEOIP,private,DIRECT
+- MATCH,PROXY
