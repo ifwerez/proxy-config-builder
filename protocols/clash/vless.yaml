@@ -3068,6 +3068,16 @@ proxies:
     path: /
     headers:
       Host: nAzAnmAnO.X-uPlOaD.oRg
+- name: " Unsorted ca35 | SNI - cdn9-33.vk-cdnvideo.com"
+  server: cdn9-33.vk-cdnvideo.com
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  network: tcp
+  tls: true
+  servername: cdn9-33.vk-cdnvideo.com
+  client-fingerprint: chrome
 - name: " Unsorted cc22 | SNI - ru-1.videoproeditor.com"
   server: ru-1.videoproeditor.com
   port: 443
@@ -12112,6 +12122,20 @@ proxies:
   network: tcp
   tls: false
   client-fingerprint: chrome
+- name: "🇩🇪 Germany 8395"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 5.252.26.231
+  port: 719
+  udp: true
+  type: vless
+  uuid: 26def452-b87f-42f5-92f6-e7ba0711ce69
+  network: ws
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: "/api/v2/xtrnwqjbkr?ed=2560"
+    headers:
+      Host: play.google.com
 - name: "🇩🇪 Germany 85b8 | SNI - www.deepl.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 87.120.93.69
@@ -17262,16 +17286,6 @@ proxies:
   reality-opts:
     public-key: Xj6-HabAfXfu2dIz1orkRH5rAlbGMs0YMc7Zo4aARlU
     short-id: "9d90d7ada8"
-- name: "🇮🇳 India 224a"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IN.png
-  server: cdn3-25.vk-cdnvideo.com
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-  network: raw
-  tls: true
-  client-fingerprint: chrome
 - name: "🇮🇳 India e935 | SNI - zaintest.vuclip.com.cyylr.eu.cc"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IN.png
   server: 45.130.125.0
@@ -18667,20 +18681,6 @@ proxies:
   reality-opts:
     public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
     short-id: "9e"
-- name: "🇱🇻 Latvia 9cc5 | SNI - www.samsung.com"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/LV.png
-  server: 62.192.174.111
-  port: 443
-  udp: true
-  type: vless
-  uuid: 301d514e-4aa0-47b0-ba44-a0cb891cd52f
-  network: tcp
-  tls: true
-  servername: www.samsung.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4
-    short-id: "a1b2c3d4"
 - name: "🇱🇻 Latvia 9cf5 | SNI - rowing.su"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/LV.png
   server: 45.145.163.128
@@ -23131,6 +23131,21 @@ proxies:
   reality-opts:
     public-key: x6IISB8aN_CSlPY6C1PEcwj-HsNYK_wPnTGE4PV0OEI
     short-id: "e5b74b1933d870a2"
+- name: "🇷🇺 Russia 43bd | SNI - surfvpn24.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
+  server: 185.241.194.34
+  port: 5987
+  udp: true
+  type: vless
+  uuid: 2397be53-f62b-42f7-80fe-5d22627c03a9
+  network: tcp
+  tls: true
+  servername: surfvpn24.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: L4kWgoTxqQc4kAGLrF_ARMRVMPy3_WInhjwt_8OPenU
+    short-id: "c19de8fa"
 - name: "🇷🇺 Russia 43f7 | SNI - ads.x5.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 158.160.249.158
@@ -24483,6 +24498,21 @@ proxies:
   tls: true
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+- name: "🇷🇺 Russia 8d50 | SNI - surfvpn24.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
+  server: 185.241.194.34
+  port: 5994
+  udp: true
+  type: vless
+  uuid: 2397be53-f62b-42f7-80fe-5d22627c03a9
+  network: tcp
+  tls: true
+  servername: surfvpn24.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: trrVBG2fDc411qxZQ8__7x6ZlJC4lI2m_mwl-O-BEjQ
+    short-id: "c19de8fa"
 - name: "🇷🇺 Russia 8df1 | SNI - cdp.x5.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 158.160.136.203
