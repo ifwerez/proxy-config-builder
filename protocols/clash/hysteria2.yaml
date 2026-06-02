@@ -1,0 +1,109 @@
+# name: Clash - hysteria2
+# title: Clash - hysteria2
+# https://github.com/ifwerez/proxy-config-builder
+port: 7890
+socks-port: 7891
+mixed-port: 7893
+bind-address: 127.0.0.1
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+  - https://1.1.1.1/dns-query
+  - tls://8.8.8.8:853
+  fallback:
+  - 8.8.4.4
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+proxies:
+- name: " Unsorted 0347"
+  server: nd2.nimarko.org
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 1bf9c88b-1f99-47c3-ac39-cd0e4edac246
+  sni: nd2.nimarko.org
+- name: " Unsorted 4159"
+  server: finprem.nimarko.org
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 1bf9c88b-1f99-47c3-ac39-cd0e4edac246
+  sni: finprem.nimarko.org
+- name: " Unsorted 7d5d"
+  server: gr4.nimarko.org
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 1bf9c88b-1f99-47c3-ac39-cd0e4edac246
+  sni: gr4.nimarko.org
+- name: " Unsorted d27d"
+  server: s544.ccgfw.online
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 205d6869-02ca-3b36-b933-be2465250c7e
+  sni: u716087us544.ccgfw.online
+- name: " Unsorted e0da"
+  server: s869.okgfwbackxyz.xyz
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 205d6869-02ca-3b36-b933-be2465250c7e
+  sni: u716087us869.okgfwbackxyz.xyz
+- name: "🇫🇷 France 74e6"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
+  server: 62.210.124.146
+  port: 22000
+  udp: true
+  type: hysteria2
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: "🇷🇺 Russia 1fcb"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
+  server: 157.22.241.242
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 68cf2e7761c240d9ba4c31f99ab37a9f
+  sni: 157.22.241.242
+- name: "🇷🇺 Russia 7f9a"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
+  server: 195.133.53.33
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  sni: s516.okgfw.top
+- name: "🇷🇺 Russia 8f5c"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
+  server: 157.22.241.242
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 6qh53mymr7usko5k
+  sni: 157.22.241.242
+- name: "🇺🇸 United States ef6b"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: 185.106.96.231
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  sni: s559.ccgfw.top
+rules:
+- GEOSITE,category-ads-all,REJECT
+- GEOSITE,cn,DIRECT
+- GEOIP,cn,DIRECT
+- GEOIP,private,DIRECT
+- MATCH,PROXY
