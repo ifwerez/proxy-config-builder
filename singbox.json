@@ -281,6 +281,7 @@
         " Unsorted c54d | SNI - nAzAnmAnO.X-uPlOaD.oRg",
         " Unsorted c8cb",
         " Unsorted c8e5",
+        " Unsorted ca35 | SNI - cdn9-33.vk-cdnvideo.com",
         " Unsorted cc22 | SNI - ru-1.videoproeditor.com",
         " Unsorted cc5b",
         " Unsorted cc78 | SNI - 3d3b3b6dc0bc4be1.blAcKpaPErs.IR.",
@@ -1007,6 +1008,7 @@
         "🇩🇪 Germany 824b",
         "🇩🇪 Germany 8298 | SNI - de2.thefastspeedtest.net",
         "🇩🇪 Germany 834a",
+        "🇩🇪 Germany 8395",
         "🇩🇪 Germany 85b8 | SNI - www.deepl.com",
         "🇩🇪 Germany 85d2 | SNI - www.wikipedia.org",
         "🇩🇪 Germany 869f | SNI - sub.sbrf-cdn342.ru",
@@ -1390,7 +1392,6 @@
         "🇭🇰 Hong Kong a2cf | SNI - sni.skylee4.cloudns.ch",
         "🇭🇰 Hong Kong a44d | SNI - sn1.skylee5.cloudns.ch",
         "🇭🇰 Hong Kong ab4e | SNI - aws.amazon.com",
-        "🇭🇰 Hong Kong b954",
         "🇭🇰 Hong Kong bde4 | SNI - u716087u09d7s356.ccgfw.online",
         "🇭🇰 Hong Kong ccbe",
         "🇭🇰 Hong Kong d4b1 | SNI - u716087u4da2s359.ccgfw.online",
@@ -1423,7 +1424,6 @@
         "🇮🇪 Ireland 2eca",
         "🇮🇪 Ireland 4852 | SNI - www.google.com",
         "🇮🇪 Ireland e8ea | SNI - yahoo.com",
-        "🇮🇳 India 224a",
         "🇮🇳 India 378a",
         "🇮🇳 India 3ea2",
         "🇮🇳 India de71",
@@ -1547,7 +1547,6 @@
         "🇱🇻 Latvia 511f | SNI - yahoo.com",
         "🇱🇻 Latvia 58ae | SNI - yahoo.com",
         "🇱🇻 Latvia 6104 | SNI - yahoo.com",
-        "🇱🇻 Latvia 9cc5 | SNI - www.samsung.com",
         "🇱🇻 Latvia 9cf5 | SNI - rowing.su",
         "🇱🇻 Latvia ca4a | SNI - fvpn.me",
         "🇱🇻 Latvia cc9d | SNI - yahoo.com",
@@ -1874,6 +1873,7 @@
         "🇷🇺 Russia 40e3 | SNI - api-maps.yandex.ru",
         "🇷🇺 Russia 413b | SNI - www.avito.ru",
         "🇷🇺 Russia 41eb | SNI - max.ru",
+        "🇷🇺 Russia 43bd | SNI - surfvpn24.ru",
         "🇷🇺 Russia 43f7 | SNI - ads.x5.ru",
         "🇷🇺 Russia 44ba | SNI - wl-3-3.nodes.ac",
         "🇷🇺 Russia 4616 | SNI - cdp.x5.ru",
@@ -1967,6 +1967,7 @@
         "🇷🇺 Russia 8c99 | SNI - smartcaptcha.yandexcloud.net",
         "🇷🇺 Russia 8d17 | SNI - smartcaptcha.yandexcloud.net",
         "🇷🇺 Russia 8d28",
+        "🇷🇺 Russia 8d50 | SNI - surfvpn24.ru",
         "🇷🇺 Russia 8df1 | SNI - cdp.x5.ru",
         "🇷🇺 Russia 8e28 | SNI - cdp.x5.ru",
         "🇷🇺 Russia 8e86 | SNI - vrubg.mostserv.xyz",
@@ -2201,7 +2202,6 @@
         "🇹🇼 Taiwan 2746",
         "🇹🇼 Taiwan 27c2 | SNI - www.hollywoodreporter.com",
         "🇹🇼 Taiwan 3362 | SNI - www.tradingview.com",
-        "🇹🇼 Taiwan 45cf",
         "🇹🇼 Taiwan 808d | SNI - www.techradar.com",
         "🇹🇼 Taiwan 81c6 | SNI - www.microsoft.com",
         "🇹🇼 Taiwan be2e | SNI - www.microsoft.com",
@@ -6545,6 +6545,19 @@
       "tls": {
         "enabled": true,
         "server_name": "www.registry-monitor.click",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " Unsorted ca35 | SNI - cdn9-33.vk-cdnvideo.com",
+      "server": "cdn9-33.vk-cdnvideo.com",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn9-33.vk-cdnvideo.com",
         "insecure": false
       }
     },
@@ -18437,6 +18450,21 @@
     },
     {
       "type": "vless",
+      "tag": "🇩🇪 Germany 8395",
+      "server": "5.252.26.231",
+      "server_port": 719,
+      "uuid": "26def452-b87f-42f5-92f6-e7ba0711ce69",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/xtrnwqjbkr?ed=2560",
+        "headers": {
+          "Host": "play.google.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪 Germany 85b8 | SNI - www.deepl.com",
       "server": "87.120.93.69",
       "server_port": 443,
@@ -24532,15 +24560,6 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰 Hong Kong b954",
-      "server": "103.85.73.72",
-      "server_port": 2510,
-      "uuid": "1d3d868e-ae7b-3762-b9d9-a7f267494c7e",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "type": "vless",
       "tag": "🇭🇰 Hong Kong bde4 | SNI - u716087u09d7s356.ccgfw.online",
       "server": "s356.ccgfw.online",
@@ -25000,19 +25019,6 @@
           "public_key": "Xj6-HabAfXfu2dIz1orkRH5rAlbGMs0YMc7Zo4aARlU",
           "short_id": "9d90d7ada8"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 India 224a",
-      "server": "cdn3-25.vk-cdnvideo.com",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-25.vk-cdnvideo.com",
-        "insecure": false
       }
     },
     {
@@ -26828,24 +26834,6 @@
           "enabled": true,
           "public_key": "T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws",
           "short_id": "9e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇱🇻 Latvia 9cc5 | SNI - www.samsung.com",
-      "server": "62.192.174.111",
-      "server_port": 443,
-      "uuid": "301d514e-4aa0-47b0-ba44-a0cb891cd52f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4",
-          "short_id": "a1b2c3d4"
         }
       }
     },
@@ -32343,6 +32331,24 @@
     },
     {
       "type": "vless",
+      "tag": "🇷🇺 Russia 43bd | SNI - surfvpn24.ru",
+      "server": "185.241.194.34",
+      "server_port": 5987,
+      "uuid": "2397be53-f62b-42f7-80fe-5d22627c03a9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "surfvpn24.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "L4kWgoTxqQc4kAGLrF_ARMRVMPy3_WInhjwt_8OPenU",
+          "short_id": "c19de8fa"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇷🇺 Russia 43f7 | SNI - ads.x5.ru",
       "server": "158.160.249.158",
       "server_port": 8443,
@@ -33963,6 +33969,24 @@
         "enabled": true,
         "server_name": "89.208.231.191",
         "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 Russia 8d50 | SNI - surfvpn24.ru",
+      "server": "185.241.194.34",
+      "server_port": 5994,
+      "uuid": "2397be53-f62b-42f7-80fe-5d22627c03a9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "surfvpn24.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "trrVBG2fDc411qxZQ8__7x6ZlJC4lI2m_mwl-O-BEjQ",
+          "short_id": "c19de8fa"
+        }
       }
     },
     {
@@ -37893,15 +37917,6 @@
           "short_id": "1b8d2fb1eec1"
         }
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇼 Taiwan 45cf",
-      "server": "world.t.51guangtaobao.com",
-      "server_port": 2510,
-      "uuid": "1d3d868e-ae7b-3762-b9d9-a7f267494c7e",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "type": "vless",
