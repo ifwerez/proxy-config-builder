@@ -902,7 +902,6 @@
         "🇩🇪 Germany 8395",
         "🇩🇪 Germany 8398 | SNI - ads.x5.ru",
         "🇩🇪 Germany 85b8 | SNI - www.deepl.com",
-        "🇩🇪 Germany 85d2 | SNI - www.wikipedia.org",
         "🇩🇪 Germany 869f | SNI - sub.sbrf-cdn342.ru",
         "🇩🇪 Germany 87d2",
         "🇩🇪 Germany 88c4",
@@ -938,6 +937,7 @@
         "🇩🇪 Germany a491",
         "🇩🇪 Germany a5b4",
         "🇩🇪 Germany a85b | SNI - us2.wxgqlfx.xyz",
+        "🇩🇪 Germany acac | SNI - loadtest.dev.urent.ru [CIDR]",
         "🇩🇪 Germany ae06 | SNI - aws.amazon.com",
         "🇩🇪 Germany b153 | SNI - tradingview.com",
         "🇩🇪 Germany b228 | SNI - fastsync.xyz",
@@ -1435,7 +1435,6 @@
         "🇳🇱 Netherlands 3270 | SNI - www.tradingview.com",
         "🇳🇱 Netherlands 3407 | SNI - cdp.x5.ru",
         "🇳🇱 Netherlands 34d9 | SNI - nl.prime-net.me",
-        "🇳🇱 Netherlands 3cd1",
         "🇳🇱 Netherlands 444e | SNI - apple.com",
         "🇳🇱 Netherlands 447c | SNI - toyota38.com",
         "🇳🇱 Netherlands 47ae | SNI - nether1cxc.chickenkiller.com",
@@ -1740,7 +1739,6 @@
         "🇷🇺 Russia 6fe4 | SNI - 057.ElecTRocElLco-Cf-057.wOrKeRs.dEv",
         "🇷🇺 Russia 709c | SNI - gwapp-ru01.freenets.store",
         "🇷🇺 Russia 7226 | SNI - field.wildgarden.digital",
-        "🇷🇺 Russia 7438 | SNI - cdp.x5.ru",
         "🇷🇺 Russia 7503 | SNI - cdp.x5.ru",
         "🇷🇺 Russia 75d3 | SNI - 057.ElecTRocElLco-Cf-057.wOrKeRs.dEv",
         "🇷🇺 Russia 7697 | SNI - max.ru",
@@ -2115,6 +2113,7 @@
         "🇺🇸 United States 965e | SNI - www.cloudflare.com",
         "🇺🇸 United States 9678 | SNI - www.samsung.com",
         "🇺🇸 United States 972e | SNI - us2.wxgqlfx.xyz",
+        "🇺🇸 United States 9b2a | SNI - us2.wxgqlfx.xyz",
         "🇺🇸 United States 9b66 | SNI - proxy.wastech.org",
         "🇺🇸 United States 9e9d | SNI - www.kinopoisk.ru",
         "🇺🇸 United States 9f48 | SNI - us2.wxgqlfx.xyz",
@@ -17022,24 +17021,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Germany 85d2 | SNI - www.wikipedia.org",
-      "server": "91.107.175.2",
-      "server_port": 443,
-      "uuid": "be0788d7-8c06-4ef2-9eca-809c6bd8e2b2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.wikipedia.org",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
-          "short_id": "1c213fd68e13"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇩🇪 Germany 869f | SNI - sub.sbrf-cdn342.ru",
       "server": "87.120.93.242",
       "server_port": 443,
@@ -17604,6 +17585,24 @@
         "path": "/TG@wxgqlfx",
         "headers": {
           "Host": "us2.wxgqlfx.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Germany acac | SNI - loadtest.dev.urent.ru [CIDR]",
+      "server": "89.208.208.92",
+      "server_port": 7443,
+      "uuid": "cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "loadtest.dev.urent.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "_AXs-QnufIq918tbb2pwM3MDbe7kQ6i0cIHDMLwPmGs",
+          "short_id": "3210e0eee6605048"
         }
       }
     },
@@ -25790,19 +25789,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 Netherlands 3cd1",
-      "server": "46.229.243.130",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "46.229.243.130",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇳🇱 Netherlands 444e | SNI - apple.com",
       "server": "144.31.135.162",
       "server_port": 9443,
@@ -31071,24 +31057,6 @@
           "enabled": true,
           "public_key": "dtxZ0lFLHE0IGfg45g2t1t7WwHWHuDW4xbfww3zKhDQ",
           "short_id": "bbbbe9607d343bb6"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 Russia 7438 | SNI - cdp.x5.ru",
-      "server": "84.201.168.186",
-      "server_port": 443,
-      "uuid": "d4133055-6b5a-4165-a4dd-4c599bdcfad5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
         }
       }
     },
@@ -37518,6 +37486,26 @@
       "server": "87.239.250.244",
       "server_port": 2053,
       "uuid": "c871b272-4bb8-4d52-a1a9-a94a19220aa0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "us2.wxgqlfx.xyz",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/TG@wxgqlfx",
+        "headers": {
+          "Host": "us2.wxgqlfx.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States 9b2a | SNI - us2.wxgqlfx.xyz",
+      "server": "95.164.62.196",
+      "server_port": 443,
+      "uuid": "a1bb5fa0-3b1e-4fbc-f1b6-686a35796849",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
