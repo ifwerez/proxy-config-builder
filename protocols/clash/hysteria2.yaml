@@ -25,6 +25,27 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
+- name: " Unsorted 0347"
+  server: nd2.nimarko.org
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 1bf9c88b-1f99-47c3-ac39-cd0e4edac246
+  sni: nd2.nimarko.org
+- name: " Unsorted 4159"
+  server: finprem.nimarko.org
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 1bf9c88b-1f99-47c3-ac39-cd0e4edac246
+  sni: finprem.nimarko.org
+- name: " Unsorted 7d5d"
+  server: gr4.nimarko.org
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 1bf9c88b-1f99-47c3-ac39-cd0e4edac246
+  sni: gr4.nimarko.org
 - name: " Unsorted e5c6"
   server: s544.ccgfw.online
   port: 443
@@ -39,6 +60,31 @@ proxies:
   type: hysteria2
   password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
   sni: u712927us473.okgfw.top
+- name: "🇫🇷 France 74e6"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
+  server: 62.210.124.146
+  port: 22000
+  udp: true
+  type: hysteria2
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: "🇵🇱 Poland 1fcb [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PL.png
+  server: 157.22.241.242
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 68cf2e7761c240d9ba4c31f99ab37a9f
+  sni: 157.22.241.242
+- name: "🇵🇱 Poland 8f5c [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PL.png
+  server: 157.22.241.242
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 6qh53mymr7usko5k
+  sni: 157.22.241.242
 - name: "🇷🇺 Russia 7f9a"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 195.133.53.33
