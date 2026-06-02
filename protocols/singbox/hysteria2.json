@@ -25,8 +25,14 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
+        " Unsorted 0347",
+        " Unsorted 4159",
+        " Unsorted 7d5d",
         " Unsorted e5c6",
         " Unsorted fdd0",
+        "🇫🇷 France 74e6",
+        "🇵🇱 Poland 1fcb [CIDR]",
+        "🇵🇱 Poland 8f5c [CIDR]",
         "🇷🇺 Russia 7f9a",
         "🇺🇸 United States ef6b"
       ]
@@ -34,6 +40,42 @@
     {
       "type": "direct",
       "tag": "direct"
+    },
+    {
+      "type": "hysteria2",
+      "tag": " Unsorted 0347",
+      "server": "nd2.nimarko.org",
+      "server_port": 443,
+      "password": "1bf9c88b-1f99-47c3-ac39-cd0e4edac246",
+      "tls": {
+        "enabled": true,
+        "server_name": "nd2.nimarko.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": " Unsorted 4159",
+      "server": "finprem.nimarko.org",
+      "server_port": 443,
+      "password": "1bf9c88b-1f99-47c3-ac39-cd0e4edac246",
+      "tls": {
+        "enabled": true,
+        "server_name": "finprem.nimarko.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": " Unsorted 7d5d",
+      "server": "gr4.nimarko.org",
+      "server_port": 443,
+      "password": "1bf9c88b-1f99-47c3-ac39-cd0e4edac246",
+      "tls": {
+        "enabled": true,
+        "server_name": "gr4.nimarko.org",
+        "insecure": false
+      }
     },
     {
       "type": "hysteria2",
@@ -56,6 +98,42 @@
       "tls": {
         "enabled": true,
         "server_name": "u712927us473.okgfw.top",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇷 France 74e6",
+      "server": "62.210.124.146",
+      "server_port": 22000,
+      "password": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇵🇱 Poland 1fcb [CIDR]",
+      "server": "157.22.241.242",
+      "server_port": 443,
+      "password": "68cf2e7761c240d9ba4c31f99ab37a9f",
+      "tls": {
+        "enabled": true,
+        "server_name": "157.22.241.242",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇵🇱 Poland 8f5c [CIDR]",
+      "server": "157.22.241.242",
+      "server_port": 443,
+      "password": "6qh53mymr7usko5k",
+      "tls": {
+        "enabled": true,
+        "server_name": "157.22.241.242",
         "insecure": false
       }
     },
