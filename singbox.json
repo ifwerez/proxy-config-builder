@@ -983,6 +983,7 @@
         "🇩🇪 Germany 199c",
         "🇩🇪 Germany 19cf | SNI - ads.x5.ru",
         "🇩🇪 Germany 1cda",
+        "🇩🇪 Germany 1d6d | SNI - www.microsoft.com",
         "🇩🇪 Germany 1f9d",
         "🇩🇪 Germany 20dd | SNI - 5.75.252.191",
         "🇩🇪 Germany 218b | SNI - ssj.new-persian-song.ir",
@@ -1157,6 +1158,7 @@
         "🇩🇪 Germany facd | SNI - yahoo.com",
         "🇩🇪 Germany fc82 | SNI - video.intfreed.ru",
         "🇩🇪 Germany fd52 | SNI - cdnjs.com",
+        "🇩🇪 Germany fdc6 | SNI - www.microsoft.com",
         "🇩🇪 Germany fec3 | SNI - stats.vk-portal.net",
         "🇩🇪 Germany ff41",
         "🇩🇪 Germany ff49 | SNI - mzone.3cloudhost.com",
@@ -1647,7 +1649,6 @@
         "🇳🇱 Netherlands 7611 | SNI - fuck.rkn",
         "🇳🇱 Netherlands 7a51 | SNI - nl2.panel11.ru",
         "🇳🇱 Netherlands 7cc3 | SNI - eh.vk.com",
-        "🇳🇱 Netherlands 83c6 | SNI - nl.furkbalancer.net",
         "🇳🇱 Netherlands 8552 | SNI - us2.wxgqlfx.xyz",
         "🇳🇱 Netherlands 8b6b | SNI - nl-1.nodes.ac",
         "🇳🇱 Netherlands 8c69 | SNI - chatgpt.g9q.fun",
@@ -1991,7 +1992,6 @@
         "🇷🇺 Russia da15 | SNI - r1.mizulina.top",
         "🇷🇺 Russia da9c | SNI - sso.passport.yandex.ru",
         "🇷🇺 Russia dec4 | SNI - cdp.x5.ru [CIDR]",
-        "🇷🇺 Russia df8b | SNI - ads.x5.ru",
         "🇷🇺 Russia e079 | SNI - rruu.persik.host",
         "🇷🇺 Russia e09f | SNI - zib.sempai.site",
         "🇷🇺 Russia e10c | SNI - cdp.x5.ru",
@@ -18134,6 +18134,24 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇩🇪 Germany 1d6d | SNI - www.microsoft.com",
+      "server": "91.124.209.75",
+      "server_port": 443,
+      "uuid": "a105bbf5-952f-4cf2-8653-44316f0eff14",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "Q5L2J2Fswd_K5U4-vAE05VOvKxI8IsD5b6SlN_nwKh8",
+          "short_id": "dcf8f557800eab1b"
+        }
+      }
+    },
+    {
       "type": "vmess",
       "tag": "🇩🇪 Germany 1f9d",
       "server": "de.connfull.org",
@@ -20826,6 +20844,24 @@
           "enabled": true,
           "public_key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
           "short_id": "4c02bbbfa833b3b6"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Germany fdc6 | SNI - www.microsoft.com",
+      "server": "91.124.209.75",
+      "server_port": 443,
+      "uuid": "a5ff2e8e-7102-4ce5-9750-51b8dc3aeefd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "Q5L2J2Fswd_K5U4-vAE05VOvKxI8IsD5b6SlN_nwKh8",
+          "short_id": "dcf8f557800eab1b"
         }
       }
     },
@@ -28542,24 +28578,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 Netherlands 83c6 | SNI - nl.furkbalancer.net",
-      "server": "nl.furkbalancer.net",
-      "server_port": 8443,
-      "uuid": "c286e7ff-3a16-459f-8e17-59de2764cf2e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl.furkbalancer.net",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {}
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇳🇱 Netherlands 8552 | SNI - us2.wxgqlfx.xyz",
       "server": "185.198.165.92",
       "server_port": 443,
@@ -34495,24 +34513,6 @@
           "enabled": true,
           "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
           "short_id": "8ec792bfd725be8a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 Russia df8b | SNI - ads.x5.ru",
-      "server": "185.229.9.131",
-      "server_port": 443,
-      "uuid": "6cfae10f-5132-4411-bfe5-cbdba3515ecd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "jH_LLqDnSPNz8SU_PC30VKKVKxQGU3QkbAr33bb9RGo",
-          "short_id": "27e53bbcab7593d7"
         }
       }
     },
