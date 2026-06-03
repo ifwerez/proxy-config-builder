@@ -91,7 +91,6 @@
         " Unsorted 391a",
         " Unsorted 39ec | SNI - de.hknet.pro",
         " Unsorted 3ec4 | SNI - picassooo.info",
-        " Unsorted 3f1a | SNI - u716087u4c78s642.ccgfw.top",
         " Unsorted 3f68",
         " Unsorted 40c0 | SNI - nimahavok.pages.dev",
         " Unsorted 40f7",
@@ -776,6 +775,7 @@
         "🇨🇭 Switzerland 933f | SNI - octopusss4.com",
         "🇨🇭 Switzerland 939e",
         "🇨🇭 Switzerland b0bc | SNI - yahoo.com",
+        "🇨🇭 Switzerland e3c0 | SNI - horizon.cloudureld.com",
         "🇨🇱 Chile 1224",
         "🇨🇳 China 08a3",
         "🇨🇳 China 0fe8",
@@ -812,7 +812,6 @@
         "🇩🇪 Germany 1ac8 | SNI - ads.x5.ru",
         "🇩🇪 Germany 1c20 | SNI - smartcaptcha.yandexcloud.net",
         "🇩🇪 Germany 1d6d | SNI - www.microsoft.com",
-        "🇩🇪 Germany 1f9d",
         "🇩🇪 Germany 1fee | SNI - yandex.ru",
         "🇩🇪 Germany 20dd | SNI - 5.75.252.191",
         "🇩🇪 Germany 218b | SNI - ssj.new-persian-song.ir",
@@ -949,6 +948,7 @@
         "🇩🇪 Germany cc91 | SNI - ragnar.ehsanazizi-speed-server.com",
         "🇩🇪 Germany cd4e",
         "🇩🇪 Germany cd8a | SNI - us2.wxgqlfx.xyz",
+        "🇩🇪 Germany cf95 | SNI - google.com",
         "🇩🇪 Germany d02d | SNI - ai.sellflow.org",
         "🇩🇪 Germany d379 | SNI - api-maps.yandex.ru",
         "🇩🇪 Germany d442 | SNI - mrsibil.ezgateway.net",
@@ -1209,6 +1209,7 @@
         "🇭🇰 Hong Kong e152",
         "🇭🇰 Hong Kong f6cb",
         "🇭🇺 Hungary 03fc | SNI - cdn7-09.vk-cdnvideo.com",
+        "🇭🇺 Hungary 0b96 | SNI - cdn7-09.vk-cdnvideo.com",
         "🇭🇺 Hungary 1500 | SNI - terazhedi.info",
         "🇭🇺 Hungary 3c8b | SNI - cdn7-09.vk-cdnvideo.com",
         "🇭🇺 Hungary 4d7b",
@@ -1654,7 +1655,6 @@
         "🇷🇺 Russia 48e9 | SNI - dogs.abvphelp.cc",
         "🇷🇺 Russia 4925 | SNI - sso.passport.yandex.ru [CIDR]",
         "🇷🇺 Russia 4a88",
-        "🇷🇺 Russia 4d22 | SNI - max.ru",
         "🇷🇺 Russia 4f9d | SNI - max.ru",
         "🇷🇺 Russia 5038 | SNI - 5post-gate.x5.ru",
         "🇷🇺 Russia 50f3 | SNI - cdp.x5.ru",
@@ -1827,7 +1827,6 @@
         "🇷🇺 Russia f99f | SNI - cdp.x5.ru [CIDR]",
         "🇷🇺 Russia fa79 | SNI - yandex.ru",
         "🇷🇺 Russia fce4 | SNI - ads.x5.ru",
-        "🇷🇺 Russia fd3c | SNI - www.2gis.ru",
         "🇷🇺 Russia fd65 | SNI - max.ru",
         "🇷🇺 Russia fdbf | SNI - cdp.x5.ru [CIDR]",
         "🇷🇺 Russia fff6 | SNI - rruu.persik.host",
@@ -3134,19 +3133,6 @@
         "headers": {
           "Host": "picassooo.info"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": " Unsorted 3f1a | SNI - u716087u4c78s642.ccgfw.top",
-      "server": "s642.ccgfw.top",
-      "server_port": 443,
-      "uuid": "205d6869-02ca-3b36-b933-be2465250c7e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "u716087u4c78s642.ccgfw.top",
-        "insecure": false
       }
     },
     {
@@ -14392,6 +14378,24 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇨🇭 Switzerland e3c0 | SNI - horizon.cloudureld.com",
+      "server": "138.124.80.204",
+      "server_port": 443,
+      "uuid": "1d0c4834-63a9-4da3-aeaa-6deb3ce2b721",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "horizon.cloudureld.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "neZkWTRq2sfWWziPULq-eLWEXXFNuVa7CF1XuVnSwxs",
+          "short_id": "8d3188f4dba62e68"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "🇨🇱 Chile 1224",
       "server": "130.94.104.210",
@@ -14959,15 +14963,6 @@
           "short_id": "dcf8f557800eab1b"
         }
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇩🇪 Germany 1f9d",
-      "server": "de.connfull.org",
-      "server_port": 2053,
-      "uuid": "f2ff4ae6-cf2d-4d15-9f0d-b6d9980df9aa",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "type": "vless",
@@ -17121,6 +17116,24 @@
         "path": "/TG@wxgqlfx",
         "headers": {
           "Host": "us2.wxgqlfx.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Germany cf95 | SNI - google.com",
+      "server": "23.26.37.121",
+      "server_port": 8443,
+      "uuid": "dcba77d7-bb59-4802-b32c-37fd7011fca4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo",
+          "short_id": "3ca620a7ed5f3196"
         }
       }
     },
@@ -21161,6 +21174,19 @@
       "type": "vless",
       "tag": "🇭🇺 Hungary 03fc | SNI - cdn7-09.vk-cdnvideo.com",
       "server": "77.74.123.167",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn7-09.vk-cdnvideo.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇺 Hungary 0b96 | SNI - cdn7-09.vk-cdnvideo.com",
+      "server": "82.202.138.158",
       "server_port": 8443,
       "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
       "packet_encoding": "xudp",
@@ -28422,23 +28448,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 Russia 4d22 | SNI - max.ru",
-      "server": "217.herumhas.shop",
-      "server_port": 5443,
-      "uuid": "7d876627-abf5-4865-8ff4-03f37d49de5d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇷🇺 Russia 4f9d | SNI - max.ru",
       "server": "polnode1.frost-api.com",
       "server_port": 443,
@@ -31385,24 +31394,6 @@
           "enabled": true,
           "public_key": "Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs",
           "short_id": "428ef87fd47a3a32"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 Russia fd3c | SNI - www.2gis.ru",
-      "server": "157.22.241.46",
-      "server_port": 12444,
-      "uuid": "228ecfd3-9bf0-42fd-a50e-581f84022513",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.2gis.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "dYmNf0AA5qgV2ct3dPCYtxdS2iD3FEUnEs6J1GWe2wU",
-          "short_id": "926d63ddd8bcebe1"
         }
       }
     },
