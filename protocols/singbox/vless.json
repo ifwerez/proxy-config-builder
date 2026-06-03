@@ -327,7 +327,6 @@
         "🇦🇹 Austria a1f7 | SNI - g1.nybaz.space",
         "🇦🇹 Austria a528 | SNI - cdnv-img.perekrestok.ru",
         "🇦🇹 Austria a98e | SNI - dl.google.com",
-        "🇦🇹 Austria b2d1 | SNI - fl02.myxasecure.space",
         "🇦🇹 Austria c57e | SNI - www.aviasales.com",
         "🇦🇺 Australia 2d68",
         "🇦🇺 Australia 3a1e",
@@ -340,7 +339,6 @@
         "🇧🇬 Bulgaria 599f",
         "🇧🇬 Bulgaria 663d | SNI - ads.x5.ru",
         "🇧🇬 Bulgaria 74d6 | SNI - www.samsung.com",
-        "🇧🇬 Bulgaria 94cc | SNI - fl02.myxasecure.space",
         "🇧🇬 Bulgaria a194 | SNI - yandex.ru",
         "🇧🇬 Bulgaria de5b",
         "🇧🇾 Belarus f795 | SNI - max.ru",
@@ -749,6 +747,7 @@
         "🇨🇭 Switzerland 85de | SNI - yahoo.com",
         "🇨🇭 Switzerland 939e",
         "🇨🇭 Switzerland b0bc | SNI - yahoo.com",
+        "🇨🇭 Switzerland b76c | SNI - www.samsung.com",
         "🇨🇳 China 08a3",
         "🇨🇳 China 6c8d | SNI - sni.skylee4.cloudns.ch",
         "🇨🇾 Cyprus 453a | SNI - www.asus.com",
@@ -1254,7 +1253,6 @@
         "🇮🇹 Italy dfbc",
         "🇮🇹 Italy eee5 | SNI - rose.netfre.space",
         "🇯🇵 Japan 0e10 | SNI - fx.222395.xyz",
-        "🇯🇵 Japan 1e28 | SNI - www.icloud.com",
         "🇯🇵 Japan 4404 | SNI - www.cloudflare.com",
         "🇯🇵 Japan 7056 | SNI - www.icloud.com",
         "🇯🇵 Japan 7530 | SNI - us2.wxgqlfx.xyz",
@@ -7048,24 +7046,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇹 Austria b2d1 | SNI - fl02.myxasecure.space",
-      "server": "fl02.myxasecure.space",
-      "server_port": 443,
-      "uuid": "5381a1bb-479a-412a-9d99-08ccbc008828",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fl02.myxasecure.space",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw",
-          "short_id": "d67ec5a8fc40ebea"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇦🇹 Austria c57e | SNI - www.aviasales.com",
       "server": "152.53.103.35",
       "server_port": 7443,
@@ -7212,24 +7192,6 @@
           "enabled": true,
           "public_key": "OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4",
           "short_id": "e5f60718"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 Bulgaria 94cc | SNI - fl02.myxasecure.space",
-      "server": "93.123.13.82",
-      "server_port": 443,
-      "uuid": "5381a1bb-479a-412a-9d99-08ccbc008828",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fl02.myxasecure.space",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw",
-          "short_id": "d67ec5a8fc40ebea"
         }
       }
     },
@@ -14361,6 +14323,24 @@
           "enabled": true,
           "public_key": "zJeLZDPHoHMcAzBJh38tSavofNlkBrpADFx9jVVPil0",
           "short_id": "94f9"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 Switzerland b76c | SNI - www.samsung.com",
+      "server": "45.85.93.51",
+      "server_port": 443,
+      "uuid": "301d514e-4aa0-47b0-ba44-a0cb891cd52f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4",
+          "short_id": "a1b2c3d4"
         }
       }
     },
@@ -22427,23 +22407,6 @@
         "type": "ws",
         "path": "/",
         "headers": {}
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 Japan 1e28 | SNI - www.icloud.com",
-      "server": "138.2.50.155",
-      "server_port": 44073,
-      "uuid": "11d29ec6-be66-4f59-97c6-7cff836ea318",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.icloud.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"
-        }
       }
     },
     {
