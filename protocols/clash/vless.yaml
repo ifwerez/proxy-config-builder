@@ -1416,6 +1416,19 @@ proxies:
     path: /
     headers:
       {}
+- name: " Unsorted 6d5a"
+  server: kz-1.nodes.ac
+  port: 443
+  udp: true
+  type: vless
+  uuid: 593f4d6c-aff1-4832-87a7-b5d8e71584ea
+  network: tcp
+  tls: true
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: uz1Lb_2451iPvrwWCZ-4I9_WHdYm7ML0yjeJAZwBk3E
+    short-id: "73b4306eb38fe3d6"
 - name: " Unsorted 6fbd"
   server: 185.143.232.201
   port: 2095
@@ -2953,17 +2966,6 @@ proxies:
     path: "/fp=random"
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: " Unsorted d617 | SNI - de.chocolatemango.live"
-  server: ovh.furkbalancer.net
-  port: 2053
-  udp: true
-  type: vless
-  uuid: c286e7ff-3a16-459f-8e17-59de2764cf2e
-  network: tcp
-  tls: true
-  servername: de.chocolatemango.live
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
 - name: " Unsorted d6f7 | SNI - max5r.skystreamgame.com"
   server: max5r.skystreamgame.com
   port: 8443
@@ -9877,20 +9879,6 @@ proxies:
     path: ''
     headers:
       Host: vms.lifetime58.workers.dev
-- name: "🇩🇪 Germany 4194 | SNI - google.com [CIDR]"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 81.200.152.178
-  port: 5443
-  udp: true
-  type: vless
-  uuid: 7d876627-abf5-4865-8ff4-03f37d49de5d
-  network: tcp
-  tls: true
-  servername: google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
 - name: "🇩🇪 Germany 4215 | SNI - max.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 178.105.103.153
@@ -11287,6 +11275,18 @@ proxies:
   tls: true
   servername: mrsibil.ezgateway.net
   client-fingerprint: chrome
+- name: "🇩🇪 Germany d617 | SNI - de.chocolatemango.live [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: ovh.furkbalancer.net
+  port: 2053
+  udp: true
+  type: vless
+  uuid: c286e7ff-3a16-459f-8e17-59de2764cf2e
+  network: tcp
+  tls: true
+  servername: de.chocolatemango.live
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
 - name: "🇩🇪 Germany d760 | SNI - cdn9-33.vk-cdnvideo.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 82.202.158.93
@@ -11404,16 +11404,6 @@ proxies:
     public-key: F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA
   grpc-opts:
     grpc-service-name: xyz
-- name: "🇩🇪 Germany e40e"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 194.59.183.234
-  port: 666
-  udp: true
-  type: vless
-  uuid: "%40IR_NETLIFY"
-  network: tcp
-  tls: false
-  client-fingerprint: chrome
 - name: "🇩🇪 Germany e41e | SNI - de-2.srv.vpnza300.org"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 193.23.218.192
@@ -12908,21 +12898,6 @@ proxies:
   reality-opts:
     public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
     short-id: "60500a63ad12"
-- name: "🇫🇷 France 0a23 | SNI - cdp.x5.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
-  server: 51.250.103.104
-  port: 443
-  udp: true
-  type: vless
-  uuid: 8b6c18d8-2068-411c-891c-4a558451844e
-  network: tcp
-  tls: true
-  servername: cdp.x5.ru
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI
-    short-id: "8ec792bfd725be8a"
 - name: "🇫🇷 France 1181 | SNI - moon1.realm-of-ultramar.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
   server: 158.160.40.207
@@ -14360,21 +14335,6 @@ proxies:
   network: tcp
   tls: false
   client-fingerprint: chrome
-- name: "🇬🇧 United Kingdom f30b | SNI - cdp.x5.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
-  server: 51.250.103.104
-  port: 443
-  udp: true
-  type: vless
-  uuid: 239c0b08-00af-4fd6-b911-fefa3f133874
-  network: tcp
-  tls: true
-  servername: cdp.x5.ru
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI
-    short-id: "8ec792bfd725be8a"
 - name: "🇬🇧 United Kingdom f495 | SNI - cdp.x5.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
   server: 51.250.97.18
@@ -16081,6 +16041,21 @@ proxies:
     path: /
     headers:
       Host: nAzAnmAnO.X-uPlOaD.oRg
+- name: "🇰🇿 Kazakhstan fce8 | SNI - www.google.com"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KZ.png
+  server: 46.247.40.229
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c5765da4-772f-4ff7-b96c-551ca7185529
+  network: tcp
+  tls: true
+  servername: www.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: mVdzom1e9afBTvsad76ZEsyQh9xSCZPUKo7CPPLaZAc
+    short-id: "196dad1410aa3891"
 - name: "🇱🇹 Lithuania 0589 | SNI - ads.x5.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/LT.png
   server: 51.250.26.148
@@ -16444,7 +16419,7 @@ proxies:
   reality-opts:
     public-key: lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U
     short-id: "772e"
-- name: "🇱🇻 Latvia 3c97 | SNI - itx-server.digital [CIDR]"
+- name: "🇱🇻 Latvia 3c97 | SNI - itx-server.digital"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/LV.png
   server: l11.l-itx.info
   port: 2053
@@ -19106,7 +19081,7 @@ proxies:
   flow: xtls-rprx-vision
   reality-opts:
     public-key: wY_MYPJUx849su3BlowuxnwnUaj25iLfRw2LooQfPAY
-- name: "🇵🇱 Poland bde9 | SNI - colorlib.com [CIDR]"
+- name: "🇵🇱 Poland bde9 | SNI - colorlib.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PL.png
   server: l13.l-itx.info
   port: 7443
@@ -19561,21 +19536,6 @@ proxies:
   reality-opts:
     public-key: qsnavDVJFVggyM4zrgJFdK7AOVsGyjATd81PmnDAMDc
     short-id: "79cc65dd642afee0"
-- name: "🇷🇺 Russia 189d | SNI - cdp.x5.ru [CIDR]"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: 51.250.103.104
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4ba3cb46-9046-45e8-a9f7-89f01715486b
-  network: tcp
-  tls: true
-  servername: cdp.x5.ru
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI
-    short-id: "8ec792bfd725be8a"
 - name: "🇷🇺 Russia 1a53 | SNI - 5post-gate.x5.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 37.143.14.90
@@ -20178,6 +20138,20 @@ proxies:
   reality-opts:
     public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
     short-id: "67ccfc02"
+- name: "🇷🇺 Russia 4194 | SNI - google.com"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
+  server: 81.200.152.178
+  port: 5443
+  udp: true
+  type: vless
+  uuid: 7d876627-abf5-4865-8ff4-03f37d49de5d
+  network: tcp
+  tls: true
+  servername: google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
 - name: "🇷🇺 Russia 41eb | SNI - max.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 178.250.246.138
@@ -21655,7 +21629,7 @@ proxies:
   reality-opts:
     public-key: c8fQY4Ywo9NPZS0CuujyztRI-8z0D7fREoz8laMDVkQ
     short-id: "c31f9a0e7d4b52"
-- name: "🇷🇺 Russia aea5 | SNI - max.ru"
+- name: "🇷🇺 Russia aea5 | SNI - max.ru [CIDR]"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: gdg.herumhas.shop
   port: 5443
@@ -23708,6 +23682,20 @@ proxies:
     path: /sg-orcl
     headers:
       Host: ads.ruangguru.com.cyylr.eu.cc
+- name: "🇸🇬 Singapore b96e | SNI - ads.x5.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
+  server: 51.250.9.161
+  port: 443
+  udp: true
+  type: vless
+  uuid: 46dde73e-43c6-4c2e-8ebb-aa187a23f87d
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: "🇸🇬 Singapore bbc9 | SNI - 020g5uxcxmqlndg.luyuju.dpdns.org"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
   server: 158.178.225.153
