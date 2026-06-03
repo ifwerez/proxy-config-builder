@@ -6534,20 +6534,6 @@ proxies:
     path: /id-tksi
     headers:
       Host: grabacademyportal.grab.com.cyylr.eu.cc
-- name: "🇨🇦 Canada 65a2"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CA.png
-  server: 148.113.196.75
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 08f96221-9b7b-4e6f-8ffe-aee8b9c9b504
-  network: ws
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vless/
-    headers:
-      {}
 - name: "🇨🇦 Canada 6613 | SNI - juzi.qea.ccwu.cc"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CA.png
   server: 104.21.90.78
@@ -22250,21 +22236,6 @@ proxies:
     path: ''
     headers:
       {}
-- name: "🇷🇺 Russia 10de | SNI - static.rutube.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: 212.233.122.244
-  port: 443
-  udp: true
-  type: vless
-  uuid: 69b578b6-6167-447d-a82c-033928da5e03
-  network: tcp
-  tls: true
-  servername: static.rutube.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 1BAG3ZcDThZ_tEFyPAaxh5EfY5RyK8D8CIHplP-qXmc
-    short-id: "9a62a7103e3791eb"
 - name: "🇷🇺 Russia 10e1 | SNI - cdp.x5.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 84.201.168.186
@@ -24806,21 +24777,6 @@ proxies:
   reality-opts:
     public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
     short-id: "65c7748be8"
-- name: "🇷🇺 Russia a07f | SNI - id.vk.com"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: 155.212.162.84
-  port: 2096
-  udp: true
-  type: vless
-  uuid: ba2630d8-d6c4-49ff-b5d5-2c24330dd245
-  network: grpc
-  tls: true
-  servername: id.vk.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
 - name: "🇷🇺 Russia a081 | SNI - cdp.x5.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 158.160.136.203
