@@ -2099,15 +2099,6 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-- name: " Unsorted 8835"
-  server: panel.amiraliirx.shop
-  port: 443
-  udp: true
-  type: vless
-  uuid: 09a2fa12-30d4-4f4b-8573-404c1ff695b7
-  network: tcp
-  tls: false
-  client-fingerprint: chrome
 - name: " Unsorted 8889"
   server: 185.143.234.122
   port: 80
@@ -20151,17 +20142,6 @@ proxies:
   servername: ako.pagate.top
   client-fingerprint: chrome
   flow: xtls-rprx-vision-udp443
-- name: "🇰🇷 South Korea 1f9b"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KR.png
-  server: 132.145.80.230
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  cipher: auto
-  alterId: 0
-  network: ws
-  tls: false
 - name: "🇰🇷 South Korea 323f | SNI - visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KR.png
   server: 61.111.247.233
@@ -24201,20 +24181,6 @@ proxies:
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: /sequre/grpc
-- name: "🇷🇺 Russia 17a9 | SNI - api-maps.yandex.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: multi.fresedvpn.site
-  port: 23444
-  udp: true
-  type: vless
-  uuid: a468b42e-b189-4f5c-9974-d4f0a6aa4b45
-  network: tcp
-  tls: true
-  servername: api-maps.yandex.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: qsnavDVJFVggyM4zrgJFdK7AOVsGyjATd81PmnDAMDc
-    short-id: "79cc65dd642afee0"
 - name: "🇷🇺 Russia 189d | SNI - cdp.x5.ru [CIDR]"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 51.250.103.104
@@ -32611,21 +32577,6 @@ proxies:
   network: tcp
   tls: false
   client-fingerprint: chrome
-- name: "🇺🇸 United States dd95 | SNI - support.zoom.us.beichuan.serv00.net"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: support.zoom.us.beichuan.serv00.net
-  port: 9815
-  udp: true
-  type: vless
-  uuid: 37a0bd7c-8b9f-4693-8916-bd1e2da0a817
-  network: ws
-  tls: false
-  servername: support.zoom.us.beichuan.serv00.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: ''
-    headers:
-      {}
 - name: "🇺🇸 United States dde1 | SNI - vless.muzheng.top"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 167.68.4.253
@@ -32950,10 +32901,10 @@ proxy-groups:
 - name: PROXY
   type: select
   proxies:
-  - ⚡ Best Ping (2407)
+  - ⚡ Best Ping (2403)
   - 🌍 Continents
   - 🛠️ Protocols
-- name: ⚡ Best Ping (2407)
+- name: ⚡ Best Ping (2403)
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -33122,7 +33073,6 @@ proxy-groups:
   - " Unsorted 8586 | SNI - fgnix832fx.fx6hsv0.ccwu.cc"
   - " Unsorted 85e8"
   - " Unsorted 85ff | SNI - id.vk.com"
-  - " Unsorted 8835"
   - " Unsorted 8889"
   - " Unsorted 8931"
   - " Unsorted 894b | SNI - v2configlab.v2configlab15.workers.dev"
@@ -34455,7 +34405,6 @@ proxy-groups:
   - "🇰🇷 South Korea 062a | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
   - "🇰🇷 South Korea 0a33 | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
   - "🇰🇷 South Korea 0ec3 | SNI - ako.pagate.top"
-  - "🇰🇷 South Korea 1f9b"
   - "🇰🇷 South Korea 323f | SNI - visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me"
   - "🇰🇷 South Korea 3737 | SNI - ako.pagate.top"
   - "🇰🇷 South Korea 505a | SNI - nn9jdg-k7yewrrk.acg.xx.kg"
@@ -34741,7 +34690,6 @@ proxy-groups:
   - "🇷🇺 Russia 151e | SNI - api-maps.yandex.ru"
   - "🇷🇺 Russia 16f2 | SNI - www.icloud.com"
   - "🇷🇺 Russia 1764 | SNI - 185.14.46.20.blanesik.space"
-  - "🇷🇺 Russia 17a9 | SNI - api-maps.yandex.ru"
   - "🇷🇺 Russia 189d | SNI - cdp.x5.ru [CIDR]"
   - "🇷🇺 Russia 1a34 | SNI - gwapp-ru01.freenets.store"
   - "🇷🇺 Russia 1a96 | SNI - wl-4-1.legendary.ac"
@@ -35341,7 +35289,6 @@ proxy-groups:
   - "🇺🇸 United States db52"
   - "🇺🇸 United States db76 | SNI - apple.com"
   - "🇺🇸 United States dc3a"
-  - "🇺🇸 United States dd95 | SNI - support.zoom.us.beichuan.serv00.net"
   - "🇺🇸 United States dde1 | SNI - vless.muzheng.top"
   - "🇺🇸 United States de78 | SNI - darkness427edge-93h.pages.dev"
   - "🇺🇸 United States df12 | SNI - yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
@@ -35379,8 +35326,8 @@ proxy-groups:
   proxies:
   - 🛠️ HYSTERIA2 (9)
   - 🛠️ TROJAN (116)
-  - 🛠️ VLESS (2147)
-  - 🛠️ VMESS (135)
+  - 🛠️ VLESS (2144)
+  - 🛠️ VMESS (134)
 - name: 🇨🇦 Canada (545)
   type: select
   proxies:
@@ -35929,7 +35876,7 @@ proxy-groups:
   - "🇨🇦 Canada fe3e"
   - "🇨🇦 Canada fee5"
   - "🇨🇦 Canada ff2d"
-- name: 📦 Unsorted (326)
+- name: 📦 Unsorted (325)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -36095,7 +36042,6 @@ proxy-groups:
   - " Unsorted 8586 | SNI - fgnix832fx.fx6hsv0.ccwu.cc"
   - " Unsorted 85e8"
   - " Unsorted 85ff | SNI - id.vk.com"
-  - " Unsorted 8835"
   - " Unsorted 8889"
   - " Unsorted 8931"
   - " Unsorted 894b | SNI - v2configlab.v2configlab15.workers.dev"
@@ -36258,7 +36204,7 @@ proxy-groups:
   - " Unsorted fb33"
   - " Unsorted fbe4"
   - " Unsorted fc96 | SNI - 24vVd-4ImrVfAqV7HqXYbu9wzjv378qI.V2RAYgulF.woRKeRS.DeV"
-- name: 🇷🇺 Russia (311)
+- name: 🇷🇺 Russia (310)
   type: select
   proxies:
   - "🇷🇺 Russia 00a2 | SNI - cdp.x5.ru [CIDR]"
@@ -36284,7 +36230,6 @@ proxy-groups:
   - "🇷🇺 Russia 151e | SNI - api-maps.yandex.ru"
   - "🇷🇺 Russia 16f2 | SNI - www.icloud.com"
   - "🇷🇺 Russia 1764 | SNI - 185.14.46.20.blanesik.space"
-  - "🇷🇺 Russia 17a9 | SNI - api-maps.yandex.ru"
   - "🇷🇺 Russia 189d | SNI - cdp.x5.ru [CIDR]"
   - "🇷🇺 Russia 1a34 | SNI - gwapp-ru01.freenets.store"
   - "🇷🇺 Russia 1a96 | SNI - wl-4-1.legendary.ac"
@@ -36792,7 +36737,7 @@ proxy-groups:
   - "🇩🇪 Germany ff41"
   - "🇩🇪 Germany ff49 | SNI - mzone.3cloudhost.com"
   - "🇩🇪 Germany ffcb"
-- name: 🇺🇸 United States (217)
+- name: 🇺🇸 United States (216)
   type: select
   proxies:
   - "🇺🇸 United States 0017 | SNI - sni.111000.dynv6.net"
@@ -36989,7 +36934,6 @@ proxy-groups:
   - "🇺🇸 United States db52"
   - "🇺🇸 United States db76 | SNI - apple.com"
   - "🇺🇸 United States dc3a"
-  - "🇺🇸 United States dd95 | SNI - support.zoom.us.beichuan.serv00.net"
   - "🇺🇸 United States dde1 | SNI - vless.muzheng.top"
   - "🇺🇸 United States de78 | SNI - darkness427edge-93h.pages.dev"
   - "🇺🇸 United States df12 | SNI - yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
@@ -37618,25 +37562,6 @@ proxy-groups:
   - "🇱🇹 Lithuania e92f | SNI - yandex.ru"
   - "🇱🇹 Lithuania ec97 | SNI - www.yandex.ru"
   - "🇱🇹 Lithuania f250 | SNI - ads.x5.ru"
-- name: 🇰🇷 South Korea (16)
-  type: select
-  proxies:
-  - "🇰🇷 South Korea 062a | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
-  - "🇰🇷 South Korea 0a33 | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
-  - "🇰🇷 South Korea 0ec3 | SNI - ako.pagate.top"
-  - "🇰🇷 South Korea 1f9b"
-  - "🇰🇷 South Korea 323f | SNI - visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me"
-  - "🇰🇷 South Korea 3737 | SNI - ako.pagate.top"
-  - "🇰🇷 South Korea 505a | SNI - nn9jdg-k7yewrrk.acg.xx.kg"
-  - "🇰🇷 South Korea 6d8b"
-  - "🇰🇷 South Korea 7041 | SNI - rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me"
-  - "🇰🇷 South Korea 7e51 | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
-  - "🇰🇷 South Korea 9c1a | SNI - lenovoglobal.com"
-  - "🇰🇷 South Korea b684 | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
-  - "🇰🇷 South Korea da90"
-  - "🇰🇷 South Korea db32"
-  - "🇰🇷 South Korea e9f7 | SNI - www.sony.com"
-  - "🇰🇷 South Korea ec30 | SNI - nn9jdg-k7yewrrk.acg.xx.kg"
 - name: 🇭🇺 Hungary (15)
   type: select
   proxies:
@@ -37655,6 +37580,24 @@ proxy-groups:
   - "🇭🇺 Hungary e881 | SNI - pagescm.freen12.cc.cd"
   - "🇭🇺 Hungary fa95 | SNI - 639013098070588901.macan-amsjd.info"
   - "🇭🇺 Hungary ff12"
+- name: 🇰🇷 South Korea (15)
+  type: select
+  proxies:
+  - "🇰🇷 South Korea 062a | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
+  - "🇰🇷 South Korea 0a33 | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
+  - "🇰🇷 South Korea 0ec3 | SNI - ako.pagate.top"
+  - "🇰🇷 South Korea 323f | SNI - visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me"
+  - "🇰🇷 South Korea 3737 | SNI - ako.pagate.top"
+  - "🇰🇷 South Korea 505a | SNI - nn9jdg-k7yewrrk.acg.xx.kg"
+  - "🇰🇷 South Korea 6d8b"
+  - "🇰🇷 South Korea 7041 | SNI - rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me"
+  - "🇰🇷 South Korea 7e51 | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
+  - "🇰🇷 South Korea 9c1a | SNI - lenovoglobal.com"
+  - "🇰🇷 South Korea b684 | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
+  - "🇰🇷 South Korea da90"
+  - "🇰🇷 South Korea db32"
+  - "🇰🇷 South Korea e9f7 | SNI - www.sony.com"
+  - "🇰🇷 South Korea ec30 | SNI - nn9jdg-k7yewrrk.acg.xx.kg"
 - name: 🇹🇼 Taiwan (14)
   type: select
   proxies:
@@ -37974,7 +37917,7 @@ proxy-groups:
   - 🇨🇦 Canada (545)
   - 🇨🇱 Chile (1)
   - 🇲🇽 Mexico (2)
-  - 🇺🇸 United States (217)
+  - 🇺🇸 United States (216)
 - name: 🌏 Asia (19)
   type: select
   proxies:
@@ -37986,7 +37929,7 @@ proxy-groups:
   - 🇮🇩 Indonesia (6)
   - 🇮🇳 India (5)
   - 🇯🇵 Japan (29)
-  - 🇰🇷 South Korea (16)
+  - 🇰🇷 South Korea (15)
   - 🇰🇿 Kazakhstan (11)
   - 🇱🇰 Sri Lanka (1)
   - 🇲🇾 Malaysia (10)
@@ -38025,7 +37968,7 @@ proxy-groups:
   - 🇵🇱 Poland (33)
   - 🇷🇴 Romania (5)
   - 🇷🇸 Serbia (7)
-  - 🇷🇺 Russia (311)
+  - 🇷🇺 Russia (310)
   - 🇸🇪 Sweden (30)
   - 🇸🇰 Slovakia (1)
   - 🇺🇦 Ukraine (1)
@@ -38165,7 +38108,7 @@ proxy-groups:
   - "🇺🇸 United States f657"
   - "🇻🇳 Vietnam 9a13"
   - "🇿🇦 South Africa 46e6"
-- name: 🛠️ VLESS (2147)
+- name: 🛠️ VLESS (2144)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -38313,7 +38256,6 @@ proxy-groups:
   - " Unsorted 8586 | SNI - fgnix832fx.fx6hsv0.ccwu.cc"
   - " Unsorted 85e8"
   - " Unsorted 85ff | SNI - id.vk.com"
-  - " Unsorted 8835"
   - " Unsorted 8889"
   - " Unsorted 8931"
   - " Unsorted 894b | SNI - v2configlab.v2configlab15.workers.dev"
@@ -39753,7 +39695,6 @@ proxy-groups:
   - "🇷🇺 Russia 151e | SNI - api-maps.yandex.ru"
   - "🇷🇺 Russia 16f2 | SNI - www.icloud.com"
   - "🇷🇺 Russia 1764 | SNI - 185.14.46.20.blanesik.space"
-  - "🇷🇺 Russia 17a9 | SNI - api-maps.yandex.ru"
   - "🇷🇺 Russia 189d | SNI - cdp.x5.ru [CIDR]"
   - "🇷🇺 Russia 1a34 | SNI - gwapp-ru01.freenets.store"
   - "🇷🇺 Russia 1a96 | SNI - wl-4-1.legendary.ac"
@@ -40296,7 +40237,6 @@ proxy-groups:
   - "🇺🇸 United States db36 | SNI - www.microsoft.com"
   - "🇺🇸 United States db76 | SNI - apple.com"
   - "🇺🇸 United States dc3a"
-  - "🇺🇸 United States dd95 | SNI - support.zoom.us.beichuan.serv00.net"
   - "🇺🇸 United States dde1 | SNI - vless.muzheng.top"
   - "🇺🇸 United States de78 | SNI - darkness427edge-93h.pages.dev"
   - "🇺🇸 United States df12 | SNI - yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
@@ -40315,7 +40255,7 @@ proxy-groups:
   - "🇺🇸 United States f9bc | SNI - stats.vk-portal.net"
   - "🇺🇸 United States f9e6 | SNI - sn1.skylee5.cloudns.ch"
   - "🇺🇸 United States ffd4 | SNI - us2.wxgqlfx.xyz"
-- name: 🛠️ VMESS (135)
+- name: 🛠️ VMESS (134)
   type: select
   proxies:
   - " Unsorted 0bbf"
@@ -40392,7 +40332,6 @@ proxy-groups:
   - "🇯🇵 Japan b7bd"
   - "🇯🇵 Japan be4e"
   - "🇯🇵 Japan e630"
-  - "🇰🇷 South Korea 1f9b"
   - "🇰🇷 South Korea 6d8b"
   - "🇰🇷 South Korea da90"
   - "🇰🇿 Kazakhstan 650f"
