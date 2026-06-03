@@ -671,7 +671,6 @@
         "🇨🇦 Canada ca04 | SNI - gaosir.unfeeling.sbs",
         "🇨🇦 Canada ca57 | SNI - octopusss4.com",
         "🇨🇦 Canada ca69 | SNI - unnes.ac.id.cyylr.eu.cc [CIDR]",
-        "🇨🇦 Canada cbe4",
         "🇨🇦 Canada cbe9 | SNI - sertraline.adaspoloandco.com",
         "🇨🇦 Canada cc8a",
         "🇨🇦 Canada cd98 | SNI - pagescm.freen28.cc.cd",
@@ -1907,7 +1906,9 @@
         "🇸🇰 Slovakia cc46 | SNI - cdn7-39.vk-cdnvideo.com",
         "🇸🇰 Slovakia df9a",
         "🇹🇭 Thailand 001e | SNI - api.digital-help-prd.autodesk.com",
+        "🇹🇭 Thailand 060f",
         "🇹🇭 Thailand 1bdc",
+        "🇹🇭 Thailand 2a8c",
         "🇹🇭 Thailand 98a7",
         "🇹🇭 Thailand bb03 | SNI - www.primevideo.com",
         "🇹🇭 Thailand d4fe | SNI - api.digital-help-prd.autodesk.com",
@@ -1983,7 +1984,6 @@
         "🇺🇸 United States 386e | SNI - visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
         "🇺🇸 United States 39cb",
         "🇺🇸 United States 3b8a | SNI - sni.skylee4.cloudns.ch",
-        "🇺🇸 United States 3bc7 | SNI - italy0.lizardshop.org",
         "🇺🇸 United States 3d40 | SNI - yahoo.com",
         "🇺🇸 United States 3f77",
         "🇺🇸 United States 3f7f | SNI - us2.wxgqlfx.xyz",
@@ -12640,21 +12640,6 @@
         "path": "/my-wbv",
         "headers": {
           "Host": "unnes.ac.id.cyylr.eu.cc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 Canada cbe4",
-      "server": "fx3033.game2lizard.com",
-      "server_port": 80,
-      "uuid": "5b6e7300-8fc8-404e-8dc9-40a5393dd881",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn?ed=2560",
-        "headers": {
-          "Host": "line.smartphone1.azazilvpn.sbs"
         }
       }
     },
@@ -32723,9 +32708,27 @@
     },
     {
       "type": "vmess",
+      "tag": "🇹🇭 Thailand 060f",
+      "server": "th1.vpnjantit.com",
+      "server_port": 10000,
+      "uuid": "1020f486-5e30-11f1-9b9b-bb0e43c242bb",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
       "tag": "🇹🇭 Thailand 1bdc",
       "server": "185.78.165.153",
       "server_port": 10001,
+      "uuid": "1020f486-5e30-11f1-9b9b-bb0e43c242bb",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇹🇭 Thailand 2a8c",
+      "server": "185.78.165.153",
+      "server_port": 10000,
       "uuid": "1020f486-5e30-11f1-9b9b-bb0e43c242bb",
       "security": "auto",
       "alter_id": 0
@@ -33837,26 +33840,6 @@
         "path": "/proxyip=ProxyIP.CMLiussss.net",
         "headers": {
           "Host": "sni.skylee4.cloudns.ch"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States 3bc7 | SNI - italy0.lizardshop.org",
-      "server": "fx3033.game2lizard.com",
-      "server_port": 2083,
-      "uuid": "d697bc7a-9b53-48cf-b095-d62e137f9b8a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "italy0.lizardshop.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "italy0.lizardshop.org"
         }
       }
     },
