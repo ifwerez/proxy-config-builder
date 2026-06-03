@@ -1383,7 +1383,6 @@
         "🇭🇰 Hong Kong a2cf | SNI - sni.skylee4.cloudns.ch",
         "🇭🇰 Hong Kong a44d | SNI - sn1.skylee5.cloudns.ch",
         "🇭🇰 Hong Kong ab4e | SNI - aws.amazon.com",
-        "🇭🇰 Hong Kong b954",
         "🇭🇰 Hong Kong ccbe",
         "🇭🇰 Hong Kong d74d",
         "🇭🇰 Hong Kong d9f9 | SNI - www.tesla.com",
@@ -1442,7 +1441,6 @@
         "🇮🇹 Italy 5975",
         "🇮🇹 Italy 5c43",
         "🇮🇹 Italy 6578",
-        "🇮🇹 Italy 6e44 | SNI - it.s3-cloud.xyz",
         "🇮🇹 Italy 7123",
         "🇮🇹 Italy 787d",
         "🇮🇹 Italy 7a47 | SNI - it.s3-cloud.xyz",
@@ -1505,7 +1503,6 @@
         "🇰🇷 South Korea 062a | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com",
         "🇰🇷 South Korea 0a33 | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com",
         "🇰🇷 South Korea 0ec3 | SNI - ako.pagate.top",
-        "🇰🇷 South Korea 1f9b",
         "🇰🇷 South Korea 323f | SNI - visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
         "🇰🇷 South Korea 3737 | SNI - ako.pagate.top",
         "🇰🇷 South Korea 505a | SNI - nn9jdg-k7yewrrk.acg.xx.kg",
@@ -1649,6 +1646,7 @@
         "🇳🇱 Netherlands 7611 | SNI - fuck.rkn",
         "🇳🇱 Netherlands 7a51 | SNI - nl2.panel11.ru",
         "🇳🇱 Netherlands 7cc3 | SNI - eh.vk.com",
+        "🇳🇱 Netherlands 83c6 | SNI - nl.furkbalancer.net",
         "🇳🇱 Netherlands 8552 | SNI - us2.wxgqlfx.xyz",
         "🇳🇱 Netherlands 8b6b | SNI - nl-1.nodes.ac",
         "🇳🇱 Netherlands 8c69 | SNI - chatgpt.g9q.fun",
@@ -2330,7 +2328,6 @@
         "🇺🇸 United States c7da",
         "🇺🇸 United States cc3d",
         "🇺🇸 United States ccac",
-        "🇺🇸 United States cce1 | SNI - www.hollywoodreporter.com",
         "🇺🇸 United States ceb6",
         "🇺🇸 United States d156 | SNI - rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me",
         "🇺🇸 United States d200 | SNI - www.deepl.com",
@@ -24448,15 +24445,6 @@
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 Hong Kong b954",
-      "server": "103.85.73.72",
-      "server_port": 2510,
-      "uuid": "1d3d868e-ae7b-3762-b9d9-a7f267494c7e",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
       "tag": "🇭🇰 Hong Kong ccbe",
       "server": "213.156.141.52",
       "server_port": 22324,
@@ -25270,24 +25258,6 @@
       "uuid": "79e33f2e-6f88-4867-b311-844198e59270",
       "security": "auto",
       "alter_id": 0
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇹 Italy 6e44 | SNI - it.s3-cloud.xyz",
-      "server": "31.76.113.118",
-      "server_port": 443,
-      "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "it.s3-cloud.xyz",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY",
-          "short_id": "7a3f9e2b1c8d4f6a"
-        }
-      }
     },
     {
       "type": "vless",
@@ -26219,15 +26189,6 @@
         "server_name": "ako.pagate.top",
         "insecure": false
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇷 South Korea 1f9b",
-      "server": "132.145.80.230",
-      "server_port": 80,
-      "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "type": "vless",
@@ -28574,6 +28535,24 @@
           "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
           "short_id": "6ba85179e30d4fc2"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 Netherlands 83c6 | SNI - nl.furkbalancer.net",
+      "server": "nl.furkbalancer.net",
+      "server_port": 8443,
+      "uuid": "c286e7ff-3a16-459f-8e17-59de2764cf2e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl.furkbalancer.net",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {}
       }
     },
     {
@@ -39897,24 +39876,6 @@
         "path": "ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048",
         "headers": {
           "Host": "rb24.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States cce1 | SNI - www.hollywoodreporter.com",
-      "server": "166.88.180.226",
-      "server_port": 443,
-      "uuid": "f95710f6-2cc3-4497-9672-92a2fad9510e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.hollywoodreporter.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "WOPZy8oOnvHN21pLYobZAGa7sVp7op3q575B5BaFxkU",
-          "short_id": "5f5e45c2c255"
         }
       }
     },
