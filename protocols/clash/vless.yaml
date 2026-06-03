@@ -14817,6 +14817,20 @@ proxies:
     path: "/?ed=2560&Telegram@V2rayAlpha"
     headers:
       Host: sni.111000.de5.net
+- name: "🇬🇧 United Kingdom 37fe | SNI - tradingview.com"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
+  server: 31.76.126.141
+  port: 2040
+  udp: true
+  type: vless
+  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
+  network: tcp
+  tls: true
+  servername: tradingview.com
+  client-fingerprint: qq
+  reality-opts:
+    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
+    short-id: "53197c66aef53c44"
 - name: "🇬🇧 United Kingdom 3a1b | SNI - sni.111000.v6.rocks"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
   server: 25.129.199.148
@@ -15675,20 +15689,6 @@ proxies:
   servername: u716087ue788s306.okgg.top
   client-fingerprint: random
   flow: xtls-rprx-vision
-- name: "🇭🇰 Hong Kong 4da8 | SNI - www.amd.com"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
-  server: 47.83.153.19
-  port: 59750
-  udp: true
-  type: vless
-  uuid: 9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b
-  network: tcp
-  tls: true
-  servername: www.amd.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg
 - name: "🇭🇰 Hong Kong 5437 | SNI - sni.skylee4.cloudns.ch"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
   server: 45.207.156.255
@@ -16215,18 +16215,6 @@ proxies:
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: ''
-- name: "🇮🇹 Italy 35c4"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IT.png
-  server: 151.115.166.233
-  port: 8880
-  udp: true
-  type: vless
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-  network: grpc
-  tls: false
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ''
 - name: "🇮🇹 Italy 36d1 | SNI - it.s3-cloud.xyz"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IT.png
   server: 31.76.113.61
@@ -16340,6 +16328,18 @@ proxies:
   reality-opts:
     public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
     short-id: "7a3f9e2b1c8d4f6a"
+- name: "🇮🇹 Italy 56e1"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IT.png
+  server: 151.115.164.129
+  port: 8880
+  udp: true
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  network: grpc
+  tls: false
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
 - name: "🇮🇹 Italy 5975"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IT.png
   server: OV-Italy1.09vpn.com
@@ -18290,6 +18290,21 @@ proxies:
   servername: u716087ub838s678.ccgfw.top
   client-fingerprint: random
   flow: xtls-rprx-vision
+- name: "🇳🇱 Netherlands 2636 | SNI - cloudflare.tyr-agentstvo.tech"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
+  server: 158.160.214.183
+  port: 443
+  udp: true
+  type: vless
+  uuid: e2350ba4-16aa-455e-ae8b-f65102227cf4
+  network: ws
+  tls: true
+  servername: cloudflare.tyr-agentstvo.tech
+  client-fingerprint: qq
+  ws-opts:
+    path: "/sequre/ws?ed=2560"
+    headers:
+      Host: cloudflare.tyr-agentstvo.tech
 - name: "🇳🇱 Netherlands 266c | SNI - g10.steptofsvo.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
   server: 89.105.208.116
