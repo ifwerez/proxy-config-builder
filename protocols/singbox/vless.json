@@ -877,7 +877,6 @@
         "🇩🇪 Germany 199c",
         "🇩🇪 Germany 19cf | SNI - ads.x5.ru",
         "🇩🇪 Germany 1cda",
-        "🇩🇪 Germany 1d6d | SNI - www.microsoft.com",
         "🇩🇪 Germany 20dd | SNI - 5.75.252.191",
         "🇩🇪 Germany 218b | SNI - ssj.new-persian-song.ir",
         "🇩🇪 Germany 2441 | SNI - microsoft.com",
@@ -1033,7 +1032,6 @@
         "🇩🇪 Germany facd | SNI - yahoo.com",
         "🇩🇪 Germany fc82 | SNI - video.intfreed.ru",
         "🇩🇪 Germany fd52 | SNI - cdnjs.com",
-        "🇩🇪 Germany fdc6 | SNI - www.microsoft.com",
         "🇩🇪 Germany fec3 | SNI - stats.vk-portal.net",
         "🇩🇪 Germany ff41",
         "🇩🇪 Germany ff49 | SNI - mzone.3cloudhost.com",
@@ -1156,6 +1154,7 @@
         "🇫🇷 France e2b2 | SNI - www.google.com",
         "🇫🇷 France ee66 | SNI - play.google.com",
         "🇫🇷 France f02a | SNI - bab-6.site",
+        "🇫🇷 France f133",
         "🇫🇷 France f1f7",
         "🇬🇧 United Kingdom 04c6 | SNI - literate-funicular-xr59q5x9v7g6c995w-443.app.github.dev",
         "🇬🇧 United Kingdom 1342 | SNI - god2.ultimagamest.com",
@@ -16667,24 +16666,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Germany 1d6d | SNI - www.microsoft.com",
-      "server": "91.124.209.75",
-      "server_port": 443,
-      "uuid": "a105bbf5-952f-4cf2-8653-44316f0eff14",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "Q5L2J2Fswd_K5U4-vAE05VOvKxI8IsD5b6SlN_nwKh8",
-          "short_id": "dcf8f557800eab1b"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇩🇪 Germany 20dd | SNI - 5.75.252.191",
       "server": "5.75.252.191",
       "server_port": 27620,
@@ -19180,24 +19161,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Germany fdc6 | SNI - www.microsoft.com",
-      "server": "91.124.209.75",
-      "server_port": 443,
-      "uuid": "a5ff2e8e-7102-4ce5-9750-51b8dc3aeefd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "Q5L2J2Fswd_K5U4-vAE05VOvKxI8IsD5b6SlN_nwKh8",
-          "short_id": "dcf8f557800eab1b"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇩🇪 Germany fec3 | SNI - stats.vk-portal.net",
       "server": "89.125.19.237",
       "server_port": 47200,
@@ -21216,6 +21179,21 @@
         "path": "/vws/",
         "headers": {
           "Host": "bab-6.site"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 France f133",
+      "server": "152.228.162.19",
+      "server_port": 80,
+      "uuid": "5ce84688-f535-46ad-a512-37b17becf6ea",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "headers": {
+          "Host": "akamaized.net"
         }
       }
     },
