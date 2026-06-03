@@ -911,7 +911,6 @@
         "🇩🇪 Germany 03f2 | SNI - yandex.ru",
         "🇩🇪 Germany 04bd | SNI - microsoft.com",
         "🇩🇪 Germany 04be | SNI - vpsayebx.samanidempire.org",
-        "🇩🇪 Germany 055a | SNI - tradingview.com",
         "🇩🇪 Germany 05de | SNI - de1.thefastspeedtest.net",
         "🇩🇪 Germany 0628",
         "🇩🇪 Germany 0691 | SNI - ads.x5.ru",
@@ -1438,6 +1437,7 @@
         "🇬🇧 United Kingdom fb88 | SNI - wl-5-2.nodes.ac",
         "🇬🇪 Georgia 0e8f | SNI - ads.x5.ru",
         "🇬🇪 Georgia f687 | SNI - sun6-22.userapi.com",
+        "🇬🇪 Georgia f7da | SNI - max.ru",
         "🇬🇷 Greece 6d9f | SNI - yahoo.com",
         "🇭🇰 Hong Kong 095d",
         "🇭🇰 Hong Kong 0af7",
@@ -2347,7 +2347,6 @@
         "🇺🇸 United States 3304",
         "🇺🇸 United States 3333 | SNI - blog.webex.com.cyylr.eu.cc",
         "🇺🇸 United States 3348",
-        "🇺🇸 United States 35b6 | SNI - www.hcaptcha.com",
         "🇺🇸 United States 361f | SNI - vless.muzheng.top",
         "🇺🇸 United States 36e8 | SNI - sni.skylee4.cloudns.ch",
         "🇺🇸 United States 3709 | SNI - us2.wxgqlfx.xyz",
@@ -2388,7 +2387,6 @@
         "🇺🇸 United States 5d97 | SNI - us2.wxgqlfx.xyz",
         "🇺🇸 United States 5e3e | SNI - sni.skylee4.cloudns.ch",
         "🇺🇸 United States 5e4d | SNI - us2.wxgqlfx.xyz",
-        "🇺🇸 United States 5f71 | SNI - www.hcaptcha.com",
         "🇺🇸 United States 5f8c",
         "🇺🇸 United States 5fdf | SNI - miro.com",
         "🇺🇸 United States 610c",
@@ -2445,7 +2443,6 @@
         "🇺🇸 United States 9b66 | SNI - proxy.wastech.org",
         "🇺🇸 United States 9e9d | SNI - www.kinopoisk.ru",
         "🇺🇸 United States 9f48 | SNI - us2.wxgqlfx.xyz",
-        "🇺🇸 United States 9f91 | SNI - www.hcaptcha.com",
         "🇺🇸 United States 9ff2",
         "🇺🇸 United States a1e1",
         "🇺🇸 United States a2b7 | SNI - juzi.qea.ccwu.cc",
@@ -17071,24 +17068,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Germany 055a | SNI - tradingview.com",
-      "server": "nl-amst1-node.datamove.online",
-      "server_port": 2040,
-      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
-          "short_id": "53197c66aef53c44"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇩🇪 Germany 05de | SNI - de1.thefastspeedtest.net",
       "server": "de1.thefastspeedtest.net",
       "server_port": 443,
@@ -25431,6 +25410,24 @@
       "tls": {
         "enabled": true,
         "server_name": "sun6-22.userapi.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "0a3d38cwnQfUM7EqjEinf1XUZyKdzgiuRMayO3LcYl0",
+          "short_id": "35debf0dc757d053"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇪 Georgia f7da | SNI - max.ru",
+      "server": "51.250.70.71",
+      "server_port": 443,
+      "uuid": "a9266144-169e-4653-b58a-0456f2ef6a13",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
         "insecure": false,
         "reality": {
           "enabled": true,
@@ -40330,24 +40327,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States 35b6 | SNI - www.hcaptcha.com",
-      "server": "104.253.25.208",
-      "server_port": 443,
-      "uuid": "CNT-Cafe",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.hcaptcha.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "IgE3YVskwHOBHPUSDq-3yhO99G46ayFewg7WG2XHK28",
-          "short_id": "e7f0dd"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸 United States 361f | SNI - vless.muzheng.top",
       "server": "104.129.164.253",
       "server_port": 2096,
@@ -41034,24 +41013,6 @@
         "path": "/TG@wxgqlfx",
         "headers": {
           "Host": "us2.wxgqlfx.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States 5f71 | SNI - www.hcaptcha.com",
-      "server": "104.253.25.208",
-      "server_port": 443,
-      "uuid": "CNTCafe-Telegram",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.hcaptcha.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "IgE3YVskwHOBHPUSDq-3yhO99G46ayFewg7WG2XHK28",
-          "short_id": "d8"
         }
       }
     },
@@ -41908,24 +41869,6 @@
         "path": "/TG@wxgqlfx",
         "headers": {
           "Host": "us2.wxgqlfx.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States 9f91 | SNI - www.hcaptcha.com",
-      "server": "104.253.25.208",
-      "server_port": 443,
-      "uuid": "a3e194dc-489c-45d3-b007-0936d37a7dff",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.hcaptcha.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "IgE3YVskwHOBHPUSDq-3yhO99G46ayFewg7WG2XHK28",
-          "short_id": "2b3f915986e310"
         }
       }
     },
