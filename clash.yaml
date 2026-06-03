@@ -12872,6 +12872,20 @@ proxies:
   tls: true
   client-fingerprint: chrome
   flow: xtls-rprx-vision
+- name: "🇩🇪 Germany 1d6d | SNI - www.microsoft.com"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 91.124.209.75
+  port: 443
+  udp: true
+  type: vless
+  uuid: a105bbf5-952f-4cf2-8653-44316f0eff14
+  network: tcp
+  tls: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Q5L2J2Fswd_K5U4-vAE05VOvKxI8IsD5b6SlN_nwKh8
+    short-id: "dcf8f557800eab1b"
 - name: "🇩🇪 Germany 1f9d"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: de.connfull.org
@@ -15155,6 +15169,20 @@ proxies:
   reality-opts:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
     short-id: "4c02bbbfa833b3b6"
+- name: "🇩🇪 Germany fdc6 | SNI - www.microsoft.com"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 91.124.209.75
+  port: 443
+  udp: true
+  type: vless
+  uuid: a5ff2e8e-7102-4ce5-9750-51b8dc3aeefd
+  network: tcp
+  tls: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Q5L2J2Fswd_K5U4-vAE05VOvKxI8IsD5b6SlN_nwKh8
+    short-id: "dcf8f557800eab1b"
 - name: "🇩🇪 Germany fec3 | SNI - stats.vk-portal.net"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 89.125.19.237
@@ -21874,21 +21902,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: "6ba85179e30d4fc2"
-- name: "🇳🇱 Netherlands 83c6 | SNI - nl.furkbalancer.net"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
-  server: nl.furkbalancer.net
-  port: 8443
-  udp: true
-  type: vless
-  uuid: c286e7ff-3a16-459f-8e17-59de2764cf2e
-  network: ws
-  tls: true
-  servername: nl.furkbalancer.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vless
-    headers:
-      {}
 - name: "🇳🇱 Netherlands 8552 | SNI - us2.wxgqlfx.xyz"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
   server: 185.198.165.92
@@ -26853,21 +26866,6 @@ proxies:
   reality-opts:
     public-key: wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI
     short-id: "8ec792bfd725be8a"
-- name: "🇷🇺 Russia df8b | SNI - ads.x5.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: 185.229.9.131
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6cfae10f-5132-4411-bfe5-cbdba3515ecd
-  network: tcp
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: jH_LLqDnSPNz8SU_PC30VKKVKxQGU3QkbAr33bb9RGo
-    short-id: "27e53bbcab7593d7"
 - name: "🇷🇺 Russia e079 | SNI - rruu.persik.host"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 193.168.46.180
@@ -33021,6 +33019,7 @@ proxy-groups:
   - "🇩🇪 Germany 199c"
   - "🇩🇪 Germany 19cf | SNI - ads.x5.ru"
   - "🇩🇪 Germany 1cda"
+  - "🇩🇪 Germany 1d6d | SNI - www.microsoft.com"
   - "🇩🇪 Germany 1f9d"
   - "🇩🇪 Germany 20dd | SNI - 5.75.252.191"
   - "🇩🇪 Germany 218b | SNI - ssj.new-persian-song.ir"
@@ -33195,6 +33194,7 @@ proxy-groups:
   - "🇩🇪 Germany facd | SNI - yahoo.com"
   - "🇩🇪 Germany fc82 | SNI - video.intfreed.ru"
   - "🇩🇪 Germany fd52 | SNI - cdnjs.com"
+  - "🇩🇪 Germany fdc6 | SNI - www.microsoft.com"
   - "🇩🇪 Germany fec3 | SNI - stats.vk-portal.net"
   - "🇩🇪 Germany ff41"
   - "🇩🇪 Germany ff49 | SNI - mzone.3cloudhost.com"
@@ -33685,7 +33685,6 @@ proxy-groups:
   - "🇳🇱 Netherlands 7611 | SNI - fuck.rkn"
   - "🇳🇱 Netherlands 7a51 | SNI - nl2.panel11.ru"
   - "🇳🇱 Netherlands 7cc3 | SNI - eh.vk.com"
-  - "🇳🇱 Netherlands 83c6 | SNI - nl.furkbalancer.net"
   - "🇳🇱 Netherlands 8552 | SNI - us2.wxgqlfx.xyz"
   - "🇳🇱 Netherlands 8b6b | SNI - nl-1.nodes.ac"
   - "🇳🇱 Netherlands 8c69 | SNI - chatgpt.g9q.fun"
@@ -34029,7 +34028,6 @@ proxy-groups:
   - "🇷🇺 Russia da15 | SNI - r1.mizulina.top"
   - "🇷🇺 Russia da9c | SNI - sso.passport.yandex.ru"
   - "🇷🇺 Russia dec4 | SNI - cdp.x5.ru [CIDR]"
-  - "🇷🇺 Russia df8b | SNI - ads.x5.ru"
   - "🇷🇺 Russia e079 | SNI - rruu.persik.host"
   - "🇷🇺 Russia e09f | SNI - zib.sempai.site"
   - "🇷🇺 Russia e10c | SNI - cdp.x5.ru"
@@ -35308,7 +35306,7 @@ proxy-groups:
   - " Unsorted fb33"
   - " Unsorted fbe4"
   - " Unsorted fc96 | SNI - 24vVd-4ImrVfAqV7HqXYbu9wzjv378qI.V2RAYgulF.woRKeRS.DeV"
-- name: 🇷🇺 Russia (271)
+- name: 🇷🇺 Russia (270)
   type: select
   proxies:
   - "🇷🇺 Russia 00a2 | SNI - cdp.x5.ru [CIDR]"
@@ -35540,7 +35538,6 @@ proxy-groups:
   - "🇷🇺 Russia da15 | SNI - r1.mizulina.top"
   - "🇷🇺 Russia da9c | SNI - sso.passport.yandex.ru"
   - "🇷🇺 Russia dec4 | SNI - cdp.x5.ru [CIDR]"
-  - "🇷🇺 Russia df8b | SNI - ads.x5.ru"
   - "🇷🇺 Russia e079 | SNI - rruu.persik.host"
   - "🇷🇺 Russia e09f | SNI - zib.sempai.site"
   - "🇷🇺 Russia e10c | SNI - cdp.x5.ru"
@@ -35805,7 +35802,7 @@ proxy-groups:
   - "🇺🇸 United States f9e6 | SNI - sn1.skylee5.cloudns.ch"
   - "🇺🇸 United States fd57"
   - "🇺🇸 United States ffd4 | SNI - us2.wxgqlfx.xyz"
-- name: 🇩🇪 Germany (199)
+- name: 🇩🇪 Germany (201)
   type: select
   proxies:
   - "🇩🇪 Germany 032f"
@@ -35829,6 +35826,7 @@ proxy-groups:
   - "🇩🇪 Germany 199c"
   - "🇩🇪 Germany 19cf | SNI - ads.x5.ru"
   - "🇩🇪 Germany 1cda"
+  - "🇩🇪 Germany 1d6d | SNI - www.microsoft.com"
   - "🇩🇪 Germany 1f9d"
   - "🇩🇪 Germany 20dd | SNI - 5.75.252.191"
   - "🇩🇪 Germany 218b | SNI - ssj.new-persian-song.ir"
@@ -36003,11 +36001,12 @@ proxy-groups:
   - "🇩🇪 Germany facd | SNI - yahoo.com"
   - "🇩🇪 Germany fc82 | SNI - video.intfreed.ru"
   - "🇩🇪 Germany fd52 | SNI - cdnjs.com"
+  - "🇩🇪 Germany fdc6 | SNI - www.microsoft.com"
   - "🇩🇪 Germany fec3 | SNI - stats.vk-portal.net"
   - "🇩🇪 Germany ff41"
   - "🇩🇪 Germany ff49 | SNI - mzone.3cloudhost.com"
   - "🇩🇪 Germany ffcb"
-- name: 🇳🇱 Netherlands (125)
+- name: 🇳🇱 Netherlands (124)
   type: select
   proxies:
   - "🇳🇱 Netherlands 0d6d | SNI - u716087u1941s326.ccgfw.top"
@@ -36072,7 +36071,6 @@ proxy-groups:
   - "🇳🇱 Netherlands 7611 | SNI - fuck.rkn"
   - "🇳🇱 Netherlands 7a51 | SNI - nl2.panel11.ru"
   - "🇳🇱 Netherlands 7cc3 | SNI - eh.vk.com"
-  - "🇳🇱 Netherlands 83c6 | SNI - nl.furkbalancer.net"
   - "🇳🇱 Netherlands 8552 | SNI - us2.wxgqlfx.xyz"
   - "🇳🇱 Netherlands 8b6b | SNI - nl-1.nodes.ac"
   - "🇳🇱 Netherlands 8c69 | SNI - chatgpt.g9q.fun"
@@ -36990,7 +36988,7 @@ proxy-groups:
   - 🇧🇾 Belarus (2)
   - 🇨🇭 Switzerland (10)
   - 🇨🇿 Czechia (3)
-  - 🇩🇪 Germany (199)
+  - 🇩🇪 Germany (201)
   - 🇪🇪 Estonia (6)
   - 🇪🇸 Spain (5)
   - 🇫🇮 Finland (65)
@@ -37002,12 +37000,12 @@ proxy-groups:
   - 🇱🇹 Lithuania (23)
   - 🇱🇻 Latvia (13)
   - 🇲🇩 Moldova (9)
-  - 🇳🇱 Netherlands (125)
+  - 🇳🇱 Netherlands (124)
   - 🇳🇴 Norway (3)
   - 🇵🇱 Poland (34)
   - 🇷🇴 Romania (5)
   - 🇷🇸 Serbia (7)
-  - 🇷🇺 Russia (271)
+  - 🇷🇺 Russia (270)
   - 🇸🇪 Sweden (30)
   - 🇸🇰 Slovakia (1)
   - 🇺🇦 Ukraine (1)
@@ -38003,6 +38001,7 @@ proxy-groups:
   - "🇩🇪 Germany 199c"
   - "🇩🇪 Germany 19cf | SNI - ads.x5.ru"
   - "🇩🇪 Germany 1cda"
+  - "🇩🇪 Germany 1d6d | SNI - www.microsoft.com"
   - "🇩🇪 Germany 20dd | SNI - 5.75.252.191"
   - "🇩🇪 Germany 218b | SNI - ssj.new-persian-song.ir"
   - "🇩🇪 Germany 2441 | SNI - microsoft.com"
@@ -38158,6 +38157,7 @@ proxy-groups:
   - "🇩🇪 Germany facd | SNI - yahoo.com"
   - "🇩🇪 Germany fc82 | SNI - video.intfreed.ru"
   - "🇩🇪 Germany fd52 | SNI - cdnjs.com"
+  - "🇩🇪 Germany fdc6 | SNI - www.microsoft.com"
   - "🇩🇪 Germany fec3 | SNI - stats.vk-portal.net"
   - "🇩🇪 Germany ff41"
   - "🇩🇪 Germany ff49 | SNI - mzone.3cloudhost.com"
@@ -38580,7 +38580,6 @@ proxy-groups:
   - "🇳🇱 Netherlands 7611 | SNI - fuck.rkn"
   - "🇳🇱 Netherlands 7a51 | SNI - nl2.panel11.ru"
   - "🇳🇱 Netherlands 7cc3 | SNI - eh.vk.com"
-  - "🇳🇱 Netherlands 83c6 | SNI - nl.furkbalancer.net"
   - "🇳🇱 Netherlands 8552 | SNI - us2.wxgqlfx.xyz"
   - "🇳🇱 Netherlands 8b6b | SNI - nl-1.nodes.ac"
   - "🇳🇱 Netherlands 8c69 | SNI - chatgpt.g9q.fun"
@@ -38915,7 +38914,6 @@ proxy-groups:
   - "🇷🇺 Russia da15 | SNI - r1.mizulina.top"
   - "🇷🇺 Russia da9c | SNI - sso.passport.yandex.ru"
   - "🇷🇺 Russia dec4 | SNI - cdp.x5.ru [CIDR]"
-  - "🇷🇺 Russia df8b | SNI - ads.x5.ru"
   - "🇷🇺 Russia e079 | SNI - rruu.persik.host"
   - "🇷🇺 Russia e09f | SNI - zib.sempai.site"
   - "🇷🇺 Russia e10c | SNI - cdp.x5.ru"
