@@ -902,6 +902,7 @@
         "🇫🇮 Finland 52b2",
         "🇫🇮 Finland 5431 | SNI - www.hollywoodreporter.com",
         "🇫🇮 Finland 55c4 | SNI - www.microsoft.com",
+        "🇫🇮 Finland 58c5",
         "🇫🇮 Finland 597c | SNI - www.mozilla.org",
         "🇫🇮 Finland 614f | SNI - mozilla.org",
         "🇫🇮 Finland 669e | SNI - www.foxsports.com",
@@ -925,7 +926,6 @@
         "🇫🇮 Finland a897",
         "🇫🇮 Finland aa2d | SNI - www.cloudflare.com",
         "🇫🇮 Finland acd4 | SNI - mozilla.org",
-        "🇫🇮 Finland b644",
         "🇫🇮 Finland ba08 | SNI - www.mozilla.org",
         "🇫🇮 Finland bafd",
         "🇫🇮 Finland c23b | SNI - www.microsoft.com",
@@ -933,7 +933,6 @@
         "🇫🇮 Finland d649 | SNI - www.techradar.com",
         "🇫🇮 Finland db3f | SNI - www.mozilla.org",
         "🇫🇮 Finland e36a | SNI - www.microsoft.com",
-        "🇫🇮 Finland e49a",
         "🇫🇮 Finland e77c | SNI - www.tradingview.com",
         "🇫🇮 Finland e90d | SNI - us2.wxgqlfx.xyz",
         "🇫🇮 Finland f64b | SNI - cdnjs.com",
@@ -1411,7 +1410,6 @@
         "🇷🇺 Russia 0660 | SNI - ads.x5.ru",
         "🇷🇺 Russia 06c2 | SNI - cdp.x5.ru [CIDR]",
         "🇷🇺 Russia 081d | SNI - s717.okgfw.top",
-        "🇷🇺 Russia 0988 | SNI - max.ru",
         "🇷🇺 Russia 0a5a | SNI - rruu.persik.host",
         "🇷🇺 Russia 0a8f | SNI - max.ru",
         "🇷🇺 Russia 102e | SNI - max.ru",
@@ -1582,7 +1580,6 @@
         "🇷🇺 Russia be54 | SNI - cms-res-web.online.sberbank.ru",
         "🇷🇺 Russia be72 | SNI - cdp.x5.ru",
         "🇷🇺 Russia bf09 | SNI - ads.x5.ru",
-        "🇷🇺 Russia bf39 | SNI - max.ru",
         "🇷🇺 Russia c023 | SNI - wl-4-1.legendary.ac",
         "🇷🇺 Russia c137 | SNI - cdp.x5.ru",
         "🇷🇺 Russia c1d9 | SNI - 5post-gate.x5.ru",
@@ -1660,6 +1657,7 @@
         "🇸🇪 Sweden 3f65 | SNI - ads.x5.ru",
         "🇸🇪 Sweden 413b | SNI - www.microsoft.com",
         "🇸🇪 Sweden 4e9b | SNI - cloudflare.com",
+        "🇸🇪 Sweden 569b | SNI - ads.x5.ru",
         "🇸🇪 Sweden 6447",
         "🇸🇪 Sweden 71e2",
         "🇸🇪 Sweden 85b8 | SNI - rutube.ru",
@@ -16696,6 +16694,19 @@
     },
     {
       "type": "vless",
+      "tag": "🇫🇮 Finland 58c5",
+      "server": "65.109.185.170",
+      "server_port": 8080,
+      "uuid": "63d4be35-a762-4bad-9185-d501fe5db7b4",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {}
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇫🇮 Finland 597c | SNI - www.mozilla.org",
       "server": "staging.lastilhame.monster",
       "server_port": 443,
@@ -17102,14 +17113,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 Finland b644",
-      "server": "65.109.188.98",
-      "server_port": 8080,
-      "uuid": "40a6a0ed-5ed4-4962-a93f-9c78f2565379",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇫🇮 Finland ba08 | SNI - www.mozilla.org",
       "server": "dns.dressforida.monster",
       "server_port": 443,
@@ -17223,14 +17226,6 @@
           "short_id": "9eff19e0405a"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 Finland e49a",
-      "server": "65.109.188.98",
-      "server_port": 8080,
-      "uuid": "9acd0644-6235-4934-b2ac-7d3c94ddae09",
-      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -25250,23 +25245,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 Russia 0988 | SNI - max.ru",
-      "server": "pro.herumhas.shop",
-      "server_port": 5443,
-      "uuid": "7d876627-abf5-4865-8ff4-03f37d49de5d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇷🇺 Russia 0a5a | SNI - rruu.persik.host",
       "server": "193.168.46.180",
       "server_port": 443,
@@ -28216,23 +28194,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 Russia bf39 | SNI - max.ru",
-      "server": "217.16.21.116",
-      "server_port": 5443,
-      "uuid": "7d876627-abf5-4865-8ff4-03f37d49de5d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇷🇺 Russia c023 | SNI - wl-4-1.legendary.ac",
       "server": "178.154.215.113",
       "server_port": 443,
@@ -29554,6 +29515,24 @@
           "enabled": true,
           "public_key": "FCg2XiFJrpH-2XlELSSSyEC7zkeW29HOgp4rfrqXEAI",
           "short_id": "123abc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 Sweden 569b | SNI - ads.x5.ru",
+      "server": "188.68.218.161",
+      "server_port": 443,
+      "uuid": "bd91efc8-3a86-4135-8aff-761d3f702826",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "c8fQY4Ywo9NPZS0CuujyztRI-8z0D7fREoz8laMDVkQ",
+          "short_id": "7e2a9d4c5f18b0"
         }
       }
     },
