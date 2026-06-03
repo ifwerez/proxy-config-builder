@@ -25,16 +25,6 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: " Unsorted 0bbf"
-  server: speedtest.org
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  cipher: auto
-  alterId: 0
-  network: ws
-  tls: false
 - name: " Unsorted 1063"
   server: cg1c12.waimaojd.com
   port: 443
@@ -552,6 +542,17 @@ proxies:
   udp: true
   type: vmess
   uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: false
+- name: "🇭🇰 Hong Kong 5826"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
+  server: 47.244.120.197
+  port: 36703
+  udp: true
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   cipher: auto
   alterId: 0
   network: ws
