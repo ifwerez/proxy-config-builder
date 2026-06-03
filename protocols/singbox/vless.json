@@ -1145,6 +1145,7 @@
         "🇯🇵 Japan 7530 | SNI - us2.wxgqlfx.xyz",
         "🇯🇵 Japan 7b48 | SNI - dongjing4.zqjsqapi.com",
         "🇯🇵 Japan 8e9b | SNI - fancii.global.ssl.fastly.neT.",
+        "🇯🇵 Japan 9d66 | SNI - nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg",
         "🇯🇵 Japan a845 | SNI - jookeji.global.ssl.fastly.neT",
         "🇯🇵 Japan c02d | SNI - vpn4.rnmcnm.com",
         "🇯🇵 Japan c0c5",
@@ -1565,7 +1566,6 @@
         "🇷🇺 Russia a5ef",
         "🇷🇺 Russia a9b5 | SNI - bankir.ksnodes.net",
         "🇷🇺 Russia a9d6 | SNI - ads.x5.ru",
-        "🇷🇺 Russia aea5 | SNI - max.ru [CIDR]",
         "🇷🇺 Russia b082 | SNI - smartcaptcha.yandexcloud.net",
         "🇷🇺 Russia b0c6 | SNI - cdp.x5.ru [CIDR]",
         "🇷🇺 Russia b1f7 | SNI - tradingview.com",
@@ -20628,6 +20628,26 @@
     },
     {
       "type": "vless",
+      "tag": "🇯🇵 Japan 9d66 | SNI - nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg",
+      "server": "82.40.33.241",
+      "server_port": 53557,
+      "uuid": "00000000-0000-4000-8000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristifp=chrome",
+        "headers": {
+          "Host": "nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇯🇵 Japan a845 | SNI - jookeji.global.ssl.fastly.neT",
       "server": "151.101.110.219",
       "server_port": 443,
@@ -27906,23 +27926,6 @@
           "enabled": true,
           "public_key": "c8fQY4Ywo9NPZS0CuujyztRI-8z0D7fREoz8laMDVkQ",
           "short_id": "c31f9a0e7d4b52"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 Russia aea5 | SNI - max.ru [CIDR]",
-      "server": "gdg.herumhas.shop",
-      "server_port": 5443,
-      "uuid": "7d876627-abf5-4865-8ff4-03f37d49de5d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ"
         }
       }
     },
