@@ -12180,20 +12180,6 @@ proxies:
   reality-opts:
     public-key: 4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8
     short-id: "3a57254c6a44"
-- name: "🇫🇮 Finland 58c5"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
-  server: 65.109.185.170
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 63d4be35-a762-4bad-9185-d501fe5db7b4
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      {}
 - name: "🇫🇮 Finland 597c | SNI - www.mozilla.org"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
   server: staging.lastilhame.monster
@@ -21684,6 +21670,20 @@ proxies:
   reality-opts:
     public-key: c8fQY4Ywo9NPZS0CuujyztRI-8z0D7fREoz8laMDVkQ
     short-id: "c31f9a0e7d4b52"
+- name: "🇷🇺 Russia aea5 | SNI - max.ru [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
+  server: gdg.herumhas.shop
+  port: 5443
+  udp: true
+  type: vless
+  uuid: 7d876627-abf5-4865-8ff4-03f37d49de5d
+  network: tcp
+  tls: true
+  servername: max.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
 - name: "🇷🇺 Russia b082 | SNI - smartcaptcha.yandexcloud.net"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 84.201.141.152
@@ -23062,21 +23062,6 @@ proxies:
     short-id: "123abc"
   grpc-opts:
     grpc-service-name: xyz
-- name: "🇸🇪 Sweden 569b | SNI - ads.x5.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SE.png
-  server: 188.68.218.161
-  port: 443
-  udp: true
-  type: vless
-  uuid: bd91efc8-3a86-4135-8aff-761d3f702826
-  network: tcp
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: c8fQY4Ywo9NPZS0CuujyztRI-8z0D7fREoz8laMDVkQ
-    short-id: "7e2a9d4c5f18b0"
 - name: "🇸🇪 Sweden 6447"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SE.png
   server: 144.31.171.105
