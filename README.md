@@ -116,5 +116,5 @@ you can add new proxy source URLs via a pull request:
 
 new sources are automatically merged on the next update cycle.
 
-last updated: 2026-06-03 13:25:32
-proxies: 2328
+last updated: 2026-06-03 13:33:58
+proxies: 2319
