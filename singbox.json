@@ -1157,6 +1157,7 @@
         "🇩🇪 Germany f0b9",
         "🇩🇪 Germany f0c3",
         "🇩🇪 Germany f0d3",
+        "🇩🇪 Germany f0dd | SNI - refersion.com",
         "🇩🇪 Germany f36c | SNI - us2.wxgqlfx.xyz",
         "🇩🇪 Germany f39e",
         "🇩🇪 Germany f4e5",
@@ -1458,6 +1459,7 @@
         "🇮🇹 Italy 7db8",
         "🇮🇹 Italy 7eb2",
         "🇮🇹 Italy 8b8e",
+        "🇮🇹 Italy 8bf4 | SNI - rose.netfre.space",
         "🇮🇹 Italy 8eae",
         "🇮🇹 Italy 91db | SNI - it.s3-cloud.xyz",
         "🇮🇹 Italy 9265 | SNI - it.s3-cloud.xyz",
@@ -1528,6 +1530,7 @@
         "🇰🇷 South Korea ec30 | SNI - nn9jdg-k7yewrrk.acg.xx.kg",
         "🇰🇿 Kazakhstan 5720 | SNI - yahoo.com",
         "🇰🇿 Kazakhstan 59a8 | SNI - yahoo.com",
+        "🇰🇿 Kazakhstan 650f",
         "🇰🇿 Kazakhstan 6896",
         "🇰🇿 Kazakhstan 7537",
         "🇰🇿 Kazakhstan aa5d | SNI - kz-1.nodes.ac",
@@ -1817,6 +1820,7 @@
         "🇷🇺 Russia 233d | SNI - cdp.x5.ru",
         "🇷🇺 Russia 2370 | SNI - ads.x5.ru",
         "🇷🇺 Russia 2636 | SNI - cloudflare.tyr-agentstvo.tech",
+        "🇷🇺 Russia 26fd | SNI - cdp.x5.ru",
         "🇷🇺 Russia 28bf | SNI - ads.x5.ru",
         "🇷🇺 Russia 2972 | SNI - cdp.x5.ru",
         "🇷🇺 Russia 2985 | SNI - cdp.x5.ru",
@@ -1979,7 +1983,6 @@
         "🇷🇺 Russia a484 | SNI - ads.x5.ru",
         "🇷🇺 Russia a52c | SNI - cdp.x5.ru [CIDR]",
         "🇷🇺 Russia a588 | SNI - api-maps.yandex.ru",
-        "🇷🇺 Russia a594 | SNI - ads.x5.ru",
         "🇷🇺 Russia a5ae | SNI - ads.x5.ru",
         "🇷🇺 Russia a5ef",
         "🇷🇺 Russia a884",
@@ -2257,7 +2260,6 @@
         "🇺🇸 United States 37dc | SNI - www.cloudflare.com",
         "🇺🇸 United States 37fe | SNI - tradingview.com",
         "🇺🇸 United States 385b | SNI - www.speedtest.org",
-        "🇺🇸 United States 386e | SNI - visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
         "🇺🇸 United States 39cb",
         "🇺🇸 United States 3a2e | SNI - rose.netfre.space",
         "🇺🇸 United States 3b8a | SNI - sni.skylee4.cloudns.ch",
@@ -20927,6 +20929,24 @@
     },
     {
       "type": "vless",
+      "tag": "🇩🇪 Germany f0dd | SNI - refersion.com",
+      "server": "82.27.2.239",
+      "server_port": 18034,
+      "uuid": "telegramchannel-probabblynot",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "ph_rbwXTPE724CilY2K21PHfgfj32QL2oApFve6s1nQ",
+          "short_id": "ef6a0ec24e7f"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪 Germany f36c | SNI - us2.wxgqlfx.xyz",
       "server": "57.129.47.56",
       "server_port": 2053,
@@ -25592,6 +25612,26 @@
     },
     {
       "type": "vless",
+      "tag": "🇮🇹 Italy 8bf4 | SNI - rose.netfre.space",
+      "server": "113.30.151.151",
+      "server_port": 8443,
+      "uuid": "310c0eea-aecb-4b16-9281-fd45c35315e4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "rose.netfre.space",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@RoseCommunity?ed=2052",
+        "headers": {
+          "Host": "rose.netfre.space"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇮🇹 Italy 8eae",
       "server": "151.115.164.134",
       "server_port": 8880,
@@ -26673,6 +26713,15 @@
           "short_id": "83"
         }
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇿 Kazakhstan 650f",
+      "server": "38.107.234.57",
+      "server_port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "type": "vless",
@@ -31578,6 +31627,24 @@
     },
     {
       "type": "vless",
+      "tag": "🇷🇺 Russia 26fd | SNI - cdp.x5.ru",
+      "server": "158.160.57.73",
+      "server_port": 443,
+      "uuid": "547af97d-99d0-4467-8173-071ec10b0281",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇷🇺 Russia 28bf | SNI - ads.x5.ru",
       "server": "51.250.18.25",
       "server_port": 443,
@@ -34406,24 +34473,6 @@
           "enabled": true,
           "public_key": "iCcg60DfXrWy3R5wOAbIhNZNnBqwgsCq9ZLUYh7lsB8",
           "short_id": "27e53bbcab7593d7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 Russia a594 | SNI - ads.x5.ru",
-      "server": "46.8.209.104",
-      "server_port": 443,
-      "uuid": "8d09fdd1-58c7-4576-93b6-e349dbcff58a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "z67jBKrK0gsKfg-sz_8_CFMtKq9fAtWJPEJpHvo-OFU",
-          "short_id": "7e2a9d4c5f18b0"
         }
       }
     },
@@ -38967,24 +39016,6 @@
         "reality": {
           "enabled": true,
           "public_key": "g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States 386e | SNI - visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
-      "server": "64.23.143.23",
-      "server_port": 34045,
-      "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
-          "short_id": "e8ab71d0"
         }
       }
     },
