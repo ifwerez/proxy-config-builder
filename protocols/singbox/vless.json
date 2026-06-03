@@ -1800,7 +1800,6 @@
         "🇷🇺 Russia fedd | SNI - cdp.x5.ru [CIDR]",
         "🇸🇦 Saudi Arabia 2795 | SNI - www.ebay.com",
         "🇸🇦 Saudi Arabia e39a | SNI - www.ebay.com",
-        "🇸🇪 Sweden 00c0 | SNI - vk.ru",
         "🇸🇪 Sweden 0722 | SNI - addons.mozilla.org",
         "🇸🇪 Sweden 0bdf | SNI - ads.x5.ru",
         "🇸🇪 Sweden 0f3f | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com",
@@ -1864,6 +1863,8 @@
         "🇸🇬 Singapore cac6 | SNI - support.zoom.us.cyylr.eu.cc",
         "🇸🇬 Singapore d61d | SNI - vless.hubp.de",
         "🇸🇬 Singapore d845",
+        "🇸🇬 Singapore df64 | SNI - sni.skylee4.cloudns.ch",
+        "🇸🇬 Singapore e1de | SNI - sni.skylee4.cloudns.ch",
         "🇸🇬 Singapore eb6d | SNI - investors.spotify.com.cyylr.eu.cc",
         "🇸🇬 Singapore f0e3 | SNI - hhlfy.twiladaphne.ndjp.net",
         "🇸🇬 Singapore f416 | SNI - node1.nanonet.host",
@@ -1944,7 +1945,6 @@
         "🇺🇸 United States 47e2",
         "🇺🇸 United States 49ed",
         "🇺🇸 United States 4e35",
-        "🇺🇸 United States 4e62 | SNI - aws.amazon.com",
         "🇺🇸 United States 4fe4 | SNI - us2.wxgqlfx.xyz",
         "🇺🇸 United States 51ad | SNI - pagescm.freen11.cc.cd",
         "🇺🇸 United States 55be | SNI - rose.netfre.space",
@@ -31963,24 +31963,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 Sweden 00c0 | SNI - vk.ru",
-      "server": "46.226.161.7",
-      "server_port": 8443,
-      "uuid": "14a59796-6db6-4c48-b4d5-2c7b875074c1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "vk.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "rFb2hsGZE0KGim0_MMIfeKMnYTjKH2llqtN4uDUaTj0",
-          "short_id": "4d05e319b074645b"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇸🇪 Sweden 0722 | SNI - addons.mozilla.org",
       "server": "150.241.74.150",
       "server_port": 443,
@@ -33126,6 +33108,46 @@
         "path": "/+@ProxyVPN11",
         "headers": {
           "Host": "vip.yaml7.ggff.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 Singapore df64 | SNI - sni.skylee4.cloudns.ch",
+      "server": "3.1.116.161",
+      "server_port": 2053,
+      "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.skylee4.cloudns.ch",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.CMLiussss.net",
+        "headers": {
+          "Host": "sni.skylee4.cloudns.ch"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 Singapore e1de | SNI - sni.skylee4.cloudns.ch",
+      "server": "3.1.116.161",
+      "server_port": 8443,
+      "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.skylee4.cloudns.ch",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.CMLiussss.net",
+        "headers": {
+          "Host": "sni.skylee4.cloudns.ch"
         }
       }
     },
@@ -34475,23 +34497,6 @@
           "enabled": true,
           "public_key": "ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30",
           "short_id": "30e570274c0c72cc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States 4e62 | SNI - aws.amazon.com",
-      "server": "159.89.87.21",
-      "server_port": 28190,
-      "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "aws.amazon.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno"
         }
       }
     },
