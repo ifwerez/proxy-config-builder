@@ -243,6 +243,7 @@
         " Unsorted c09d",
         " Unsorted c1c8",
         " Unsorted c2d4",
+        " Unsorted c379 | SNI - u716087u7190s643.ccgfw.top",
         " Unsorted c4c4 | SNI - 20260529-143023.nauk.eu.cc",
         " Unsorted c542 | SNI - square-frost-8d11.9660004.workers.dev",
         " Unsorted c54d | SNI - nAzAnmAnO.X-uPlOaD.oRg",
@@ -748,7 +749,6 @@
         "🇨🇭 Switzerland 85de | SNI - yahoo.com",
         "🇨🇭 Switzerland 939e",
         "🇨🇭 Switzerland b0bc | SNI - yahoo.com",
-        "🇨🇭 Switzerland b76c | SNI - www.samsung.com",
         "🇨🇳 China 08a3",
         "🇨🇳 China 6c8d | SNI - sni.skylee4.cloudns.ch",
         "🇨🇾 Cyprus 453a | SNI - www.asus.com",
@@ -863,6 +863,7 @@
         "🇩🇪 Germany 6ed3 | SNI - www.cybo.com",
         "🇩🇪 Germany 6f04 | SNI - play.google.com",
         "🇩🇪 Germany 6fe4 | SNI - 057.ElecTRocElLco-Cf-057.wOrKeRs.dEv",
+        "🇩🇪 Germany 7101 | SNI - ads.x5.ru",
         "🇩🇪 Germany 727f | SNI - cloudflare.dns.xn--q9jyb4c",
         "🇩🇪 Germany 72ce | SNI - dl-pack.motionbetter.ir",
         "🇩🇪 Germany 74e4 | SNI - cloudflare.dns.xn--q9jyb4c",
@@ -1138,6 +1139,7 @@
         "🇬🇧 United Kingdom 3569 | SNI - sni.111000.de5.net",
         "🇬🇧 United Kingdom 35c2 | SNI - u712927ud3c8s644.ccgfw.top",
         "🇬🇧 United Kingdom 3a1b | SNI - sni.111000.v6.rocks",
+        "🇬🇧 United Kingdom 3f1a | SNI - u716087u4c78s642.ccgfw.top",
         "🇬🇧 United Kingdom 458a | SNI - cloudrynth.com",
         "🇬🇧 United Kingdom 4f81 | SNI - ads.x5.ru",
         "🇬🇧 United Kingdom 5563 | SNI - sni.111000.de5.net",
@@ -1148,6 +1150,7 @@
         "🇬🇧 United Kingdom 6b51",
         "🇬🇧 United Kingdom 6dea | SNI - www.tradingview.com",
         "🇬🇧 United Kingdom 7241 | SNI - mag3.portal-guard.com",
+        "🇬🇧 United Kingdom 72f3 | SNI - u716087ud3c8s644.ccgfw.top",
         "🇬🇧 United Kingdom 7655 | SNI - max.ru",
         "🇬🇧 United Kingdom 81b4 | SNI - wl-4-4.nodes.ac",
         "🇬🇧 United Kingdom 84eb | SNI - play.google.com",
@@ -1802,7 +1805,6 @@
         "🇸🇪 Sweden 00c0 | SNI - vk.ru",
         "🇸🇪 Sweden 0722 | SNI - addons.mozilla.org",
         "🇸🇪 Sweden 0bdf | SNI - ads.x5.ru",
-        "🇸🇪 Sweden 0e3e",
         "🇸🇪 Sweden 0f3f | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com",
         "🇸🇪 Sweden 1db5 | SNI - www.icloud.com",
         "🇸🇪 Sweden 2df3 | SNI - ads.x5.ru",
@@ -1818,13 +1820,11 @@
         "🇸🇪 Sweden 8fa3 | SNI - www.microsoft.com",
         "🇸🇪 Sweden 9b36 | SNI - m.twitch.tv",
         "🇸🇪 Sweden a091 | SNI - tradingview.com",
-        "🇸🇪 Sweden a6cc",
         "🇸🇪 Sweden b4a1 | SNI - ya.ru",
         "🇸🇪 Sweden bf69 | SNI - m.twitch.tv",
         "🇸🇪 Sweden c994 | SNI - www.microsoft.com",
         "🇸🇪 Sweden c9fa | SNI - ads.x5.ru",
         "🇸🇪 Sweden cc54 | SNI - ads.x5.ru",
-        "🇸🇪 Sweden d0fa",
         "🇸🇪 Sweden d1f9 | SNI - www.icloud.com",
         "🇸🇪 Sweden d61d | SNI - ads.x5.ru",
         "🇸🇪 Sweden dee9 | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com",
@@ -5675,6 +5675,19 @@
         "headers": {
           "Host": "rat.skycmd.org"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " Unsorted c379 | SNI - u716087u7190s643.ccgfw.top",
+      "server": "s643.ccgfw.top",
+      "server_port": 443,
+      "uuid": "205d6869-02ca-3b36-b933-be2465250c7e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "u716087u7190s643.ccgfw.top",
+        "insecure": false
       }
     },
     {
@@ -14353,24 +14366,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 Switzerland b76c | SNI - www.samsung.com",
-      "server": "45.85.93.51",
-      "server_port": 443,
-      "uuid": "301d514e-4aa0-47b0-ba44-a0cb891cd52f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4",
-          "short_id": "a1b2c3d4"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇨🇳 China 08a3",
       "server": "43.169.18.179",
       "server_port": 80,
@@ -16159,6 +16154,24 @@
         "path": "/eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
         "headers": {
           "Host": "057.electrocellco-cf-057.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Germany 7101 | SNI - ads.x5.ru",
+      "server": "185.229.9.131",
+      "server_port": 443,
+      "uuid": "79681cc3-1d28-4ac2-8bca-65712aa8fd82",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "jH_LLqDnSPNz8SU_PC30VKKVKxQGU3QkbAr33bb9RGo",
+          "short_id": "27e53bbcab7593d7"
         }
       }
     },
@@ -20577,6 +20590,19 @@
     },
     {
       "type": "vless",
+      "tag": "🇬🇧 United Kingdom 3f1a | SNI - u716087u4c78s642.ccgfw.top",
+      "server": "s642.ccgfw.top",
+      "server_port": 443,
+      "uuid": "205d6869-02ca-3b36-b933-be2465250c7e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "u716087u4c78s642.ccgfw.top",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇬🇧 United Kingdom 458a | SNI - cloudrynth.com",
       "server": "31.76.119.133",
       "server_port": 443,
@@ -20755,6 +20781,19 @@
           "public_key": "QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0",
           "short_id": "4326"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom 72f3 | SNI - u716087ud3c8s644.ccgfw.top",
+      "server": "s644.ccgfw.top",
+      "server_port": 443,
+      "uuid": "205d6869-02ca-3b36-b933-be2465250c7e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "u716087ud3c8s644.ccgfw.top",
+        "insecure": false
       }
     },
     {
@@ -32017,14 +32056,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 Sweden 0e3e",
-      "server": "89.22.236.213",
-      "server_port": 54346,
-      "uuid": "IR_NETLIFY",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇸🇪 Sweden 0f3f | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com",
       "server": "91.186.217.43",
       "server_port": 35469,
@@ -32285,14 +32316,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 Sweden a6cc",
-      "server": "89.22.236.213",
-      "server_port": 54346,
-      "uuid": "1e865d4f-dfc3-5cae-bc29-344e2c971900",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇸🇪 Sweden b4a1 | SNI - ya.ru",
       "server": "89.22.230.82",
       "server_port": 443,
@@ -32380,14 +32403,6 @@
           "short_id": "a9c4f17e3b62d8"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 Sweden d0fa",
-      "server": "89.22.236.213",
-      "server_port": 666,
-      "uuid": "56aaf8cd-d2fb-5211-bc9b-c242ee37d429",
-      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
