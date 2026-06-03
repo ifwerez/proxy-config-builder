@@ -577,6 +577,7 @@
         "🇨🇦 Canada 61a5",
         "🇨🇦 Canada 61b0",
         "🇨🇦 Canada 6487 | SNI - grabacademyportal.grab.com.cyylr.eu.cc",
+        "🇨🇦 Canada 65a2",
         "🇨🇦 Canada 6613 | SNI - juzi.qea.ccwu.cc",
         "🇨🇦 Canada 6653",
         "🇨🇦 Canada 66e3 | SNI - investors.spotify.com.cyylr.eu.cc [CIDR]",
@@ -1293,6 +1294,7 @@
         "🇫🇷 France f0ba | SNI - yandex.ru",
         "🇫🇷 France f133",
         "🇫🇷 France f1f7",
+        "🇫🇷 France fe09",
         "🇬🇧 United Kingdom 006d | SNI - play.google.com",
         "🇬🇧 United Kingdom 04c6 | SNI - didactic-capybara-77vrw6x6gw95fw59v-443.app.github.dev",
         "🇬🇧 United Kingdom 092d",
@@ -1489,6 +1491,7 @@
         "🇯🇵 Japan 897a | SNI - 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org",
         "🇯🇵 Japan 8e9b | SNI - fancii.global.ssl.fastly.neT.",
         "🇯🇵 Japan 9303",
+        "🇯🇵 Japan 9d66 | SNI - nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg",
         "🇯🇵 Japan a845 | SNI - jookeji.global.ssl.fastly.neT",
         "🇯🇵 Japan aced",
         "🇯🇵 Japan ad83",
@@ -1523,8 +1526,6 @@
         "🇰🇷 South Korea ec30 | SNI - nn9jdg-k7yewrrk.acg.xx.kg",
         "🇰🇿 Kazakhstan 5720 | SNI - yahoo.com",
         "🇰🇿 Kazakhstan 59a8 | SNI - yahoo.com",
-        "🇰🇿 Kazakhstan 650f",
-        "🇰🇿 Kazakhstan 7537",
         "🇰🇿 Kazakhstan aa5d | SNI - kz-1.nodes.ac",
         "🇰🇿 Kazakhstan b03e | SNI - yahoo.com",
         "🇰🇿 Kazakhstan bdc4 | SNI - yahoo.com",
@@ -1585,7 +1586,6 @@
         "🇲🇾 Malaysia f8ad",
         "🇳🇱 Netherlands 00e0 | SNI - ads.x5.ru",
         "🇳🇱 Netherlands 04e6 | SNI - play.google.com",
-        "🇳🇱 Netherlands 0ac5 | SNI - bitter-voice.empty-dust.ru",
         "🇳🇱 Netherlands 0d6d | SNI - u716087u1941s326.ccgfw.top",
         "🇳🇱 Netherlands 0fd5 | SNI - stackoverflow.com",
         "🇳🇱 Netherlands 1057 | SNI - us2.wxgqlfx.xyz",
@@ -1612,7 +1612,6 @@
         "🇳🇱 Netherlands 266c | SNI - g10.steptofsvo.com",
         "🇳🇱 Netherlands 28b8 | SNI - m.vk.com",
         "🇳🇱 Netherlands 29da | SNI - sc-thenetherlands1.09vpn.com",
-        "🇳🇱 Netherlands 2a38 | SNI - bitter-voice.empty-dust.ru",
         "🇳🇱 Netherlands 2b36 | SNI - cdnjs.com",
         "🇳🇱 Netherlands 2b87",
         "🇳🇱 Netherlands 2bad | SNI - 23.137.249.110",
@@ -1623,7 +1622,6 @@
         "🇳🇱 Netherlands 3270 | SNI - www.tradingview.com",
         "🇳🇱 Netherlands 34d9 | SNI - nl.prime-net.me",
         "🇳🇱 Netherlands 3768 | SNI - top2801758518.mwscdn.ru",
-        "🇳🇱 Netherlands 3cd1",
         "🇳🇱 Netherlands 444e | SNI - apple.com",
         "🇳🇱 Netherlands 447c | SNI - toyota38.com",
         "🇳🇱 Netherlands 47ae | SNI - nether1cxc.chickenkiller.com",
@@ -1749,7 +1747,6 @@
         "🇳🇴 Norway 439c | SNI - yahoo.com",
         "🇳🇴 Norway 69e8 | SNI - yahoo.com",
         "🇳🇴 Norway 6bfe | SNI - yahoo.com",
-        "🇳🇴 Norway ad06 | SNI - winter-pine.long-forest.ru",
         "🇳🇿 New Zealand d613 | SNI - m.udemy.com.cyylr.eu.cc",
         "🇵🇭 Philippines 8210",
         "🇵🇭 Philippines cef5 | SNI - cloudflare.dns.xn--q9jyb4c",
@@ -1918,7 +1915,6 @@
         "🇷🇺 Russia 5c09 | SNI - max.ru",
         "🇷🇺 Russia 5ed4",
         "🇷🇺 Russia 5fc5 | SNI - cdp.x5.ru",
-        "🇷🇺 Russia 60b9 | SNI - id.vk.com",
         "🇷🇺 Russia 618b | SNI - 3-2ll.pages.dev",
         "🇷🇺 Russia 61c7 | SNI - m.vkvideo.cs7777.vk.ru",
         "🇷🇺 Russia 621e | SNI - max.ru",
@@ -11302,6 +11298,24 @@
         "headers": {
           "Host": "grabacademyportal.grab.com.cyylr.eu.cc"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 Canada 65a2",
+      "server": "148.113.196.75",
+      "server_port": 8443,
+      "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "148.113.196.75",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "headers": {}
       }
     },
     {
@@ -23030,6 +23044,19 @@
     },
     {
       "type": "vless",
+      "tag": "🇫🇷 France fe09",
+      "server": "152.228.162.19",
+      "server_port": 80,
+      "uuid": "f5c47e9c-914a-4a91-a81e-a5a77bc10fc1",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "headers": {}
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇬🇧 United Kingdom 006d | SNI - play.google.com",
       "server": "ads03.vxmaxpro.online",
       "server_port": 443,
@@ -25917,6 +25944,26 @@
     },
     {
       "type": "vless",
+      "tag": "🇯🇵 Japan 9d66 | SNI - nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg",
+      "server": "82.40.33.241",
+      "server_port": 53557,
+      "uuid": "00000000-0000-4000-8000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristifp=chrome",
+        "headers": {
+          "Host": "nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇯🇵 Japan a845 | SNI - jookeji.global.ssl.fastly.neT",
       "server": "151.101.110.219",
       "server_port": 443,
@@ -26450,24 +26497,6 @@
           "short_id": "83"
         }
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇿 Kazakhstan 650f",
-      "server": "38.107.234.57",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇿 Kazakhstan 7537",
-      "server": "3h-kazakhstan1.09vpn.com",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "type": "vless",
@@ -27447,24 +27476,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 Netherlands 0ac5 | SNI - bitter-voice.empty-dust.ru",
-      "server": "5.61.51.169",
-      "server_port": 443,
-      "uuid": "47777915-7325-44c1-8122-251f701f5cb0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "bitter-voice.empty-dust.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "5yR0iloe8gXWX6PghzeZoxy2j1IC0gC-1Rduw4fUzG8",
-          "short_id": "5c472469282af031"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇳🇱 Netherlands 0d6d | SNI - u716087u1941s326.ccgfw.top",
       "server": "s326.ccgfw.top",
       "server_port": 443,
@@ -27881,24 +27892,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 Netherlands 2a38 | SNI - bitter-voice.empty-dust.ru",
-      "server": "empty-dust.ru",
-      "server_port": 443,
-      "uuid": "47777915-7325-44c1-8122-251f701f5cb0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "bitter-voice.empty-dust.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "5yR0iloe8gXWX6PghzeZoxy2j1IC0gC-1Rduw4fUzG8",
-          "short_id": "5c472469282af031"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇳🇱 Netherlands 2b36 | SNI - cdnjs.com",
       "server": "212.118.40.140",
       "server_port": 443,
@@ -28063,19 +28056,6 @@
       "tls": {
         "enabled": true,
         "server_name": "top2801758518.mwscdn.ru",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 Netherlands 3cd1",
-      "server": "46.229.243.130",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "46.229.243.130",
         "insecure": false
       }
     },
@@ -30206,24 +30186,6 @@
           "enabled": true,
           "public_key": "_XwzsH6EuV-UnQbXblD4XK46wxaWQcF-0GQ-nAkj3Xo",
           "short_id": "8735"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇴 Norway ad06 | SNI - winter-pine.long-forest.ru",
-      "server": "long-forest.ru",
-      "server_port": 443,
-      "uuid": "cca617a2-ede0-4855-a2ef-cc7f218ba75d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "winter-pine.long-forest.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "GFKdmtxlB5JubXEfTy6PNIeuqN8ys53SPwV3zat3Fzg",
-          "short_id": "3c6a5f13df37ed6e"
         }
       }
     },
@@ -33114,23 +33076,6 @@
           "enabled": true,
           "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
           "short_id": "8ec792bfd725be8a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 Russia 60b9 | SNI - id.vk.com",
-      "server": "155.212.162.49",
-      "server_port": 2096,
-      "uuid": "ba2630d8-d6c4-49ff-b5d5-2c24330dd245",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "id.vk.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
       }
     },
