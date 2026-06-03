@@ -13281,6 +13281,20 @@ proxies:
   reality-opts:
     public-key: 4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8
     short-id: "3a57254c6a44"
+- name: "🇫🇮 Finland 58c5"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
+  server: 65.109.185.170
+  port: 8080
+  udp: true
+  type: vless
+  uuid: 63d4be35-a762-4bad-9185-d501fe5db7b4
+  network: ws
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      {}
 - name: "🇫🇮 Finland 597c | SNI - www.mozilla.org"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
   server: staging.lastilhame.monster
@@ -13623,16 +13637,6 @@ proxies:
   reality-opts:
     public-key: TNsQJHoX2M2u07a6oEPb3tY9U08Aph4Qvdk76dAZdio
     short-id: "82ed5803a8047a3e"
-- name: "🇫🇮 Finland b644"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
-  server: 65.109.188.98
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 40a6a0ed-5ed4-4962-a93f-9c78f2565379
-  network: tcp
-  tls: false
-  client-fingerprint: chrome
 - name: "🇫🇮 Finland ba08 | SNI - www.mozilla.org"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
   server: dns.dressforida.monster
@@ -13735,16 +13739,6 @@ proxies:
   reality-opts:
     public-key: 4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8
     short-id: "9eff19e0405a"
-- name: "🇫🇮 Finland e49a"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
-  server: 65.109.188.98
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 9acd0644-6235-4934-b2ac-7d3c94ddae09
-  network: tcp
-  tls: false
-  client-fingerprint: chrome
 - name: "🇫🇮 Finland e77c | SNI - www.tradingview.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
   server: server.slavkiti.monster
@@ -21208,20 +21202,6 @@ proxies:
   client-fingerprint: ios
   grpc-opts:
     grpc-service-name: ssp
-- name: "🇷🇺 Russia 0988 | SNI - max.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: pro.herumhas.shop
-  port: 5443
-  udp: true
-  type: vless
-  uuid: 7d876627-abf5-4865-8ff4-03f37d49de5d
-  network: tcp
-  tls: true
-  servername: max.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
 - name: "🇷🇺 Russia 0a5a | SNI - rruu.persik.host"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 193.168.46.180
@@ -23718,20 +23698,6 @@ proxies:
   reality-opts:
     public-key: c8fQY4Ywo9NPZS0CuujyztRI-8z0D7fREoz8laMDVkQ
     short-id: "7e2a9d4c5f18b0"
-- name: "🇷🇺 Russia bf39 | SNI - max.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: 217.16.21.116
-  port: 5443
-  udp: true
-  type: vless
-  uuid: 7d876627-abf5-4865-8ff4-03f37d49de5d
-  network: tcp
-  tls: true
-  servername: max.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ
 - name: "🇷🇺 Russia c023 | SNI - wl-4-1.legendary.ac"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 178.154.215.113
@@ -24861,6 +24827,21 @@ proxies:
     short-id: "123abc"
   grpc-opts:
     grpc-service-name: xyz
+- name: "🇸🇪 Sweden 569b | SNI - ads.x5.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SE.png
+  server: 188.68.218.161
+  port: 443
+  udp: true
+  type: vless
+  uuid: bd91efc8-3a86-4135-8aff-761d3f702826
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: c8fQY4Ywo9NPZS0CuujyztRI-8z0D7fREoz8laMDVkQ
+    short-id: "7e2a9d4c5f18b0"
 - name: "🇸🇪 Sweden 6447"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SE.png
   server: 144.31.171.105
@@ -28620,10 +28601,10 @@ proxy-groups:
 - name: PROXY
   type: select
   proxies:
-  - ⚡ Best Ping (2104)
+  - ⚡ Best Ping (2102)
   - 🌍 Continents
   - 🛠️ Protocols
-- name: ⚡ Best Ping (2104)
+- name: ⚡ Best Ping (2102)
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -29625,6 +29606,7 @@ proxy-groups:
   - "🇫🇮 Finland 52b2"
   - "🇫🇮 Finland 5431 | SNI - www.hollywoodreporter.com"
   - "🇫🇮 Finland 55c4 | SNI - www.microsoft.com"
+  - "🇫🇮 Finland 58c5"
   - "🇫🇮 Finland 597c | SNI - www.mozilla.org"
   - "🇫🇮 Finland 614f | SNI - mozilla.org"
   - "🇫🇮 Finland 669e | SNI - www.foxsports.com"
@@ -29649,7 +29631,6 @@ proxy-groups:
   - "🇫🇮 Finland a897"
   - "🇫🇮 Finland aa2d | SNI - www.cloudflare.com"
   - "🇫🇮 Finland acd4 | SNI - mozilla.org"
-  - "🇫🇮 Finland b644"
   - "🇫🇮 Finland ba08 | SNI - www.mozilla.org"
   - "🇫🇮 Finland bafd"
   - "🇫🇮 Finland c23b | SNI - www.microsoft.com"
@@ -29657,7 +29638,6 @@ proxy-groups:
   - "🇫🇮 Finland d649 | SNI - www.techradar.com"
   - "🇫🇮 Finland db3f | SNI - www.mozilla.org"
   - "🇫🇮 Finland e36a | SNI - www.microsoft.com"
-  - "🇫🇮 Finland e49a"
   - "🇫🇮 Finland e77c | SNI - www.tradingview.com"
   - "🇫🇮 Finland e90d | SNI - us2.wxgqlfx.xyz"
   - "🇫🇮 Finland f64b | SNI - cdnjs.com"
@@ -30200,7 +30180,6 @@ proxy-groups:
   - "🇷🇺 Russia 0660 | SNI - ads.x5.ru"
   - "🇷🇺 Russia 06c2 | SNI - cdp.x5.ru [CIDR]"
   - "🇷🇺 Russia 081d | SNI - s717.okgfw.top"
-  - "🇷🇺 Russia 0988 | SNI - max.ru"
   - "🇷🇺 Russia 0a5a | SNI - rruu.persik.host"
   - "🇷🇺 Russia 0a8f | SNI - max.ru"
   - "🇷🇺 Russia 102e | SNI - max.ru"
@@ -30372,7 +30351,6 @@ proxy-groups:
   - "🇷🇺 Russia be54 | SNI - cms-res-web.online.sberbank.ru"
   - "🇷🇺 Russia be72 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia bf09 | SNI - ads.x5.ru"
-  - "🇷🇺 Russia bf39 | SNI - max.ru"
   - "🇷🇺 Russia c023 | SNI - wl-4-1.legendary.ac"
   - "🇷🇺 Russia c137 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia c1d9 | SNI - 5post-gate.x5.ru"
@@ -30450,6 +30428,7 @@ proxy-groups:
   - "🇸🇪 Sweden 3f65 | SNI - ads.x5.ru"
   - "🇸🇪 Sweden 413b | SNI - www.microsoft.com"
   - "🇸🇪 Sweden 4e9b | SNI - cloudflare.com"
+  - "🇸🇪 Sweden 569b | SNI - ads.x5.ru"
   - "🇸🇪 Sweden 6447"
   - "🇸🇪 Sweden 71e2"
   - "🇸🇪 Sweden 85b8 | SNI - rutube.ru"
@@ -30746,7 +30725,7 @@ proxy-groups:
   proxies:
   - 🛠️ HYSTERIA2 (4)
   - 🛠️ TROJAN (110)
-  - 🛠️ VLESS (1862)
+  - 🛠️ VLESS (1860)
   - 🛠️ VMESS (128)
 - name: 🇨🇦 Canada (422)
   type: select
@@ -31449,7 +31428,7 @@ proxy-groups:
   - " Unsorted f975 | SNI - fuckingfangbinxing.cnmfangbinxing-n.workers.dev"
   - " Unsorted fbe4"
   - " Unsorted fc96 | SNI - 24vVd-4ImrVfAqV7HqXYbu9wzjv378qI.V2RAYgulF.woRKeRS.DeV"
-- name: 🇷🇺 Russia (242)
+- name: 🇷🇺 Russia (240)
   type: select
   proxies:
   - "🇷🇺 Russia 0028 | SNI - www.vk.com"
@@ -31458,7 +31437,6 @@ proxy-groups:
   - "🇷🇺 Russia 0660 | SNI - ads.x5.ru"
   - "🇷🇺 Russia 06c2 | SNI - cdp.x5.ru [CIDR]"
   - "🇷🇺 Russia 081d | SNI - s717.okgfw.top"
-  - "🇷🇺 Russia 0988 | SNI - max.ru"
   - "🇷🇺 Russia 0a5a | SNI - rruu.persik.host"
   - "🇷🇺 Russia 0a8f | SNI - max.ru"
   - "🇷🇺 Russia 102e | SNI - max.ru"
@@ -31630,7 +31608,6 @@ proxy-groups:
   - "🇷🇺 Russia be54 | SNI - cms-res-web.online.sberbank.ru"
   - "🇷🇺 Russia be72 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia bf09 | SNI - ads.x5.ru"
-  - "🇷🇺 Russia bf39 | SNI - max.ru"
   - "🇷🇺 Russia c023 | SNI - wl-4-1.legendary.ac"
   - "🇷🇺 Russia c137 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia c1d9 | SNI - 5post-gate.x5.ru"
@@ -32355,7 +32332,7 @@ proxy-groups:
   - "🇫🇷 France f1f7"
   - "🇫🇷 France f4eb"
   - "🇫🇷 France f59c | SNI - cdnv-img.perekrestok.ru"
-- name: 🇫🇮 Finland (59)
+- name: 🇫🇮 Finland (58)
   type: select
   proxies:
   - "🇫🇮 Finland 0192 | SNI - www.microsoft.com"
@@ -32378,6 +32355,7 @@ proxy-groups:
   - "🇫🇮 Finland 52b2"
   - "🇫🇮 Finland 5431 | SNI - www.hollywoodreporter.com"
   - "🇫🇮 Finland 55c4 | SNI - www.microsoft.com"
+  - "🇫🇮 Finland 58c5"
   - "🇫🇮 Finland 597c | SNI - www.mozilla.org"
   - "🇫🇮 Finland 614f | SNI - mozilla.org"
   - "🇫🇮 Finland 669e | SNI - www.foxsports.com"
@@ -32402,7 +32380,6 @@ proxy-groups:
   - "🇫🇮 Finland a897"
   - "🇫🇮 Finland aa2d | SNI - www.cloudflare.com"
   - "🇫🇮 Finland acd4 | SNI - mozilla.org"
-  - "🇫🇮 Finland b644"
   - "🇫🇮 Finland ba08 | SNI - www.mozilla.org"
   - "🇫🇮 Finland bafd"
   - "🇫🇮 Finland c23b | SNI - www.microsoft.com"
@@ -32410,7 +32387,6 @@ proxy-groups:
   - "🇫🇮 Finland d649 | SNI - www.techradar.com"
   - "🇫🇮 Finland db3f | SNI - www.mozilla.org"
   - "🇫🇮 Finland e36a | SNI - www.microsoft.com"
-  - "🇫🇮 Finland e49a"
   - "🇫🇮 Finland e77c | SNI - www.tradingview.com"
   - "🇫🇮 Finland e90d | SNI - us2.wxgqlfx.xyz"
   - "🇫🇮 Finland f64b | SNI - cdnjs.com"
@@ -32572,7 +32548,7 @@ proxy-groups:
   - "🇵🇱 Poland e11c | SNI - ads.x5.ru"
   - "🇵🇱 Poland e8da | SNI - pl.healthy-connected.com"
   - "🇵🇱 Poland fd99 | SNI - cloudflare.com"
-- name: 🇸🇪 Sweden (34)
+- name: 🇸🇪 Sweden (35)
   type: select
   proxies:
   - "🇸🇪 Sweden 0722 | SNI - addons.mozilla.org"
@@ -32587,6 +32563,7 @@ proxy-groups:
   - "🇸🇪 Sweden 3f65 | SNI - ads.x5.ru"
   - "🇸🇪 Sweden 413b | SNI - www.microsoft.com"
   - "🇸🇪 Sweden 4e9b | SNI - cloudflare.com"
+  - "🇸🇪 Sweden 569b | SNI - ads.x5.ru"
   - "🇸🇪 Sweden 6447"
   - "🇸🇪 Sweden 71e2"
   - "🇸🇪 Sweden 85b8 | SNI - rutube.ru"
@@ -33062,7 +33039,7 @@ proxy-groups:
   - 🇩🇪 Germany (208)
   - 🇪🇪 Estonia (8)
   - 🇪🇸 Spain (5)
-  - 🇫🇮 Finland (59)
+  - 🇫🇮 Finland (58)
   - 🇫🇷 France (60)
   - 🇬🇧 United Kingdom (65)
   - 🇭🇺 Hungary (16)
@@ -33077,8 +33054,8 @@ proxy-groups:
   - 🇵🇱 Poland (40)
   - 🇷🇴 Romania (5)
   - 🇷🇸 Serbia (7)
-  - 🇷🇺 Russia (242)
-  - 🇸🇪 Sweden (34)
+  - 🇷🇺 Russia (240)
+  - 🇸🇪 Sweden (35)
   - 🇸🇰 Slovakia (2)
   - 🇺🇦 Ukraine (1)
 - name: 🏝️ Oceania (2)
@@ -33206,7 +33183,7 @@ proxy-groups:
   - "🇺🇸 United States a988"
   - "🇻🇳 Vietnam 9a13"
   - "🇿🇦 South Africa 46e6"
-- name: 🛠️ VLESS (1862)
+- name: 🛠️ VLESS (1860)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -34086,6 +34063,7 @@ proxy-groups:
   - "🇫🇮 Finland 52b2"
   - "🇫🇮 Finland 5431 | SNI - www.hollywoodreporter.com"
   - "🇫🇮 Finland 55c4 | SNI - www.microsoft.com"
+  - "🇫🇮 Finland 58c5"
   - "🇫🇮 Finland 597c | SNI - www.mozilla.org"
   - "🇫🇮 Finland 614f | SNI - mozilla.org"
   - "🇫🇮 Finland 669e | SNI - www.foxsports.com"
@@ -34109,7 +34087,6 @@ proxy-groups:
   - "🇫🇮 Finland a897"
   - "🇫🇮 Finland aa2d | SNI - www.cloudflare.com"
   - "🇫🇮 Finland acd4 | SNI - mozilla.org"
-  - "🇫🇮 Finland b644"
   - "🇫🇮 Finland ba08 | SNI - www.mozilla.org"
   - "🇫🇮 Finland bafd"
   - "🇫🇮 Finland c23b | SNI - www.microsoft.com"
@@ -34117,7 +34094,6 @@ proxy-groups:
   - "🇫🇮 Finland d649 | SNI - www.techradar.com"
   - "🇫🇮 Finland db3f | SNI - www.mozilla.org"
   - "🇫🇮 Finland e36a | SNI - www.microsoft.com"
-  - "🇫🇮 Finland e49a"
   - "🇫🇮 Finland e77c | SNI - www.tradingview.com"
   - "🇫🇮 Finland e90d | SNI - us2.wxgqlfx.xyz"
   - "🇫🇮 Finland f64b | SNI - cdnjs.com"
@@ -34595,7 +34571,6 @@ proxy-groups:
   - "🇷🇺 Russia 0660 | SNI - ads.x5.ru"
   - "🇷🇺 Russia 06c2 | SNI - cdp.x5.ru [CIDR]"
   - "🇷🇺 Russia 081d | SNI - s717.okgfw.top"
-  - "🇷🇺 Russia 0988 | SNI - max.ru"
   - "🇷🇺 Russia 0a5a | SNI - rruu.persik.host"
   - "🇷🇺 Russia 0a8f | SNI - max.ru"
   - "🇷🇺 Russia 102e | SNI - max.ru"
@@ -34766,7 +34741,6 @@ proxy-groups:
   - "🇷🇺 Russia be54 | SNI - cms-res-web.online.sberbank.ru"
   - "🇷🇺 Russia be72 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia bf09 | SNI - ads.x5.ru"
-  - "🇷🇺 Russia bf39 | SNI - max.ru"
   - "🇷🇺 Russia c023 | SNI - wl-4-1.legendary.ac"
   - "🇷🇺 Russia c137 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia c1d9 | SNI - 5post-gate.x5.ru"
@@ -34844,6 +34818,7 @@ proxy-groups:
   - "🇸🇪 Sweden 3f65 | SNI - ads.x5.ru"
   - "🇸🇪 Sweden 413b | SNI - www.microsoft.com"
   - "🇸🇪 Sweden 4e9b | SNI - cloudflare.com"
+  - "🇸🇪 Sweden 569b | SNI - ads.x5.ru"
   - "🇸🇪 Sweden 6447"
   - "🇸🇪 Sweden 71e2"
   - "🇸🇪 Sweden 85b8 | SNI - rutube.ru"
