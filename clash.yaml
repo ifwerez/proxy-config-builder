@@ -2374,16 +2374,6 @@ proxies:
   reality-opts:
     public-key: Ubibgn_MlW_zHo9LwjNH_b6SLNWwTJFwq7wW2ggLtUs
     short-id: "88ce6b586fcaf681"
-- name: " Unsorted a7c4 | SNI - ger1.lezzatpeak.ir"
-  server: ger1.lezzatpeak.ir
-  port: 443
-  udp: true
-  type: vless
-  uuid: e6f6d7e3-aeb3-4c6f-a7c9-508302dd163b
-  network: tcp
-  tls: true
-  servername: ger1.lezzatpeak.ir
-  client-fingerprint: chrome
 - name: " Unsorted a870 | SNI - help.viu.com.cyylr.eu.cc"
   server: cyylr.eu.cc
   port: 443
@@ -12479,6 +12469,7 @@ proxies:
   network: tcp
   tls: true
   servername: max.ru
+  client-fingerprint: chrome
   reality-opts:
     public-key: zxzgWvYs4pMN3fEduth1soI1yMZDkynb1bBM4tj85EE
     short-id: "5e841fab"
@@ -25433,20 +25424,6 @@ proxies:
     path: /sg-orcl
     headers:
       Host: ads.ruangguru.com.cyylr.eu.cc
-- name: "🇸🇬 Singapore b96e | SNI - ads.x5.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
-  server: 51.250.9.161
-  port: 443
-  udp: true
-  type: vless
-  uuid: 46dde73e-43c6-4c2e-8ebb-aa187a23f87d
-  network: tcp
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: "🇸🇬 Singapore bbc9 | SNI - 020g5uxcxmqlndg.luyuju.dpdns.org"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
   server: 158.178.225.153
@@ -25709,17 +25686,6 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-- name: "🇹🇭 Thailand 060f"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TH.png
-  server: th1.vpnjantit.com
-  port: 10000
-  udp: true
-  type: vmess
-  uuid: 1020f486-5e30-11f1-9b9b-bb0e43c242bb
-  cipher: auto
-  alterId: 0
-  network: ws
-  tls: false
 - name: "🇹🇭 Thailand 1bdc"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TH.png
   server: 185.78.165.153
@@ -25731,17 +25697,6 @@ proxies:
   alterId: 0
   network: ws
   tls: true
-- name: "🇹🇭 Thailand 2a8c"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TH.png
-  server: 185.78.165.153
-  port: 10000
-  udp: true
-  type: vmess
-  uuid: 1020f486-5e30-11f1-9b9b-bb0e43c242bb
-  cipher: auto
-  alterId: 0
-  network: ws
-  tls: false
 - name: "🇹🇭 Thailand 98a7"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TH.png
   server: th1.vpnjantit.com
@@ -28516,10 +28471,10 @@ proxy-groups:
 - name: PROXY
   type: select
   proxies:
-  - ⚡ Best Ping (2097)
+  - ⚡ Best Ping (2093)
   - 🌍 Continents
   - 🛠️ Protocols
-- name: ⚡ Best Ping (2097)
+- name: ⚡ Best Ping (2093)
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -28710,7 +28665,6 @@ proxy-groups:
   - " Unsorted a429 | SNI - fuckingfangbinxing.cnmfangbinxing-n.workers.dev"
   - " Unsorted a5ab"
   - " Unsorted a771 | SNI - cdnjs.com"
-  - " Unsorted a7c4 | SNI - ger1.lezzatpeak.ir"
   - " Unsorted a870 | SNI - help.viu.com.cyylr.eu.cc"
   - " Unsorted a9cb | SNI - juzi.qea.ccwu.cc"
   - " Unsorted ab0c | SNI - partner.catchplay.com.cyylr.eu.cc"
@@ -30389,7 +30343,6 @@ proxy-groups:
   - "🇸🇬 Singapore b53e"
   - "🇸🇬 Singapore b704 | SNI - support.zoom.us.cyylr.eu.cc"
   - "🇸🇬 Singapore b806 | SNI - ads.ruangguru.com.cyylr.eu.cc"
-  - "🇸🇬 Singapore b96e | SNI - ads.x5.ru"
   - "🇸🇬 Singapore bbc9 | SNI - 020g5uxcxmqlndg.luyuju.dpdns.org"
   - "🇸🇬 Singapore bcb5 | SNI - y6-3cj.PAgES.DEV"
   - "🇸🇬 Singapore c672 | SNI - www.icloud.com:443"
@@ -30409,9 +30362,7 @@ proxy-groups:
   - "🇸🇰 Slovakia cc46 | SNI - cdn7-39.vk-cdnvideo.com"
   - "🇸🇰 Slovakia df9a"
   - "🇹🇭 Thailand 001e | SNI - api.digital-help-prd.autodesk.com"
-  - "🇹🇭 Thailand 060f"
   - "🇹🇭 Thailand 1bdc"
-  - "🇹🇭 Thailand 2a8c"
   - "🇹🇭 Thailand 98a7"
   - "🇹🇭 Thailand bb03 | SNI - www.primevideo.com"
   - "🇹🇭 Thailand d4fe | SNI - api.digital-help-prd.autodesk.com"
@@ -30635,8 +30586,8 @@ proxy-groups:
   proxies:
   - 🛠️ HYSTERIA2 (4)
   - 🛠️ TROJAN (110)
-  - 🛠️ VLESS (1855)
-  - 🛠️ VMESS (128)
+  - 🛠️ VLESS (1853)
+  - 🛠️ VMESS (126)
 - name: 🇨🇦 Canada (423)
   type: select
   proxies:
@@ -31063,7 +31014,7 @@ proxy-groups:
   - "🇨🇦 Canada fa37 | SNI - d2127A49-flAT-wooD-C4B5.mILia-AkbARpOor.WorkERs.dEV"
   - "🇨🇦 Canada fec5"
   - "🇨🇦 Canada fee5"
-- name: 📦 Unsorted (274)
+- name: 📦 Unsorted (273)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -31251,7 +31202,6 @@ proxy-groups:
   - " Unsorted a429 | SNI - fuckingfangbinxing.cnmfangbinxing-n.workers.dev"
   - " Unsorted a5ab"
   - " Unsorted a771 | SNI - cdnjs.com"
-  - " Unsorted a7c4 | SNI - ger1.lezzatpeak.ir"
   - " Unsorted a870 | SNI - help.viu.com.cyylr.eu.cc"
   - " Unsorted a9cb | SNI - juzi.qea.ccwu.cc"
   - " Unsorted ab0c | SNI - partner.catchplay.com.cyylr.eu.cc"
@@ -32357,7 +32307,7 @@ proxy-groups:
   - "🇮🇹 Italy ebb3 | SNI - it.s3-cloud.xyz"
   - "🇮🇹 Italy eea4"
   - "🇮🇹 Italy eee5 | SNI - rose.netfre.space"
-- name: 🇸🇬 Singapore (49)
+- name: 🇸🇬 Singapore (48)
   type: select
   proxies:
   - "🇸🇬 Singapore 0946"
@@ -32392,7 +32342,6 @@ proxy-groups:
   - "🇸🇬 Singapore b53e"
   - "🇸🇬 Singapore b704 | SNI - support.zoom.us.cyylr.eu.cc"
   - "🇸🇬 Singapore b806 | SNI - ads.ruangguru.com.cyylr.eu.cc"
-  - "🇸🇬 Singapore b96e | SNI - ads.x5.ru"
   - "🇸🇬 Singapore bbc9 | SNI - 020g5uxcxmqlndg.luyuju.dpdns.org"
   - "🇸🇬 Singapore bcb5 | SNI - y6-3cj.PAgES.DEV"
   - "🇸🇬 Singapore c672 | SNI - www.icloud.com:443"
@@ -32756,16 +32705,6 @@ proxy-groups:
   - "🇷🇸 Serbia 5d0b"
   - "🇷🇸 Serbia 93ea | SNI - yahoo.com"
   - "🇷🇸 Serbia d326 | SNI - yahoo.com"
-- name: 🇹🇭 Thailand (7)
-  type: select
-  proxies:
-  - "🇹🇭 Thailand 001e | SNI - api.digital-help-prd.autodesk.com"
-  - "🇹🇭 Thailand 060f"
-  - "🇹🇭 Thailand 1bdc"
-  - "🇹🇭 Thailand 2a8c"
-  - "🇹🇭 Thailand 98a7"
-  - "🇹🇭 Thailand bb03 | SNI - www.primevideo.com"
-  - "🇹🇭 Thailand d4fe | SNI - api.digital-help-prd.autodesk.com"
 - name: 🇮🇩 Indonesia (6)
   type: select
   proxies:
@@ -32807,6 +32746,14 @@ proxy-groups:
   - "🇷🇴 Romania b0ff | SNI - cdn7-09.vk-cdnvideo.com"
   - "🇷🇴 Romania bb78 | SNI - cdn7-39.vk-cdnvideo.com"
   - "🇷🇴 Romania c78a | SNI - www.alibaba.com"
+- name: 🇹🇭 Thailand (5)
+  type: select
+  proxies:
+  - "🇹🇭 Thailand 001e | SNI - api.digital-help-prd.autodesk.com"
+  - "🇹🇭 Thailand 1bdc"
+  - "🇹🇭 Thailand 98a7"
+  - "🇹🇭 Thailand bb03 | SNI - www.primevideo.com"
+  - "🇹🇭 Thailand d4fe | SNI - api.digital-help-prd.autodesk.com"
 - name: 🇦🇲 Armenia (4)
   type: select
   proxies:
@@ -32927,8 +32874,8 @@ proxy-groups:
   - 🇲🇾 Malaysia (12)
   - 🇵🇭 Philippines (1)
   - 🇸🇦 Saudi Arabia (2)
-  - 🇸🇬 Singapore (49)
-  - 🇹🇭 Thailand (7)
+  - 🇸🇬 Singapore (48)
+  - 🇹🇭 Thailand (5)
   - 🇹🇷 Turkey (13)
   - 🇹🇼 Taiwan (11)
   - 🇻🇳 Vietnam (1)
@@ -33088,7 +33035,7 @@ proxy-groups:
   - "🇺🇸 United States a988"
   - "🇻🇳 Vietnam 9a13"
   - "🇿🇦 South Africa 46e6"
-- name: 🛠️ VLESS (1855)
+- name: 🛠️ VLESS (1853)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -33260,7 +33207,6 @@ proxy-groups:
   - " Unsorted a429 | SNI - fuckingfangbinxing.cnmfangbinxing-n.workers.dev"
   - " Unsorted a5ab"
   - " Unsorted a771 | SNI - cdnjs.com"
-  - " Unsorted a7c4 | SNI - ger1.lezzatpeak.ir"
   - " Unsorted a870 | SNI - help.viu.com.cyylr.eu.cc"
   - " Unsorted a9cb | SNI - juzi.qea.ccwu.cc"
   - " Unsorted ab0c | SNI - partner.catchplay.com.cyylr.eu.cc"
@@ -34761,7 +34707,6 @@ proxy-groups:
   - "🇸🇬 Singapore ae41 | SNI - sni.my111000.tech"
   - "🇸🇬 Singapore b704 | SNI - support.zoom.us.cyylr.eu.cc"
   - "🇸🇬 Singapore b806 | SNI - ads.ruangguru.com.cyylr.eu.cc"
-  - "🇸🇬 Singapore b96e | SNI - ads.x5.ru"
   - "🇸🇬 Singapore bbc9 | SNI - 020g5uxcxmqlndg.luyuju.dpdns.org"
   - "🇸🇬 Singapore bcb5 | SNI - y6-3cj.PAgES.DEV"
   - "🇸🇬 Singapore c672 | SNI - www.icloud.com:443"
@@ -34946,7 +34891,7 @@ proxy-groups:
   - "🇺🇸 United States f9ee | SNI - statuspine.net"
   - "🇺🇸 United States fac2 | SNI - maple.adaspoloandco.com"
   - "🇺🇸 United States ffd4 | SNI - us2.wxgqlfx.xyz"
-- name: 🛠️ VMESS (128)
+- name: 🛠️ VMESS (126)
   type: select
   proxies:
   - " Unsorted 1063"
@@ -35042,9 +34987,7 @@ proxy-groups:
   - "🇸🇬 Singapore 7582"
   - "🇸🇬 Singapore b53e"
   - "🇸🇬 Singapore dcd0"
-  - "🇹🇭 Thailand 060f"
   - "🇹🇭 Thailand 1bdc"
-  - "🇹🇭 Thailand 2a8c"
   - "🇹🇭 Thailand 98a7"
   - "🇹🇷 Turkey 4b72"
   - "🇹🇼 Taiwan 2746"
