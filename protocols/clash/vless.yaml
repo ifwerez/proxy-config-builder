@@ -857,6 +857,19 @@ proxies:
     path: /sbscid
     headers:
       Host: cloclode1.hamrahconff.ir
+- name: " Unsorted 480c"
+  server: a1-tss.pages.dev
+  port: 443
+  udp: true
+  type: vless
+  uuid: f86f5a03-3872-46b5-bf03-a50388a0261d
+  network: ws
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      {}
 - name: " Unsorted 481d | SNI - fgnix832fx.fx6hsv0.ccwu.cc"
   server: 172.64.52.230
   port: 2087
@@ -1875,6 +1888,20 @@ proxies:
     path: /
     headers:
       Host: fragrant-recipe-09f4.wopecuyubak61.workers.dev
+- name: " Unsorted 9466 | SNI - cnmfangbinxing.cnmfangbinxing-k.workers.dev"
+  server: itarmy.com.ua
+  port: 2095
+  udp: true
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  network: ws
+  tls: false
+  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: "/fp=randomized"
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
 - name: " Unsorted 9551 | SNI - muddy-math-c1fc.tmpnriqueau89.workers.dev"
   server: muddy-math-c1fc.tmpnriqueau89.workers.dev
   port: 443
@@ -11017,16 +11044,6 @@ proxies:
   reality-opts:
     public-key: FQ-t1B16UdR6QYZyfYRf9PrD5JoEeCrkgRfM-doG4zY
     short-id: "1bc9bcde4b1ef645"
-- name: "🇩🇪 Germany 2c26"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 194.59.183.234
-  port: 666
-  udp: true
-  type: vless
-  uuid: 56aaf8cd-d2fb-5211-bc9b-c242ee37d429
-  network: tcp
-  tls: false
-  client-fingerprint: chrome
 - name: "🇩🇪 Germany 318e | SNI - www.amazon.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: englishpanelketab.konkuriran.sbs
@@ -12455,21 +12472,6 @@ proxies:
     path: "/TG@wxgqlfx"
     headers:
       Host: us2.wxgqlfx.xyz
-- name: "🇩🇪 Germany cc32 | SNI - ads.x5.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 185.229.9.131
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4145018e-4238-4102-bfd7-4149bc57a042
-  network: tcp
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: jH_LLqDnSPNz8SU_PC30VKKVKxQGU3QkbAr33bb9RGo
-    short-id: "27e53bbcab7593d7"
 - name: "🇩🇪 Germany cd35 | SNI - www.microsoft.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 185.218.137.132
@@ -15158,22 +15160,6 @@ proxies:
     path: /44.209.52.7-443
     headers:
       Host: blackshadow.dpdns.org
-- name: "🇬🇧 United Kingdom acac | SNI - loadtest.dev.urent.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
-  server: 89.208.208.92
-  port: 7443
-  udp: true
-  type: vless
-  uuid: cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4
-  network: grpc
-  tls: true
-  servername: loadtest.dev.urent.ru
-  client-fingerprint: qq
-  reality-opts:
-    public-key: _AXs-QnufIq918tbb2pwM3MDbe7kQ6i0cIHDMLwPmGs
-    short-id: "3210e0eee6605048"
-  grpc-opts:
-    grpc-service-name: grpc
 - name: "🇬🇧 United Kingdom acfd | SNI - tradingview.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
   server: auto.datamove.online
@@ -25651,6 +25637,21 @@ proxies:
     path: /tsghdws
     headers:
       Host: octopusss4.com
+- name: "🇺🇸 United States 02f6 | SNI - apple.com"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: 134.33.73.249
+  port: 54254
+  udp: true
+  type: vless
+  uuid: acba684c-4098-4eca-f519-828b09f96464
+  network: tcp
+  tls: true
+  servername: apple.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4
+    short-id: "db35ffdc"
 - name: "🇺🇸 United States 04cb | SNI - fast01.0860852.xyz"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 198.202.211.253
