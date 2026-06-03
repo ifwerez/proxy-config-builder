@@ -284,7 +284,6 @@
         " Unsorted d980 | SNI - holo.x-upload.org",
         " Unsorted da3d | SNI - sun6-22.userapi.com",
         " Unsorted dc4d",
-        " Unsorted df10",
         " Unsorted df89 | SNI - nazanMano.x-upload.org",
         " Unsorted dff4 | SNI - AbrAhAmlinkolN11678.ScHoOlmAjaZi.Top.",
         " Unsorted e068 | SNI - main.boobie.eu.cc",
@@ -923,6 +922,7 @@
         "🇩🇪 Germany 3d78",
         "🇩🇪 Germany 3e5d",
         "🇩🇪 Germany 3f04",
+        "🇩🇪 Germany 3ff3",
         "🇩🇪 Germany 4194 | SNI - google.com [CIDR]",
         "🇩🇪 Germany 4215 | SNI - max.ru",
         "🇩🇪 Germany 433f | SNI - amazon.com",
@@ -1694,7 +1694,6 @@
         "🇷🇺 Russia 0a5a | SNI - rruu.persik.host",
         "🇷🇺 Russia 0a8f | SNI - max.ru",
         "🇷🇺 Russia 0e77 | SNI - m.vkvideo.cs7777.vk.ru",
-        "🇷🇺 Russia 0e8f | SNI - ads.x5.ru [CIDR]",
         "🇷🇺 Russia 102e | SNI - max.ru",
         "🇷🇺 Russia 107a",
         "🇷🇺 Russia 112d | SNI - cdp.x5.ru",
@@ -1850,7 +1849,6 @@
         "🇷🇺 Russia a9af | SNI - m.vk.com",
         "🇷🇺 Russia a9b5 | SNI - bankir.ksnodes.net",
         "🇷🇺 Russia a9d6 | SNI - ads.x5.ru",
-        "🇷🇺 Russia ac9b | SNI - max.ru",
         "🇷🇺 Russia acf6 | SNI - m.vk.com",
         "🇷🇺 Russia ad28 | SNI - cdp.x5.ru",
         "🇷🇺 Russia afee | SNI - cdp.x5.ru",
@@ -2058,7 +2056,6 @@
         "🇺🇸 United States 0017 | SNI - sni.111000.dynv6.net",
         "🇺🇸 United States 018e",
         "🇺🇸 United States 02a9 | SNI - octopusss4.com",
-        "🇺🇸 United States 02f6 | SNI - apple.com",
         "🇺🇸 United States 04cb | SNI - fast01.0860852.xyz",
         "🇺🇸 United States 0584 | SNI - yahoo.com",
         "🇺🇸 United States 0599",
@@ -6431,14 +6428,6 @@
           "Host": "sport.mr100tomani.ir"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": " Unsorted df10",
-      "server": "sca11.myfymain.com",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -17179,6 +17168,14 @@
         "server_name": "172.104.237.100",
         "insecure": false
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Germany 3ff3",
+      "server": "45.77.67.185",
+      "server_port": 443,
+      "uuid": "56f389ce-8e0f-42fd-889d-5c4b698b534f",
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -29506,24 +29503,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 Russia 0e8f | SNI - ads.x5.ru [CIDR]",
-      "server": "158.160.201.25",
-      "server_port": 443,
-      "uuid": "a9266144-169e-4653-b58a-0456f2ef6a13",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "0a3d38cwnQfUM7EqjEinf1XUZyKdzgiuRMayO3LcYl0",
-          "short_id": "35debf0dc757d053"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇷🇺 Russia 102e | SNI - max.ru",
       "server": "46.8.209.224",
       "server_port": 443,
@@ -32175,23 +32154,6 @@
           "enabled": true,
           "public_key": "c8fQY4Ywo9NPZS0CuujyztRI-8z0D7fREoz8laMDVkQ",
           "short_id": "c31f9a0e7d4b52"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 Russia ac9b | SNI - max.ru",
-      "server": "5.188.140.160",
-      "server_port": 5443,
-      "uuid": "7d876627-abf5-4865-8ff4-03f37d49de5d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ"
         }
       }
     },
@@ -35666,24 +35628,6 @@
         "path": "/tsghdws",
         "headers": {
           "Host": "octopusss4.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 United States 02f6 | SNI - apple.com",
-      "server": "134.33.73.249",
-      "server_port": 54254,
-      "uuid": "acba684c-4098-4eca-f519-828b09f96464",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4",
-          "short_id": "db35ffdc"
         }
       }
     },
