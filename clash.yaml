@@ -7195,20 +7195,6 @@ proxies:
     path: /id-tksi
     headers:
       Host: grabacademyportal.grab.com.cyylr.eu.cc
-- name: "🇨🇦 Canada 65a2"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CA.png
-  server: 148.113.196.75
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 08f96221-9b7b-4e6f-8ffe-aee8b9c9b504
-  network: ws
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vless/
-    headers:
-      {}
 - name: "🇨🇦 Canada 6613 | SNI - juzi.qea.ccwu.cc"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CA.png
   server: 104.21.90.78
@@ -20117,6 +20103,28 @@ proxies:
   reality-opts:
     public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
     short-id: "83"
+- name: "🇰🇿 Kazakhstan 650f"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KZ.png
+  server: 38.107.234.57
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: false
+- name: "🇰🇿 Kazakhstan 7537"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KZ.png
+  server: 3h-kazakhstan1.09vpn.com
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: false
 - name: "🇰🇿 Kazakhstan aa5d | SNI - kz-1.nodes.ac"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KZ.png
   server: 194.110.55.85
@@ -24151,21 +24159,6 @@ proxies:
     path: ''
     headers:
       {}
-- name: "🇷🇺 Russia 10de | SNI - static.rutube.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: 212.233.122.244
-  port: 443
-  udp: true
-  type: vless
-  uuid: 69b578b6-6167-447d-a82c-033928da5e03
-  network: tcp
-  tls: true
-  servername: static.rutube.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 1BAG3ZcDThZ_tEFyPAaxh5EfY5RyK8D8CIHplP-qXmc
-    short-id: "9a62a7103e3791eb"
 - name: "🇷🇺 Russia 10e1 | SNI - cdp.x5.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 84.201.168.186
@@ -26731,21 +26724,6 @@ proxies:
   reality-opts:
     public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
     short-id: "65c7748be8"
-- name: "🇷🇺 Russia a07f | SNI - id.vk.com"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: 155.212.162.84
-  port: 2096
-  udp: true
-  type: vless
-  uuid: ba2630d8-d6c4-49ff-b5d5-2c24330dd245
-  network: grpc
-  tls: true
-  servername: id.vk.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
 - name: "🇷🇺 Russia a081 | SNI - cdp.x5.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 158.160.136.203
@@ -32990,10 +32968,10 @@ proxy-groups:
 - name: PROXY
   type: select
   proxies:
-  - ⚡ Best Ping (2417)
+  - ⚡ Best Ping (2416)
   - 🌍 Continents
   - 🛠️ Protocols
-- name: ⚡ Best Ping (2417)
+- name: ⚡ Best Ping (2416)
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -33551,7 +33529,6 @@ proxy-groups:
   - "🇨🇦 Canada 61a5"
   - "🇨🇦 Canada 61b0"
   - "🇨🇦 Canada 6487 | SNI - grabacademyportal.grab.com.cyylr.eu.cc"
-  - "🇨🇦 Canada 65a2"
   - "🇨🇦 Canada 6613 | SNI - juzi.qea.ccwu.cc"
   - "🇨🇦 Canada 6653"
   - "🇨🇦 Canada 66e3 | SNI - investors.spotify.com.cyylr.eu.cc [CIDR]"
@@ -34500,6 +34477,8 @@ proxy-groups:
   - "🇰🇷 South Korea ec30 | SNI - nn9jdg-k7yewrrk.acg.xx.kg"
   - "🇰🇿 Kazakhstan 5720 | SNI - yahoo.com"
   - "🇰🇿 Kazakhstan 59a8 | SNI - yahoo.com"
+  - "🇰🇿 Kazakhstan 650f"
+  - "🇰🇿 Kazakhstan 7537"
   - "🇰🇿 Kazakhstan aa5d | SNI - kz-1.nodes.ac"
   - "🇰🇿 Kazakhstan b03e | SNI - yahoo.com"
   - "🇰🇿 Kazakhstan bdc4 | SNI - yahoo.com"
@@ -34786,7 +34765,6 @@ proxy-groups:
   - "🇷🇺 Russia 0f60 | SNI - www.vk.com"
   - "🇷🇺 Russia 1035"
   - "🇷🇺 Russia 107a"
-  - "🇷🇺 Russia 10de | SNI - static.rutube.ru"
   - "🇷🇺 Russia 10e1 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia 112d | SNI - cdp.x5.ru"
   - "🇷🇺 Russia 136c | SNI - cdp.x5.ru"
@@ -34962,7 +34940,6 @@ proxy-groups:
   - "🇷🇺 Russia 9dc4 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia 9f03 | SNI - yandex.ru"
   - "🇷🇺 Russia a03b | SNI - ads.x5.ru"
-  - "🇷🇺 Russia a07f | SNI - id.vk.com"
   - "🇷🇺 Russia a081 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia a170 | SNI - ads.x5.ru"
   - "🇷🇺 Russia a332 | SNI - ads.x5.ru"
@@ -35428,9 +35405,9 @@ proxy-groups:
   proxies:
   - 🛠️ HYSTERIA2 (10)
   - 🛠️ TROJAN (112)
-  - 🛠️ VLESS (2156)
-  - 🛠️ VMESS (139)
-- name: 🇨🇦 Canada (466)
+  - 🛠️ VLESS (2153)
+  - 🛠️ VMESS (141)
+- name: 🇨🇦 Canada (465)
   type: select
   proxies:
   - "🇨🇦 Canada 000e"
@@ -35617,7 +35594,6 @@ proxy-groups:
   - "🇨🇦 Canada 61a5"
   - "🇨🇦 Canada 61b0"
   - "🇨🇦 Canada 6487 | SNI - grabacademyportal.grab.com.cyylr.eu.cc"
-  - "🇨🇦 Canada 65a2"
   - "🇨🇦 Canada 6613 | SNI - juzi.qea.ccwu.cc"
   - "🇨🇦 Canada 6653"
   - "🇨🇦 Canada 66e3 | SNI - investors.spotify.com.cyylr.eu.cc [CIDR]"
@@ -36226,7 +36202,7 @@ proxy-groups:
   - " Unsorted fb9a"
   - " Unsorted fbe4"
   - " Unsorted fc96 | SNI - 24vVd-4ImrVfAqV7HqXYbu9wzjv378qI.V2RAYgulF.woRKeRS.DeV"
-- name: 🇷🇺 Russia (311)
+- name: 🇷🇺 Russia (309)
   type: select
   proxies:
   - "🇷🇺 Russia 00a2 | SNI - cdp.x5.ru [CIDR]"
@@ -36247,7 +36223,6 @@ proxy-groups:
   - "🇷🇺 Russia 0f60 | SNI - www.vk.com"
   - "🇷🇺 Russia 1035"
   - "🇷🇺 Russia 107a"
-  - "🇷🇺 Russia 10de | SNI - static.rutube.ru"
   - "🇷🇺 Russia 10e1 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia 112d | SNI - cdp.x5.ru"
   - "🇷🇺 Russia 136c | SNI - cdp.x5.ru"
@@ -36423,7 +36398,6 @@ proxy-groups:
   - "🇷🇺 Russia 9dc4 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia 9f03 | SNI - yandex.ru"
   - "🇷🇺 Russia a03b | SNI - ads.x5.ru"
-  - "🇷🇺 Russia a07f | SNI - id.vk.com"
   - "🇷🇺 Russia a081 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia a170 | SNI - ads.x5.ru"
   - "🇷🇺 Russia a332 | SNI - ads.x5.ru"
@@ -37788,6 +37762,19 @@ proxy-groups:
   - "🇨🇳 China 8af4"
   - "🇨🇳 China 941a"
   - "🇨🇳 China f532"
+- name: 🇰🇿 Kazakhstan (10)
+  type: select
+  proxies:
+  - "🇰🇿 Kazakhstan 5720 | SNI - yahoo.com"
+  - "🇰🇿 Kazakhstan 59a8 | SNI - yahoo.com"
+  - "🇰🇿 Kazakhstan 650f"
+  - "🇰🇿 Kazakhstan 7537"
+  - "🇰🇿 Kazakhstan aa5d | SNI - kz-1.nodes.ac"
+  - "🇰🇿 Kazakhstan b03e | SNI - yahoo.com"
+  - "🇰🇿 Kazakhstan bdc4 | SNI - yahoo.com"
+  - "🇰🇿 Kazakhstan db89 | SNI - google.com"
+  - "🇰🇿 Kazakhstan f8ea"
+  - "🇰🇿 Kazakhstan fce8 | SNI - www.google.com"
 - name: 🇲🇾 Malaysia (10)
   type: select
   proxies:
@@ -37824,17 +37811,6 @@ proxy-groups:
   - "🇪🇪 Estonia b901 | SNI - ember.quietgarden.live"
   - "🇪🇪 Estonia c7ee | SNI - vk.ru"
   - "🇪🇪 Estonia f0b2 | SNI - google.com"
-- name: 🇰🇿 Kazakhstan (8)
-  type: select
-  proxies:
-  - "🇰🇿 Kazakhstan 5720 | SNI - yahoo.com"
-  - "🇰🇿 Kazakhstan 59a8 | SNI - yahoo.com"
-  - "🇰🇿 Kazakhstan aa5d | SNI - kz-1.nodes.ac"
-  - "🇰🇿 Kazakhstan b03e | SNI - yahoo.com"
-  - "🇰🇿 Kazakhstan bdc4 | SNI - yahoo.com"
-  - "🇰🇿 Kazakhstan db89 | SNI - google.com"
-  - "🇰🇿 Kazakhstan f8ea"
-  - "🇰🇿 Kazakhstan fce8 | SNI - www.google.com"
 - name: 🇷🇸 Serbia (7)
   type: select
   proxies:
@@ -38028,7 +38004,7 @@ proxy-groups:
   type: select
   proxies:
   - 🇧🇷 Brazil (1)
-  - 🇨🇦 Canada (466)
+  - 🇨🇦 Canada (465)
   - 🇨🇱 Chile (1)
   - 🇲🇽 Mexico (1)
   - 🇺🇸 United States (218)
@@ -38045,7 +38021,7 @@ proxy-groups:
   - 🇮🇳 India (5)
   - 🇯🇵 Japan (30)
   - 🇰🇷 South Korea (17)
-  - 🇰🇿 Kazakhstan (8)
+  - 🇰🇿 Kazakhstan (10)
   - 🇲🇾 Malaysia (10)
   - 🇵🇭 Philippines (2)
   - 🇸🇦 Saudi Arabia (2)
@@ -38085,7 +38061,7 @@ proxy-groups:
   - 🇵🇱 Poland (34)
   - 🇷🇴 Romania (3)
   - 🇷🇸 Serbia (7)
-  - 🇷🇺 Russia (311)
+  - 🇷🇺 Russia (309)
   - 🇸🇪 Sweden (38)
   - 🇸🇰 Slovakia (1)
   - 🇺🇦 Ukraine (1)
@@ -38222,7 +38198,7 @@ proxy-groups:
   - "🇺🇸 United States bd87"
   - "🇺🇸 United States c627"
   - "🇻🇳 Vietnam 9a13"
-- name: 🛠️ VLESS (2156)
+- name: 🛠️ VLESS (2153)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -38703,7 +38679,6 @@ proxy-groups:
   - "🇨🇦 Canada 60b1 | SNI - graph.instagram.com.cyylr.eu.cc"
   - "🇨🇦 Canada 6101 | SNI - super-term-8650.persiana-sport1.workers.dev"
   - "🇨🇦 Canada 6487 | SNI - grabacademyportal.grab.com.cyylr.eu.cc"
-  - "🇨🇦 Canada 65a2"
   - "🇨🇦 Canada 6613 | SNI - juzi.qea.ccwu.cc"
   - "🇨🇦 Canada 6653"
   - "🇨🇦 Canada 66e3 | SNI - investors.spotify.com.cyylr.eu.cc [CIDR]"
@@ -39814,7 +39789,6 @@ proxy-groups:
   - "🇷🇺 Russia 0f60 | SNI - www.vk.com"
   - "🇷🇺 Russia 1035"
   - "🇷🇺 Russia 107a"
-  - "🇷🇺 Russia 10de | SNI - static.rutube.ru"
   - "🇷🇺 Russia 10e1 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia 112d | SNI - cdp.x5.ru"
   - "🇷🇺 Russia 136c | SNI - cdp.x5.ru"
@@ -39987,7 +39961,6 @@ proxy-groups:
   - "🇷🇺 Russia 9dc4 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia 9f03 | SNI - yandex.ru"
   - "🇷🇺 Russia a03b | SNI - ads.x5.ru"
-  - "🇷🇺 Russia a07f | SNI - id.vk.com"
   - "🇷🇺 Russia a081 | SNI - cdp.x5.ru"
   - "🇷🇺 Russia a170 | SNI - ads.x5.ru"
   - "🇷🇺 Russia a332 | SNI - ads.x5.ru"
@@ -40381,7 +40354,7 @@ proxy-groups:
   - "🇺🇸 United States fa8d"
   - "🇺🇸 United States fec7 | SNI - us2.wxgqlfx.xyz"
   - "🇺🇸 United States ffd4 | SNI - us2.wxgqlfx.xyz"
-- name: 🛠️ VMESS (139)
+- name: 🛠️ VMESS (141)
   type: select
   proxies:
   - " Unsorted 0bbf"
@@ -40463,6 +40436,8 @@ proxy-groups:
   - "🇰🇷 South Korea 1f9b"
   - "🇰🇷 South Korea 6d8b"
   - "🇰🇷 South Korea da90"
+  - "🇰🇿 Kazakhstan 650f"
+  - "🇰🇿 Kazakhstan 7537"
   - "🇲🇾 Malaysia 261a"
   - "🇲🇾 Malaysia 752a"
   - "🇲🇾 Malaysia 7dbf"
