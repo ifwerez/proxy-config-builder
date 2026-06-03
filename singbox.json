@@ -100,6 +100,7 @@
         " Unsorted 4644",
         " Unsorted 467b | SNI - dropbox.com",
         " Unsorted 4805",
+        " Unsorted 480c",
         " Unsorted 481d | SNI - fgnix832fx.fx6hsv0.ccwu.cc",
         " Unsorted 48cd",
         " Unsorted 491f | SNI - octopusss4.com",
@@ -182,6 +183,7 @@
         " Unsorted 8d44",
         " Unsorted 8f8a | SNI - powered-by-surena.user68f797c2f3e1b.workers.dev",
         " Unsorted 9276",
+        " Unsorted 9466 | SNI - cnmfangbinxing.cnmfangbinxing-k.workers.dev",
         " Unsorted 9551 | SNI - muddy-math-c1fc.tmpnriqueau89.workers.dev",
         " Unsorted 9556 | SNI - nazanMano.x-upload.org",
         " Unsorted 9605 | SNI - wolf.ilovezhenjiu.top",
@@ -903,7 +905,6 @@
         "🇩🇪 Germany 2b31 | SNI - google.com",
         "🇩🇪 Germany 2b42 | SNI - yandex.ru",
         "🇩🇪 Germany 2b5b | SNI - fastsync.xyz",
-        "🇩🇪 Germany 2c26",
         "🇩🇪 Germany 318e | SNI - www.amazon.com",
         "🇩🇪 Germany 332e | SNI - de1.fromblancwithlove.com",
         "🇩🇪 Germany 3353 | SNI - cdn9-33.vk-cdnvideo.com",
@@ -1021,7 +1022,6 @@
         "🇩🇪 Germany ca70 | SNI - cdn9-33.vk-cdnvideo.com",
         "🇩🇪 Germany ca77 | SNI - us2.wxgqlfx.xyz",
         "🇩🇪 Germany cbc8",
-        "🇩🇪 Germany cc32 | SNI - ads.x5.ru",
         "🇩🇪 Germany cd35 | SNI - www.microsoft.com",
         "🇩🇪 Germany cd4e",
         "🇩🇪 Germany cd8a | SNI - us2.wxgqlfx.xyz",
@@ -1154,6 +1154,7 @@
         "🇫🇷 France 291e | SNI - play.google.com",
         "🇫🇷 France 2958 | SNI - bab-6.site",
         "🇫🇷 France 2c94 | SNI - fuck.rkn",
+        "🇫🇷 France 2f11",
         "🇫🇷 France 37e8",
         "🇫🇷 France 3b3d | SNI - 35cdnws.frnstatic.info",
         "🇫🇷 France 491c",
@@ -1234,7 +1235,6 @@
         "🇬🇧 United Kingdom 9aa9 | SNI - www.tradingview.com",
         "🇬🇧 United Kingdom 9bbd | SNI - ads.x5.ru",
         "🇬🇧 United Kingdom aab6 | SNI - blackshadow.dpdns.org",
-        "🇬🇧 United Kingdom acac | SNI - loadtest.dev.urent.ru",
         "🇬🇧 United Kingdom acfd | SNI - tradingview.com",
         "🇬🇧 United Kingdom b580 | SNI - wl-4-3.nodes.ac",
         "🇬🇧 United Kingdom b787 | SNI - api-maps.yandex.ru",
@@ -2038,6 +2038,7 @@
         "🇺🇸 United States 0017 | SNI - sni.111000.dynv6.net",
         "🇺🇸 United States 018e",
         "🇺🇸 United States 02a9 | SNI - octopusss4.com",
+        "🇺🇸 United States 02f6 | SNI - apple.com",
         "🇺🇸 United States 04cb | SNI - fast01.0860852.xyz",
         "🇺🇸 United States 0584 | SNI - yahoo.com",
         "🇺🇸 United States 05d0",
@@ -3434,6 +3435,24 @@
     },
     {
       "type": "vless",
+      "tag": " Unsorted 480c",
+      "server": "a1-tss.pages.dev",
+      "server_port": 443,
+      "uuid": "f86f5a03-3872-46b5-bf03-a50388a0261d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a1-tss.pages.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {}
+      }
+    },
+    {
+      "type": "vless",
       "tag": " Unsorted 481d | SNI - fgnix832fx.fx6hsv0.ccwu.cc",
       "server": "172.64.52.230",
       "server_port": 2087,
@@ -4768,6 +4787,21 @@
         "path": "/",
         "headers": {
           "Host": "fragrant-recipe-09f4.wopecuyubak61.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": " Unsorted 9466 | SNI - cnmfangbinxing.cnmfangbinxing-k.workers.dev",
+      "server": "itarmy.com.ua",
+      "server_port": 2095,
+      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/fp=randomized",
+        "headers": {
+          "Host": "cnmfangbinxing.cnmfangbinxing-k.workers.dev"
         }
       }
     },
@@ -16829,14 +16863,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Germany 2c26",
-      "server": "194.59.183.234",
-      "server_port": 666,
-      "uuid": "56aaf8cd-d2fb-5211-bc9b-c242ee37d429",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇩🇪 Germany 318e | SNI - www.amazon.com",
       "server": "englishpanelketab.konkuriran.sbs",
       "server_port": 39917,
@@ -18645,24 +18671,6 @@
         "enabled": true,
         "server_name": "www.homelywebs.click",
         "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 Germany cc32 | SNI - ads.x5.ru",
-      "server": "185.229.9.131",
-      "server_port": 443,
-      "uuid": "4145018e-4238-4102-bfd7-4149bc57a042",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "jH_LLqDnSPNz8SU_PC30VKKVKxQGU3QkbAr33bb9RGo",
-          "short_id": "27e53bbcab7593d7"
-        }
       }
     },
     {
@@ -20787,6 +20795,18 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇫🇷 France 2f11",
+      "server": "217.69.2.107",
+      "server_port": 443,
+      "password": "YGWIMlg.W1wRWQkRDcKfjZY7sng09aC=Yh",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.weavenet.click",
+        "insecure": false
+      }
+    },
+    {
       "type": "vmess",
       "tag": "🇫🇷 France 37e8",
       "server": "137.74.119.18",
@@ -22064,24 +22084,6 @@
         "path": "/44.209.52.7-443",
         "headers": {
           "Host": "blackshadow.dpdns.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 United Kingdom acac | SNI - loadtest.dev.urent.ru",
-      "server": "89.208.208.92",
-      "server_port": 7443,
-      "uuid": "cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "loadtest.dev.urent.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "_AXs-QnufIq918tbb2pwM3MDbe7kQ6i0cIHDMLwPmGs",
-          "short_id": "3210e0eee6605048"
         }
       }
     },
@@ -35299,6 +35301,24 @@
         "path": "/tsghdws",
         "headers": {
           "Host": "octopusss4.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 United States 02f6 | SNI - apple.com",
+      "server": "134.33.73.249",
+      "server_port": 54254,
+      "uuid": "acba684c-4098-4eca-f519-828b09f96464",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4",
+          "short_id": "db35ffdc"
         }
       }
     },
