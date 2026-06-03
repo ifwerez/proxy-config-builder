@@ -165,7 +165,6 @@
         " Unsorted 7a33 | SNI - www.microsoft.com",
         " Unsorted 7c9f | SNI - cyrus2.frtshop.ir",
         " Unsorted 7d50",
-        " Unsorted 7d5d",
         " Unsorted 7e2f | SNI - g7.steptofsvo.com",
         " Unsorted 7e34 | SNI - juzi.qea.ccwu.cc",
         " Unsorted 7f6e | SNI - vms.lifetime04.workers.dev",
@@ -2001,7 +2000,6 @@
         "🇷🇺 Russia fedd | SNI - cdp.x5.ru [CIDR]",
         "🇸🇦 Saudi Arabia 2795 | SNI - www.ebay.com",
         "🇸🇦 Saudi Arabia e39a | SNI - www.ebay.com",
-        "🇸🇪 Sweden 00c0 | SNI - vk.ru",
         "🇸🇪 Sweden 0722 | SNI - addons.mozilla.org",
         "🇸🇪 Sweden 0bdf | SNI - ads.x5.ru",
         "🇸🇪 Sweden 0f3f | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com",
@@ -2074,6 +2072,8 @@
         "🇸🇬 Singapore d61d | SNI - vless.hubp.de",
         "🇸🇬 Singapore d845",
         "🇸🇬 Singapore dcd0",
+        "🇸🇬 Singapore df64 | SNI - sni.skylee4.cloudns.ch",
+        "🇸🇬 Singapore e1de | SNI - sni.skylee4.cloudns.ch",
         "🇸🇬 Singapore eb6d | SNI - investors.spotify.com.cyylr.eu.cc",
         "🇸🇬 Singapore f0e3 | SNI - hhlfy.twiladaphne.ndjp.net",
         "🇸🇬 Singapore f416 | SNI - node1.nanonet.host",
@@ -2175,7 +2175,6 @@
         "🇺🇸 United States 47e2",
         "🇺🇸 United States 49ed",
         "🇺🇸 United States 4e35",
-        "🇺🇸 United States 4e62 | SNI - aws.amazon.com",
         "🇺🇸 United States 4fe4 | SNI - us2.wxgqlfx.xyz",
         "🇺🇸 United States 50f8",
         "🇺🇸 United States 51ad | SNI - pagescm.freen11.cc.cd",
@@ -2246,7 +2245,6 @@
         "🇺🇸 United States 965e | SNI - www.cloudflare.com",
         "🇺🇸 United States 9678 | SNI - www.samsung.com",
         "🇺🇸 United States 986d",
-        "🇺🇸 United States 9aed",
         "🇺🇸 United States 9b2a | SNI - us2.wxgqlfx.xyz",
         "🇺🇸 United States 9cc6",
         "🇺🇸 United States 9e9d | SNI - www.kinopoisk.ru",
@@ -2270,7 +2268,6 @@
         "🇺🇸 United States b4f6",
         "🇺🇸 United States b949 | SNI - www.apple.com",
         "🇺🇸 United States b98a",
-        "🇺🇸 United States bac2",
         "🇺🇸 United States bb4d | SNI - us2.wxgqlfx.xyz",
         "🇺🇸 United States bc2e | SNI - tradingview.com",
         "🇺🇸 United States bd87",
@@ -4553,18 +4550,6 @@
         "headers": {
           "Host": "cnmfangbinxing-nmsl.cnmfangbinxing-0.workers.dev"
         }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": " Unsorted 7d5d",
-      "server": "gr4.nimarko.org",
-      "server_port": 443,
-      "password": "1bf9c88b-1f99-47c3-ac39-cd0e4edac246",
-      "tls": {
-        "enabled": true,
-        "server_name": "gr4.nimarko.org",
-        "insecure": false
       }
     },
     {
@@ -34369,24 +34354,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 Sweden 00c0 | SNI - vk.ru",
-      "server": "46.226.161.7",
-      "server_port": 8443,
-      "uuid": "14a59796-6db6-4c48-b4d5-2c7b875074c1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "vk.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "rFb2hsGZE0KGim0_MMIfeKMnYTjKH2llqtN4uDUaTj0",
-          "short_id": "4d05e319b074645b"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇸🇪 Sweden 0722 | SNI - addons.mozilla.org",
       "server": "150.241.74.150",
       "server_port": 443,
@@ -35615,6 +35582,46 @@
       "uuid": "52f9cbfb-5bb3-3dd3-b947-725e365c59f3",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 Singapore df64 | SNI - sni.skylee4.cloudns.ch",
+      "server": "3.1.116.161",
+      "server_port": 2053,
+      "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.skylee4.cloudns.ch",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.CMLiussss.net",
+        "headers": {
+          "Host": "sni.skylee4.cloudns.ch"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 Singapore e1de | SNI - sni.skylee4.cloudns.ch",
+      "server": "3.1.116.161",
+      "server_port": 8443,
+      "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.skylee4.cloudns.ch",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=ProxyIP.CMLiussss.net",
+        "headers": {
+          "Host": "sni.skylee4.cloudns.ch"
+        }
+      }
     },
     {
       "type": "vless",
@@ -37174,23 +37181,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 United States 4e62 | SNI - aws.amazon.com",
-      "server": "159.89.87.21",
-      "server_port": 28190,
-      "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "aws.amazon.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸 United States 4fe4 | SNI - us2.wxgqlfx.xyz",
       "server": "82.115.5.157",
       "server_port": 443,
@@ -38260,15 +38250,6 @@
       "alter_id": 0
     },
     {
-      "type": "vmess",
-      "tag": "🇺🇸 United States 9aed",
-      "server": "usaapp1.jisuyun.top",
-      "server_port": 2053,
-      "uuid": "4b80aa86-4354-40bb-d2a3-47126cff0bea",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "type": "vless",
       "tag": "🇺🇸 United States 9b2a | SNI - us2.wxgqlfx.xyz",
       "server": "95.164.62.196",
@@ -38653,15 +38634,6 @@
           "Host": "iran-fast.azazilvpn.sbs"
         }
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States bac2",
-      "server": "172.236.244.171",
-      "server_port": 2053,
-      "uuid": "4b80aa86-4354-40bb-d2a3-47126cff0bea",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "type": "vless",
