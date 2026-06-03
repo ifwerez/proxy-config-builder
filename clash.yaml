@@ -1787,6 +1787,13 @@ proxies:
     path: /
     headers:
       Host: cnmfangbinxing-nmsl.cnmfangbinxing-0.workers.dev
+- name: " Unsorted 7d5d"
+  server: gr4.nimarko.org
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 1bf9c88b-1f99-47c3-ac39-cd0e4edac246
+  sni: gr4.nimarko.org
 - name: " Unsorted 7e2f | SNI - g7.steptofsvo.com"
   server: g7.steptofsvo.com
   port: 443
@@ -27886,36 +27893,6 @@ proxies:
   alterId: 0
   network: ws
   tls: false
-- name: "🇸🇬 Singapore df64 | SNI - sni.skylee4.cloudns.ch"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
-  server: 3.1.116.161
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  network: ws
-  tls: true
-  servername: sni.skylee4.cloudns.ch
-  client-fingerprint: chrome
-  ws-opts:
-    path: "/proxyip=ProxyIP.CMLiussss.net"
-    headers:
-      Host: sni.skylee4.cloudns.ch
-- name: "🇸🇬 Singapore e1de | SNI - sni.skylee4.cloudns.ch"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
-  server: 3.1.116.161
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  network: ws
-  tls: true
-  servername: sni.skylee4.cloudns.ch
-  client-fingerprint: chrome
-  ws-opts:
-    path: "/proxyip=ProxyIP.CMLiussss.net"
-    headers:
-      Host: sni.skylee4.cloudns.ch
 - name: "🇸🇬 Singapore eb6d | SNI - investors.spotify.com.cyylr.eu.cc"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
   server: 27.50.48.49
@@ -31408,10 +31385,10 @@ proxy-groups:
 - name: PROXY
   type: select
   proxies:
-  - ⚡ Best Ping (2312)
+  - ⚡ Best Ping (2311)
   - 🌍 Continents
   - 🛠️ Protocols
-- name: ⚡ Best Ping (2312)
+- name: ⚡ Best Ping (2311)
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -31557,6 +31534,7 @@ proxy-groups:
   - " Unsorted 7a33 | SNI - www.microsoft.com"
   - " Unsorted 7c9f | SNI - cyrus2.frtshop.ir"
   - " Unsorted 7d50"
+  - " Unsorted 7d5d"
   - " Unsorted 7e2f | SNI - g7.steptofsvo.com"
   - " Unsorted 7e34 | SNI - juzi.qea.ccwu.cc"
   - " Unsorted 7f6e | SNI - vms.lifetime04.workers.dev"
@@ -33465,8 +33443,6 @@ proxy-groups:
   - "🇸🇬 Singapore d61d | SNI - vless.hubp.de"
   - "🇸🇬 Singapore d845"
   - "🇸🇬 Singapore dcd0"
-  - "🇸🇬 Singapore df64 | SNI - sni.skylee4.cloudns.ch"
-  - "🇸🇬 Singapore e1de | SNI - sni.skylee4.cloudns.ch"
   - "🇸🇬 Singapore eb6d | SNI - investors.spotify.com.cyylr.eu.cc"
   - "🇸🇬 Singapore f0e3 | SNI - hhlfy.twiladaphne.ndjp.net"
   - "🇸🇬 Singapore f416 | SNI - node1.nanonet.host"
@@ -33739,9 +33715,9 @@ proxy-groups:
 - name: 🛠️ Protocols
   type: select
   proxies:
-  - 🛠️ HYSTERIA2 (9)
+  - 🛠️ HYSTERIA2 (10)
   - 🛠️ TROJAN (114)
-  - 🛠️ VLESS (2049)
+  - 🛠️ VLESS (2047)
   - 🛠️ VMESS (140)
 - name: 🇨🇦 Canada (456)
   type: select
@@ -34202,7 +34178,7 @@ proxy-groups:
   - "🇨🇦 Canada fb40"
   - "🇨🇦 Canada fee5"
   - "🇨🇦 Canada ff2d"
-- name: 📦 Unsorted (314)
+- name: 📦 Unsorted (315)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -34345,6 +34321,7 @@ proxy-groups:
   - " Unsorted 7a33 | SNI - www.microsoft.com"
   - " Unsorted 7c9f | SNI - cyrus2.frtshop.ir"
   - " Unsorted 7d50"
+  - " Unsorted 7d5d"
   - " Unsorted 7e2f | SNI - g7.steptofsvo.com"
   - " Unsorted 7e34 | SNI - juzi.qea.ccwu.cc"
   - " Unsorted 7f6e | SNI - vms.lifetime04.workers.dev"
@@ -35639,7 +35616,7 @@ proxy-groups:
   - "🇫🇷 France f133"
   - "🇫🇷 France f1f7"
   - "🇫🇷 France f2be | SNI - ads.x5.ru"
-- name: 🇸🇬 Singapore (48)
+- name: 🇸🇬 Singapore (46)
   type: select
   proxies:
   - "🇸🇬 Singapore 007b"
@@ -35684,8 +35661,6 @@ proxy-groups:
   - "🇸🇬 Singapore d61d | SNI - vless.hubp.de"
   - "🇸🇬 Singapore d845"
   - "🇸🇬 Singapore dcd0"
-  - "🇸🇬 Singapore df64 | SNI - sni.skylee4.cloudns.ch"
-  - "🇸🇬 Singapore e1de | SNI - sni.skylee4.cloudns.ch"
   - "🇸🇬 Singapore eb6d | SNI - investors.spotify.com.cyylr.eu.cc"
   - "🇸🇬 Singapore f0e3 | SNI - hhlfy.twiladaphne.ndjp.net"
   - "🇸🇬 Singapore f416 | SNI - node1.nanonet.host"
@@ -36246,7 +36221,7 @@ proxy-groups:
   - 🇲🇾 Malaysia (10)
   - 🇵🇭 Philippines (1)
   - 🇸🇦 Saudi Arabia (2)
-  - 🇸🇬 Singapore (48)
+  - 🇸🇬 Singapore (46)
   - 🇹🇭 Thailand (7)
   - 🇹🇷 Turkey (10)
   - 🇹🇼 Taiwan (11)
@@ -36286,12 +36261,13 @@ proxy-groups:
   proxies:
   - 🇦🇺 Australia (8)
   - 🇳🇿 New Zealand (1)
-- name: 🛠️ HYSTERIA2 (9)
+- name: 🛠️ HYSTERIA2 (10)
   type: select
   proxies:
   - " Unsorted 0347"
   - " Unsorted 4159"
   - " Unsorted 44d9"
+  - " Unsorted 7d5d"
   - " Unsorted d27d"
   - "🇫🇷 France 74e6"
   - "🇷🇺 Russia 1fcb"
@@ -36415,7 +36391,7 @@ proxy-groups:
   - "🇺🇸 United States c627"
   - "🇺🇸 United States f657"
   - "🇻🇳 Vietnam 9a13"
-- name: 🛠️ VLESS (2049)
+- name: 🛠️ VLESS (2047)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -38257,8 +38233,6 @@ proxy-groups:
   - "🇸🇬 Singapore cac6 | SNI - support.zoom.us.cyylr.eu.cc"
   - "🇸🇬 Singapore d61d | SNI - vless.hubp.de"
   - "🇸🇬 Singapore d845"
-  - "🇸🇬 Singapore df64 | SNI - sni.skylee4.cloudns.ch"
-  - "🇸🇬 Singapore e1de | SNI - sni.skylee4.cloudns.ch"
   - "🇸🇬 Singapore eb6d | SNI - investors.spotify.com.cyylr.eu.cc"
   - "🇸🇬 Singapore f0e3 | SNI - hhlfy.twiladaphne.ndjp.net"
   - "🇸🇬 Singapore f416 | SNI - node1.nanonet.host"
