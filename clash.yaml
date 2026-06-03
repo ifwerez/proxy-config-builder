@@ -120,6 +120,19 @@ proxies:
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: ''
+- name: " Unsorted 06d7"
+  server: 185.143.234.234
+  port: 2052
+  udp: true
+  type: vless
+  uuid: f025c66e-47f3-4e00-a681-2866f17074f1
+  network: ws
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: u9.deltamarket3.ir
 - name: " Unsorted 08e8 | SNI - calm-smoke-1a21.alvlirm6262.workers.dev"
   server: 172.64.189.5
   port: 2083
@@ -925,6 +938,19 @@ proxies:
     path: /
     headers:
       Host: sport.mr100tomani.ir
+- name: " Unsorted 43f8"
+  server: 185.143.234.234
+  port: 2082
+  udp: true
+  type: vless
+  uuid: 99c77e7a-dc52-d734-98dd-aa87fc9b8c07
+  network: ws
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      {}
 - name: " Unsorted 442a | SNI - deepl.com"
   server: am.synatra.net
   port: 4430
@@ -3658,6 +3684,19 @@ proxies:
     path: /download
     headers:
       Host: dl.filmplus.top
+- name: " Unsorted e5ef"
+  server: 185.143.234.234
+  port: 2095
+  udp: true
+  type: vless
+  uuid: 62af51a4-d37e-40eb-8e86-469210815d3d
+  network: ws
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: nl.fastwarx.shop
 - name: " Unsorted e5f1"
   server: cdn.sbineti.shop
   port: 80
@@ -12414,6 +12453,20 @@ proxies:
   alterId: 0
   network: ws
   tls: false
+- name: "🇩🇪 Germany 4952 | SNI - www.samsung.com"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 45.129.242.162
+  port: 443
+  udp: true
+  type: vless
+  uuid: 301d514e-4aa0-47b0-ba44-a0cb891cd52f
+  network: tcp
+  tls: true
+  servername: www.samsung.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4
+    short-id: "a1b2c3d4"
 - name: "🇩🇪 Germany 4b19"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 91.233.8.25
@@ -14878,21 +14931,6 @@ proxies:
   servername: sub.sbrf-cdn342.ru
   client-fingerprint: qq
   flow: xtls-rprx-vision
-- name: "🇩🇪 Germany fc82 | SNI - video.intfreed.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 88.216.193.56
-  port: 443
-  udp: true
-  type: vless
-  uuid: 1cbfb9ea-2a50-4c25-adea-3fd8065e21bc
-  network: tcp
-  tls: true
-  servername: video.intfreed.ru
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw
-    short-id: "7755e972daf8eec8"
 - name: "🇩🇪 Germany fcc6 | SNI - ads.x5.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 178.154.233.157
@@ -30353,6 +30391,20 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+- name: "🇹🇷 Turkey 0c78 | SNI - www.yahoo.com"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TR.png
+  server: 37.221.79.69
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 15115772-74b5-4c9b-9049-d7237a9c68f9
+  network: tcp
+  tls: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: kSqgT4C5AcpCMLdW1VCvFSiv5UX6UDLaF33ECFpzUgQ
+    short-id: "41"
 - name: "🇹🇷 Turkey 3b3c"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TR.png
   server: 185.181.211.81
@@ -33586,10 +33638,10 @@ proxy-groups:
 - name: PROXY
   type: select
   proxies:
-  - ⚡ Best Ping (2455)
+  - ⚡ Best Ping (2459)
   - 🌍 Continents
   - 🛠️ Protocols
-- name: ⚡ Best Ping (2455)
+- name: ⚡ Best Ping (2459)
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -33603,6 +33655,7 @@ proxy-groups:
   - " Unsorted 0445 | SNI - www.tue.nl"
   - " Unsorted 0452 | SNI - f-watashi-r-jacket-o-people-jan.saft89.ir"
   - " Unsorted 048c"
+  - " Unsorted 06d7"
   - " Unsorted 08e8 | SNI - calm-smoke-1a21.alvlirm6262.workers.dev"
   - " Unsorted 09b6 | SNI - v2configlab.v2configlab18.workers.dev"
   - " Unsorted 0a28"
@@ -33668,6 +33721,7 @@ proxy-groups:
   - " Unsorted 4159"
   - " Unsorted 424a | SNI - ssj.new-persian-song.ir"
   - " Unsorted 4300"
+  - " Unsorted 43f8"
   - " Unsorted 442a | SNI - deepl.com"
   - " Unsorted 4571 | SNI - wza2.y8rs.xyz"
   - " Unsorted 4644"
@@ -33882,6 +33936,7 @@ proxy-groups:
   - " Unsorted e4d2"
   - " Unsorted e5a1 | SNI - fgnix832fx.fx6hsv0.ccwu.cc"
   - " Unsorted e5e7"
+  - " Unsorted e5ef"
   - " Unsorted e5f1"
   - " Unsorted e6d9"
   - " Unsorted e790 | SNI - franccxc3.twilightparadox.com"
@@ -34525,6 +34580,7 @@ proxy-groups:
   - "🇩🇪 Germany 488a | SNI - max.ru"
   - "🇩🇪 Germany 48e9 | SNI - dogs.abvphelp.cc"
   - "🇩🇪 Germany 494c"
+  - "🇩🇪 Germany 4952 | SNI - www.samsung.com"
   - "🇩🇪 Germany 4b19"
   - "🇩🇪 Germany 4bab | SNI - yandex.ru"
   - "🇩🇪 Germany 4c26 | SNI - us2.wxgqlfx.xyz"
@@ -34708,7 +34764,6 @@ proxy-groups:
   - "🇩🇪 Germany f8a7"
   - "🇩🇪 Germany f9ac | SNI - ads.x5.ru"
   - "🇩🇪 Germany fabf | SNI - sub.sbrf-cdn342.ru"
-  - "🇩🇪 Germany fc82 | SNI - video.intfreed.ru"
   - "🇩🇪 Germany fcc6 | SNI - ads.x5.ru"
   - "🇩🇪 Germany fdf7 | SNI - aws.amazon.com"
   - "🇩🇪 Germany fe49 | SNI - aws.amazon.com"
@@ -35808,6 +35863,7 @@ proxy-groups:
   - "🇹🇭 Thailand 6a9b | SNI - t1.feiyue706.com"
   - "🇹🇭 Thailand 98a7"
   - "🇹🇭 Thailand bb03 | SNI - www.primevideo.com"
+  - "🇹🇷 Turkey 0c78 | SNI - www.yahoo.com"
   - "🇹🇷 Turkey 3b3c"
   - "🇹🇷 Turkey 4b72"
   - "🇹🇷 Turkey 64e7"
@@ -36062,7 +36118,7 @@ proxy-groups:
   proxies:
   - 🛠️ HYSTERIA2 (10)
   - 🛠️ TROJAN (111)
-  - 🛠️ VLESS (2194)
+  - 🛠️ VLESS (2198)
   - 🛠️ VMESS (140)
 - name: 🇨🇦 Canada (467)
   type: select
@@ -36534,7 +36590,7 @@ proxy-groups:
   - "🇨🇦 Canada fedf | SNI - v2configlab.v2configlab18.workers.dev"
   - "🇨🇦 Canada fee5"
   - "🇨🇦 Canada ff2d"
-- name: 📦 Unsorted (320)
+- name: 📦 Unsorted (323)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -36545,6 +36601,7 @@ proxy-groups:
   - " Unsorted 0445 | SNI - www.tue.nl"
   - " Unsorted 0452 | SNI - f-watashi-r-jacket-o-people-jan.saft89.ir"
   - " Unsorted 048c"
+  - " Unsorted 06d7"
   - " Unsorted 08e8 | SNI - calm-smoke-1a21.alvlirm6262.workers.dev"
   - " Unsorted 09b6 | SNI - v2configlab.v2configlab18.workers.dev"
   - " Unsorted 0a28"
@@ -36610,6 +36667,7 @@ proxy-groups:
   - " Unsorted 4159"
   - " Unsorted 424a | SNI - ssj.new-persian-song.ir"
   - " Unsorted 4300"
+  - " Unsorted 43f8"
   - " Unsorted 442a | SNI - deepl.com"
   - " Unsorted 4571 | SNI - wza2.y8rs.xyz"
   - " Unsorted 4644"
@@ -36824,6 +36882,7 @@ proxy-groups:
   - " Unsorted e4d2"
   - " Unsorted e5a1 | SNI - fgnix832fx.fx6hsv0.ccwu.cc"
   - " Unsorted e5e7"
+  - " Unsorted e5ef"
   - " Unsorted e5f1"
   - " Unsorted e6d9"
   - " Unsorted e790 | SNI - franccxc3.twilightparadox.com"
@@ -37242,6 +37301,7 @@ proxy-groups:
   - "🇩🇪 Germany 488a | SNI - max.ru"
   - "🇩🇪 Germany 48e9 | SNI - dogs.abvphelp.cc"
   - "🇩🇪 Germany 494c"
+  - "🇩🇪 Germany 4952 | SNI - www.samsung.com"
   - "🇩🇪 Germany 4b19"
   - "🇩🇪 Germany 4bab | SNI - yandex.ru"
   - "🇩🇪 Germany 4c26 | SNI - us2.wxgqlfx.xyz"
@@ -37425,7 +37485,6 @@ proxy-groups:
   - "🇩🇪 Germany f8a7"
   - "🇩🇪 Germany f9ac | SNI - ads.x5.ru"
   - "🇩🇪 Germany fabf | SNI - sub.sbrf-cdn342.ru"
-  - "🇩🇪 Germany fc82 | SNI - video.intfreed.ru"
   - "🇩🇪 Germany fcc6 | SNI - ads.x5.ru"
   - "🇩🇪 Germany fdf7 | SNI - aws.amazon.com"
   - "🇩🇪 Germany fe49 | SNI - aws.amazon.com"
@@ -38403,9 +38462,10 @@ proxy-groups:
   - "🇨🇭 Switzerland b0bc | SNI - yahoo.com"
   - "🇨🇭 Switzerland b76c"
   - "🇨🇭 Switzerland fc56 | SNI - colorlib.com"
-- name: 🇹🇷 Turkey (11)
+- name: 🇹🇷 Turkey (12)
   type: select
   proxies:
+  - "🇹🇷 Turkey 0c78 | SNI - www.yahoo.com"
   - "🇹🇷 Turkey 3b3c"
   - "🇹🇷 Turkey 4b72"
   - "🇹🇷 Turkey 64e7"
@@ -38723,7 +38783,7 @@ proxy-groups:
   - 🇸🇦 Saudi Arabia (2)
   - 🇸🇬 Singapore (46)
   - 🇹🇭 Thailand (7)
-  - 🇹🇷 Turkey (11)
+  - 🇹🇷 Turkey (12)
   - 🇹🇼 Taiwan (11)
   - 🇻🇳 Vietnam (1)
 - name: 🌍 Europe (32)
@@ -38893,7 +38953,7 @@ proxy-groups:
   - "🇺🇸 United States bd87"
   - "🇺🇸 United States c627"
   - "🇻🇳 Vietnam 9a13"
-- name: 🛠️ VLESS (2194)
+- name: 🛠️ VLESS (2198)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -38903,6 +38963,7 @@ proxy-groups:
   - " Unsorted 0445 | SNI - www.tue.nl"
   - " Unsorted 0452 | SNI - f-watashi-r-jacket-o-people-jan.saft89.ir"
   - " Unsorted 048c"
+  - " Unsorted 06d7"
   - " Unsorted 08e8 | SNI - calm-smoke-1a21.alvlirm6262.workers.dev"
   - " Unsorted 09b6 | SNI - v2configlab.v2configlab18.workers.dev"
   - " Unsorted 0b1b | SNI - vi.mojaz-persian-music.ir"
@@ -38959,6 +39020,7 @@ proxy-groups:
   - " Unsorted 40f7"
   - " Unsorted 424a | SNI - ssj.new-persian-song.ir"
   - " Unsorted 4300"
+  - " Unsorted 43f8"
   - " Unsorted 442a | SNI - deepl.com"
   - " Unsorted 4571 | SNI - wza2.y8rs.xyz"
   - " Unsorted 4644"
@@ -39152,6 +39214,7 @@ proxy-groups:
   - " Unsorted e490"
   - " Unsorted e5a1 | SNI - fgnix832fx.fx6hsv0.ccwu.cc"
   - " Unsorted e5e7"
+  - " Unsorted e5ef"
   - " Unsorted e5f1"
   - " Unsorted e6d9"
   - " Unsorted e790 | SNI - franccxc3.twilightparadox.com"
@@ -39715,6 +39778,7 @@ proxy-groups:
   - "🇩🇪 Germany 4872"
   - "🇩🇪 Germany 488a | SNI - max.ru"
   - "🇩🇪 Germany 48e9 | SNI - dogs.abvphelp.cc"
+  - "🇩🇪 Germany 4952 | SNI - www.samsung.com"
   - "🇩🇪 Germany 4bab | SNI - yandex.ru"
   - "🇩🇪 Germany 4c26 | SNI - us2.wxgqlfx.xyz"
   - "🇩🇪 Germany 4d06 | SNI - cdn9-33.vk-cdnvideo.com"
@@ -39886,7 +39950,6 @@ proxy-groups:
   - "🇩🇪 Germany f8a7"
   - "🇩🇪 Germany f9ac | SNI - ads.x5.ru"
   - "🇩🇪 Germany fabf | SNI - sub.sbrf-cdn342.ru"
-  - "🇩🇪 Germany fc82 | SNI - video.intfreed.ru"
   - "🇩🇪 Germany fcc6 | SNI - ads.x5.ru"
   - "🇩🇪 Germany fdf7 | SNI - aws.amazon.com"
   - "🇩🇪 Germany fe49 | SNI - aws.amazon.com"
@@ -40893,6 +40956,7 @@ proxy-groups:
   - "🇹🇭 Thailand 001e | SNI - api.digital-help-prd.autodesk.com"
   - "🇹🇭 Thailand 6a9b | SNI - t1.feiyue706.com"
   - "🇹🇭 Thailand bb03 | SNI - www.primevideo.com"
+  - "🇹🇷 Turkey 0c78 | SNI - www.yahoo.com"
   - "🇹🇷 Turkey 3b3c"
   - "🇹🇷 Turkey 64e7"
   - "🇹🇷 Turkey 904e | SNI - www.yahoo.com"
