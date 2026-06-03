@@ -24928,21 +24928,6 @@ proxies:
     short-id: "775eb6408888248e"
   grpc-opts:
     grpc-service-name: ''
-- name: "🇸🇪 Sweden 00c0 | SNI - vk.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SE.png
-  server: 46.226.161.7
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 14a59796-6db6-4c48-b4d5-2c7b875074c1
-  network: tcp
-  tls: true
-  servername: vk.ru
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: rFb2hsGZE0KGim0_MMIfeKMnYTjKH2llqtN4uDUaTj0
-    short-id: "4d05e319b074645b"
 - name: "🇸🇪 Sweden 0722 | SNI - addons.mozilla.org"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SE.png
   server: 150.241.74.150
@@ -25868,6 +25853,36 @@ proxies:
     path: "/+@ProxyVPN11"
     headers:
       Host: vip.yaml7.ggff.net
+- name: "🇸🇬 Singapore df64 | SNI - sni.skylee4.cloudns.ch"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
+  server: 3.1.116.161
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  network: ws
+  tls: true
+  servername: sni.skylee4.cloudns.ch
+  client-fingerprint: chrome
+  ws-opts:
+    path: "/proxyip=ProxyIP.CMLiussss.net"
+    headers:
+      Host: sni.skylee4.cloudns.ch
+- name: "🇸🇬 Singapore e1de | SNI - sni.skylee4.cloudns.ch"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
+  server: 3.1.116.161
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  network: ws
+  tls: true
+  servername: sni.skylee4.cloudns.ch
+  client-fingerprint: chrome
+  ws-opts:
+    path: "/proxyip=ProxyIP.CMLiussss.net"
+    headers:
+      Host: sni.skylee4.cloudns.ch
 - name: "🇸🇬 Singapore eb6d | SNI - investors.spotify.com.cyylr.eu.cc"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
   server: 27.50.48.49
@@ -26991,20 +27006,6 @@ proxies:
   reality-opts:
     public-key: ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30
     short-id: "30e570274c0c72cc"
-- name: "🇺🇸 United States 4e62 | SNI - aws.amazon.com"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: 159.89.87.21
-  port: 28190
-  udp: true
-  type: vless
-  uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
-  network: tcp
-  tls: true
-  servername: aws.amazon.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
 - name: "🇺🇸 United States 4fe4 | SNI - us2.wxgqlfx.xyz"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 82.115.5.157
