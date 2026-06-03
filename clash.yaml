@@ -4402,16 +4402,6 @@ proxies:
     short-id: "e67fb918ed6b9ffb"
   grpc-opts:
     grpc-service-name: grpc-vk
-- name: "🇧🇬 Bulgaria 599f"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/BG.png
-  server: 93.126.19.247
-  port: 19467
-  udp: true
-  type: vless
-  uuid: ee258b89-6004-43cb-a404-69c4f1ac6b56
-  network: tcp
-  tls: false
-  client-fingerprint: chrome
 - name: "🇧🇬 Bulgaria 6d32"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/BG.png
   server: 130.94.97.11
@@ -4450,16 +4440,6 @@ proxies:
   reality-opts:
     public-key: Hq4RlJdGl8UN0KO3kNj03pjToLF7fnCHdZfQ1qmDLho
     short-id: "98"
-- name: "🇧🇬 Bulgaria de5b"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/BG.png
-  server: app.movise.org
-  port: 19467
-  udp: true
-  type: vless
-  uuid: ee258b89-6004-43cb-a404-69c4f1ac6b56
-  network: tcp
-  tls: false
-  client-fingerprint: chrome
 - name: "🇧🇬 Bulgaria e7c9"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/BG.png
   server: 89.116.161.50
@@ -13414,6 +13394,14 @@ proxies:
   tls: true
   servername: faboo.tll-far.ir
   client-fingerprint: chrome
+- name: "🇩🇪 Germany 6e54"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 63.185.173.123
+  port: 22222
+  udp: true
+  type: trojan
+  password: telegram-id-privatevpns
+  tls: true
 - name: "🇩🇪 Germany 6ebf | SNI - cdn9-33.vk-cdnvideo.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 82.202.159.251
@@ -34194,10 +34182,10 @@ proxy-groups:
 - name: PROXY
   type: select
   proxies:
-  - ⚡ Best Ping (2501)
+  - ⚡ Best Ping (2500)
   - 🌍 Continents
   - 🛠️ Protocols
-- name: ⚡ Best Ping (2501)
+- name: ⚡ Best Ping (2500)
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -34548,11 +34536,9 @@ proxy-groups:
   - "🇦🇺 Australia bf7e"
   - "🇦🇺 Australia dfa5"
   - "🇧🇬 Bulgaria 2668 | SNI - avatars.mds.yandex.net [CIDR]"
-  - "🇧🇬 Bulgaria 599f"
   - "🇧🇬 Bulgaria 6d32"
   - "🇧🇬 Bulgaria 74d6 | SNI - www.samsung.com"
   - "🇧🇬 Bulgaria a194 | SNI - yandex.ru"
-  - "🇧🇬 Bulgaria de5b"
   - "🇧🇬 Bulgaria e7c9"
   - "🇧🇷 Brazil 027e"
   - "🇧🇾 Belarus b927 | SNI - by.api-yandex.net"
@@ -35205,6 +35191,7 @@ proxy-groups:
   - "🇩🇪 Germany 686a | SNI - cdn9-33.vk-cdnvideo.com"
   - "🇩🇪 Germany 695f | SNI - us2.wxgqlfx.xyz"
   - "🇩🇪 Germany 6bac | SNI - faboo.tll-far.ir"
+  - "🇩🇪 Germany 6e54"
   - "🇩🇪 Germany 6ebf | SNI - cdn9-33.vk-cdnvideo.com"
   - "🇩🇪 Germany 6ee5"
   - "🇩🇪 Germany 6f04 | SNI - play.google.com"
@@ -36715,8 +36702,8 @@ proxy-groups:
   type: select
   proxies:
   - 🛠️ HYSTERIA2 (10)
-  - 🛠️ TROJAN (111)
-  - 🛠️ VLESS (2239)
+  - 🛠️ TROJAN (112)
+  - 🛠️ VLESS (2237)
   - 🛠️ VMESS (141)
 - name: 🇨🇦 Canada (495)
   type: select
@@ -37841,7 +37828,7 @@ proxy-groups:
   - "🇷🇺 Russia fd3c | SNI - www.2gis.ru"
   - "🇷🇺 Russia fdbf | SNI - cdp.x5.ru [CIDR]"
   - "🇷🇺 Russia fedd | SNI - cdp.x5.ru [CIDR]"
-- name: 🇩🇪 Germany (293)
+- name: 🇩🇪 Germany (294)
   type: select
   proxies:
   - "🇩🇪 Germany 03f2 | SNI - yandex.ru"
@@ -37961,6 +37948,7 @@ proxy-groups:
   - "🇩🇪 Germany 686a | SNI - cdn9-33.vk-cdnvideo.com"
   - "🇩🇪 Germany 695f | SNI - us2.wxgqlfx.xyz"
   - "🇩🇪 Germany 6bac | SNI - faboo.tll-far.ir"
+  - "🇩🇪 Germany 6e54"
   - "🇩🇪 Germany 6ebf | SNI - cdn9-33.vk-cdnvideo.com"
   - "🇩🇪 Germany 6ee5"
   - "🇩🇪 Germany 6f04 | SNI - play.google.com"
@@ -39205,16 +39193,6 @@ proxy-groups:
   - "🇦🇺 Australia b418"
   - "🇦🇺 Australia bf7e"
   - "🇦🇺 Australia dfa5"
-- name: 🇧🇬 Bulgaria (7)
-  type: select
-  proxies:
-  - "🇧🇬 Bulgaria 2668 | SNI - avatars.mds.yandex.net [CIDR]"
-  - "🇧🇬 Bulgaria 599f"
-  - "🇧🇬 Bulgaria 6d32"
-  - "🇧🇬 Bulgaria 74d6 | SNI - www.samsung.com"
-  - "🇧🇬 Bulgaria a194 | SNI - yandex.ru"
-  - "🇧🇬 Bulgaria de5b"
-  - "🇧🇬 Bulgaria e7c9"
 - name: 🇨🇾 Cyprus (7)
   type: select
   proxies:
@@ -39290,6 +39268,14 @@ proxy-groups:
   - "🇦🇲 Armenia 2ea8 | SNI - deepl.com"
   - "🇦🇲 Armenia 890a"
   - "🇦🇲 Armenia e989"
+- name: 🇧🇬 Bulgaria (5)
+  type: select
+  proxies:
+  - "🇧🇬 Bulgaria 2668 | SNI - avatars.mds.yandex.net [CIDR]"
+  - "🇧🇬 Bulgaria 6d32"
+  - "🇧🇬 Bulgaria 74d6 | SNI - www.samsung.com"
+  - "🇧🇬 Bulgaria a194 | SNI - yandex.ru"
+  - "🇧🇬 Bulgaria e7c9"
 - name: 🇪🇸 Spain (5)
   type: select
   proxies:
@@ -39425,11 +39411,11 @@ proxy-groups:
   proxies:
   - 🇦🇱 Albania (9)
   - 🇦🇹 Austria (10)
-  - 🇧🇬 Bulgaria (7)
+  - 🇧🇬 Bulgaria (5)
   - 🇧🇾 Belarus (3)
   - 🇨🇭 Switzerland (14)
   - 🇨🇿 Czechia (7)
-  - 🇩🇪 Germany (293)
+  - 🇩🇪 Germany (294)
   - 🇩🇰 Denmark (1)
   - 🇪🇪 Estonia (10)
   - 🇪🇸 Spain (5)
@@ -39471,7 +39457,7 @@ proxy-groups:
   - "🇷🇺 Russia 7f9a"
   - "🇷🇺 Russia 8f5c"
   - "🇺🇸 United States ef6b"
-- name: 🛠️ TROJAN (111)
+- name: 🛠️ TROJAN (112)
   type: select
   proxies:
   - " Unsorted 0a28"
@@ -39556,6 +39542,7 @@ proxy-groups:
   - "🇩🇪 Germany 4b19"
   - "🇩🇪 Germany 576d"
   - "🇩🇪 Germany 615c"
+  - "🇩🇪 Germany 6e54"
   - "🇩🇪 Germany cbc8"
   - "🇩🇪 Germany e4a6"
   - "🇩🇪 Germany f4e5"
@@ -39585,7 +39572,7 @@ proxy-groups:
   - "🇺🇸 United States bd87"
   - "🇺🇸 United States c627"
   - "🇻🇳 Vietnam 9a13"
-- name: 🛠️ VLESS (2239)
+- name: 🛠️ VLESS (2237)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -39893,10 +39880,8 @@ proxy-groups:
   - "🇦🇺 Australia b418"
   - "🇦🇺 Australia dfa5"
   - "🇧🇬 Bulgaria 2668 | SNI - avatars.mds.yandex.net [CIDR]"
-  - "🇧🇬 Bulgaria 599f"
   - "🇧🇬 Bulgaria 74d6 | SNI - www.samsung.com"
   - "🇧🇬 Bulgaria a194 | SNI - yandex.ru"
-  - "🇧🇬 Bulgaria de5b"
   - "🇧🇬 Bulgaria e7c9"
   - "🇧🇾 Belarus b927 | SNI - by.api-yandex.net"
   - "🇧🇾 Belarus d9a8 | SNI - by.capynode.com"
