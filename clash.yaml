@@ -12773,16 +12773,6 @@ proxies:
   network: tcp
   tls: false
   client-fingerprint: chrome
-- name: "🇩🇪 Germany 834a"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 91.107.191.12
-  port: 29376
-  udp: true
-  type: vless
-  uuid: 03bc875d-0d8e-49b6-9094-89a8159e65ee
-  network: tcp
-  tls: false
-  client-fingerprint: chrome
 - name: "🇩🇪 Germany 85a4 | SNI - www.yahoo.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 89.144.10.112
@@ -13452,6 +13442,21 @@ proxies:
   password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
   tls: true
   sni: www.homelywebs.click
+- name: "🇩🇪 Germany cc32 | SNI - ads.x5.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 185.229.9.131
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4145018e-4238-4102-bfd7-4149bc57a042
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: jH_LLqDnSPNz8SU_PC30VKKVKxQGU3QkbAr33bb9RGo
+    short-id: "27e53bbcab7593d7"
 - name: "🇩🇪 Germany cd35 | SNI - www.microsoft.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 185.218.137.132
@@ -26282,21 +26287,6 @@ proxies:
   reality-opts:
     public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
     short-id: "7e2a9d4c5f18b0"
-- name: "🇸🇪 Sweden 8db8 | SNI - ads.x5.ru"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SE.png
-  server: 188.68.218.161
-  port: 443
-  udp: true
-  type: vless
-  uuid: a32c5112-3437-4417-a727-74e0b17672d0
-  network: tcp
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: c8fQY4Ywo9NPZS0CuujyztRI-8z0D7fREoz8laMDVkQ
-    short-id: "a9c4f17e3b62d8"
 - name: "🇸🇪 Sweden 8fa3 | SNI - www.microsoft.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SE.png
   server: swe-8t.freeonline.pro
@@ -30316,10 +30306,10 @@ proxy-groups:
 - name: PROXY
   type: select
   proxies:
-  - ⚡ Best Ping (2214)
+  - ⚡ Best Ping (2213)
   - 🌍 Continents
   - 🛠️ Protocols
-- name: ⚡ Best Ping (2214)
+- name: ⚡ Best Ping (2213)
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -31272,7 +31262,6 @@ proxy-groups:
   - "🇩🇪 Germany 7fc2"
   - "🇩🇪 Germany 81a1 | SNI - www.yahoo.com"
   - "🇩🇪 Germany 824b"
-  - "🇩🇪 Germany 834a"
   - "🇩🇪 Germany 85a4 | SNI - www.yahoo.com"
   - "🇩🇪 Germany 869f | SNI - sub.sbrf-cdn342.ru"
   - "🇩🇪 Germany 87d2"
@@ -31322,6 +31311,7 @@ proxy-groups:
   - "🇩🇪 Germany ca70 | SNI - cdn9-33.vk-cdnvideo.com"
   - "🇩🇪 Germany ca77 | SNI - us2.wxgqlfx.xyz"
   - "🇩🇪 Germany cbc8"
+  - "🇩🇪 Germany cc32 | SNI - ads.x5.ru"
   - "🇩🇪 Germany cd35 | SNI - www.microsoft.com"
   - "🇩🇪 Germany cd4e"
   - "🇩🇪 Germany cd8a | SNI - us2.wxgqlfx.xyz"
@@ -32239,7 +32229,6 @@ proxy-groups:
   - "🇸🇪 Sweden 71e2"
   - "🇸🇪 Sweden 85b8 | SNI - rutube.ru"
   - "🇸🇪 Sweden 861a | SNI - ads.x5.ru"
-  - "🇸🇪 Sweden 8db8 | SNI - ads.x5.ru"
   - "🇸🇪 Sweden 8fa3 | SNI - www.microsoft.com"
   - "🇸🇪 Sweden 971b | SNI - ads.x5.ru"
   - "🇸🇪 Sweden 9b36 | SNI - m.twitch.tv"
@@ -32552,7 +32541,7 @@ proxy-groups:
   proxies:
   - 🛠️ HYSTERIA2 (9)
   - 🛠️ TROJAN (103)
-  - 🛠️ VLESS (1971)
+  - 🛠️ VLESS (1970)
   - 🛠️ VMESS (131)
 - name: 🇨🇦 Canada (502)
   type: select
@@ -33923,7 +33912,6 @@ proxy-groups:
   - "🇩🇪 Germany 7fc2"
   - "🇩🇪 Germany 81a1 | SNI - www.yahoo.com"
   - "🇩🇪 Germany 824b"
-  - "🇩🇪 Germany 834a"
   - "🇩🇪 Germany 85a4 | SNI - www.yahoo.com"
   - "🇩🇪 Germany 869f | SNI - sub.sbrf-cdn342.ru"
   - "🇩🇪 Germany 87d2"
@@ -33973,6 +33961,7 @@ proxy-groups:
   - "🇩🇪 Germany ca70 | SNI - cdn9-33.vk-cdnvideo.com"
   - "🇩🇪 Germany ca77 | SNI - us2.wxgqlfx.xyz"
   - "🇩🇪 Germany cbc8"
+  - "🇩🇪 Germany cc32 | SNI - ads.x5.ru"
   - "🇩🇪 Germany cd35 | SNI - www.microsoft.com"
   - "🇩🇪 Germany cd4e"
   - "🇩🇪 Germany cd8a | SNI - us2.wxgqlfx.xyz"
@@ -34492,36 +34481,6 @@ proxy-groups:
   - "🇵🇱 Poland d902 | SNI - m.vk.com"
   - "🇵🇱 Poland dc1a"
   - "🇵🇱 Poland e9d6 | SNI - m.vk.com"
-- name: 🇸🇪 Sweden (27)
-  type: select
-  proxies:
-  - "🇸🇪 Sweden 00aa | SNI - cxcczechia1.chickenkiller.com"
-  - "🇸🇪 Sweden 0722 | SNI - addons.mozilla.org"
-  - "🇸🇪 Sweden 0f3f | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
-  - "🇸🇪 Sweden 1831 | SNI - ads.x5.ru"
-  - "🇸🇪 Sweden 1db5 | SNI - www.icloud.com"
-  - "🇸🇪 Sweden 3132 | SNI - www.tele2.se"
-  - "🇸🇪 Sweden 413b | SNI - www.microsoft.com"
-  - "🇸🇪 Sweden 4e9b | SNI - cloudflare.com"
-  - "🇸🇪 Sweden 61ab | SNI - ads.x5.ru"
-  - "🇸🇪 Sweden 67b9 | SNI - ads.x5.ru"
-  - "🇸🇪 Sweden 71e2"
-  - "🇸🇪 Sweden 85b8 | SNI - rutube.ru"
-  - "🇸🇪 Sweden 861a | SNI - ads.x5.ru"
-  - "🇸🇪 Sweden 8db8 | SNI - ads.x5.ru"
-  - "🇸🇪 Sweden 8fa3 | SNI - www.microsoft.com"
-  - "🇸🇪 Sweden 971b | SNI - ads.x5.ru"
-  - "🇸🇪 Sweden 9b36 | SNI - m.twitch.tv"
-  - "🇸🇪 Sweden a091 | SNI - tradingview.com"
-  - "🇸🇪 Sweden a507 | SNI - ads.x5.ru"
-  - "🇸🇪 Sweden b4a1 | SNI - ya.ru"
-  - "🇸🇪 Sweden bf69 | SNI - m.twitch.tv"
-  - "🇸🇪 Sweden c041 | SNI - ads.x5.ru"
-  - "🇸🇪 Sweden c994 | SNI - www.microsoft.com"
-  - "🇸🇪 Sweden d1f9 | SNI - www.icloud.com"
-  - "🇸🇪 Sweden dee9 | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
-  - "🇸🇪 Sweden e098 | SNI - www.icloud.com"
-  - "🇸🇪 Sweden ecf2 | SNI - ads.x5.ru"
 - name: 🇯🇵 Japan (26)
   type: select
   proxies:
@@ -34551,6 +34510,35 @@ proxy-groups:
   - "🇯🇵 Japan e34a | SNI - jp.s3-cloud.org"
   - "🇯🇵 Japan e630"
   - "🇯🇵 Japan e945 | SNI - dongjing4.zqjsqapi.com"
+- name: 🇸🇪 Sweden (26)
+  type: select
+  proxies:
+  - "🇸🇪 Sweden 00aa | SNI - cxcczechia1.chickenkiller.com"
+  - "🇸🇪 Sweden 0722 | SNI - addons.mozilla.org"
+  - "🇸🇪 Sweden 0f3f | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
+  - "🇸🇪 Sweden 1831 | SNI - ads.x5.ru"
+  - "🇸🇪 Sweden 1db5 | SNI - www.icloud.com"
+  - "🇸🇪 Sweden 3132 | SNI - www.tele2.se"
+  - "🇸🇪 Sweden 413b | SNI - www.microsoft.com"
+  - "🇸🇪 Sweden 4e9b | SNI - cloudflare.com"
+  - "🇸🇪 Sweden 61ab | SNI - ads.x5.ru"
+  - "🇸🇪 Sweden 67b9 | SNI - ads.x5.ru"
+  - "🇸🇪 Sweden 71e2"
+  - "🇸🇪 Sweden 85b8 | SNI - rutube.ru"
+  - "🇸🇪 Sweden 861a | SNI - ads.x5.ru"
+  - "🇸🇪 Sweden 8fa3 | SNI - www.microsoft.com"
+  - "🇸🇪 Sweden 971b | SNI - ads.x5.ru"
+  - "🇸🇪 Sweden 9b36 | SNI - m.twitch.tv"
+  - "🇸🇪 Sweden a091 | SNI - tradingview.com"
+  - "🇸🇪 Sweden a507 | SNI - ads.x5.ru"
+  - "🇸🇪 Sweden b4a1 | SNI - ya.ru"
+  - "🇸🇪 Sweden bf69 | SNI - m.twitch.tv"
+  - "🇸🇪 Sweden c041 | SNI - ads.x5.ru"
+  - "🇸🇪 Sweden c994 | SNI - www.microsoft.com"
+  - "🇸🇪 Sweden d1f9 | SNI - www.icloud.com"
+  - "🇸🇪 Sweden dee9 | SNI - 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
+  - "🇸🇪 Sweden e098 | SNI - www.icloud.com"
+  - "🇸🇪 Sweden ecf2 | SNI - ads.x5.ru"
 - name: 🇭🇰 Hong Kong (25)
   type: select
   proxies:
@@ -35010,7 +34998,7 @@ proxy-groups:
   - 🇷🇴 Romania (7)
   - 🇷🇸 Serbia (7)
   - 🇷🇺 Russia (262)
-  - 🇸🇪 Sweden (27)
+  - 🇸🇪 Sweden (26)
   - 🇸🇰 Slovakia (1)
   - 🇺🇦 Ukraine (1)
 - name: 🏝️ Oceania (2)
@@ -35136,7 +35124,7 @@ proxy-groups:
   - "🇺🇸 United States 8763"
   - "🇻🇳 Vietnam 9a13"
   - "🇿🇦 South Africa 46e6"
-- name: 🛠️ VLESS (1971)
+- name: 🛠️ VLESS (1970)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -35982,7 +35970,6 @@ proxy-groups:
   - "🇩🇪 Germany 7fc2"
   - "🇩🇪 Germany 81a1 | SNI - www.yahoo.com"
   - "🇩🇪 Germany 824b"
-  - "🇩🇪 Germany 834a"
   - "🇩🇪 Germany 85a4 | SNI - www.yahoo.com"
   - "🇩🇪 Germany 869f | SNI - sub.sbrf-cdn342.ru"
   - "🇩🇪 Germany 87d2"
@@ -36029,6 +36016,7 @@ proxy-groups:
   - "🇩🇪 Germany c9cf | SNI - us2.wxgqlfx.xyz"
   - "🇩🇪 Germany ca70 | SNI - cdn9-33.vk-cdnvideo.com"
   - "🇩🇪 Germany ca77 | SNI - us2.wxgqlfx.xyz"
+  - "🇩🇪 Germany cc32 | SNI - ads.x5.ru"
   - "🇩🇪 Germany cd35 | SNI - www.microsoft.com"
   - "🇩🇪 Germany cd8a | SNI - us2.wxgqlfx.xyz"
   - "🇩🇪 Germany cf95 | SNI - google.com"
@@ -36868,7 +36856,6 @@ proxy-groups:
   - "🇸🇪 Sweden 71e2"
   - "🇸🇪 Sweden 85b8 | SNI - rutube.ru"
   - "🇸🇪 Sweden 861a | SNI - ads.x5.ru"
-  - "🇸🇪 Sweden 8db8 | SNI - ads.x5.ru"
   - "🇸🇪 Sweden 8fa3 | SNI - www.microsoft.com"
   - "🇸🇪 Sweden 971b | SNI - ads.x5.ru"
   - "🇸🇪 Sweden 9b36 | SNI - m.twitch.tv"
