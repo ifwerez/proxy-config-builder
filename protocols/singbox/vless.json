@@ -107,7 +107,6 @@
         " Unsorted 5353",
         " Unsorted 55b6",
         " Unsorted 568d | SNI - g10.steptofsvo.com",
-        " Unsorted 57d1 | SNI - vk.ru",
         " Unsorted 5845 | SNI - mrsibil.ezgateway.net",
         " Unsorted 58d9 | SNI - up2-df6.pages.dev",
         " Unsorted 59da | SNI - fgnix832fx.fx6hsv0.ccwu.cc",
@@ -958,7 +957,6 @@
         "🇫🇷 France 40e6 | SNI - cloud.mail.ru",
         "🇫🇷 France 47c2 | SNI - octopusss4.com",
         "🇫🇷 France 491c",
-        "🇫🇷 France 4c5c | SNI - vk.ru",
         "🇫🇷 France 5180 | SNI - cdp.x5.ru",
         "🇫🇷 France 5bca | SNI - moon1.realm-of-ultramar.ru",
         "🇫🇷 France 6396 | SNI - moon1.realm-of-ultramar.ru",
@@ -1384,6 +1382,7 @@
         "🇵🇱 Poland b208 | SNI - ads.x5.ru",
         "🇵🇱 Poland ba59 | SNI - sun1-14.userapi.com",
         "🇵🇱 Poland bde9 | SNI - colorlib.com",
+        "🇵🇱 Poland d1b1 | SNI - pl.healthy-connected.com",
         "🇵🇱 Poland dc1a",
         "🇵🇱 Poland dd95 | SNI - support.zoom.us.beichuan.serv00.net",
         "🇵🇱 Poland e8da | SNI - pl.healthy-connected.com",
@@ -1696,6 +1695,7 @@
         "🇸🇬 Singapore ae41 | SNI - sni.my111000.tech",
         "🇸🇬 Singapore b704 | SNI - support.zoom.us.cyylr.eu.cc",
         "🇸🇬 Singapore b806 | SNI - ads.ruangguru.com.cyylr.eu.cc",
+        "🇸🇬 Singapore b96e | SNI - ads.x5.ru",
         "🇸🇬 Singapore bbc9 | SNI - 020g5uxcxmqlndg.luyuju.dpdns.org",
         "🇸🇬 Singapore bcb5 | SNI - y6-3cj.PAgES.DEV",
         "🇸🇬 Singapore c672 | SNI - www.icloud.com:443",
@@ -3173,24 +3173,6 @@
           "enabled": true,
           "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
           "short_id": "6d6f13013d3e1d0c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": " Unsorted 57d1 | SNI - vk.ru",
-      "server": "94.183.159.166",
-      "server_port": 8443,
-      "uuid": "14a59796-6db6-4c48-b4d5-2c7b875074c1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "vk.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "rFb2hsGZE0KGim0_MMIfeKMnYTjKH2llqtN4uDUaTj0",
-          "short_id": "4d05e319b074645b"
         }
       }
     },
@@ -17633,23 +17615,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 France 4c5c | SNI - vk.ru",
-      "server": "217.60.5.233",
-      "server_port": 8443,
-      "uuid": "14a59796-6db6-4c48-b4d5-2c7b875074c1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "vk.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "rFb2hsGZE0KGim0_MMIfeKMnYTjKH2llqtN4uDUaTj0"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇫🇷 France 5180 | SNI - cdp.x5.ru",
       "server": "51.250.24.232",
       "server_port": 443,
@@ -24789,6 +24754,24 @@
     },
     {
       "type": "vless",
+      "tag": "🇵🇱 Poland d1b1 | SNI - pl.healthy-connected.com",
+      "server": "91.211.27.142",
+      "server_port": 443,
+      "uuid": "4405aeb6-84fc-49ba-a42b-948a3b1ed13c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.healthy-connected.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "ep8sjqX2t_F-tn5SElD9RkuRimExyi9h1MA-F5ESa30",
+          "short_id": "30e570274c0c72cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇵🇱 Poland dc1a",
       "server": "bc-pl-1c.ray-balance.space",
       "server_port": 4443,
@@ -30124,6 +30107,23 @@
         "path": "/sg-orcl",
         "headers": {
           "Host": "ads.ruangguru.com.cyylr.eu.cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 Singapore b96e | SNI - ads.x5.ru",
+      "server": "51.250.9.161",
+      "server_port": 443,
+      "uuid": "46dde73e-43c6-4c2e-8ebb-aa187a23f87d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
       }
     },
