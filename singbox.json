@@ -577,7 +577,6 @@
         "🇨🇦 Canada 61a5",
         "🇨🇦 Canada 61b0",
         "🇨🇦 Canada 6487 | SNI - grabacademyportal.grab.com.cyylr.eu.cc",
-        "🇨🇦 Canada 65a2",
         "🇨🇦 Canada 6613 | SNI - juzi.qea.ccwu.cc",
         "🇨🇦 Canada 6653",
         "🇨🇦 Canada 66e3 | SNI - investors.spotify.com.cyylr.eu.cc [CIDR]",
@@ -1526,6 +1525,8 @@
         "🇰🇷 South Korea ec30 | SNI - nn9jdg-k7yewrrk.acg.xx.kg",
         "🇰🇿 Kazakhstan 5720 | SNI - yahoo.com",
         "🇰🇿 Kazakhstan 59a8 | SNI - yahoo.com",
+        "🇰🇿 Kazakhstan 650f",
+        "🇰🇿 Kazakhstan 7537",
         "🇰🇿 Kazakhstan aa5d | SNI - kz-1.nodes.ac",
         "🇰🇿 Kazakhstan b03e | SNI - yahoo.com",
         "🇰🇿 Kazakhstan bdc4 | SNI - yahoo.com",
@@ -1812,7 +1813,6 @@
         "🇷🇺 Russia 0f60 | SNI - www.vk.com",
         "🇷🇺 Russia 1035",
         "🇷🇺 Russia 107a",
-        "🇷🇺 Russia 10de | SNI - static.rutube.ru",
         "🇷🇺 Russia 10e1 | SNI - cdp.x5.ru",
         "🇷🇺 Russia 112d | SNI - cdp.x5.ru",
         "🇷🇺 Russia 136c | SNI - cdp.x5.ru",
@@ -1988,7 +1988,6 @@
         "🇷🇺 Russia 9dc4 | SNI - cdp.x5.ru",
         "🇷🇺 Russia 9f03 | SNI - yandex.ru",
         "🇷🇺 Russia a03b | SNI - ads.x5.ru",
-        "🇷🇺 Russia a07f | SNI - id.vk.com",
         "🇷🇺 Russia a081 | SNI - cdp.x5.ru",
         "🇷🇺 Russia a170 | SNI - ads.x5.ru",
         "🇷🇺 Russia a332 | SNI - ads.x5.ru",
@@ -11298,24 +11297,6 @@
         "headers": {
           "Host": "grabacademyportal.grab.com.cyylr.eu.cc"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 Canada 65a2",
-      "server": "148.113.196.75",
-      "server_port": 8443,
-      "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "148.113.196.75",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/",
-        "headers": {}
       }
     },
     {
@@ -26499,6 +26480,24 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇰🇿 Kazakhstan 650f",
+      "server": "38.107.234.57",
+      "server_port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇿 Kazakhstan 7537",
+      "server": "3h-kazakhstan1.09vpn.com",
+      "server_port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "type": "vless",
       "tag": "🇰🇿 Kazakhstan aa5d | SNI - kz-1.nodes.ac",
       "server": "194.110.55.85",
@@ -31284,24 +31283,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 Russia 10de | SNI - static.rutube.ru",
-      "server": "212.233.122.244",
-      "server_port": 443,
-      "uuid": "69b578b6-6167-447d-a82c-033928da5e03",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "static.rutube.ru",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "1BAG3ZcDThZ_tEFyPAaxh5EfY5RyK8D8CIHplP-qXmc",
-          "short_id": "9a62a7103e3791eb"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇷🇺 Russia 10e1 | SNI - cdp.x5.ru",
       "server": "84.201.168.186",
       "server_port": 443,
@@ -34352,23 +34333,6 @@
           "enabled": true,
           "public_key": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
           "short_id": "65c7748be8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 Russia a07f | SNI - id.vk.com",
-      "server": "155.212.162.84",
-      "server_port": 2096,
-      "uuid": "ba2630d8-d6c4-49ff-b5d5-2c24330dd245",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "id.vk.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
       }
     },
