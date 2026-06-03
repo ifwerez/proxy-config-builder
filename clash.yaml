@@ -16441,20 +16441,6 @@ proxies:
   reality-opts:
     public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
     short-id: "364994a6f61fc955"
-- name: "🇫🇷 France 0a00"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
-  server: OV-France1.09vpn.com
-  port: 80
-  udp: true
-  type: vless
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vless/
-    headers:
-      {}
 - name: "🇫🇷 France 0ac9 | SNI - ads.x5.ru [CIDR]"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
   server: 158.160.11.124
@@ -16825,20 +16811,6 @@ proxies:
   reality-opts:
     public-key: 06rvKjC9dE_Ndd-dw6B-0zAyEpn-jUs7mcNFAPQ_1G8
     short-id: "b4b3"
-- name: "🇫🇷 France 7eb2"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
-  server: OV-France1.09vpn.com
-  port: 80
-  udp: true
-  type: vless
-  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vless/
-    headers:
-      {}
 - name: "🇫🇷 France 8113 | SNI - yahoo.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
   server: 194.33.34.167
@@ -17162,20 +17134,6 @@ proxies:
   flow: xtls-rprx-vision
   reality-opts:
     public-key: 1L89euUftEWspViGKdG7Ivwj-k1ySPROZEfZWaL5Hhw
-- name: "🇫🇷 France bf02"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
-  server: 152.228.162.19
-  port: 80
-  udp: true
-  type: vless
-  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vless/
-    headers:
-      {}
 - name: "🇫🇷 France bfd3 | SNI - cdg-1.fromblancwithlove.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
   server: 79.127.196.11
@@ -17332,20 +17290,6 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: IOFyDX8n74KV_z3WS8mIN20P-NAWEN_mU9N4joYh2gQ
-- name: "🇫🇷 France f133"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
-  server: 152.228.162.19
-  port: 80
-  udp: true
-  type: vless
-  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: akamaized.net
 - name: "🇫🇷 France f1f7"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
   server: 23.235.42.205
@@ -17678,18 +17622,6 @@ proxies:
   reality-opts:
     public-key: e0Mb11d4CAtw89qrvJ59Lu0rfplLy6xLh2tbsKoN2UM
     short-id: "7c05417ed86af034"
-- name: "🇬🇧 United Kingdom 3f1a | SNI - u716087u4c78s642.ccgfw.top"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
-  server: s642.ccgfw.top
-  port: 443
-  udp: true
-  type: vless
-  uuid: 205d6869-02ca-3b36-b933-be2465250c7e
-  network: tcp
-  tls: true
-  servername: u716087u4c78s642.ccgfw.top
-  client-fingerprint: random
-  flow: xtls-rprx-vision
 - name: "🇬🇧 United Kingdom 403e | SNI - wl-5-4.nodes.ac"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
   server: 84.201.139.29
@@ -18957,6 +18889,21 @@ proxies:
   alterId: 0
   network: ws
   tls: true
+- name: "🇭🇺 Hungary 0571 | SNI - ads.x5.ru [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 443
+  udp: true
+  type: vless
+  uuid: d70ae8dc-3874-4e5d-9671-cce748274662
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "8ba12e75110b7a9c"
 - name: "🇭🇺 Hungary 0b96 | SNI - cdn7-09.vk-cdnvideo.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
   server: 82.202.138.158
@@ -18983,6 +18930,21 @@ proxies:
     path: "/fp=random"
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
+- name: "🇭🇺 Hungary 2018 | SNI - ads.x5.ru [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 443
+  udp: true
+  type: vless
+  uuid: 12f9bf43-862a-4d73-8a1f-a6df32bb0cbe
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "f4b4a6365558ea2e"
 - name: "🇭🇺 Hungary 3c8b | SNI - cdn7-09.vk-cdnvideo.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
   server: 46.16.36.227
@@ -19008,6 +18970,36 @@ proxies:
     path: /vless/
     headers:
       {}
+- name: "🇭🇺 Hungary 4f78 | SNI - max.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 443
+  udp: true
+  type: vless
+  uuid: ea60480e-596a-43c5-81a5-c55c8affe36a
+  network: tcp
+  tls: true
+  servername: max.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "2715592069f36fe7"
+- name: "🇭🇺 Hungary 572d | SNI - ads.x5.ru [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 12f9bf43-862a-4d73-8a1f-a6df32bb0cbe
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "f4b4a6365558ea2e"
 - name: "🇭🇺 Hungary 5d0a"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
   server: pq-Hungary1.09vpn.com
@@ -19073,6 +19065,66 @@ proxies:
   reality-opts:
     public-key: SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk
     short-id: "4ae260"
+- name: "🇭🇺 Hungary 927d | SNI - ads.x5.ru [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 2a5c4a4e-24fb-4f52-b7e1-4388ee64d23b
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "f4b4a6365558ea2e"
+- name: "🇭🇺 Hungary 965e | SNI - ads.x5.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 443
+  udp: true
+  type: vless
+  uuid: 6f4bf81a-5def-4ee3-ae27-ec4cc3b509c9
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "2715592069f36fe7"
+- name: "🇭🇺 Hungary a27d | SNI - max.ru [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 443
+  udp: true
+  type: vless
+  uuid: 89b71a7e-e7c1-4623-bdab-214aba66b569
+  network: tcp
+  tls: true
+  servername: max.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "f4b4a6365558ea2e"
+- name: "🇭🇺 Hungary b503 | SNI - ads.x5.ru [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2a5c4a4e-24fb-4f52-b7e1-4388ee64d23b
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "8ba12e75110b7a9c"
 - name: "🇭🇺 Hungary ba5b | SNI - bi.amooyam.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
   server: bi.amooyam.com
@@ -19084,6 +19136,51 @@ proxies:
   tls: true
   servername: bi.amooyam.com
   client-fingerprint: chrome
+- name: "🇭🇺 Hungary bb30 | SNI - ads.x5.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 443
+  udp: true
+  type: vless
+  uuid: 07fb821d-2368-400a-bdcf-f96ee0e90dcd
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "f4b4a6365558ea2e"
+- name: "🇭🇺 Hungary bc5c | SNI - ads.x5.ru [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 8443
+  udp: true
+  type: vless
+  uuid: f12ed8b5-1ea6-4ef0-a092-daaa1cce5eec
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "8ba12e75110b7a9c"
+- name: "🇭🇺 Hungary bcff | SNI - ads.x5.ru [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 8443
+  udp: true
+  type: vless
+  uuid: cec787be-cb4e-4f33-b439-f42f702e6e94
+  network: tcp
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "8ba12e75110b7a9c"
 - name: "🇭🇺 Hungary c200"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
   server: 45.12.132.183
@@ -19120,6 +19217,21 @@ proxies:
   flow: xtls-rprx-vision
   reality-opts:
     public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+- name: "🇭🇺 Hungary e0a1 | SNI - max.ru"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
+  server: 89.169.177.117
+  port: 8443
+  udp: true
+  type: vless
+  uuid: ea60480e-596a-43c5-81a5-c55c8affe36a
+  network: tcp
+  tls: true
+  servername: max.ru
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: "8ba12e75110b7a9c"
 - name: "🇭🇺 Hungary e881 | SNI - pagescm.freen12.cc.cd"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HU.png
   server: 162.159.38.183
@@ -33541,10 +33653,10 @@ proxy-groups:
 - name: PROXY
   type: select
   proxies:
-  - ⚡ Best Ping (2453)
+  - ⚡ Best Ping (2460)
   - 🌍 Continents
   - 🛠️ Protocols
-- name: ⚡ Best Ping (2453)
+- name: ⚡ Best Ping (2460)
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -34773,7 +34885,6 @@ proxy-groups:
   - "🇫🇮 Finland fd8f"
   - "🇫🇮 Finland fdaa | SNI - www.microsoft.com"
   - "🇫🇷 France 0841 | SNI - max.ru [CIDR]"
-  - "🇫🇷 France 0a00"
   - "🇫🇷 France 0ac9 | SNI - ads.x5.ru [CIDR]"
   - "🇫🇷 France 0c97 | SNI - play.google.com"
   - "🇫🇷 France 1200 | SNI - ads.x5.ru [CIDR]"
@@ -34802,7 +34913,6 @@ proxy-groups:
   - "🇫🇷 France 7bab | SNI - fr.monkeyisland.xyz"
   - "🇫🇷 France 7c38"
   - "🇫🇷 France 7e1b | SNI - dash.cloudflare.com"
-  - "🇫🇷 France 7eb2"
   - "🇫🇷 France 8113 | SNI - yahoo.com"
   - "🇫🇷 France 817e | SNI - franccxc3.twilightparadox.com"
   - "🇫🇷 France 8cb5 | SNI - us2.wxgqlfx.xyz"
@@ -34827,7 +34937,6 @@ proxy-groups:
   - "🇫🇷 France b30c"
   - "🇫🇷 France ba37"
   - "🇫🇷 France bd46 | SNI - moon1.realm-of-ultramar.ru"
-  - "🇫🇷 France bf02"
   - "🇫🇷 France bfd3 | SNI - cdg-1.fromblancwithlove.com"
   - "🇫🇷 France c2f8 | SNI - us2.wxgqlfx.xyz"
   - "🇫🇷 France c8c1 | SNI - cloudflare.com"
@@ -34839,7 +34948,6 @@ proxy-groups:
   - "🇫🇷 France f00a | SNI - www.samsung.com"
   - "🇫🇷 France f02a | SNI - bab-6.site"
   - "🇫🇷 France f0ba | SNI - yandex.ru"
-  - "🇫🇷 France f133"
   - "🇫🇷 France f1f7"
   - "🇫🇷 France f401 | SNI - ads.x5.ru [CIDR]"
   - "🇫🇷 France f5c7 | SNI - max.ru [CIDR]"
@@ -34864,7 +34972,6 @@ proxy-groups:
   - "🇬🇧 United Kingdom 3a1b | SNI - sni.111000.v6.rocks"
   - "🇬🇧 United Kingdom 3b91"
   - "🇬🇧 United Kingdom 3ef4 | SNI - wl-5-2.nodes.ac"
-  - "🇬🇧 United Kingdom 3f1a | SNI - u716087u4c78s642.ccgfw.top"
   - "🇬🇧 United Kingdom 403e | SNI - wl-5-4.nodes.ac"
   - "🇬🇧 United Kingdom 4339"
   - "🇬🇧 United Kingdom 458a | SNI - cloudrynth.com"
@@ -34959,19 +35066,31 @@ proxy-groups:
   - "🇭🇰 Hong Kong df22"
   - "🇭🇰 Hong Kong e152"
   - "🇭🇰 Hong Kong f6cb"
+  - "🇭🇺 Hungary 0571 | SNI - ads.x5.ru [CIDR]"
   - "🇭🇺 Hungary 0b96 | SNI - cdn7-09.vk-cdnvideo.com"
   - "🇭🇺 Hungary 1e87 | SNI - hhlfy.twiladaphne.ndjp.net"
+  - "🇭🇺 Hungary 2018 | SNI - ads.x5.ru [CIDR]"
   - "🇭🇺 Hungary 3c8b | SNI - cdn7-09.vk-cdnvideo.com"
   - "🇭🇺 Hungary 4d7b"
+  - "🇭🇺 Hungary 4f78 | SNI - max.ru"
+  - "🇭🇺 Hungary 572d | SNI - ads.x5.ru [CIDR]"
   - "🇭🇺 Hungary 5d0a"
   - "🇭🇺 Hungary 6650"
   - "🇭🇺 Hungary 7921 | SNI - picassooo.info"
   - "🇭🇺 Hungary 8499"
   - "🇭🇺 Hungary 8a77 | SNI - yahoo.com"
+  - "🇭🇺 Hungary 927d | SNI - ads.x5.ru [CIDR]"
+  - "🇭🇺 Hungary 965e | SNI - ads.x5.ru"
+  - "🇭🇺 Hungary a27d | SNI - max.ru [CIDR]"
+  - "🇭🇺 Hungary b503 | SNI - ads.x5.ru [CIDR]"
   - "🇭🇺 Hungary ba5b | SNI - bi.amooyam.com"
+  - "🇭🇺 Hungary bb30 | SNI - ads.x5.ru"
+  - "🇭🇺 Hungary bc5c | SNI - ads.x5.ru [CIDR]"
+  - "🇭🇺 Hungary bcff | SNI - ads.x5.ru [CIDR]"
   - "🇭🇺 Hungary c200"
   - "🇭🇺 Hungary c4e0"
   - "🇭🇺 Hungary c976 | SNI - hu01.bearbeer.digital"
+  - "🇭🇺 Hungary e0a1 | SNI - max.ru"
   - "🇭🇺 Hungary e881 | SNI - pagescm.freen12.cc.cd"
   - "🇭🇺 Hungary eb41 | SNI - 35cdnws.frnstatic.info"
   - "🇭🇺 Hungary ff12"
@@ -36015,7 +36134,7 @@ proxy-groups:
   proxies:
   - 🛠️ HYSTERIA2 (10)
   - 🛠️ TROJAN (111)
-  - 🛠️ VLESS (2192)
+  - 🛠️ VLESS (2199)
   - 🛠️ VMESS (140)
 - name: 🇨🇦 Canada (467)
   type: select
@@ -37763,7 +37882,7 @@ proxy-groups:
   - "🇳🇱 Netherlands fde1"
   - "🇳🇱 Netherlands fdf1 | SNI - nl2.gamelistak.com"
   - "🇳🇱 Netherlands ff50 | SNI - us2.wxgqlfx.xyz"
-- name: 🇬🇧 United Kingdom (85)
+- name: 🇬🇧 United Kingdom (84)
   type: select
   proxies:
   - "🇬🇧 United Kingdom 004d | SNI - wl-3-3.nodes.ac"
@@ -37786,7 +37905,6 @@ proxy-groups:
   - "🇬🇧 United Kingdom 3a1b | SNI - sni.111000.v6.rocks"
   - "🇬🇧 United Kingdom 3b91"
   - "🇬🇧 United Kingdom 3ef4 | SNI - wl-5-2.nodes.ac"
-  - "🇬🇧 United Kingdom 3f1a | SNI - u716087u4c78s642.ccgfw.top"
   - "🇬🇧 United Kingdom 403e | SNI - wl-5-4.nodes.ac"
   - "🇬🇧 United Kingdom 4339"
   - "🇬🇧 United Kingdom 458a | SNI - cloudrynth.com"
@@ -37935,11 +38053,10 @@ proxy-groups:
   - "🇫🇮 Finland fb94 | SNI - ya.ru"
   - "🇫🇮 Finland fd8f"
   - "🇫🇮 Finland fdaa | SNI - www.microsoft.com"
-- name: 🇫🇷 France (72)
+- name: 🇫🇷 France (68)
   type: select
   proxies:
   - "🇫🇷 France 0841 | SNI - max.ru [CIDR]"
-  - "🇫🇷 France 0a00"
   - "🇫🇷 France 0ac9 | SNI - ads.x5.ru [CIDR]"
   - "🇫🇷 France 0c97 | SNI - play.google.com"
   - "🇫🇷 France 1200 | SNI - ads.x5.ru [CIDR]"
@@ -37968,7 +38085,6 @@ proxy-groups:
   - "🇫🇷 France 7bab | SNI - fr.monkeyisland.xyz"
   - "🇫🇷 France 7c38"
   - "🇫🇷 France 7e1b | SNI - dash.cloudflare.com"
-  - "🇫🇷 France 7eb2"
   - "🇫🇷 France 8113 | SNI - yahoo.com"
   - "🇫🇷 France 817e | SNI - franccxc3.twilightparadox.com"
   - "🇫🇷 France 8cb5 | SNI - us2.wxgqlfx.xyz"
@@ -37993,7 +38109,6 @@ proxy-groups:
   - "🇫🇷 France b30c"
   - "🇫🇷 France ba37"
   - "🇫🇷 France bd46 | SNI - moon1.realm-of-ultramar.ru"
-  - "🇫🇷 France bf02"
   - "🇫🇷 France bfd3 | SNI - cdg-1.fromblancwithlove.com"
   - "🇫🇷 France c2f8 | SNI - us2.wxgqlfx.xyz"
   - "🇫🇷 France c8c1 | SNI - cloudflare.com"
@@ -38005,7 +38120,6 @@ proxy-groups:
   - "🇫🇷 France f00a | SNI - www.samsung.com"
   - "🇫🇷 France f02a | SNI - bab-6.site"
   - "🇫🇷 France f0ba | SNI - yandex.ru"
-  - "🇫🇷 France f133"
   - "🇫🇷 France f1f7"
   - "🇫🇷 France f401 | SNI - ads.x5.ru [CIDR]"
   - "🇫🇷 France f5c7 | SNI - max.ru [CIDR]"
@@ -38228,6 +38342,37 @@ proxy-groups:
   - "🇯🇵 Japan e945 | SNI - dongjing4.zqjsqapi.com"
   - "🇯🇵 Japan fd3c | SNI - adv2m5gy-wrhiahph85c.ovtc.qzz.io"
   - "🇯🇵 Japan ff2a"
+- name: 🇭🇺 Hungary (28)
+  type: select
+  proxies:
+  - "🇭🇺 Hungary 0571 | SNI - ads.x5.ru [CIDR]"
+  - "🇭🇺 Hungary 0b96 | SNI - cdn7-09.vk-cdnvideo.com"
+  - "🇭🇺 Hungary 1e87 | SNI - hhlfy.twiladaphne.ndjp.net"
+  - "🇭🇺 Hungary 2018 | SNI - ads.x5.ru [CIDR]"
+  - "🇭🇺 Hungary 3c8b | SNI - cdn7-09.vk-cdnvideo.com"
+  - "🇭🇺 Hungary 4d7b"
+  - "🇭🇺 Hungary 4f78 | SNI - max.ru"
+  - "🇭🇺 Hungary 572d | SNI - ads.x5.ru [CIDR]"
+  - "🇭🇺 Hungary 5d0a"
+  - "🇭🇺 Hungary 6650"
+  - "🇭🇺 Hungary 7921 | SNI - picassooo.info"
+  - "🇭🇺 Hungary 8499"
+  - "🇭🇺 Hungary 8a77 | SNI - yahoo.com"
+  - "🇭🇺 Hungary 927d | SNI - ads.x5.ru [CIDR]"
+  - "🇭🇺 Hungary 965e | SNI - ads.x5.ru"
+  - "🇭🇺 Hungary a27d | SNI - max.ru [CIDR]"
+  - "🇭🇺 Hungary b503 | SNI - ads.x5.ru [CIDR]"
+  - "🇭🇺 Hungary ba5b | SNI - bi.amooyam.com"
+  - "🇭🇺 Hungary bb30 | SNI - ads.x5.ru"
+  - "🇭🇺 Hungary bc5c | SNI - ads.x5.ru [CIDR]"
+  - "🇭🇺 Hungary bcff | SNI - ads.x5.ru [CIDR]"
+  - "🇭🇺 Hungary c200"
+  - "🇭🇺 Hungary c4e0"
+  - "🇭🇺 Hungary c976 | SNI - hu01.bearbeer.digital"
+  - "🇭🇺 Hungary e0a1 | SNI - max.ru"
+  - "🇭🇺 Hungary e881 | SNI - pagescm.freen12.cc.cd"
+  - "🇭🇺 Hungary eb41 | SNI - 35cdnws.frnstatic.info"
+  - "🇭🇺 Hungary ff12"
 - name: 🇭🇰 Hong Kong (25)
   type: select
   proxies:
@@ -38299,25 +38444,6 @@ proxy-groups:
   - "🇰🇷 South Korea da90"
   - "🇰🇷 South Korea e9f7 | SNI - www.sony.com"
   - "🇰🇷 South Korea ec30 | SNI - nn9jdg-k7yewrrk.acg.xx.kg"
-- name: 🇭🇺 Hungary (16)
-  type: select
-  proxies:
-  - "🇭🇺 Hungary 0b96 | SNI - cdn7-09.vk-cdnvideo.com"
-  - "🇭🇺 Hungary 1e87 | SNI - hhlfy.twiladaphne.ndjp.net"
-  - "🇭🇺 Hungary 3c8b | SNI - cdn7-09.vk-cdnvideo.com"
-  - "🇭🇺 Hungary 4d7b"
-  - "🇭🇺 Hungary 5d0a"
-  - "🇭🇺 Hungary 6650"
-  - "🇭🇺 Hungary 7921 | SNI - picassooo.info"
-  - "🇭🇺 Hungary 8499"
-  - "🇭🇺 Hungary 8a77 | SNI - yahoo.com"
-  - "🇭🇺 Hungary ba5b | SNI - bi.amooyam.com"
-  - "🇭🇺 Hungary c200"
-  - "🇭🇺 Hungary c4e0"
-  - "🇭🇺 Hungary c976 | SNI - hu01.bearbeer.digital"
-  - "🇭🇺 Hungary e881 | SNI - pagescm.freen12.cc.cd"
-  - "🇭🇺 Hungary eb41 | SNI - 35cdnws.frnstatic.info"
-  - "🇭🇺 Hungary ff12"
 - name: 🇱🇻 Latvia (15)
   type: select
   proxies:
@@ -38692,10 +38818,10 @@ proxy-groups:
   - 🇪🇪 Estonia (9)
   - 🇪🇸 Spain (5)
   - 🇫🇮 Finland (81)
-  - 🇫🇷 France (72)
-  - 🇬🇧 United Kingdom (85)
+  - 🇫🇷 France (68)
+  - 🇬🇧 United Kingdom (84)
   - 🇬🇷 Greece (1)
-  - 🇭🇺 Hungary (16)
+  - 🇭🇺 Hungary (28)
   - 🇮🇪 Ireland (3)
   - 🇮🇹 Italy (34)
   - 🇱🇹 Lithuania (20)
@@ -38844,7 +38970,7 @@ proxy-groups:
   - "🇺🇸 United States bd87"
   - "🇺🇸 United States c627"
   - "🇻🇳 Vietnam 9a13"
-- name: 🛠️ VLESS (2192)
+- name: 🛠️ VLESS (2199)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -39944,7 +40070,6 @@ proxy-groups:
   - "🇫🇮 Finland fd8f"
   - "🇫🇮 Finland fdaa | SNI - www.microsoft.com"
   - "🇫🇷 France 0841 | SNI - max.ru [CIDR]"
-  - "🇫🇷 France 0a00"
   - "🇫🇷 France 0ac9 | SNI - ads.x5.ru [CIDR]"
   - "🇫🇷 France 0c97 | SNI - play.google.com"
   - "🇫🇷 France 1200 | SNI - ads.x5.ru [CIDR]"
@@ -39969,7 +40094,6 @@ proxy-groups:
   - "🇫🇷 France 7bab | SNI - fr.monkeyisland.xyz"
   - "🇫🇷 France 7c38"
   - "🇫🇷 France 7e1b | SNI - dash.cloudflare.com"
-  - "🇫🇷 France 7eb2"
   - "🇫🇷 France 8113 | SNI - yahoo.com"
   - "🇫🇷 France 817e | SNI - franccxc3.twilightparadox.com"
   - "🇫🇷 France 8cb5 | SNI - us2.wxgqlfx.xyz"
@@ -39993,7 +40117,6 @@ proxy-groups:
   - "🇫🇷 France b183 | SNI - blackshadow.dpdns.org"
   - "🇫🇷 France b30c"
   - "🇫🇷 France bd46 | SNI - moon1.realm-of-ultramar.ru"
-  - "🇫🇷 France bf02"
   - "🇫🇷 France bfd3 | SNI - cdg-1.fromblancwithlove.com"
   - "🇫🇷 France c2f8 | SNI - us2.wxgqlfx.xyz"
   - "🇫🇷 France c8c1 | SNI - cloudflare.com"
@@ -40005,7 +40128,6 @@ proxy-groups:
   - "🇫🇷 France f00a | SNI - www.samsung.com"
   - "🇫🇷 France f02a | SNI - bab-6.site"
   - "🇫🇷 France f0ba | SNI - yandex.ru"
-  - "🇫🇷 France f133"
   - "🇫🇷 France f1f7"
   - "🇫🇷 France f401 | SNI - ads.x5.ru [CIDR]"
   - "🇫🇷 France f5c7 | SNI - max.ru [CIDR]"
@@ -40027,7 +40149,6 @@ proxy-groups:
   - "🇬🇧 United Kingdom 3569 | SNI - sni.111000.de5.net"
   - "🇬🇧 United Kingdom 3a1b | SNI - sni.111000.v6.rocks"
   - "🇬🇧 United Kingdom 3ef4 | SNI - wl-5-2.nodes.ac"
-  - "🇬🇧 United Kingdom 3f1a | SNI - u716087u4c78s642.ccgfw.top"
   - "🇬🇧 United Kingdom 403e | SNI - wl-5-4.nodes.ac"
   - "🇬🇧 United Kingdom 4339"
   - "🇬🇧 United Kingdom 458a | SNI - cloudrynth.com"
@@ -40104,15 +40225,27 @@ proxy-groups:
   - "🇭🇰 Hong Kong bde4 | SNI - u716087u09d7s356.ccgfw.online"
   - "🇭🇰 Hong Kong d4b1 | SNI - u716087u4da2s359.ccgfw.online"
   - "🇭🇰 Hong Kong d9f9 | SNI - www.tesla.com"
+  - "🇭🇺 Hungary 0571 | SNI - ads.x5.ru [CIDR]"
   - "🇭🇺 Hungary 0b96 | SNI - cdn7-09.vk-cdnvideo.com"
   - "🇭🇺 Hungary 1e87 | SNI - hhlfy.twiladaphne.ndjp.net"
+  - "🇭🇺 Hungary 2018 | SNI - ads.x5.ru [CIDR]"
   - "🇭🇺 Hungary 3c8b | SNI - cdn7-09.vk-cdnvideo.com"
   - "🇭🇺 Hungary 4d7b"
+  - "🇭🇺 Hungary 4f78 | SNI - max.ru"
+  - "🇭🇺 Hungary 572d | SNI - ads.x5.ru [CIDR]"
   - "🇭🇺 Hungary 7921 | SNI - picassooo.info"
   - "🇭🇺 Hungary 8499"
   - "🇭🇺 Hungary 8a77 | SNI - yahoo.com"
+  - "🇭🇺 Hungary 927d | SNI - ads.x5.ru [CIDR]"
+  - "🇭🇺 Hungary 965e | SNI - ads.x5.ru"
+  - "🇭🇺 Hungary a27d | SNI - max.ru [CIDR]"
+  - "🇭🇺 Hungary b503 | SNI - ads.x5.ru [CIDR]"
   - "🇭🇺 Hungary ba5b | SNI - bi.amooyam.com"
+  - "🇭🇺 Hungary bb30 | SNI - ads.x5.ru"
+  - "🇭🇺 Hungary bc5c | SNI - ads.x5.ru [CIDR]"
+  - "🇭🇺 Hungary bcff | SNI - ads.x5.ru [CIDR]"
   - "🇭🇺 Hungary c976 | SNI - hu01.bearbeer.digital"
+  - "🇭🇺 Hungary e0a1 | SNI - max.ru"
   - "🇭🇺 Hungary e881 | SNI - pagescm.freen12.cc.cd"
   - "🇭🇺 Hungary eb41 | SNI - 35cdnws.frnstatic.info"
   - "🇮🇩 Indonesia 296d | SNI - dl.cvs.freefiremobile.com.cyylr.eu.cc"
