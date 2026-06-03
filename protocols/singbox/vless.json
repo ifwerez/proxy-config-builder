@@ -1009,6 +1009,7 @@
         "🇩🇪 Germany df9d | SNI - ads.x5.ru",
         "🇩🇪 Germany dfd4 | SNI - sub.sbrf-cdn342.ru",
         "🇩🇪 Germany e008 | SNI - yandex.ru",
+        "🇩🇪 Germany e090 | SNI - cdn9-33.vk-cdnvideo.com",
         "🇩🇪 Germany e376 | SNI - us2.wxgqlfx.xyz",
         "🇩🇪 Germany e40e",
         "🇩🇪 Germany e41e | SNI - de-2.srv.vpnza300.org",
@@ -1067,7 +1068,6 @@
         "🇫🇮 Finland 2449 | SNI - www.microsoft.com",
         "🇫🇮 Finland 29eb | SNI - octopusss5.info",
         "🇫🇮 Finland 2df6 | SNI - www.wikipedia.org",
-        "🇫🇮 Finland 3962 | SNI - www.foxsports.com",
         "🇫🇮 Finland 3ec4 | SNI - www.foxsports.com",
         "🇫🇮 Finland 409b | SNI - us2.wxgqlfx.xyz",
         "🇫🇮 Finland 42ef | SNI - www.tradingview.com",
@@ -1093,7 +1093,6 @@
         "🇫🇮 Finland 848c | SNI - ozon.ru",
         "🇫🇮 Finland 8628 | SNI - google.com",
         "🇫🇮 Finland 884a | SNI - www.microsoft.com",
-        "🇫🇮 Finland 98d8 | SNI - www.techradar.com",
         "🇫🇮 Finland 9a70 | SNI - zib.sempai.site",
         "🇫🇮 Finland 9aa6 | SNI - ads.x5.ru",
         "🇫🇮 Finland 9bc0 | SNI - us2.wxgqlfx.xyz",
@@ -1323,7 +1322,6 @@
         "🇯🇵 Japan 7530 | SNI - us2.wxgqlfx.xyz",
         "🇯🇵 Japan 7b48 | SNI - dongjing4.zqjsqapi.com",
         "🇯🇵 Japan 8e9b | SNI - fancii.global.ssl.fastly.neT.",
-        "🇯🇵 Japan 9d66 | SNI - nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg",
         "🇯🇵 Japan a845 | SNI - jookeji.global.ssl.fastly.neT",
         "🇯🇵 Japan b219 | SNI - rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me",
         "🇯🇵 Japan c02d | SNI - vpn4.rnmcnm.com",
@@ -18821,6 +18819,19 @@
     },
     {
       "type": "vless",
+      "tag": "🇩🇪 Germany e090 | SNI - cdn9-33.vk-cdnvideo.com",
+      "server": "85.208.85.91",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn9-33.vk-cdnvideo.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪 Germany e376 | SNI - us2.wxgqlfx.xyz",
       "server": "162.19.243.8",
       "server_port": 2053,
@@ -19764,24 +19775,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 Finland 3962 | SNI - www.foxsports.com",
-      "server": "dns.dressforida.monster",
-      "server_port": 443,
-      "uuid": "a4b8fb95-7efe-4379-a06b-fff9acadb862",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.foxsports.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8",
-          "short_id": "9fed2c1fd777"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇫🇮 Finland 3ec4 | SNI - www.foxsports.com",
       "server": "lists.soloramtin.cyou",
       "server_port": 443,
@@ -20212,24 +20205,6 @@
           "enabled": true,
           "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
           "short_id": "9409f73c2fd7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 Finland 98d8 | SNI - www.techradar.com",
-      "server": "dns.dressforida.monster",
-      "server_port": 443,
-      "uuid": "79149019-5abe-46f9-91ae-e1e7d1d2c408",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.techradar.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8",
-          "short_id": "174c6cf22e22"
         }
       }
     },
@@ -23983,26 +23958,6 @@
         "type": "ws",
         "path": "",
         "headers": {}
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 Japan 9d66 | SNI - nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg",
-      "server": "82.40.33.241",
-      "server_port": 53557,
-      "uuid": "00000000-0000-4000-8000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristifp=chrome",
-        "headers": {
-          "Host": "nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg"
-        }
       }
     },
     {
