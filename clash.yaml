@@ -14815,6 +14815,17 @@ proxies:
   flow: xtls-rprx-vision
   reality-opts:
     public-key: WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI
+- name: "🇩🇪 Germany e090 | SNI - cdn9-33.vk-cdnvideo.com"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 85.208.85.91
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  network: tcp
+  tls: true
+  servername: cdn9-33.vk-cdnvideo.com
+  client-fingerprint: chrome
 - name: "🇩🇪 Germany e376 | SNI - us2.wxgqlfx.xyz"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 162.19.243.8
@@ -15687,21 +15698,6 @@ proxies:
   reality-opts:
     public-key: as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg
     short-id: "1c213fd68e13"
-- name: "🇫🇮 Finland 3962 | SNI - www.foxsports.com"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
-  server: dns.dressforida.monster
-  port: 443
-  udp: true
-  type: vless
-  uuid: a4b8fb95-7efe-4379-a06b-fff9acadb862
-  network: tcp
-  tls: true
-  servername: www.foxsports.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8
-    short-id: "9fed2c1fd777"
 - name: "🇫🇮 Finland 3ec4 | SNI - www.foxsports.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
   server: lists.soloramtin.cyou
@@ -16079,21 +16075,6 @@ proxies:
   reality-opts:
     public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
     short-id: "9409f73c2fd7"
-- name: "🇫🇮 Finland 98d8 | SNI - www.techradar.com"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
-  server: dns.dressforida.monster
-  port: 443
-  udp: true
-  type: vless
-  uuid: 79149019-5abe-46f9-91ae-e1e7d1d2c408
-  network: tcp
-  tls: true
-  servername: www.techradar.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8
-    short-id: "174c6cf22e22"
 - name: "🇫🇮 Finland 9a70 | SNI - zib.sempai.site"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
   server: 185.242.19.249
@@ -17278,17 +17259,6 @@ proxies:
   reality-opts:
     public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
     short-id: "60500a63ad12"
-- name: "🇬🇧 United Kingdom 31bf"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
-  server: uk.connfull.org
-  port: 2053
-  udp: true
-  type: vmess
-  uuid: e9661ce8-ec96-4d01-862f-82a3a1953f6b
-  cipher: auto
-  alterId: 0
-  network: tcp
-  tls: true
 - name: "🇬🇧 United Kingdom 3569 | SNI - sni.111000.de5.net"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
   server: 25.129.197.138
@@ -19801,21 +19771,6 @@ proxies:
   alterId: 0
   network: tcp
   tls: false
-- name: "🇯🇵 Japan 9d66 | SNI - nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
-  server: 82.40.33.241
-  port: 53557
-  udp: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  network: ws
-  tls: true
-  servername: nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg
-  client-fingerprint: chrome
-  ws-opts:
-    path: "/@Marisa_kristifp=chrome"
-    headers:
-      Host: nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg
 - name: "🇯🇵 Japan a845 | SNI - jookeji.global.ssl.fastly.neT"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
   server: 151.101.110.219
@@ -32011,10 +31966,10 @@ proxy-groups:
 - name: PROXY
   type: select
   proxies:
-  - ⚡ Best Ping (2345)
+  - ⚡ Best Ping (2342)
   - 🌍 Continents
   - 🛠️ Protocols
-- name: ⚡ Best Ping (2345)
+- name: ⚡ Best Ping (2342)
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
@@ -33124,6 +33079,7 @@ proxy-groups:
   - "🇩🇪 Germany df9d | SNI - ads.x5.ru"
   - "🇩🇪 Germany dfd4 | SNI - sub.sbrf-cdn342.ru"
   - "🇩🇪 Germany e008 | SNI - yandex.ru"
+  - "🇩🇪 Germany e090 | SNI - cdn9-33.vk-cdnvideo.com"
   - "🇩🇪 Germany e376 | SNI - us2.wxgqlfx.xyz"
   - "🇩🇪 Germany e40e"
   - "🇩🇪 Germany e41e | SNI - de-2.srv.vpnza300.org"
@@ -33189,7 +33145,6 @@ proxy-groups:
   - "🇫🇮 Finland 2449 | SNI - www.microsoft.com"
   - "🇫🇮 Finland 29eb | SNI - octopusss5.info"
   - "🇫🇮 Finland 2df6 | SNI - www.wikipedia.org"
-  - "🇫🇮 Finland 3962 | SNI - www.foxsports.com"
   - "🇫🇮 Finland 3ec4 | SNI - www.foxsports.com"
   - "🇫🇮 Finland 3fbe"
   - "🇫🇮 Finland 409b | SNI - us2.wxgqlfx.xyz"
@@ -33217,7 +33172,6 @@ proxy-groups:
   - "🇫🇮 Finland 848c | SNI - ozon.ru"
   - "🇫🇮 Finland 8628 | SNI - google.com"
   - "🇫🇮 Finland 884a | SNI - www.microsoft.com"
-  - "🇫🇮 Finland 98d8 | SNI - www.techradar.com"
   - "🇫🇮 Finland 9a70 | SNI - zib.sempai.site"
   - "🇫🇮 Finland 9aa6 | SNI - ads.x5.ru"
   - "🇫🇮 Finland 9bc0 | SNI - us2.wxgqlfx.xyz"
@@ -33305,7 +33259,6 @@ proxy-groups:
   - "🇬🇧 United Kingdom 2c96 | SNI - cdp.x5.ru"
   - "🇬🇧 United Kingdom 2cc6 | SNI - wl-4-3.nodes.ac"
   - "🇬🇧 United Kingdom 2d7e | SNI - www.microsoft.com"
-  - "🇬🇧 United Kingdom 31bf"
   - "🇬🇧 United Kingdom 3569 | SNI - sni.111000.de5.net"
   - "🇬🇧 United Kingdom 3a1b | SNI - sni.111000.v6.rocks"
   - "🇬🇧 United Kingdom 3a9c | SNI - cdp.x5.ru [CIDR]"
@@ -33492,7 +33445,6 @@ proxy-groups:
   - "🇯🇵 Japan 850a"
   - "🇯🇵 Japan 8e9b | SNI - fancii.global.ssl.fastly.neT."
   - "🇯🇵 Japan 9303"
-  - "🇯🇵 Japan 9d66 | SNI - nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg"
   - "🇯🇵 Japan a845 | SNI - jookeji.global.ssl.fastly.neT"
   - "🇯🇵 Japan aced"
   - "🇯🇵 Japan b219 | SNI - rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me"
@@ -34378,8 +34330,8 @@ proxy-groups:
   proxies:
   - 🛠️ HYSTERIA2 (9)
   - 🛠️ TROJAN (117)
-  - 🛠️ VLESS (2083)
-  - 🛠️ VMESS (136)
+  - 🛠️ VLESS (2081)
+  - 🛠️ VMESS (135)
 - name: 🇨🇦 Canada (544)
   type: select
   proxies:
@@ -35755,7 +35707,7 @@ proxy-groups:
   - "🇺🇸 United States f9e6 | SNI - sn1.skylee5.cloudns.ch"
   - "🇺🇸 United States fd57"
   - "🇺🇸 United States ffd4 | SNI - us2.wxgqlfx.xyz"
-- name: 🇩🇪 Germany (209)
+- name: 🇩🇪 Germany (210)
   type: select
   proxies:
   - "🇩🇪 Germany 032f"
@@ -35926,6 +35878,7 @@ proxy-groups:
   - "🇩🇪 Germany df9d | SNI - ads.x5.ru"
   - "🇩🇪 Germany dfd4 | SNI - sub.sbrf-cdn342.ru"
   - "🇩🇪 Germany e008 | SNI - yandex.ru"
+  - "🇩🇪 Germany e090 | SNI - cdn9-33.vk-cdnvideo.com"
   - "🇩🇪 Germany e376 | SNI - us2.wxgqlfx.xyz"
   - "🇩🇪 Germany e40e"
   - "🇩🇪 Germany e41e | SNI - de-2.srv.vpnza300.org"
@@ -36096,7 +36049,7 @@ proxy-groups:
   - "🇳🇱 Netherlands fde1"
   - "🇳🇱 Netherlands fec7 | SNI - us2.wxgqlfx.xyz"
   - "🇳🇱 Netherlands ff50 | SNI - us2.wxgqlfx.xyz"
-- name: 🇬🇧 United Kingdom (81)
+- name: 🇬🇧 United Kingdom (80)
   type: select
   proxies:
   - "🇬🇧 United Kingdom 04c6 | SNI - literate-funicular-xr59q5x9v7g6c995w-443.app.github.dev"
@@ -36114,7 +36067,6 @@ proxy-groups:
   - "🇬🇧 United Kingdom 2c96 | SNI - cdp.x5.ru"
   - "🇬🇧 United Kingdom 2cc6 | SNI - wl-4-3.nodes.ac"
   - "🇬🇧 United Kingdom 2d7e | SNI - www.microsoft.com"
-  - "🇬🇧 United Kingdom 31bf"
   - "🇬🇧 United Kingdom 3569 | SNI - sni.111000.de5.net"
   - "🇬🇧 United Kingdom 3a1b | SNI - sni.111000.v6.rocks"
   - "🇬🇧 United Kingdom 3a9c | SNI - cdp.x5.ru [CIDR]"
@@ -36180,7 +36132,7 @@ proxy-groups:
   - "🇬🇧 United Kingdom f142"
   - "🇬🇧 United Kingdom f24f | SNI - cdp.x5.ru"
   - "🇬🇧 United Kingdom fa5c"
-- name: 🇫🇮 Finland (65)
+- name: 🇫🇮 Finland (63)
   type: select
   proxies:
   - "🇫🇮 Finland 0192 | SNI - www.microsoft.com"
@@ -36196,7 +36148,6 @@ proxy-groups:
   - "🇫🇮 Finland 2449 | SNI - www.microsoft.com"
   - "🇫🇮 Finland 29eb | SNI - octopusss5.info"
   - "🇫🇮 Finland 2df6 | SNI - www.wikipedia.org"
-  - "🇫🇮 Finland 3962 | SNI - www.foxsports.com"
   - "🇫🇮 Finland 3ec4 | SNI - www.foxsports.com"
   - "🇫🇮 Finland 3fbe"
   - "🇫🇮 Finland 409b | SNI - us2.wxgqlfx.xyz"
@@ -36224,7 +36175,6 @@ proxy-groups:
   - "🇫🇮 Finland 848c | SNI - ozon.ru"
   - "🇫🇮 Finland 8628 | SNI - google.com"
   - "🇫🇮 Finland 884a | SNI - www.microsoft.com"
-  - "🇫🇮 Finland 98d8 | SNI - www.techradar.com"
   - "🇫🇮 Finland 9a70 | SNI - zib.sempai.site"
   - "🇫🇮 Finland 9aa6 | SNI - ads.x5.ru"
   - "🇫🇮 Finland 9bc0 | SNI - us2.wxgqlfx.xyz"
@@ -36445,7 +36395,7 @@ proxy-groups:
   - "🇵🇱 Poland d1b1 | SNI - pl.healthy-connected.com"
   - "🇵🇱 Poland dc1a"
   - "🇵🇱 Poland fed0 | SNI - ads.x5.ru"
-- name: 🇯🇵 Japan (29)
+- name: 🇯🇵 Japan (28)
   type: select
   proxies:
   - "🇯🇵 Japan 0e10 | SNI - fx.222395.xyz"
@@ -36460,7 +36410,6 @@ proxy-groups:
   - "🇯🇵 Japan 850a"
   - "🇯🇵 Japan 8e9b | SNI - fancii.global.ssl.fastly.neT."
   - "🇯🇵 Japan 9303"
-  - "🇯🇵 Japan 9d66 | SNI - nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg"
   - "🇯🇵 Japan a845 | SNI - jookeji.global.ssl.fastly.neT"
   - "🇯🇵 Japan aced"
   - "🇯🇵 Japan b219 | SNI - rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me"
@@ -36919,7 +36868,7 @@ proxy-groups:
   - 🇭🇰 Hong Kong (26)
   - 🇮🇩 Indonesia (6)
   - 🇮🇳 India (5)
-  - 🇯🇵 Japan (29)
+  - 🇯🇵 Japan (28)
   - 🇰🇷 South Korea (16)
   - 🇰🇿 Kazakhstan (11)
   - 🇱🇰 Sri Lanka (1)
@@ -36941,12 +36890,12 @@ proxy-groups:
   - 🇧🇾 Belarus (2)
   - 🇨🇭 Switzerland (10)
   - 🇨🇿 Czechia (3)
-  - 🇩🇪 Germany (209)
+  - 🇩🇪 Germany (210)
   - 🇪🇪 Estonia (6)
   - 🇪🇸 Spain (5)
-  - 🇫🇮 Finland (65)
+  - 🇫🇮 Finland (63)
   - 🇫🇷 France (49)
-  - 🇬🇧 United Kingdom (81)
+  - 🇬🇧 United Kingdom (80)
   - 🇭🇺 Hungary (16)
   - 🇮🇪 Ireland (3)
   - 🇮🇹 Italy (53)
@@ -37099,7 +37048,7 @@ proxy-groups:
   - "🇺🇸 United States f657"
   - "🇻🇳 Vietnam 9a13"
   - "🇿🇦 South Africa 46e6"
-- name: 🛠️ VLESS (2083)
+- name: 🛠️ VLESS (2081)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -38086,6 +38035,7 @@ proxy-groups:
   - "🇩🇪 Germany df9d | SNI - ads.x5.ru"
   - "🇩🇪 Germany dfd4 | SNI - sub.sbrf-cdn342.ru"
   - "🇩🇪 Germany e008 | SNI - yandex.ru"
+  - "🇩🇪 Germany e090 | SNI - cdn9-33.vk-cdnvideo.com"
   - "🇩🇪 Germany e376 | SNI - us2.wxgqlfx.xyz"
   - "🇩🇪 Germany e40e"
   - "🇩🇪 Germany e41e | SNI - de-2.srv.vpnza300.org"
@@ -38144,7 +38094,6 @@ proxy-groups:
   - "🇫🇮 Finland 2449 | SNI - www.microsoft.com"
   - "🇫🇮 Finland 29eb | SNI - octopusss5.info"
   - "🇫🇮 Finland 2df6 | SNI - www.wikipedia.org"
-  - "🇫🇮 Finland 3962 | SNI - www.foxsports.com"
   - "🇫🇮 Finland 3ec4 | SNI - www.foxsports.com"
   - "🇫🇮 Finland 409b | SNI - us2.wxgqlfx.xyz"
   - "🇫🇮 Finland 42ef | SNI - www.tradingview.com"
@@ -38170,7 +38119,6 @@ proxy-groups:
   - "🇫🇮 Finland 848c | SNI - ozon.ru"
   - "🇫🇮 Finland 8628 | SNI - google.com"
   - "🇫🇮 Finland 884a | SNI - www.microsoft.com"
-  - "🇫🇮 Finland 98d8 | SNI - www.techradar.com"
   - "🇫🇮 Finland 9a70 | SNI - zib.sempai.site"
   - "🇫🇮 Finland 9aa6 | SNI - ads.x5.ru"
   - "🇫🇮 Finland 9bc0 | SNI - us2.wxgqlfx.xyz"
@@ -38400,7 +38348,6 @@ proxy-groups:
   - "🇯🇵 Japan 7530 | SNI - us2.wxgqlfx.xyz"
   - "🇯🇵 Japan 7b48 | SNI - dongjing4.zqjsqapi.com"
   - "🇯🇵 Japan 8e9b | SNI - fancii.global.ssl.fastly.neT."
-  - "🇯🇵 Japan 9d66 | SNI - nkeeiqgua2zzvt44excprl17zrg1.ovtc.xx.kg"
   - "🇯🇵 Japan a845 | SNI - jookeji.global.ssl.fastly.neT"
   - "🇯🇵 Japan b219 | SNI - rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me"
   - "🇯🇵 Japan c02d | SNI - vpn4.rnmcnm.com"
@@ -39185,7 +39132,7 @@ proxy-groups:
   - "🇺🇸 United States f9bc | SNI - stats.vk-portal.net"
   - "🇺🇸 United States f9e6 | SNI - sn1.skylee5.cloudns.ch"
   - "🇺🇸 United States ffd4 | SNI - us2.wxgqlfx.xyz"
-- name: 🛠️ VMESS (136)
+- name: 🛠️ VMESS (135)
   type: select
   proxies:
   - " Unsorted 0bbf"
@@ -39224,7 +39171,6 @@ proxy-groups:
   - "🇫🇷 France 37e8"
   - "🇫🇷 France ba37"
   - "🇬🇧 United Kingdom 0b43"
-  - "🇬🇧 United Kingdom 31bf"
   - "🇬🇧 United Kingdom 3b91"
   - "🇬🇧 United Kingdom 62f2"
   - "🇬🇧 United Kingdom 8b9a"
