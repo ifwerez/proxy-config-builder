@@ -8570,20 +8570,6 @@ proxies:
     path: /my-wbv
     headers:
       Host: unnes.ac.id.cyylr.eu.cc
-- name: "🇨🇦 Canada cbe4"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CA.png
-  server: fx3033.game2lizard.com
-  port: 80
-  udp: true
-  type: vless
-  uuid: 5b6e7300-8fc8-404e-8dc9-40a5393dd881
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: "/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn?ed=2560"
-    headers:
-      Host: line.smartphone1.azazilvpn.sbs
 - name: "🇨🇦 Canada cbe9 | SNI - sertraline.adaspoloandco.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CA.png
   server: 104.27.66.214
@@ -25686,6 +25672,17 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+- name: "🇹🇭 Thailand 060f"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TH.png
+  server: th1.vpnjantit.com
+  port: 10000
+  udp: true
+  type: vmess
+  uuid: 1020f486-5e30-11f1-9b9b-bb0e43c242bb
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: false
 - name: "🇹🇭 Thailand 1bdc"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TH.png
   server: 185.78.165.153
@@ -25697,6 +25694,17 @@ proxies:
   alterId: 0
   network: ws
   tls: true
+- name: "🇹🇭 Thailand 2a8c"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TH.png
+  server: 185.78.165.153
+  port: 10000
+  udp: true
+  type: vmess
+  uuid: 1020f486-5e30-11f1-9b9b-bb0e43c242bb
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: false
 - name: "🇹🇭 Thailand 98a7"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TH.png
   server: th1.vpnjantit.com
@@ -26673,21 +26681,6 @@ proxies:
     path: "/proxyip=ProxyIP.CMLiussss.net"
     headers:
       Host: sni.skylee4.cloudns.ch
-- name: "🇺🇸 United States 3bc7 | SNI - italy0.lizardshop.org"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: fx3033.game2lizard.com
-  port: 2083
-  udp: true
-  type: vless
-  uuid: d697bc7a-9b53-48cf-b095-d62e137f9b8a
-  network: ws
-  tls: true
-  servername: italy0.lizardshop.org
-  client-fingerprint: chrome
-  ws-opts:
-    path: "/?ed=2560"
-    headers:
-      Host: italy0.lizardshop.org
 - name: "🇺🇸 United States 3d40 | SNI - yahoo.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: pl.fantoff.online
@@ -29126,7 +29119,6 @@ proxy-groups:
   - "🇨🇦 Canada ca04 | SNI - gaosir.unfeeling.sbs"
   - "🇨🇦 Canada ca57 | SNI - octopusss4.com"
   - "🇨🇦 Canada ca69 | SNI - unnes.ac.id.cyylr.eu.cc [CIDR]"
-  - "🇨🇦 Canada cbe4"
   - "🇨🇦 Canada cbe9 | SNI - sertraline.adaspoloandco.com"
   - "🇨🇦 Canada cc8a"
   - "🇨🇦 Canada cd98 | SNI - pagescm.freen28.cc.cd"
@@ -30362,7 +30354,9 @@ proxy-groups:
   - "🇸🇰 Slovakia cc46 | SNI - cdn7-39.vk-cdnvideo.com"
   - "🇸🇰 Slovakia df9a"
   - "🇹🇭 Thailand 001e | SNI - api.digital-help-prd.autodesk.com"
+  - "🇹🇭 Thailand 060f"
   - "🇹🇭 Thailand 1bdc"
+  - "🇹🇭 Thailand 2a8c"
   - "🇹🇭 Thailand 98a7"
   - "🇹🇭 Thailand bb03 | SNI - www.primevideo.com"
   - "🇹🇭 Thailand d4fe | SNI - api.digital-help-prd.autodesk.com"
@@ -30438,7 +30432,6 @@ proxy-groups:
   - "🇺🇸 United States 386e | SNI - visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me"
   - "🇺🇸 United States 39cb"
   - "🇺🇸 United States 3b8a | SNI - sni.skylee4.cloudns.ch"
-  - "🇺🇸 United States 3bc7 | SNI - italy0.lizardshop.org"
   - "🇺🇸 United States 3d40 | SNI - yahoo.com"
   - "🇺🇸 United States 3f77"
   - "🇺🇸 United States 3f7f | SNI - us2.wxgqlfx.xyz"
@@ -30586,9 +30579,9 @@ proxy-groups:
   proxies:
   - 🛠️ HYSTERIA2 (4)
   - 🛠️ TROJAN (110)
-  - 🛠️ VLESS (1853)
-  - 🛠️ VMESS (126)
-- name: 🇨🇦 Canada (423)
+  - 🛠️ VLESS (1851)
+  - 🛠️ VMESS (128)
+- name: 🇨🇦 Canada (422)
   type: select
   proxies:
   - "🇨🇦 Canada 009d"
@@ -30933,7 +30926,6 @@ proxy-groups:
   - "🇨🇦 Canada ca04 | SNI - gaosir.unfeeling.sbs"
   - "🇨🇦 Canada ca57 | SNI - octopusss4.com"
   - "🇨🇦 Canada ca69 | SNI - unnes.ac.id.cyylr.eu.cc [CIDR]"
-  - "🇨🇦 Canada cbe4"
   - "🇨🇦 Canada cbe9 | SNI - sertraline.adaspoloandco.com"
   - "🇨🇦 Canada cc8a"
   - "🇨🇦 Canada cd98 | SNI - pagescm.freen28.cc.cd"
@@ -31736,7 +31728,7 @@ proxy-groups:
   - "🇩🇪 Germany ff41"
   - "🇩🇪 Germany ff49 | SNI - mzone.3cloudhost.com"
   - "🇩🇪 Germany ffcb"
-- name: 🇺🇸 United States (180)
+- name: 🇺🇸 United States (179)
   type: select
   proxies:
   - "🇺🇸 United States 0017 | SNI - sni.111000.dynv6.net"
@@ -31786,7 +31778,6 @@ proxy-groups:
   - "🇺🇸 United States 386e | SNI - visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me"
   - "🇺🇸 United States 39cb"
   - "🇺🇸 United States 3b8a | SNI - sni.skylee4.cloudns.ch"
-  - "🇺🇸 United States 3bc7 | SNI - italy0.lizardshop.org"
   - "🇺🇸 United States 3d40 | SNI - yahoo.com"
   - "🇺🇸 United States 3f77"
   - "🇺🇸 United States 3f7f | SNI - us2.wxgqlfx.xyz"
@@ -32705,6 +32696,16 @@ proxy-groups:
   - "🇷🇸 Serbia 5d0b"
   - "🇷🇸 Serbia 93ea | SNI - yahoo.com"
   - "🇷🇸 Serbia d326 | SNI - yahoo.com"
+- name: 🇹🇭 Thailand (7)
+  type: select
+  proxies:
+  - "🇹🇭 Thailand 001e | SNI - api.digital-help-prd.autodesk.com"
+  - "🇹🇭 Thailand 060f"
+  - "🇹🇭 Thailand 1bdc"
+  - "🇹🇭 Thailand 2a8c"
+  - "🇹🇭 Thailand 98a7"
+  - "🇹🇭 Thailand bb03 | SNI - www.primevideo.com"
+  - "🇹🇭 Thailand d4fe | SNI - api.digital-help-prd.autodesk.com"
 - name: 🇮🇩 Indonesia (6)
   type: select
   proxies:
@@ -32746,14 +32747,6 @@ proxy-groups:
   - "🇷🇴 Romania b0ff | SNI - cdn7-09.vk-cdnvideo.com"
   - "🇷🇴 Romania bb78 | SNI - cdn7-39.vk-cdnvideo.com"
   - "🇷🇴 Romania c78a | SNI - www.alibaba.com"
-- name: 🇹🇭 Thailand (5)
-  type: select
-  proxies:
-  - "🇹🇭 Thailand 001e | SNI - api.digital-help-prd.autodesk.com"
-  - "🇹🇭 Thailand 1bdc"
-  - "🇹🇭 Thailand 98a7"
-  - "🇹🇭 Thailand bb03 | SNI - www.primevideo.com"
-  - "🇹🇭 Thailand d4fe | SNI - api.digital-help-prd.autodesk.com"
 - name: 🇦🇲 Armenia (4)
   type: select
   proxies:
@@ -32854,10 +32847,10 @@ proxy-groups:
   type: select
   proxies:
   - 🇦🇷 Argentina (1)
-  - 🇨🇦 Canada (423)
+  - 🇨🇦 Canada (422)
   - 🇨🇱 Chile (1)
   - 🇲🇽 Mexico (1)
-  - 🇺🇸 United States (180)
+  - 🇺🇸 United States (179)
 - name: 🌏 Asia (18)
   type: select
   proxies:
@@ -32875,7 +32868,7 @@ proxy-groups:
   - 🇵🇭 Philippines (1)
   - 🇸🇦 Saudi Arabia (2)
   - 🇸🇬 Singapore (48)
-  - 🇹🇭 Thailand (5)
+  - 🇹🇭 Thailand (7)
   - 🇹🇷 Turkey (13)
   - 🇹🇼 Taiwan (11)
   - 🇻🇳 Vietnam (1)
@@ -33035,7 +33028,7 @@ proxy-groups:
   - "🇺🇸 United States a988"
   - "🇻🇳 Vietnam 9a13"
   - "🇿🇦 South Africa 46e6"
-- name: 🛠️ VLESS (1853)
+- name: 🛠️ VLESS (1851)
   type: select
   proxies:
   - " Unsorted 0012"
@@ -33598,7 +33591,6 @@ proxy-groups:
   - "🇨🇦 Canada ca04 | SNI - gaosir.unfeeling.sbs"
   - "🇨🇦 Canada ca57 | SNI - octopusss4.com"
   - "🇨🇦 Canada ca69 | SNI - unnes.ac.id.cyylr.eu.cc [CIDR]"
-  - "🇨🇦 Canada cbe4"
   - "🇨🇦 Canada cbe9 | SNI - sertraline.adaspoloandco.com"
   - "🇨🇦 Canada cc8a"
   - "🇨🇦 Canada cd98 | SNI - pagescm.freen28.cc.cd"
@@ -34783,7 +34775,6 @@ proxy-groups:
   - "🇺🇸 United States 386e | SNI - visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me"
   - "🇺🇸 United States 39cb"
   - "🇺🇸 United States 3b8a | SNI - sni.skylee4.cloudns.ch"
-  - "🇺🇸 United States 3bc7 | SNI - italy0.lizardshop.org"
   - "🇺🇸 United States 3d40 | SNI - yahoo.com"
   - "🇺🇸 United States 3f77"
   - "🇺🇸 United States 3f7f | SNI - us2.wxgqlfx.xyz"
@@ -34891,7 +34882,7 @@ proxy-groups:
   - "🇺🇸 United States f9ee | SNI - statuspine.net"
   - "🇺🇸 United States fac2 | SNI - maple.adaspoloandco.com"
   - "🇺🇸 United States ffd4 | SNI - us2.wxgqlfx.xyz"
-- name: 🛠️ VMESS (126)
+- name: 🛠️ VMESS (128)
   type: select
   proxies:
   - " Unsorted 1063"
@@ -34987,7 +34978,9 @@ proxy-groups:
   - "🇸🇬 Singapore 7582"
   - "🇸🇬 Singapore b53e"
   - "🇸🇬 Singapore dcd0"
+  - "🇹🇭 Thailand 060f"
   - "🇹🇭 Thailand 1bdc"
+  - "🇹🇭 Thailand 2a8c"
   - "🇹🇭 Thailand 98a7"
   - "🇹🇷 Turkey 4b72"
   - "🇹🇼 Taiwan 2746"
