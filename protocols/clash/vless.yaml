@@ -11924,20 +11924,6 @@ proxies:
   tls: true
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: "🇩🇪 Germany 1d6d | SNI - www.microsoft.com"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 91.124.209.75
-  port: 443
-  udp: true
-  type: vless
-  uuid: a105bbf5-952f-4cf2-8653-44316f0eff14
-  network: tcp
-  tls: true
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Q5L2J2Fswd_K5U4-vAE05VOvKxI8IsD5b6SlN_nwKh8
-    short-id: "dcf8f557800eab1b"
 - name: "🇩🇪 Germany 20dd | SNI - 5.75.252.191"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 5.75.252.191
@@ -14035,20 +14021,6 @@ proxies:
   reality-opts:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
     short-id: "4c02bbbfa833b3b6"
-- name: "🇩🇪 Germany fdc6 | SNI - www.microsoft.com"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 91.124.209.75
-  port: 443
-  udp: true
-  type: vless
-  uuid: a5ff2e8e-7102-4ce5-9750-51b8dc3aeefd
-  network: tcp
-  tls: true
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Q5L2J2Fswd_K5U4-vAE05VOvKxI8IsD5b6SlN_nwKh8
-    short-id: "dcf8f557800eab1b"
 - name: "🇩🇪 Germany fec3 | SNI - stats.vk-portal.net"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 89.125.19.237
@@ -15762,6 +15734,20 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
+- name: "🇫🇷 France f133"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
+  server: 152.228.162.19
+  port: 80
+  udp: true
+  type: vless
+  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+  network: ws
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: akamaized.net
 - name: "🇫🇷 France f1f7"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
   server: 23.235.42.205
