@@ -1208,6 +1208,7 @@
         "🇬🇧 United Kingdom 31bf",
         "🇬🇧 United Kingdom 3454 | SNI - cdp.x5.ru",
         "🇬🇧 United Kingdom 3569 | SNI - sni.111000.de5.net",
+        "🇬🇧 United Kingdom 37fe | SNI - tradingview.com",
         "🇬🇧 United Kingdom 3a1b | SNI - sni.111000.v6.rocks",
         "🇬🇧 United Kingdom 3b91",
         "🇬🇧 United Kingdom 3f02 | SNI - ads.x5.ru",
@@ -1274,13 +1275,11 @@
         "🇭🇰 Hong Kong 095d",
         "🇭🇰 Hong Kong 0af7",
         "🇭🇰 Hong Kong 14f8",
-        "🇭🇰 Hong Kong 1906",
         "🇭🇰 Hong Kong 1de1",
         "🇭🇰 Hong Kong 2236 | SNI - www.microsoft.com",
         "🇭🇰 Hong Kong 301c",
         "🇭🇰 Hong Kong 3199 | SNI - u716087ue788s306.okgg.top",
         "🇭🇰 Hong Kong 378b",
-        "🇭🇰 Hong Kong 4da8 | SNI - www.amd.com",
         "🇭🇰 Hong Kong 4f47",
         "🇭🇰 Hong Kong 5437 | SNI - sni.skylee4.cloudns.ch",
         "🇭🇰 Hong Kong 5826",
@@ -1333,7 +1332,6 @@
         "🇮🇹 Italy 29a4 | SNI - it.s3-cloud.xyz",
         "🇮🇹 Italy 29d2 | SNI - it.s3-cloud.xyz",
         "🇮🇹 Italy 2f8e",
-        "🇮🇹 Italy 35c4",
         "🇮🇹 Italy 36d1 | SNI - it.s3-cloud.xyz",
         "🇮🇹 Italy 3ce1",
         "🇮🇹 Italy 3e31",
@@ -1343,6 +1341,7 @@
         "🇮🇹 Italy 4c47 | SNI - it.s3-cloud.xyz",
         "🇮🇹 Italy 4d9d | SNI - it.s3-cloud.xyz",
         "🇮🇹 Italy 5390 | SNI - it.s3-cloud.xyz",
+        "🇮🇹 Italy 56e1",
         "🇮🇹 Italy 5975",
         "🇮🇹 Italy 5c43",
         "🇮🇹 Italy 6578",
@@ -1502,6 +1501,7 @@
         "🇳🇱 Netherlands 1e64 | SNI - sabko.tll-far.ir",
         "🇳🇱 Netherlands 21ce | SNI - ads.x5.ru",
         "🇳🇱 Netherlands 2419 | SNI - u716087ub838s678.ccgfw.top",
+        "🇳🇱 Netherlands 2636 | SNI - cloudflare.tyr-agentstvo.tech",
         "🇳🇱 Netherlands 266c | SNI - g10.steptofsvo.com",
         "🇳🇱 Netherlands 29da | SNI - sc-thenetherlands1.09vpn.com",
         "🇳🇱 Netherlands 2b36 | SNI - cdnjs.com",
@@ -2005,7 +2005,6 @@
         "🇹🇼 Taiwan 2746",
         "🇹🇼 Taiwan 27c2 | SNI - www.hollywoodreporter.com",
         "🇹🇼 Taiwan 3362 | SNI - www.tradingview.com",
-        "🇹🇼 Taiwan 45cf",
         "🇹🇼 Taiwan 6ede | SNI - www.tradingview.com",
         "🇹🇼 Taiwan 808d | SNI - www.techradar.com",
         "🇹🇼 Taiwan 81c6 | SNI - www.microsoft.com",
@@ -21636,6 +21635,24 @@
     },
     {
       "type": "vless",
+      "tag": "🇬🇧 United Kingdom 37fe | SNI - tradingview.com",
+      "server": "31.76.126.141",
+      "server_port": 2040,
+      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
+          "short_id": "53197c66aef53c44"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇬🇧 United Kingdom 3a1b | SNI - sni.111000.v6.rocks",
       "server": "25.129.199.148",
       "server_port": 2096,
@@ -22711,15 +22728,6 @@
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 Hong Kong 1906",
-      "server": "world.t.51guangtaobao.com",
-      "server_port": 2512,
-      "uuid": "1d3d868e-ae7b-3762-b9d9-a7f267494c7e",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
       "tag": "🇭🇰 Hong Kong 1de1",
       "server": "n1761296889.4u9ma.icu",
       "server_port": 443,
@@ -22778,23 +22786,6 @@
       "uuid": "f267eac3-dfb4-45be-a480-7e1847ca04ab",
       "security": "auto",
       "alter_id": 0
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 Hong Kong 4da8 | SNI - www.amd.com",
-      "server": "47.83.153.19",
-      "server_port": 59750,
-      "uuid": "9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"
-        }
-      }
     },
     {
       "type": "vmess",
@@ -23567,14 +23558,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇹 Italy 35c4",
-      "server": "151.115.166.233",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "🇮🇹 Italy 36d1 | SNI - it.s3-cloud.xyz",
       "server": "31.76.113.61",
       "server_port": 443,
@@ -23705,6 +23688,14 @@
           "short_id": "7a3f9e2b1c8d4f6a"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇹 Italy 56e1",
+      "server": "151.115.164.129",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -26190,6 +26181,26 @@
         "enabled": true,
         "server_name": "u716087ub838s678.ccgfw.top",
         "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 Netherlands 2636 | SNI - cloudflare.tyr-agentstvo.tech",
+      "server": "158.160.214.183",
+      "server_port": 443,
+      "uuid": "e2350ba4-16aa-455e-ae8b-f65102227cf4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.tyr-agentstvo.tech",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sequre/ws?ed=2560",
+        "headers": {
+          "Host": "cloudflare.tyr-agentstvo.tech"
+        }
       }
     },
     {
@@ -34751,15 +34762,6 @@
           "short_id": "1b8d2fb1eec1"
         }
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇼 Taiwan 45cf",
-      "server": "world.t.51guangtaobao.com",
-      "server_port": 2510,
-      "uuid": "1d3d868e-ae7b-3762-b9d9-a7f267494c7e",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "type": "vless",
