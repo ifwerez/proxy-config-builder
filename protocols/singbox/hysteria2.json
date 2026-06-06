@@ -25,11 +25,13 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
+        " Unsorted 6ca7",
         " Unsorted 80bd",
         " Unsorted f25c",
         "🇩🇪 Germany bc65",
         "🇫🇮 Finland 5e8e [CIDR]",
         "🇫🇷 France 74e6",
+        "🇳🇱 Netherlands abad",
         "🇷🇺 Russia 7f9a",
         "🇷🇺 Russia fb75 [CIDR]",
         "🇺🇸 United States ef6b"
@@ -38,6 +40,18 @@
     {
       "type": "direct",
       "tag": "direct"
+    },
+    {
+      "type": "hysteria2",
+      "tag": " Unsorted 6ca7",
+      "server": "hy2.aspidnet.xyz",
+      "server_port": 443,
+      "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2.aspidnet.xyz",
+        "insecure": false
+      }
     },
     {
       "type": "hysteria2",
@@ -101,6 +115,18 @@
     },
     {
       "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands abad",
+      "server": "150.129.10.140",
+      "server_port": 443,
+      "password": "1c65bee4-bc54-364c-8988-6a5912fda891",
+      "tls": {
+        "enabled": true,
+        "server_name": "u723829us614.ccgfw.online",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
       "tag": "🇷🇺 Russia 7f9a",
       "server": "195.133.53.33",
       "server_port": 443,
@@ -120,7 +146,7 @@
       "tls": {
         "enabled": true,
         "server_name": "s463.okgfwbackxyz.xyz",
-        "insecure": false
+        "insecure": true
       }
     },
     {
