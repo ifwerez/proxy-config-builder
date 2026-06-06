@@ -48,6 +48,7 @@
         " Unsorted f840",
         " Unsorted fbe4",
         "🇧🇬 Bulgaria 6d32",
+        "🇧🇷 Brazil 778d [CIDR]",
         "🇨🇦 Canada 014b",
         "🇨🇦 Canada 0925",
         "🇨🇦 Canada 094f",
@@ -111,6 +112,7 @@
         "🇨🇳 China 8af4",
         "🇨🇳 China 941a",
         "🇨🇿 Czechia 6f8c",
+        "🇩🇪 Germany 1319",
         "🇩🇪 Germany 3d78",
         "🇩🇪 Germany 413c",
         "🇩🇪 Germany 43ef",
@@ -121,9 +123,11 @@
         "🇩🇪 Germany e4a6",
         "🇩🇪 Germany f4e5",
         "🇪🇪 Estonia 0a29",
+        "🇫🇮 Finland 0b46",
         "🇫🇮 Finland 7d5c",
         "🇫🇷 France 2f11",
         "🇫🇷 France 3035",
+        "🇫🇷 France 43c8 [CIDR]",
         "🇫🇷 France b2f6 [CIDR]",
         "🇫🇷 France d13b [CIDR]",
         "🇫🇷 France eb80",
@@ -138,7 +142,7 @@
         "🇵🇱 Poland 6611",
         "🇵🇱 Poland c1d4",
         "🇸🇬 Singapore 0e85",
-        "🇹🇷 Turkey 8c23 [CIDR]",
+        "🇹🇷 Turkey 8c23",
         "🇹🇼 Taiwan 9c14",
         "🇹🇼 Taiwan c5fc",
         "🇺🇸 United States 0b8d",
@@ -147,7 +151,6 @@
         "🇺🇸 United States 1b38",
         "🇺🇸 United States 3166",
         "🇺🇸 United States 3427",
-        "🇺🇸 United States 43c8",
         "🇺🇸 United States 4fd4",
         "🇺🇸 United States 63fb",
         "🇺🇸 United States 6ba3",
@@ -440,6 +443,18 @@
       "tls": {
         "enabled": true,
         "server_name": "www.selectnet.click",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇧🇷 Brazil 778d [CIDR]",
+      "server": "216.24.57.6",
+      "server_port": 443,
+      "password": "3b91d95b-0478-451a-a372-4f417417f650",
+      "tls": {
+        "enabled": true,
+        "server_name": "unnes.ac.id.r3xxe.eu.cc",
         "insecure": false
       }
     },
@@ -1201,6 +1216,18 @@
     },
     {
       "type": "trojan",
+      "tag": "🇩🇪 Germany 1319",
+      "server": "78.47.94.248",
+      "server_port": 2053,
+      "password": "SoftNetConnect",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
       "tag": "🇩🇪 Germany 3d78",
       "server": "91.233.8.208",
       "server_port": 443,
@@ -1321,6 +1348,18 @@
     },
     {
       "type": "trojan",
+      "tag": "🇫🇮 Finland 0b46",
+      "server": "37.27.186.225",
+      "server_port": 2053,
+      "password": "SoftNetConnect",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
       "tag": "🇫🇮 Finland 7d5c",
       "server": "212.193.18.121",
       "server_port": 21936,
@@ -1347,6 +1386,18 @@
       "type": "trojan",
       "tag": "🇫🇷 France 3035",
       "server": "66.81.247.155",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmloud.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 France 43c8 [CIDR]",
+      "server": "216.24.57.6",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -1525,7 +1576,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇹🇷 Turkey 8c23 [CIDR]",
+      "tag": "🇹🇷 Turkey 8c23",
       "server": "66.81.247.176",
       "server_port": 2087,
       "password": "ldcowwKly0",
@@ -1628,18 +1679,6 @@
       "tls": {
         "enabled": true,
         "server_name": "45.79.8.17",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 United States 43c8",
-      "server": "216.24.57.6",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.creationlong.org",
         "insecure": false
       }
     },
