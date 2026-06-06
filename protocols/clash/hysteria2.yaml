@@ -25,6 +25,13 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
+- name: " Unsorted 6ca7"
+  server: hy2.aspidnet.xyz
+  port: 443
+  udp: true
+  type: hysteria2
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
 - name: " Unsorted 80bd"
   server: s544.ccgfw.online
   port: 443
@@ -64,6 +71,14 @@ proxies:
   password: dongtaiwang.com
   sni: www.microsoft.com
   skip-cert-verify: true
+- name: "🇳🇱 Netherlands abad"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
+  server: 150.129.10.140
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 1c65bee4-bc54-364c-8988-6a5912fda891
+  sni: u723829us614.ccgfw.online
 - name: "🇷🇺 Russia 7f9a"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 195.133.53.33
@@ -80,6 +95,7 @@ proxies:
   type: hysteria2
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   sni: s463.okgfwbackxyz.xyz
+  skip-cert-verify: true
 - name: "🇺🇸 United States ef6b"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 185.106.96.231
