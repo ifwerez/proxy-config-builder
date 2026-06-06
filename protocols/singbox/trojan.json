@@ -48,6 +48,7 @@
         " Unsorted f605",
         " Unsorted f840",
         " Unsorted fbe4",
+        "🇦🇹 Austria b2f6",
         "🇧🇬 Bulgaria 6d32",
         "🇨🇦 Canada 0925",
         "🇨🇦 Canada 094f",
@@ -103,7 +104,6 @@
         "🇨🇦 Canada f18f",
         "🇨🇦 Canada f320",
         "🇨🇦 Canada f689",
-        "🇨🇦 Canada ff2e [CIDR]",
         "🇨🇱 Chile 1224",
         "🇨🇳 China 0fe8",
         "🇨🇳 China 3612",
@@ -116,7 +116,6 @@
         "🇩🇪 Germany 43ef",
         "🇩🇪 Germany 88ca",
         "🇩🇪 Germany 95f7",
-        "🇩🇪 Germany b4e2",
         "🇩🇪 Germany cbc8",
         "🇩🇪 Germany e4a6",
         "🇩🇪 Germany f4e5",
@@ -126,7 +125,6 @@
         "🇫🇷 France 2f11",
         "🇫🇷 France 43c8 [CIDR]",
         "🇫🇷 France 94c6",
-        "🇫🇷 France b2f6 [CIDR]",
         "🇫🇷 France d13b [CIDR]",
         "🇫🇷 France eb80",
         "🇭🇰 Hong Kong 392e",
@@ -445,6 +443,18 @@
       "tls": {
         "enabled": true,
         "server_name": "vless.herogoing.top",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇦🇹 Austria b2f6",
+      "server": "212.183.88.136",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
         "insecure": false
       }
     },
@@ -1110,18 +1120,6 @@
     },
     {
       "type": "trojan",
-      "tag": "🇨🇦 Canada ff2e [CIDR]",
-      "server": "66.81.247.155",
-      "server_port": 443,
-      "password": "Telegram-Config0plus",
-      "tls": {
-        "enabled": true,
-        "server_name": "go.appsflyer.com.r3xxe.eu.cc",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇨🇱 Chile 1224",
       "server": "130.94.104.210",
       "server_port": 443,
@@ -1266,18 +1264,6 @@
     },
     {
       "type": "trojan",
-      "tag": "🇩🇪 Germany b4e2",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "password": "kbfRcfO5S9",
-      "tls": {
-        "enabled": true,
-        "server_name": "dd.aananas.ir.",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇩🇪 Germany cbc8",
       "server": "91.233.8.138",
       "server_port": 443,
@@ -1381,18 +1367,6 @@
       "tls": {
         "enabled": true,
         "server_name": "default.ssl.fastly.net",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇷 France b2f6 [CIDR]",
-      "server": "212.183.88.136",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
         "insecure": false
       }
     },
