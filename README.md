@@ -7,7 +7,7 @@ auto-generated proxy configurations
 
 ## sources
 
-- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 391 proxies]
+- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 362 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt [online, 115 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt [online, 287 proxies]
 - https://internet-tenshi.kangel.tech/1 [online, 299 proxies]
@@ -116,5 +116,5 @@ you can add new proxy source URLs via a pull request:
 
 new sources are automatically merged on the next update cycle.
 
-last updated: 2026-06-07 06:47:12
-proxies: 2742
+last updated: 2026-06-07 07:50:42
+proxies: 2730
