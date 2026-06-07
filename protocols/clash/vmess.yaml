@@ -115,16 +115,6 @@ proxies:
   alterId: 0
   network: ws
   tls: true
-- name: " Unsorted f8f9"
-  server: renderer-stream-1-411.mirra.now
-  port: 443
-  udp: true
-  type: vmess
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  cipher: auto
-  alterId: 0
-  network: ws
-  tls: true
 - name: "🇧🇷 Brazil 027e"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/BR.png
   server: 172.233.17.76
@@ -2325,6 +2315,17 @@ proxies:
   alterId: 0
   network: ws
   tls: true
+- name: "🇫🇷 France 60aa"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
+  server: 185.248.33.173
+  port: 30512
+  udp: true
+  type: vmess
+  uuid: c09f13ce-2cca-49b6-ad1e-597566cc89c6
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: true
 - name: "🇫🇷 France 61a5"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
   server: 185.248.33.173
@@ -4227,9 +4228,20 @@ proxies:
   alterId: 0
   network: ws
   tls: true
-- name: "🇳🇱 Netherlands f86c [CIDR]"
+- name: "🇳🇱 Netherlands d793 [CIDR]"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
-  server: 195.209.88.113
+  server: 37.220.161.249
+  port: 443
+  udp: true
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: true
+- name: "🇳🇱 Netherlands f8f9 [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
+  server: renderer-stream-1-411.mirra.now
   port: 443
   udp: true
   type: vmess
@@ -4621,17 +4633,6 @@ proxies:
   cipher: auto
   alterId: 0
   network: ws
-  tls: false
-- name: "🇺🇸 United States adbf"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: 84.75.220.183
-  port: 16733
-  udp: true
-  type: vmess
-  uuid: f58a3ba2-3495-493a-b511-cfff8729f9f9
-  cipher: auto
-  alterId: 0
-  network: tcp
   tls: false
 - name: "🇺🇸 United States bfc9"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
