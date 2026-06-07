@@ -7,16 +7,16 @@ auto-generated proxy configurations
 
 ## sources
 
-- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 300 proxies]
-- https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt [online, 104 proxies]
+- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 384 proxies]
+- https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt [online, 138 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt [online, 287 proxies]
 - https://internet-tenshi.kangel.tech/1 [online, 299 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt [online, 3351 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt [online, 143 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt [online, 335 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt [online, 224 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt [online, 709 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt [online, 259 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt [online, 281 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt [online, 720 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt [online, 261 proxies]
 
 ## subscription urls
 
@@ -116,5 +116,5 @@ you can add new proxy source URLs via a pull request:
 
 new sources are automatically merged on the next update cycle.
 
-last updated: 2026-06-07 04:38:07
-proxies: 2693
+last updated: 2026-06-07 05:42:41
+proxies: 2749
