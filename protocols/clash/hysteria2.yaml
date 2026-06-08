@@ -25,68 +25,6 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: " Unsorted 6ca7"
-  server: hy2.aspidnet.xyz
-  port: 443
-  udp: true
-  type: hysteria2
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
-- name: " Unsorted 80bd"
-  server: s544.ccgfw.online
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 1c65bee4-bc54-364c-8988-6a5912fda891
-  sni: u723829us544.ccgfw.online
-- name: " Unsorted f25c"
-  server: s869.okgfwbackxyz.xyz
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 1c65bee4-bc54-364c-8988-6a5912fda891
-  sni: u723829us869.okgfwbackxyz.xyz
-- name: "🇩🇪 Germany bc65"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 18.157.51.145
-  port: 443
-  udp: true
-  type: hysteria2
-  password: masir_sefid
-  sni: content.masir-sefid.shop
-- name: "🇫🇷 France 74e6"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
-  server: 62.210.124.146
-  port: 22000
-  udp: true
-  type: hysteria2
-  password: dongtaiwang.com
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: "🇳🇱 Netherlands abad"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
-  server: 150.129.10.140
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 1c65bee4-bc54-364c-8988-6a5912fda891
-  sni: u723829us614.ccgfw.online
-- name: "🇷🇺 Russia 5e8e"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: 103.88.241.133
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: 05d79f12-6a07-47ce-a566-5d5f571b8c59
-  sni: slopllex.app
-- name: "🇷🇺 Russia 7f9a"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: 195.133.53.33
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  sni: s516.okgfw.top
 - name: "🇷🇺 Russia fb75 [CIDR]"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 193.53.126.108
@@ -95,14 +33,6 @@ proxies:
   type: hysteria2
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   sni: s463.okgfwbackxyz.xyz
-- name: "🇺🇸 United States ef6b"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: 185.106.96.231
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  sni: s559.ccgfw.top
 rules:
 - GEOSITE,category-ads-all,REJECT
 - GEOSITE,cn,DIRECT
