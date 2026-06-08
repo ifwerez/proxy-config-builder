@@ -26,10 +26,10 @@
       "tag": "proxy",
       "outbounds": [
         " Unsorted 0a28",
-        " Unsorted 0cae",
         " Unsorted 1cb7",
         " Unsorted 23bb",
         " Unsorted 275c",
+        " Unsorted 2c8e",
         " Unsorted 3617",
         " Unsorted 449c",
         " Unsorted 4805",
@@ -49,6 +49,7 @@
         " Unsorted e4d2",
         " Unsorted f340",
         " Unsorted f605",
+        " Unsorted f840",
         " Unsorted fbe4",
         "🇦🇲 Armenia e989",
         "🇦🇹 Austria b2f6",
@@ -57,6 +58,7 @@
         "🇨🇦 Canada 0925",
         "🇨🇦 Canada 094f",
         "🇨🇦 Canada 0bc7",
+        "🇨🇦 Canada 0cae [CIDR]",
         "🇨🇦 Canada 120f",
         "🇨🇦 Canada 1266",
         "🇨🇦 Canada 1553",
@@ -81,9 +83,9 @@
         "🇨🇦 Canada 61b0",
         "🇨🇦 Canada 705e",
         "🇨🇦 Canada 7311",
-        "🇨🇦 Canada 778d [CIDR]",
         "🇨🇦 Canada 79c8",
         "🇨🇦 Canada 7aa4",
+        "🇨🇦 Canada 7c5a [CIDR]",
         "🇨🇦 Canada 85fc",
         "🇨🇦 Canada 86be",
         "🇨🇦 Canada 8712",
@@ -110,10 +112,8 @@
         "🇨🇦 Canada f18f",
         "🇨🇦 Canada f320",
         "🇨🇦 Canada f689",
-        "🇨🇳 China 0fe8",
         "🇨🇳 China 3612",
         "🇨🇳 China 80c7",
-        "🇨🇳 China 941a",
         "🇨🇿 Czechia 6f8c",
         "🇩🇪 Germany 3d78",
         "🇩🇪 Germany 413c",
@@ -131,9 +131,8 @@
         "🇫🇷 France 1553",
         "🇫🇷 France 288b",
         "🇫🇷 France 2f11",
-        "🇫🇷 France 43c8 [CIDR]",
         "🇫🇷 France a8ad",
-        "🇫🇷 France d13b [CIDR]",
+        "🇫🇷 France d444 [CIDR]",
         "🇫🇷 France eb80",
         "🇬🇷 Greece fdea",
         "🇭🇰 Hong Kong 392e",
@@ -172,10 +171,12 @@
         "🇺🇸 United States 3427",
         "🇺🇸 United States 34eb",
         "🇺🇸 United States 35dd",
+        "🇺🇸 United States 43c8",
         "🇺🇸 United States 4fd4",
         "🇺🇸 United States 58ed",
         "🇺🇸 United States 63fb",
         "🇺🇸 United States 6ba3",
+        "🇺🇸 United States 778d",
         "🇺🇸 United States 7b76",
         "🇺🇸 United States 8335",
         "🇺🇸 United States 8763",
@@ -187,13 +188,12 @@
         "🇺🇸 United States c627",
         "🇺🇸 United States c807",
         "🇺🇸 United States d0b6",
+        "🇺🇸 United States d13b",
         "🇺🇸 United States dbe1",
         "🇺🇸 United States f4d9",
         "🇺🇸 United States f657",
         "🇺🇸 United States fc4e",
-        "🇺🇸 United States ff1f",
-        "🇻🇳 Vietnam 9a13",
-        "🇻🇳 Vietnam e7b2"
+        "🇺🇸 United States ff1f"
       ]
     },
     {
@@ -209,18 +209,6 @@
       "tls": {
         "enabled": true,
         "server_name": "blog.webex.com.cyylr.eu.cc",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": " Unsorted 0cae",
-      "server": "141.193.213.11",
-      "server_port": 443,
-      "password": "Telegram-Config0plus-983ced63-fcf0-4d15-b81b-432e32e9b932",
-      "tls": {
-        "enabled": true,
-        "server_name": "api24-normal.tiktokv.com.r3xxe.eu.cc",
         "insecure": false
       }
     },
@@ -257,6 +245,18 @@
       "tls": {
         "enabled": true,
         "server_name": "www.gossipglove.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": " Unsorted 2c8e",
+      "server": "cloudflare-ip.mofashi.ltd",
+      "server_port": 443,
+      "password": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+      "tls": {
+        "enabled": true,
+        "server_name": "tj.hhll.qqs.me",
         "insecure": false
       }
     },
@@ -490,6 +490,18 @@
     },
     {
       "type": "trojan",
+      "tag": " Unsorted f840",
+      "server": "cloudflare-ip.mofashi.ltd",
+      "server_port": 443,
+      "password": "2399fe0a-b359-40a9-a3f0-b70c3c177a01",
+      "tls": {
+        "enabled": true,
+        "server_name": "aa.beijng.dpdns.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
       "tag": " Unsorted fbe4",
       "server": "vless.herogoing.top",
       "server_port": 443,
@@ -581,6 +593,18 @@
       "tls": {
         "enabled": true,
         "server_name": "www.gossipglove.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇦 Canada 0cae [CIDR]",
+      "server": "141.193.213.11",
+      "server_port": 443,
+      "password": "Telegram-Config0plus-983ced63-fcf0-4d15-b81b-432e32e9b932",
+      "tls": {
+        "enabled": true,
+        "server_name": "api24-normal.tiktokv.com.r3xxe.eu.cc",
         "insecure": false
       }
     },
@@ -874,18 +898,6 @@
     },
     {
       "type": "trojan",
-      "tag": "🇨🇦 Canada 778d [CIDR]",
-      "server": "216.24.57.6",
-      "server_port": 443,
-      "password": "3b91d95b-0478-451a-a372-4f417417f650",
-      "tls": {
-        "enabled": true,
-        "server_name": "unnes.ac.id.r3xxe.eu.cc",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇨🇦 Canada 79c8",
       "server": "104.18.152.233",
       "server_port": 443,
@@ -905,6 +917,18 @@
       "tls": {
         "enabled": true,
         "server_name": "blog.webex.com.cyylr.eu.cc",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇦 Canada 7c5a [CIDR]",
+      "server": "216.24.57.1",
+      "server_port": 443,
+      "password": "trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "store.timimi.dpdns.org",
         "insecure": false
       }
     },
@@ -1222,18 +1246,6 @@
     },
     {
       "type": "trojan",
-      "tag": "🇨🇳 China 0fe8",
-      "server": "130.94.68.100",
-      "server_port": 443,
-      "password": "l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.rolll.click",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇨🇳 China 3612",
       "server": "43.169.18.179",
       "server_port": 443,
@@ -1253,18 +1265,6 @@
       "tls": {
         "enabled": true,
         "server_name": "www.ws-converter.click",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇨🇳 China 941a",
-      "server": "130.94.68.100",
-      "server_port": 443,
-      "password": "l64tlWoGT6USQr%3D3WnjWedzvVSHXn8TNTE",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.rolll.click",
         "insecure": false
       }
     },
@@ -1474,18 +1474,6 @@
     },
     {
       "type": "trojan",
-      "tag": "🇫🇷 France 43c8 [CIDR]",
-      "server": "216.24.57.6",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmloud.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇫🇷 France a8ad",
       "server": "104.16.174.12",
       "server_port": 443,
@@ -1498,8 +1486,8 @@
     },
     {
       "type": "trojan",
-      "tag": "🇫🇷 France d13b [CIDR]",
-      "server": "216.24.57.7",
+      "tag": "🇫🇷 France d444 [CIDR]",
+      "server": "216.24.57.1",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -1966,6 +1954,18 @@
     },
     {
       "type": "trojan",
+      "tag": "🇺🇸 United States 43c8",
+      "server": "216.24.57.6",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmloud.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
       "tag": "🇺🇸 United States 4fd4",
       "server": "45.79.8.17",
       "server_port": 443,
@@ -2009,6 +2009,18 @@
       "tls": {
         "enabled": true,
         "server_name": "dxy1h.twiladaphne.ndjp.net",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 United States 778d",
+      "server": "216.24.57.6",
+      "server_port": 443,
+      "password": "3b91d95b-0478-451a-a372-4f417417f650",
+      "tls": {
+        "enabled": true,
+        "server_name": "unnes.ac.id.r3xxe.eu.cc",
         "insecure": false
       }
     },
@@ -2146,6 +2158,18 @@
     },
     {
       "type": "trojan",
+      "tag": "🇺🇸 United States d13b",
+      "server": "216.24.57.7",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ignitelimit.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
       "tag": "🇺🇸 United States dbe1",
       "server": "64.186.233.224",
       "server_port": 443,
@@ -2201,30 +2225,6 @@
       "tls": {
         "enabled": true,
         "server_name": "tj.hhll.qqs.me",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇻🇳 Vietnam 9a13",
-      "server": "130.94.3.146",
-      "server_port": 443,
-      "password": "DX4wKmVl.CNIjwO5CYf7_qg%2Bf1eMN4yt_F",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.event-snapshot.click",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇻🇳 Vietnam e7b2",
-      "server": "130.94.3.146",
-      "server_port": 443,
-      "password": "DX4wKmVl.CNIjwO5CYf7_qg+f1eMN4yt_F",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.event-snapshot.click",
         "insecure": false
       }
     }
