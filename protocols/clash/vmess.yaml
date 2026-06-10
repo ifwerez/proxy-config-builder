@@ -270,6 +270,17 @@ proxies:
   alterId: 0
   network: ws
   tls: false
+- name: "🇩🇪 Germany 4f2f"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: de.connfull.org
+  port: 2053
+  udp: true
+  type: vmess
+  uuid: d03a8df4-b57d-44ec-8544-372f6683e5a6
+  cipher: auto
+  alterId: 0
+  network: tcp
+  tls: true
 - name: "🇩🇪 Germany 64e4"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: m.cnmjin.net
@@ -1722,17 +1733,6 @@ proxies:
   alterId: 0
   network: ws
   tls: true
-- name: "🇯🇵 Japan 1c4a"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
-  server: 172.111.146.64
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  cipher: auto
-  alterId: 0
-  network: ws
-  tls: false
 - name: "🇯🇵 Japan 1f0a"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
   server: 109.61.109.204
@@ -1949,6 +1949,17 @@ proxies:
   udp: true
   type: vmess
   uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: true
+- name: "🇯🇵 Japan 8618"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
+  server: 109.61.109.204
+  port: 57744
+  udp: true
+  type: vmess
+  uuid: 6d600864-32da-49fd-baf4-7df051762454
   cipher: auto
   alterId: 0
   network: ws
@@ -2359,6 +2370,39 @@ proxies:
   alterId: 0
   network: ws
   tls: true
+- name: "🇳🇱 Netherlands ae14 [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
+  server: 93.93.89.99
+  port: 443
+  udp: true
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: true
+- name: "🇳🇱 Netherlands c300 [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
+  server: 195.209.90.168
+  port: 443
+  udp: true
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: true
+- name: "🇳🇱 Netherlands d793 [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
+  server: 37.220.161.249
+  port: 443
+  udp: true
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: true
 - name: "🇳🇱 Netherlands d82f [CIDR]"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
   server: 93.93.88.22
@@ -2395,28 +2439,6 @@ proxies:
 - name: "🇷🇺 Russia 715b"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
   server: 93.93.89.118
-  port: 443
-  udp: true
-  type: vmess
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  cipher: auto
-  alterId: 0
-  network: ws
-  tls: true
-- name: "🇷🇺 Russia ae14"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: 93.93.89.99
-  port: 443
-  udp: true
-  type: vmess
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  cipher: auto
-  alterId: 0
-  network: ws
-  tls: true
-- name: "🇷🇺 Russia d793"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
-  server: 37.220.161.249
   port: 443
   udp: true
   type: vmess
@@ -2664,7 +2686,7 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   cipher: auto
-  alterId: 1
+  alterId: 0
   network: tcp
   tls: false
 - name: "🇺🇸 United States 8551"
