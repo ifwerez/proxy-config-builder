@@ -48,6 +48,7 @@
         "🇨🇦 Canada fd54",
         "🇩🇪 Germany 16c0",
         "🇩🇪 Germany 1dc4",
+        "🇩🇪 Germany 4f2f",
         "🇩🇪 Germany 64e4",
         "🇩🇪 Germany 6c94",
         "🇩🇪 Germany 86df",
@@ -180,7 +181,6 @@
         "🇯🇵 Japan 0792",
         "🇯🇵 Japan 0c56",
         "🇯🇵 Japan 15ad",
-        "🇯🇵 Japan 1c4a",
         "🇯🇵 Japan 1f0a",
         "🇯🇵 Japan 22db",
         "🇯🇵 Japan 2601",
@@ -201,6 +201,7 @@
         "🇯🇵 Japan 830e",
         "🇯🇵 Japan 850a",
         "🇯🇵 Japan 859a",
+        "🇯🇵 Japan 8618",
         "🇯🇵 Japan 8689",
         "🇯🇵 Japan 95c3",
         "🇯🇵 Japan 9781",
@@ -238,12 +239,13 @@
         "🇲🇾 Malaysia c114",
         "🇲🇾 Malaysia f8ad",
         "🇳🇱 Netherlands 71f4 [CIDR]",
+        "🇳🇱 Netherlands ae14 [CIDR]",
+        "🇳🇱 Netherlands c300 [CIDR]",
+        "🇳🇱 Netherlands d793 [CIDR]",
         "🇳🇱 Netherlands d82f [CIDR]",
         "🇳🇱 Netherlands dd55 [CIDR]",
         "🇳🇱 Netherlands f8f9 [CIDR]",
         "🇷🇺 Russia 715b",
-        "🇷🇺 Russia ae14",
-        "🇷🇺 Russia d793",
         "🇸🇬 Singapore 0b81",
         "🇸🇬 Singapore 1c70",
         "🇸🇬 Singapore 36b4",
@@ -488,6 +490,15 @@
       "server": "planb.mojcn.com",
       "server_port": 16618,
       "uuid": "b991fe14-1cee-4894-9e5a-25bfacff98d6",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪 Germany 4f2f",
+      "server": "de.connfull.org",
+      "server_port": 2053,
+      "uuid": "d03a8df4-b57d-44ec-8544-372f6683e5a6",
       "security": "auto",
       "alter_id": 0
     },
@@ -1681,15 +1692,6 @@
     },
     {
       "type": "vmess",
-      "tag": "🇯🇵 Japan 1c4a",
-      "server": "172.111.146.64",
-      "server_port": 80,
-      "uuid": "05b8c783-7f59-47f9-9923-06a465679f6a",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
       "tag": "🇯🇵 Japan 1f0a",
       "server": "109.61.109.204",
       "server_port": 23793,
@@ -1865,6 +1867,15 @@
       "server": "109.61.109.204",
       "server_port": 55869,
       "uuid": "35f332d0-0b05-4cc6-91cb-ec0d4465055f",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇯🇵 Japan 8618",
+      "server": "109.61.109.204",
+      "server_port": 57744,
+      "uuid": "6d600864-32da-49fd-baf4-7df051762454",
       "security": "auto",
       "alter_id": 0
     },
@@ -2203,6 +2214,33 @@
     },
     {
       "type": "vmess",
+      "tag": "🇳🇱 Netherlands ae14 [CIDR]",
+      "server": "93.93.89.99",
+      "server_port": 443,
+      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇳🇱 Netherlands c300 [CIDR]",
+      "server": "195.209.90.168",
+      "server_port": 443,
+      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇳🇱 Netherlands d793 [CIDR]",
+      "server": "37.220.161.249",
+      "server_port": 443,
+      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
       "tag": "🇳🇱 Netherlands d82f [CIDR]",
       "server": "93.93.88.22",
       "server_port": 443,
@@ -2232,24 +2270,6 @@
       "type": "vmess",
       "tag": "🇷🇺 Russia 715b",
       "server": "93.93.89.118",
-      "server_port": 443,
-      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🇷🇺 Russia ae14",
-      "server": "93.93.89.99",
-      "server_port": 443,
-      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🇷🇺 Russia d793",
-      "server": "37.220.161.249",
       "server_port": 443,
       "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
       "security": "auto",
@@ -2451,7 +2471,7 @@
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
-      "alter_id": 1
+      "alter_id": 0
     },
     {
       "type": "vmess",
