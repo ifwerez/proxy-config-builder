@@ -25,6 +25,7 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
+        " Unsorted 5944",
         " Unsorted 6ca7",
         "🇫🇮 Finland d392 [CIDR]",
         "🇫🇷 France 74e6",
@@ -34,6 +35,18 @@
     {
       "type": "direct",
       "tag": "direct"
+    },
+    {
+      "type": "hysteria2",
+      "tag": " Unsorted 5944",
+      "server": "s544.ccgfw.online",
+      "server_port": 443,
+      "password": "80deaf6e-6747-35f1-848e-b8e8aeb8b2fa",
+      "tls": {
+        "enabled": true,
+        "server_name": "u727887us544.ccgfw.online",
+        "insecure": false
+      }
     },
     {
       "type": "hysteria2",
