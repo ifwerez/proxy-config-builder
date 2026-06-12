@@ -29,6 +29,8 @@
         " Unsorted 6ca7",
         "🇫🇮 Finland d392 [CIDR]",
         "🇫🇷 France 74e6",
+        "🇯🇵 Japan a73a",
+        "🇺🇸 United States d3b0",
         "🇺🇸 United States ef6b"
       ]
     },
@@ -81,6 +83,30 @@
       "tls": {
         "enabled": true,
         "server_name": "www.microsoft.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇯🇵 Japan a73a",
+      "server": "jp01.jgpy.help",
+      "server_port": 10086,
+      "password": "573402b7-156e-4141-8c3b-f01b6ebedf05",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 United States d3b0",
+      "server": "us01.jgpy.help",
+      "server_port": 10078,
+      "password": "573402b7-156e-4141-8c3b-f01b6ebedf05",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
         "insecure": true
       }
     },
