@@ -57,7 +57,8 @@
         " Unsorted fbe4",
         " Unsorted fc28",
         "🇦🇲 Armenia e989",
-        "🇦🇿 Azerbaijan e8a7",
+        "🇦🇿 Azerbaijan 7dac",
+        "🇦🇿 Azerbaijan 89a8",
         "🇨🇦 Canada 04e5",
         "🇨🇦 Canada 0925",
         "🇨🇦 Canada 0ad3",
@@ -100,7 +101,6 @@
         "🇨🇦 Canada dd72",
         "🇨🇦 Canada f320",
         "🇨🇦 Canada f689",
-        "🇨🇭 Switzerland 1dbe",
         "🇨🇳 China 3612",
         "🇨🇿 Czechia 1d19",
         "🇨🇿 Czechia 6f8c",
@@ -110,16 +110,17 @@
         "🇩🇪 Germany 3d78",
         "🇩🇪 Germany 413c",
         "🇩🇪 Germany 43ef",
+        "🇩🇪 Germany 57c3",
         "🇩🇪 Germany fe82",
         "🇫🇮 Finland 7d5c",
         "🇫🇷 France 288b",
-        "🇫🇷 France 6d1b",
+        "🇫🇷 France 8a65",
+        "🇫🇷 France ddfe",
+        "🇫🇷 France ed0e",
         "🇬🇧 United Kingdom 412e",
         "🇬🇧 United Kingdom 6daa",
-        "🇭🇰 Hong Kong 3732",
         "🇮🇸 Iceland 2621",
-        "🇮🇸 Iceland 6e5c",
-        "🇮🇸 Iceland 9841",
+        "🇮🇸 Iceland 3715",
         "🇮🇸 Iceland f231",
         "🇯🇵 Japan 0cc8",
         "🇯🇵 Japan 9cef",
@@ -131,6 +132,7 @@
         "🇺🇸 United States 0fe0",
         "🇺🇸 United States 1965",
         "🇺🇸 United States 1b38",
+        "🇺🇸 United States 8763",
         "🇺🇸 United States a988",
         "🇺🇸 United States b072",
         "🇺🇸 United States cdcd"
@@ -526,8 +528,20 @@
     },
     {
       "type": "trojan",
-      "tag": "🇦🇿 Azerbaijan e8a7",
-      "server": "188.253.12.93",
+      "tag": "🇦🇿 Azerbaijan 7dac",
+      "server": "188.253.12.99",
+      "server_port": 41943,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "tls": {
+        "enabled": true,
+        "server_name": "az.01.naiun.bilibili.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇦🇿 Azerbaijan 89a8",
+      "server": "188.253.12.92",
       "server_port": 41943,
       "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
       "tls": {
@@ -1042,18 +1056,6 @@
     },
     {
       "type": "trojan",
-      "tag": "🇨🇭 Switzerland 1dbe",
-      "server": "155.117.198.89",
-      "server_port": 45553,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "tls": {
-        "enabled": true,
-        "server_name": "ch.01.naiun.bilibili.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇨🇳 China 3612",
       "server": "43.169.18.179",
       "server_port": 443,
@@ -1162,6 +1164,18 @@
     },
     {
       "type": "trojan",
+      "tag": "🇩🇪 Germany 57c3",
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "password": "A4u^p(_UR*F6",
+      "tls": {
+        "enabled": true,
+        "server_name": "027.ELeCTroCelLco-CF-027.wORkERS.dEv",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
       "tag": "🇩🇪 Germany fe82",
       "server": "103.177.136.44",
       "server_port": 46424,
@@ -1198,13 +1212,37 @@
     },
     {
       "type": "trojan",
-      "tag": "🇫🇷 France 6d1b",
-      "server": "155.117.198.89",
+      "tag": "🇫🇷 France 8a65",
+      "server": "188.253.12.98",
       "server_port": 45619,
       "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
       "tls": {
         "enabled": true,
         "server_name": "fr.01.naiun.bilibili.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 France ddfe",
+      "server": "188.253.12.90",
+      "server_port": 45619,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.01.naiun.bilibili.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 France ed0e",
+      "server": "35.181.198.31",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "35.181.198.31",
         "insecure": false
       }
     },
@@ -1234,18 +1272,6 @@
     },
     {
       "type": "trojan",
-      "tag": "🇭🇰 Hong Kong 3732",
-      "server": "119.246.1.143",
-      "server_port": 443,
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": true,
-        "server_name": "t.me/ripaojiedian",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇮🇸 Iceland 2621",
       "server": "155.117.198.85",
       "server_port": 47909,
@@ -1258,20 +1284,8 @@
     },
     {
       "type": "trojan",
-      "tag": "🇮🇸 Iceland 6e5c",
-      "server": "155.117.198.89",
-      "server_port": 47909,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "tls": {
-        "enabled": true,
-        "server_name": "is.01.naiun.bilibili.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇮🇸 Iceland 9841",
-      "server": "103.177.136.43",
+      "tag": "🇮🇸 Iceland 3715",
+      "server": "155.117.198.82",
       "server_port": 47909,
       "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
       "tls": {
@@ -1409,6 +1423,18 @@
       "tls": {
         "enabled": true,
         "server_name": "www.ignitelimit.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 United States 8763",
+      "server": "8.39.125.191",
+      "server_port": 2083,
+      "password": "Nova-Proxy",
+      "tls": {
+        "enabled": true,
+        "server_name": "spring-queen-a95f.cewon19053.workers.dev",
         "insecure": false
       }
     },
