@@ -31,10 +31,8 @@
         " Unsorted 6593",
         " Unsorted b922",
         " Unsorted bce1",
-        " Unsorted bfb2",
         " Unsorted ea22",
         " Unsorted ef0a",
-        " Unsorted f8f9",
         "🇧🇷 Brazil 027e",
         "🇨🇦 Canada 2313",
         "🇨🇦 Canada 3cf8",
@@ -73,6 +71,7 @@
         "🇫🇷 France 3b2b",
         "🇫🇷 France 48af",
         "🇫🇷 France 6250",
+        "🇫🇷 France 67db",
         "🇫🇷 France 725f",
         "🇫🇷 France 781a",
         "🇫🇷 France ba37",
@@ -117,13 +116,15 @@
         "🇲🇾 Malaysia ad71",
         "🇲🇾 Malaysia c114",
         "🇲🇾 Malaysia f8ad",
-        "🇳🇱 Netherlands 715b [CIDR]",
         "🇳🇱 Netherlands 71f4 [CIDR]",
         "🇳🇱 Netherlands 95c5",
         "🇳🇱 Netherlands ae14 [CIDR]",
         "🇳🇱 Netherlands d793 [CIDR]",
         "🇳🇱 Netherlands d82f [CIDR]",
         "🇳🇱 Netherlands dd55 [CIDR]",
+        "🇳🇱 Netherlands f8f9 [CIDR]",
+        "🇳🇴 Norway bfb2 [CIDR]",
+        "🇷🇺 Russia 715b",
         "🇸🇬 Singapore 1c70",
         "🇸🇬 Singapore 36b4",
         "🇸🇬 Singapore 6a34",
@@ -246,7 +247,6 @@
         "🇺🇸 United States 88ae",
         "🇺🇸 United States 88db",
         "🇺🇸 United States 8929",
-        "🇺🇸 United States 8a5b",
         "🇺🇸 United States 8ae7",
         "🇺🇸 United States 8bcf",
         "🇺🇸 United States 8d8c",
@@ -401,15 +401,6 @@
     },
     {
       "type": "vmess",
-      "tag": " Unsorted bfb2",
-      "server": "cf.scpnb.top",
-      "server_port": 443,
-      "uuid": "7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
       "tag": " Unsorted ea22",
       "server": "chatgpt.com",
       "server_port": 8443,
@@ -423,15 +414,6 @@
       "server": "t.cnmjcn.cyou",
       "server_port": 16618,
       "uuid": "e93117fc-e161-4e1e-bcea-22560a688f46",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": " Unsorted f8f9",
-      "server": "renderer-stream-1-411.mirra.now",
-      "server_port": 443,
-      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
       "security": "auto",
       "alter_id": 0
     },
@@ -774,6 +756,15 @@
       "server": "185.248.33.173",
       "server_port": 16495,
       "uuid": "3b475934-cb2a-4d96-b260-5e50cca5d430",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷 France 67db",
+      "server": "185.248.33.173",
+      "server_port": 40804,
+      "uuid": "12929592-a7bd-41eb-ab4d-d804f76c4ff9",
       "security": "auto",
       "alter_id": 0
     },
@@ -1175,15 +1166,6 @@
     },
     {
       "type": "vmess",
-      "tag": "🇳🇱 Netherlands 715b [CIDR]",
-      "server": "93.93.89.118",
-      "server_port": 443,
-      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
       "tag": "🇳🇱 Netherlands 71f4 [CIDR]",
       "server": "93.93.89.117",
       "server_port": 443,
@@ -1231,6 +1213,33 @@
       "type": "vmess",
       "tag": "🇳🇱 Netherlands dd55 [CIDR]",
       "server": "37.220.161.247",
+      "server_port": 443,
+      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇳🇱 Netherlands f8f9 [CIDR]",
+      "server": "renderer-stream-1-411.mirra.now",
+      "server_port": 443,
+      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇳🇴 Norway bfb2 [CIDR]",
+      "server": "cf.scpnb.top",
+      "server_port": 443,
+      "uuid": "7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇷🇺 Russia 715b",
+      "server": "93.93.89.118",
       "server_port": 443,
       "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
       "security": "auto",
@@ -2331,15 +2340,6 @@
       "server": "96.47.230.5",
       "server_port": 37403,
       "uuid": "4ec66d81-9565-4d8e-ae58-2bacfde95f48",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 United States 8a5b",
-      "server": "96.47.230.5",
-      "server_port": 45016,
-      "uuid": "35f332d0-0b05-4cc6-91cb-ec0d4465055f",
       "security": "auto",
       "alter_id": 0
     },
