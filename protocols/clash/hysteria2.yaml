@@ -25,13 +25,6 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: " Unsorted 5944"
-  server: s544.ccgfw.online
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 80deaf6e-6747-35f1-848e-b8e8aeb8b2fa
-  sni: u727887us544.ccgfw.online
 - name: "🇫🇮 Finland d392 [CIDR]"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
   server: 103.88.241.133
@@ -49,32 +42,14 @@ proxies:
   password: dongtaiwang.com
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: "🇯🇵 Japan a73a"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
-  server: jp01.jgpy.help
-  port: 10086
-  udp: true
-  type: hysteria2
-  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
-  sni: apple.com
-  skip-cert-verify: true
-- name: "🇳🇱 Netherlands f897"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
-  server: 88.151.33.158
+- name: "🇸🇪 Sweden 9daf"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SE.png
+  server: 31.22.91.243
   port: 443
   udp: true
   type: hysteria2
-  password: 80deaf6e-6747-35f1-848e-b8e8aeb8b2fa
-  sni: u727887us504.csgfw.top
-- name: "🇺🇸 United States d3b0"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: us01.jgpy.help
-  port: 10078
-  udp: true
-  type: hysteria2
-  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
-  sni: apple.com
-  skip-cert-verify: true
+  password: EsimHy2Game_7xK9mPq2
+  sni: se.esimpson.org
 rules:
 - GEOSITE,category-ads-all,REJECT
 - GEOSITE,cn,DIRECT
