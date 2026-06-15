@@ -25,26 +25,14 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
-        "🇫🇮 Finland d392 [CIDR]",
         "🇫🇷 France 74e6",
+        "🇷🇺 Russia d392",
         "🇸🇪 Sweden 9daf"
       ]
     },
     {
       "type": "direct",
       "tag": "direct"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 Finland d392 [CIDR]",
-      "server": "103.88.241.133",
-      "server_port": 8443,
-      "password": "71b0bd15-a03a-481e-a52d-74042c8db157",
-      "tls": {
-        "enabled": true,
-        "server_name": "slopllex.app",
-        "insecure": false
-      }
     },
     {
       "type": "hysteria2",
@@ -56,6 +44,18 @@
         "enabled": true,
         "server_name": "www.microsoft.com",
         "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 Russia d392",
+      "server": "103.88.241.133",
+      "server_port": 8443,
+      "password": "71b0bd15-a03a-481e-a52d-74042c8db157",
+      "tls": {
+        "enabled": true,
+        "server_name": "slopllex.app",
+        "insecure": false
       }
     },
     {
