@@ -125,16 +125,6 @@ proxies:
   alterId: 0
   network: ws
   tls: false
-- name: " Unsorted f8f9"
-  server: renderer-stream-1-411.mirra.now
-  port: 443
-  udp: true
-  type: vmess
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  cipher: auto
-  alterId: 0
-  network: ws
-  tls: true
 - name: "🇧🇷 Brazil 027e"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/BR.png
   server: 172.233.17.76
@@ -849,17 +839,6 @@ proxies:
   alterId: 0
   network: tcp
   tls: false
-- name: "🇰🇷 South Korea 71a2"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KR.png
-  server: 140.238.2.250
-  port: 443
-  udp: true
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  cipher: auto
-  alterId: 0
-  network: raw
-  tls: false
 - name: "🇰🇷 South Korea da90"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KR.png
   server: 152.67.218.38
@@ -1017,6 +996,17 @@ proxies:
 - name: "🇳🇱 Netherlands f86c [CIDR]"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
   server: 195.209.88.113
+  port: 443
+  udp: true
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: true
+- name: "🇳🇱 Netherlands f8f9 [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
+  server: renderer-stream-1-411.mirra.now
   port: 443
   udp: true
   type: vmess
@@ -1989,6 +1979,17 @@ proxies:
   udp: true
   type: vmess
   uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: true
+- name: "🇺🇸 United States 40f8"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: 96.47.230.5
+  port: 52570
+  udp: true
+  type: vmess
+  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
   cipher: auto
   alterId: 0
   network: ws
@@ -3829,6 +3830,17 @@ proxies:
   alterId: 0
   network: ws
   tls: true
+- name: "🇺🇸 United States c65d"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: 165.140.216.141
+  port: 443
+  udp: true
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  cipher: auto
+  alterId: 0
+  network: raw
+  tls: false
 - name: "🇺🇸 United States c678"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 96.47.230.5
