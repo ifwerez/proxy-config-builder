@@ -7,16 +7,16 @@ auto-generated proxy configurations
 
 ## sources
 
-- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 256 proxies]
+- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 322 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt [online, 53 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt [online, 80 proxies]
-- https://internet-tenshi.kangel.tech/1 [online, 374 proxies]
+- https://internet-tenshi.kangel.tech/1 [online, 498 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt [online, 3958 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt [online, 137 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt [online, 374 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt [online, 68 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt [online, 716 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt [online, 164 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt [online, 144 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt [online, 357 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt [online, 79 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt [online, 719 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt [online, 189 proxies]
 
 ## subscription urls
 
@@ -116,5 +116,5 @@ you can add new proxy source URLs via a pull request:
 
 new sources are automatically merged on the next update cycle.
 
-last updated: 2026-06-16 00:03:42
-proxies: 2714
+last updated: 2026-06-16 01:09:04
+proxies: 2750
