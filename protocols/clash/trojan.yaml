@@ -229,14 +229,6 @@ proxies:
   password: humanity
   tls: true
   sni: www.creationlong.org
-- name: " Unsorted c00a"
-  server: news.microsoft.com
-  port: 443
-  udp: true
-  type: trojan
-  password: 4720d760-6775-11f1-af2f-1239d0255272
-  tls: true
-  sni: usa.test3.net
 - name: " Unsorted cc43"
   server: news.microsoft.com
   port: 443
@@ -479,6 +471,15 @@ proxies:
   password: humanity
   tls: true
   sni: www.multiplydose.com
+- name: "🇨🇦 Canada 4028 [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CA.png
+  server: 216.24.57.13
+  port: 443
+  udp: true
+  type: trojan
+  password: mitivpn
+  tls: true
+  sni: gamingdll.ir
 - name: "🇨🇦 Canada 436d"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CA.png
   server: 104.16.174.14
@@ -1052,6 +1053,15 @@ proxies:
   password: humanity
   tls: true
   sni: www.calmloud.com
+- name: "🇺🇸 United States c00a [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: news.microsoft.com
+  port: 443
+  udp: true
+  type: trojan
+  password: 4720d760-6775-11f1-af2f-1239d0255272
+  tls: true
+  sni: usa.test3.net
 rules:
 - GEOSITE,category-ads-all,REJECT
 - GEOSITE,cn,DIRECT
