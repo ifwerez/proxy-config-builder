@@ -25,14 +25,6 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: "🇫🇮 Finland d392 [CIDR]"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
-  server: 103.88.241.133
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: 71b0bd15-a03a-481e-a52d-74042c8db157
-  sni: slopllex.app
 - name: "🇫🇷 France 74e6"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
   server: 62.210.124.146
@@ -42,6 +34,14 @@ proxies:
   password: dongtaiwang.com
   sni: www.microsoft.com
   skip-cert-verify: true
+- name: "🇷🇺 Russia d392"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/RU.png
+  server: 103.88.241.133
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: 71b0bd15-a03a-481e-a52d-74042c8db157
+  sni: slopllex.app
 - name: "🇸🇪 Sweden 9daf"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SE.png
   server: 31.22.91.243
