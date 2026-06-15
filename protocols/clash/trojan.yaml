@@ -80,14 +80,6 @@ proxies:
   type: trojan
   password: humanity
   tls: true
-- name: " Unsorted 3de0"
-  server: news.microsoft.com
-  port: 443
-  udp: true
-  type: trojan
-  password: 317f7170-6775-11f1-994e-1239d0255272
-  tls: true
-  sni: usa.test3.net
 - name: " Unsorted 460f"
   server: news.microsoft.com
   port: 443
@@ -174,22 +166,6 @@ proxies:
   password: d272e730-67b2-11f1-9e71-1239d0255272
   tls: true
   sni: uk1.test3.net
-- name: " Unsorted 7c70"
-  server: news.microsoft.com
-  port: 443
-  udp: true
-  type: trojan
-  password: 68cf57a0-6776-11f1-b3d3-1239d0255272
-  tls: true
-  sni: usa.test3.net
-- name: " Unsorted 8007"
-  server: news.microsoft.com
-  port: 443
-  udp: true
-  type: trojan
-  password: 92ee4300-6775-11f1-9248-1239d0255272
-  tls: true
-  sni: usa.test3.net
 - name: " Unsorted 8d1b"
   server: 45.130.125.75
   port: 8080
@@ -236,6 +212,14 @@ proxies:
   password: humanity
   tls: true
   sni: www.creationlong.org
+- name: " Unsorted c00a"
+  server: news.microsoft.com
+  port: 443
+  udp: true
+  type: trojan
+  password: 4720d760-6775-11f1-af2f-1239d0255272
+  tls: true
+  sni: usa.test3.net
 - name: " Unsorted cc43"
   server: news.microsoft.com
   port: 443
@@ -1078,6 +1062,33 @@ proxies:
   password: humanity
   tls: true
   sni: www.calmloud.com
+- name: "🇺🇸 United States 3de0 [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: news.microsoft.com
+  port: 443
+  udp: true
+  type: trojan
+  password: 317f7170-6775-11f1-994e-1239d0255272
+  tls: true
+  sni: usa.test3.net
+- name: "🇺🇸 United States 7c70 [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: news.microsoft.com
+  port: 443
+  udp: true
+  type: trojan
+  password: 68cf57a0-6776-11f1-b3d3-1239d0255272
+  tls: true
+  sni: usa.test3.net
+- name: "🇺🇸 United States 8007 [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: news.microsoft.com
+  port: 443
+  udp: true
+  type: trojan
+  password: 92ee4300-6775-11f1-9248-1239d0255272
+  tls: true
+  sni: usa.test3.net
 - name: "🇺🇸 United States a7a9"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 69.63.216.10
@@ -1096,15 +1107,6 @@ proxies:
   password: humanity
   tls: true
   sni: www.calmloud.com
-- name: "🇺🇸 United States c00a [CIDR]"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: news.microsoft.com
-  port: 443
-  udp: true
-  type: trojan
-  password: 4720d760-6775-11f1-af2f-1239d0255272
-  tls: true
-  sni: usa.test3.net
 rules:
 - GEOSITE,category-ads-all,REJECT
 - GEOSITE,cn,DIRECT
