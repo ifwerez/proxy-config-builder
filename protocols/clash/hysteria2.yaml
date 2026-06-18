@@ -25,12 +25,13 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: " Unsorted 6ca7"
+- name: " Unsorted 6ca7 | SNI - hy2.aspidnet.xyz"
   server: hy2.aspidnet.xyz
   port: 443
   udp: true
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
 - name: " Unsorted caf4 | SNI - u729792us544.ccgfw.online"
   server: s544.ccgfw.online
   port: 443
@@ -71,7 +72,6 @@ proxies:
   type: hysteria2
   password: 2d83ea00-2813-448d-bee6-14eaf7f52e13
   sni: k71530.w-mebel.pro
-  skip-cert-verify: true
 - name: "🇺🇸 United States ef6b | SNI - s559.ccgfw.top"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 185.106.96.231
