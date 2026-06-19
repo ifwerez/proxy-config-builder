@@ -41,8 +41,12 @@
         "🇨🇦 Canada 9a70",
         "🇨🇦 Canada b5d4",
         "🇨🇦 Canada fd54",
+        "🇩🇪 Germany 136f",
+        "🇩🇪 Germany 2bd2",
         "🇩🇪 Germany 3fe5",
         "🇩🇪 Germany 54af",
+        "🇩🇪 Germany 7f07",
+        "🇩🇪 Germany 8bae",
         "🇩🇪 Germany e788",
         "🇩🇪 Germany f0b9",
         "🇪🇸 Spain 6dc9",
@@ -62,7 +66,6 @@
         "🇭🇰 Hong Kong 9f06",
         "🇭🇰 Hong Kong ccbe",
         "🇭🇰 Hong Kong d74d",
-        "🇮🇳 India 3ea2",
         "🇮🇳 India de71",
         "🇮🇹 Italy 4838",
         "🇮🇹 Italy eea4",
@@ -84,14 +87,13 @@
         "🇲🇾 Malaysia a91d",
         "🇲🇾 Malaysia c114",
         "🇳🇱 Netherlands 1a06",
-        "🇳🇱 Netherlands 715b [CIDR]",
         "🇳🇱 Netherlands 71f4 [CIDR]",
-        "🇳🇱 Netherlands ae14 [CIDR]",
         "🇳🇱 Netherlands d793 [CIDR]",
         "🇳🇱 Netherlands d82f [CIDR]",
-        "🇳🇱 Netherlands f86c [CIDR]",
         "🇳🇱 Netherlands f8f9 [CIDR]",
         "🇵🇭 Philippines 8210",
+        "🇷🇺 Russia 715b",
+        "🇷🇺 Russia ae14",
         "🇸🇬 Singapore 6a34",
         "🇸🇬 Singapore dcd0",
         "🇹🇷 Turkey 4b72",
@@ -271,6 +273,24 @@
     },
     {
       "type": "vmess",
+      "tag": "🇩🇪 Germany 136f",
+      "server": "89.167.82.102",
+      "server_port": 4443,
+      "uuid": "3adc3bd6-1399-42c4-8fe0-f35bdad1d2f5",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪 Germany 2bd2",
+      "server": "89.167.82.102",
+      "server_port": 8880,
+      "uuid": "e7cb49ba-163b-42ff-861e-a409deb4ece5",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
       "tag": "🇩🇪 Germany 3fe5",
       "server": "104.18.0.100",
       "server_port": 443,
@@ -284,6 +304,24 @@
       "server": "104.18.19.99",
       "server_port": 443,
       "uuid": "b4a65611-4969-42b2-bc74-5768b940bd9e",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪 Germany 7f07",
+      "server": "89.167.82.102",
+      "server_port": 8880,
+      "uuid": "3adc3bd6-1399-42c4-8fe0-f35bdad1d2f5",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪 Germany 8bae",
+      "server": "89.167.82.102",
+      "server_port": 4443,
+      "uuid": "e7cb49ba-163b-42ff-861e-a409deb4ece5",
       "security": "auto",
       "alter_id": 0
     },
@@ -455,15 +493,6 @@
       "server": "47.244.120.197",
       "server_port": 44867,
       "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🇮🇳 India 3ea2",
-      "server": "152.67.8.205",
-      "server_port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
       "security": "auto",
       "alter_id": 0
     },
@@ -658,26 +687,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇳🇱 Netherlands 715b [CIDR]",
-      "server": "93.93.89.118",
-      "server_port": 443,
-      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
       "tag": "🇳🇱 Netherlands 71f4 [CIDR]",
       "server": "93.93.89.117",
-      "server_port": 443,
-      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🇳🇱 Netherlands ae14 [CIDR]",
-      "server": "93.93.89.99",
       "server_port": 443,
       "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
       "security": "auto",
@@ -703,15 +714,6 @@
     },
     {
       "type": "vmess",
-      "tag": "🇳🇱 Netherlands f86c [CIDR]",
-      "server": "195.209.88.113",
-      "server_port": 443,
-      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
       "tag": "🇳🇱 Netherlands f8f9 [CIDR]",
       "server": "renderer-stream-1-411.mirra.now",
       "server_port": 443,
@@ -725,6 +727,24 @@
       "server": "61.245.11.60",
       "server_port": 80,
       "uuid": "a3e3a710-79f8-4ae0-b83c-607aab40d197",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇷🇺 Russia 715b",
+      "server": "93.93.89.118",
+      "server_port": 443,
+      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇷🇺 Russia ae14",
+      "server": "93.93.89.99",
+      "server_port": 443,
+      "uuid": "df9c9355-b02c-4c12-909d-0dbeb725d52b",
       "security": "auto",
       "alter_id": 0
     },
