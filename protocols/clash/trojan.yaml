@@ -133,6 +133,13 @@ proxies:
   type: trojan
   password: gx5fx0q4buwh4g4n
   tls: true
+- name: " Unsorted 42e8"
+  server: ezaccess-project-2c2ae8.ez-a26533.workers.dev
+  port: 443
+  udp: true
+  type: trojan
+  password: b9992b45ea604859
+  tls: true
 - name: " Unsorted 5074 | SNI - autumn-leaf-474d.tahapassmail.workers.dev"
   server: autumn-leaf-474d.tahapassmail.workers.dev
   port: 2087
@@ -196,14 +203,6 @@ proxies:
   type: trojan
   password: Nova-Proxy
   tls: true
-- name: " Unsorted 6b06 | SNI - gh.01.naiun.bilibili.com"
-  server: 188.253.12.94
-  port: 48697
-  udp: true
-  type: trojan
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  tls: true
-  sni: gh.01.naiun.bilibili.com
 - name: " Unsorted 6cbf"
   server: 185.126.236.190
   port: 443
@@ -358,6 +357,14 @@ proxies:
   password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   tls: true
   sni: jy.hhllfly.kdns.fr
+- name: " Unsorted dddb | SNI - gh.01.naiun.bilibili.com"
+  server: 188.253.12.90
+  port: 48697
+  udp: true
+  type: trojan
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  tls: true
+  sni: gh.01.naiun.bilibili.com
 - name: " Unsorted e265 | SNI - TrytOcOnEcT.PAGeS.Dev"
   server: trytoconect.pages.dev
   port: 443
@@ -452,9 +459,18 @@ proxies:
   password: humanity
   tls: true
   sni: www.ignitelimit.com
-- name: "🇦🇿 Azerbaijan 89a8 | SNI - az.01.naiun.bilibili.com"
+- name: "🇦🇿 Azerbaijan 1abf | SNI - az.01.naiun.bilibili.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AZ.png
-  server: 188.253.12.92
+  server: 188.253.12.98
+  port: 41943
+  udp: true
+  type: trojan
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  tls: true
+  sni: az.01.naiun.bilibili.com
+- name: "🇦🇿 Azerbaijan 7c02 | SNI - az.01.naiun.bilibili.com"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AZ.png
+  server: 188.253.12.90
   port: 41943
   udp: true
   type: trojan
@@ -865,9 +881,9 @@ proxies:
   password: 125bd815be9b406f
   tls: true
   sni: TRytOcOnect.PaGEs.dev
-- name: "🇨🇭 Switzerland b0d4 | SNI - ch.01.naiun.bilibili.com"
+- name: "🇨🇭 Switzerland a8e5 | SNI - ch.01.naiun.bilibili.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CH.png
-  server: 103.177.136.44
+  server: 188.253.12.96
   port: 45553
   udp: true
   type: trojan
@@ -900,15 +916,15 @@ proxies:
   password: "SpDMjT=8y4jUQLnwzdfsauMMcLv51NBwEB"
   tls: true
   sni: 79.108.162.56
-- name: "🇩🇪 Germany 2981 | SNI - de.01.naiun.bilibili.com"
+- name: "🇩🇪 Germany 1afc | SNI - lUmOscOnfIg.COdMDeMonYt1.wOrKERs.DeV"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 188.253.12.90
-  port: 46424
+  server: lumosconfig.codmdemonyt1.workers.dev
+  port: 443
   udp: true
   type: trojan
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  password: "%{q:qf}'ogr;"
   tls: true
-  sni: de.01.naiun.bilibili.com
+  sni: lUmOscOnfIg.COdMDeMonYt1.wOrKERs.DeV
 - name: "🇩🇪 Germany 3b76 | SNI - www.lateralio.click"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 185.137.157.59
@@ -934,6 +950,23 @@ proxies:
   type: trojan
   password: fn1ppcjzco7l9ook
   tls: true
+- name: "🇩🇪 Germany 57c3 | SNI - 027.ELeCTroCelLco-CF-027.wORkERS.dEv"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: www.speedtest.net
+  port: 443
+  udp: true
+  type: trojan
+  password: "A4u^p(_UR*F6"
+  tls: true
+  sni: 027.ELeCTroCelLco-CF-027.wORkERS.dEv
+- name: "🇩🇪 Germany 8de4"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 18.195.157.51
+  port: 22222
+  udp: true
+  type: trojan
+  password: telegram-id-privatevpns
+  tls: true
 - name: "🇩🇪 Germany b7d9 | SNI - linkkon-w.ir"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 172.67.210.215
@@ -943,22 +976,24 @@ proxies:
   password: MiTiVPN
   tls: true
   sni: linkkon-w.ir
-- name: "🇩🇪 Germany cc0c"
+- name: "🇩🇪 Germany f716 | SNI - de.01.naiun.bilibili.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 89.167.82.102
-  port: 2080
+  server: 188.253.12.96
+  port: 46424
   udp: true
   type: trojan
-  password: "dbWncIW7T26X5bZ8BUHQqcQ64Dqojg4PA393XBcUECw%3D"
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
   tls: true
-- name: "🇩🇪 Germany fd27"
+  sni: de.01.naiun.bilibili.com
+- name: "🇩🇪 Germany f976 | SNI - 38.54.13.189"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: 89.167.82.102
-  port: 2080
+  server: 38.54.13.189
+  port: 443
   udp: true
   type: trojan
-  password: "99ZHPFGaeO95HUgjkd4TCuDSBQh0C1ixtMD2wconigg%3D"
+  password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
   tls: true
+  sni: 38.54.13.189
 - name: "🇫🇮 Finland 7d5c | SNI - singingrobot.click"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
   server: 212.193.18.121
@@ -968,9 +1003,9 @@ proxies:
   password: "fHngvzC1ut%23YqsV4X"
   tls: true
   sni: singingrobot.click
-- name: "🇫🇷 France 8a65 | SNI - fr.01.naiun.bilibili.com"
+- name: "🇫🇷 France 07e8 | SNI - fr.01.naiun.bilibili.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
-  server: 188.253.12.98
+  server: 90081bb25c.node.tro.cac.cab
   port: 45619
   udp: true
   type: trojan
@@ -1039,6 +1074,24 @@ proxies:
   password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   tls: true
   sni: jy.hhllfly.kdns.fr
+- name: "🇭🇰 Hong Kong 1809 | SNI - tjsp.hhxaf.cc.cd"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
+  server: 124.244.50.35
+  port: 443
+  udp: true
+  type: trojan
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  sni: tjsp.hhxaf.cc.cd
+- name: "🇭🇰 Hong Kong 28ff | SNI - hhcm.hhxaf.cc.cd"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
+  server: 154.16.183.190
+  port: 443
+  udp: true
+  type: trojan
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  sni: hhcm.hhxaf.cc.cd
 - name: "🇭🇰 Hong Kong 3732 | SNI - t.me/ripaojiedian"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
   server: 119.246.1.143
@@ -1102,6 +1155,15 @@ proxies:
   password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   tls: true
   sni: jy.hhllfly.kdns.fr
+- name: "🇭🇰 Hong Kong cb2a | SNI - tjsp.hhxaf.cc.cd"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
+  server: 209.33.166.199
+  port: 443
+  udp: true
+  type: trojan
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  sni: tjsp.hhxaf.cc.cd
 - name: "🇭🇰 Hong Kong ccb2 | SNI - jy.hhllfly.kdns.fr"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
   server: 46.8.226.108
@@ -1120,6 +1182,15 @@ proxies:
   password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   tls: true
   sni: jy.hhllfly.kdns.fr
+- name: "🇭🇰 Hong Kong d53f | SNI - hhcm.hhxaf.cc.cd"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
+  server: 209.33.160.242
+  port: 443
+  udp: true
+  type: trojan
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  sni: hhcm.hhxaf.cc.cd
 - name: "🇭🇰 Hong Kong d76f | SNI - jy.hhllfly.kdns.fr"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
   server: 45.38.42.198
@@ -1147,6 +1218,15 @@ proxies:
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   tls: true
   sni: hhcm.hhxaf.cc.cd
+- name: "🇭🇰 Hong Kong f2c3 | SNI - hhcm.hhxaf.cc.cd"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
+  server: 23.156.153.57
+  port: 443
+  udp: true
+  type: trojan
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  sni: hhcm.hhxaf.cc.cd
 - name: "🇭🇰 Hong Kong fff2 | SNI - hhcm.hhxaf.cc.cd"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
   server: 83.229.121.78
@@ -1165,9 +1245,18 @@ proxies:
   password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
   tls: true
   sni: 130.94.94.15
-- name: "🇮🇸 Iceland 9841 | SNI - is.01.naiun.bilibili.com"
+- name: "🇮🇸 Iceland 4f81 | SNI - is.01.naiun.bilibili.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IS.png
-  server: 103.177.136.43
+  server: 188.253.12.96
+  port: 47909
+  udp: true
+  type: trojan
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  tls: true
+  sni: is.01.naiun.bilibili.com
+- name: "🇮🇸 Iceland e5e1 | SNI - is.01.naiun.bilibili.com"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IS.png
+  server: 188.253.12.93
   port: 47909
   udp: true
   type: trojan
@@ -1354,6 +1443,15 @@ proxies:
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   tls: true
   sni: hhcm.hhxaf.cc.cd
+- name: "🇯🇵 Japan 6552 | SNI - hhcm.hhxaf.cc.cd"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
+  server: 154.12.191.211
+  port: 443
+  udp: true
+  type: trojan
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  sni: hhcm.hhxaf.cc.cd
 - name: "🇯🇵 Japan 6b25 | SNI - hhcm.hhxaf.cc.cd"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
   server: 172.104.80.248
@@ -1444,6 +1542,15 @@ proxies:
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   tls: true
   sni: hhcm.hhxaf.cc.cd
+- name: "🇯🇵 Japan ab7a | SNI - hhcm.hhxaf.cc.cd"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
+  server: 156.231.140.216
+  port: 443
+  udp: true
+  type: trojan
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  sni: hhcm.hhxaf.cc.cd
 - name: "🇯🇵 Japan b222 | SNI - jy.hhllfly.kdns.fr"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
   server: 45.76.102.47
@@ -1489,6 +1596,15 @@ proxies:
   password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   tls: true
   sni: jy.hhllfly.kdns.fr
+- name: "🇯🇵 Japan ceb0 | SNI - hhcm.hhxaf.cc.cd"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
+  server: 154.31.117.200
+  port: 443
+  udp: true
+  type: trojan
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  sni: hhcm.hhxaf.cc.cd
 - name: "🇯🇵 Japan d4a9 | SNI - tjsp.hhxaf.cc.cd"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
   server: 167.179.84.175
@@ -1534,6 +1650,15 @@ proxies:
   password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   tls: true
   sni: jy.hhllfly.kdns.fr
+- name: "🇯🇵 Japan e4d6 | SNI - tjsp.hhxaf.cc.cd"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
+  server: 151.241.129.141
+  port: 443
+  udp: true
+  type: trojan
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  sni: tjsp.hhxaf.cc.cd
 - name: "🇯🇵 Japan e839 | SNI - jy.hhllfly.kdns.fr"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
   server: 66.245.218.247
@@ -1561,6 +1686,15 @@ proxies:
   password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   tls: true
   sni: jy.hhllfly.kdns.fr
+- name: "🇯🇵 Japan f68c | SNI - hhcm.hhxaf.cc.cd"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
+  server: 8.209.231.3
+  port: 443
+  udp: true
+  type: trojan
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  sni: hhcm.hhxaf.cc.cd
 - name: "🇰🇷 South Korea 0942 | SNI - tjsp.hhxaf.cc.cd"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KR.png
   server: 131.186.27.112
@@ -1597,15 +1731,6 @@ proxies:
   password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   tls: true
   sni: jy.hhllfly.kdns.fr
-- name: "🇰🇷 South Korea 41f5 | SNI - tjsp.hhxaf.cc.cd"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KR.png
-  server: 130.162.130.105
-  port: 443
-  udp: true
-  type: trojan
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  tls: true
-  sni: tjsp.hhxaf.cc.cd
 - name: "🇰🇷 South Korea 48e4 | SNI - jy.hhllfly.kdns.fr"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KR.png
   server: 161.118.158.9
@@ -1794,15 +1919,6 @@ proxies:
   type: trojan
   password: vpn
   tls: true
-- name: "🇳🇱 Netherlands 1e99 | SNI - www.multiplydose.com"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
-  server: 104.17.25.173
-  port: 443
-  udp: true
-  type: trojan
-  password: humanity
-  tls: true
-  sni: www.multiplydose.com
 - name: "🇳🇱 Netherlands 74cc | SNI - www.spotwebs.click"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
   server: 144.31.55.10
@@ -2055,6 +2171,15 @@ proxies:
   password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   tls: true
   sni: jy.hhllfly.kdns.fr
+- name: "🇺🇸 United States 0b8d | SNI - flat-firefly-6022.rixewi3168.workers.dev"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: 104.18.32.47
+  port: 8443
+  udp: true
+  type: trojan
+  password: ppmk
+  tls: true
+  sni: flat-firefly-6022.rixewi3168.workers.dev
 - name: "🇺🇸 United States 0fe0 | SNI - www.calmloud.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 8.6.112.0
@@ -2220,6 +2345,15 @@ proxies:
 - name: "🇺🇸 United States 7c00 | SNI - tjsp.hhxaf.cc.cd"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 154.17.6.184
+  port: 443
+  udp: true
+  type: trojan
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  sni: tjsp.hhxaf.cc.cd
+- name: "🇺🇸 United States 7cea | SNI - tjsp.hhxaf.cc.cd"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: 154.17.26.88
   port: 443
   udp: true
   type: trojan
