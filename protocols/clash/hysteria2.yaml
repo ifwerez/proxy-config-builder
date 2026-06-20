@@ -25,6 +25,13 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
+- name: " Unsorted 12d1 | SNI - u711540us1244.csgfw.top"
+  server: 193.142.59.97
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  sni: u711540us1244.csgfw.top
 - name: " Unsorted 1d12 | SNI - u711540us282.wagahaha.xyz"
   server: 88.151.195.220
   port: 443
@@ -46,6 +53,13 @@ proxies:
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
+- name: " Unsorted 8946 | SNI - u711540us306.wagahaha.xyz [CIDR]"
+  server: 212.192.15.58
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  sni: u711540us306.wagahaha.xyz
 - name: " Unsorted e5d2 | SNI - u711540us554.okgfw.top"
   server: s554.okgfw.top
   port: 443
@@ -68,23 +82,6 @@ proxies:
   type: hysteria2
   password: dongtaiwang.com
   sni: www.microsoft.com
-  skip-cert-verify: true
-- name: "🇬🇧 United Kingdom 12d1 | SNI - u711540us1244.csgfw.top [CIDR]"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
-  server: 193.142.59.97
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
-  sni: u711540us1244.csgfw.top
-- name: "🇭🇰 Hong Kong 8946 | SNI - u711540us306.wagahaha.xyz [CIDR]"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
-  server: 212.192.15.58
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
-  sni: u711540us306.wagahaha.xyz
   skip-cert-verify: true
 - name: "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
