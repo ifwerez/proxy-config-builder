@@ -7,11 +7,11 @@ auto-generated proxy configurations
 
 ## sources
 
-- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 239 proxies]
+- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [offline, 0 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt [online, 19 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt [online, 132 proxies]
 - https://internet-tenshi.kangel.tech/1 [online, 192 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt [online, 4025 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt [offline, 0 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt [online, 139 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt [online, 360 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt [online, 125 proxies]
@@ -67,16 +67,6 @@ auto-generated proxy configurations
 ## split configs
 
 <details>
-<summary><b>by size (recommended for performance)</b></summary>
-
-| part | clash | sing-box | raw |
-|------|-------|----------|-----|
-| part 1 | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/clash_1.yaml` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/singbox_1.json` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/raw_1.txt` |
-| part 2 | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/clash_2.yaml` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/singbox_2.json` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/raw_2.txt` |
-
-</details>
-
-<details>
 <summary><b>by protocol</b></summary>
 
 | format | vless | vmess | ss | trojan | hysteria2 |
@@ -116,5 +106,5 @@ you can add new proxy source URLs via a pull request:
 
 new sources are automatically merged on the next update cycle.
 
-last updated: 2026-06-20 14:53:24
-proxies: 2403
+last updated: 2026-06-20 15:59:55
+proxies: 968
