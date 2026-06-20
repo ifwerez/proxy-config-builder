@@ -26,12 +26,10 @@
       "tag": "proxy",
       "outbounds": [
         " Unsorted 6ca7 | SNI - hy2.aspidnet.xyz",
-        " Unsorted caf4 | SNI - u729792us544.ccgfw.online",
         "🇫🇷 France 74e6 | SNI - www.microsoft.com",
+        "🇬🇧 United Kingdom 12d1 | SNI - u711540us1244.csgfw.top [CIDR]",
         "🇭🇰 Hong Kong 8946 | SNI - u711540us306.wagahaha.xyz [CIDR]",
         "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz",
-        "🇳🇱 Netherlands cd1a | SNI - u729792us504.csgfw.top",
-        "🇷🇺 Russia d0cf | SNI - k71530.w-mebel.pro",
         "🇺🇸 United States ef6b | SNI - s559.ccgfw.top"
       ]
     },
@@ -53,18 +51,6 @@
     },
     {
       "type": "hysteria2",
-      "tag": " Unsorted caf4 | SNI - u729792us544.ccgfw.online",
-      "server": "s544.ccgfw.online",
-      "server_port": 443,
-      "password": "28beee5e-40ab-3c36-b797-1e4ecf27d0a0",
-      "tls": {
-        "enabled": true,
-        "server_name": "u729792us544.ccgfw.online",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "🇫🇷 France 74e6 | SNI - www.microsoft.com",
       "server": "62.210.124.146",
       "server_port": 22000,
@@ -73,6 +59,18 @@
         "enabled": true,
         "server_name": "www.microsoft.com",
         "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇬🇧 United Kingdom 12d1 | SNI - u711540us1244.csgfw.top [CIDR]",
+      "server": "193.142.59.97",
+      "server_port": 443,
+      "password": "43bcba7d-cd22-379c-a7da-2e8eafecbc78",
+      "tls": {
+        "enabled": true,
+        "server_name": "u711540us1244.csgfw.top",
+        "insecure": false
       }
     },
     {
@@ -97,30 +95,6 @@
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
         "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands cd1a | SNI - u729792us504.csgfw.top",
-      "server": "88.151.33.158",
-      "server_port": 443,
-      "password": "28beee5e-40ab-3c36-b797-1e4ecf27d0a0",
-      "tls": {
-        "enabled": true,
-        "server_name": "u729792us504.csgfw.top",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 Russia d0cf | SNI - k71530.w-mebel.pro",
-      "server": "161.104.88.46",
-      "server_port": 443,
-      "password": "2d83ea00-2813-448d-bee6-14eaf7f52e13",
-      "tls": {
-        "enabled": true,
-        "server_name": "k71530.w-mebel.pro",
-        "insecure": true
       }
     },
     {
