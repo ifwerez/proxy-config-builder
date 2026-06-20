@@ -7,16 +7,16 @@ auto-generated proxy configurations
 
 ## sources
 
-- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 264 proxies]
-- https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt [online, 27 proxies]
+- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 239 proxies]
+- https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt [online, 19 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt [online, 132 proxies]
 - https://internet-tenshi.kangel.tech/1 [online, 192 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt [online, 4195 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt [online, 137 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt [online, 444 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt [online, 159 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt [online, 4025 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt [online, 139 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt [online, 360 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt [online, 125 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt [online, 751 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt [online, 207 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt [online, 202 proxies]
 
 ## subscription urls
 
@@ -116,5 +116,5 @@ you can add new proxy source URLs via a pull request:
 
 new sources are automatically merged on the next update cycle.
 
-last updated: 2026-06-20 13:47:42
-proxies: 2508
+last updated: 2026-06-20 14:53:24
+proxies: 2403
