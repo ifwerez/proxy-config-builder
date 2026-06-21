@@ -25,6 +25,16 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
+- name: " Unsorted 09a1"
+  server: 160.250.247.70
+  port: 49178
+  udp: true
+  type: vmess
+  uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
+  cipher: auto
+  alterId: 0
+  network: tcp
+  tls: false
 - name: " Unsorted 530d"
   server: www.nextkyc.com
   port: 8443
@@ -45,6 +55,16 @@ proxies:
   alterId: 0
   network: ws
   tls: true
+- name: " Unsorted a81a"
+  server: vip3.sanaiehdasti.com
+  port: 1546
+  udp: true
+  type: vmess
+  uuid: 6c5fcae3-16e8-4a93-b28e-05588d5d9342
+  cipher: auto
+  alterId: 0
+  network: tcp
+  tls: false
 - name: " Unsorted bce1"
   server: skk.moe
   port: 80
@@ -217,17 +237,6 @@ proxies:
   alterId: 0
   network: ws
   tls: false
-- name: "🇩🇪 Germany a81a"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
-  server: vip3.sanaiehdasti.com
-  port: 1546
-  udp: true
-  type: vmess
-  uuid: 6c5fcae3-16e8-4a93-b28e-05588d5d9342
-  cipher: auto
-  alterId: 0
-  network: tcp
-  tls: false
 - name: "🇩🇪 Germany e0f4"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: node-de.connectsuite.org
@@ -271,17 +280,6 @@ proxies:
   cipher: auto
   alterId: 0
   network: tcp
-  tls: false
-- name: "🇫🇮 Finland a9e8"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
-  server: 89.167.82.102
-  port: 8880
-  udp: true
-  type: vmess
-  uuid: 449a533a-4a82-44c1-adbd-48e9c2deb22c
-  cipher: auto
-  alterId: 0
-  network: raw
   tls: false
 - name: "🇫🇮 Finland fa43"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
@@ -502,6 +500,17 @@ proxies:
   cipher: auto
   alterId: 0
   tls: false
+- name: "🇯🇵 Japan cc6c"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
+  server: 8.211.149.30
+  port: 443
+  udp: true
+  type: vmess
+  uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: true
 - name: "🇯🇵 Japan ce02"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
   server: 168.138.43.75
@@ -948,17 +957,6 @@ proxies:
   udp: true
   type: vmess
   uuid: 550e8400-e29b-41d4-a716-446655440000
-  cipher: auto
-  alterId: 0
-  network: tcp
-  tls: false
-- name: "🇻🇳 Vietnam 09a1"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VN.png
-  server: 160.250.247.70
-  port: 49178
-  udp: true
-  type: vmess
-  uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
   cipher: auto
   alterId: 0
   network: tcp
