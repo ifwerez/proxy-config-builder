@@ -25,15 +25,15 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
-        " Unsorted 12d1 | SNI - u711540us1244.csgfw.top",
-        " Unsorted 1d12 | SNI - u711540us282.wagahaha.xyz",
-        " Unsorted 25c8 | SNI - u711540us261.wagahaha.xyz",
         " Unsorted 6ca7 | SNI - hy2.aspidnet.xyz",
-        " Unsorted 8946 | SNI - u711540us306.wagahaha.xyz [CIDR]",
         " Unsorted e5d2 | SNI - u711540us554.okgfw.top",
-        " Unsorted e6b9 | SNI - u711540us462.csgfw.top",
+        "🇨🇳 China 8946 | SNI - u711540us306.wagahaha.xyz [CIDR]",
         "🇫🇷 France 74e6 | SNI - www.microsoft.com",
+        "🇬🇧 United Kingdom 12d1 | SNI - u711540us1244.csgfw.top",
         "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz",
+        "🇷🇺 Russia 25c8 | SNI - u711540us261.wagahaha.xyz",
+        "🇷🇺 Russia e6b9 | SNI - u711540us462.csgfw.top",
+        "🇺🇦 Ukraine 1d12 | SNI - u711540us282.wagahaha.xyz",
         "🇺🇸 United States 941c | SNI - u711540us881.ccgfw.top",
         "🇺🇸 United States ef6b | SNI - s559.ccgfw.top"
       ]
@@ -44,42 +44,6 @@
     },
     {
       "type": "hysteria2",
-      "tag": " Unsorted 12d1 | SNI - u711540us1244.csgfw.top",
-      "server": "193.142.59.97",
-      "server_port": 443,
-      "password": "43bcba7d-cd22-379c-a7da-2e8eafecbc78",
-      "tls": {
-        "enabled": true,
-        "server_name": "u711540us1244.csgfw.top",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": " Unsorted 1d12 | SNI - u711540us282.wagahaha.xyz",
-      "server": "88.151.195.220",
-      "server_port": 443,
-      "password": "43bcba7d-cd22-379c-a7da-2e8eafecbc78",
-      "tls": {
-        "enabled": true,
-        "server_name": "u711540us282.wagahaha.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": " Unsorted 25c8 | SNI - u711540us261.wagahaha.xyz",
-      "server": "188.119.65.33",
-      "server_port": 443,
-      "password": "43bcba7d-cd22-379c-a7da-2e8eafecbc78",
-      "tls": {
-        "enabled": true,
-        "server_name": "u711540us261.wagahaha.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": " Unsorted 6ca7 | SNI - hy2.aspidnet.xyz",
       "server": "hy2.aspidnet.xyz",
       "server_port": 443,
@@ -87,18 +51,6 @@
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": " Unsorted 8946 | SNI - u711540us306.wagahaha.xyz [CIDR]",
-      "server": "212.192.15.58",
-      "server_port": 443,
-      "password": "43bcba7d-cd22-379c-a7da-2e8eafecbc78",
-      "tls": {
-        "enabled": true,
-        "server_name": "u711540us306.wagahaha.xyz",
         "insecure": false
       }
     },
@@ -116,13 +68,13 @@
     },
     {
       "type": "hysteria2",
-      "tag": " Unsorted e6b9 | SNI - u711540us462.csgfw.top",
-      "server": "195.133.53.225",
+      "tag": "🇨🇳 China 8946 | SNI - u711540us306.wagahaha.xyz [CIDR]",
+      "server": "212.192.15.58",
       "server_port": 443,
       "password": "43bcba7d-cd22-379c-a7da-2e8eafecbc78",
       "tls": {
         "enabled": true,
-        "server_name": "u711540us462.csgfw.top",
+        "server_name": "u711540us306.wagahaha.xyz",
         "insecure": false
       }
     },
@@ -140,6 +92,18 @@
     },
     {
       "type": "hysteria2",
+      "tag": "🇬🇧 United Kingdom 12d1 | SNI - u711540us1244.csgfw.top",
+      "server": "193.142.59.97",
+      "server_port": 443,
+      "password": "43bcba7d-cd22-379c-a7da-2e8eafecbc78",
+      "tls": {
+        "enabled": true,
+        "server_name": "u711540us1244.csgfw.top",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
       "tag": "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz",
       "server": "130.49.161.70",
       "server_port": 443,
@@ -147,6 +111,42 @@
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 Russia 25c8 | SNI - u711540us261.wagahaha.xyz",
+      "server": "188.119.65.33",
+      "server_port": 443,
+      "password": "43bcba7d-cd22-379c-a7da-2e8eafecbc78",
+      "tls": {
+        "enabled": true,
+        "server_name": "u711540us261.wagahaha.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 Russia e6b9 | SNI - u711540us462.csgfw.top",
+      "server": "195.133.53.225",
+      "server_port": 443,
+      "password": "43bcba7d-cd22-379c-a7da-2e8eafecbc78",
+      "tls": {
+        "enabled": true,
+        "server_name": "u711540us462.csgfw.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇦 Ukraine 1d12 | SNI - u711540us282.wagahaha.xyz",
+      "server": "88.151.195.220",
+      "server_port": 443,
+      "password": "43bcba7d-cd22-379c-a7da-2e8eafecbc78",
+      "tls": {
+        "enabled": true,
+        "server_name": "u711540us282.wagahaha.xyz",
         "insecure": false
       }
     },
@@ -171,7 +171,7 @@
       "tls": {
         "enabled": true,
         "server_name": "s559.ccgfw.top",
-        "insecure": false
+        "insecure": true
       }
     }
   ],
