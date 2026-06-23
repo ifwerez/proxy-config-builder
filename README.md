@@ -7,10 +7,10 @@ auto-generated proxy configurations
 
 ## sources
 
-- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 400 proxies]
+- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 353 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt [online, 781 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt [online, 412 proxies]
-- https://internet-tenshi.kangel.tech/1 [online, 532 proxies]
+- https://internet-tenshi.kangel.tech/1 [online, 557 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt [offline, 0 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt [online, 132 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt [online, 366 proxies]
@@ -67,16 +67,6 @@ auto-generated proxy configurations
 ## split configs
 
 <details>
-<summary><b>by size (recommended for performance)</b></summary>
-
-| part | clash | sing-box | raw |
-|------|-------|----------|-----|
-| part 1 | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/clash_1.yaml` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/singbox_1.json` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/raw_1.txt` |
-| part 2 | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/clash_2.yaml` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/singbox_2.json` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/raw_2.txt` |
-
-</details>
-
-<details>
 <summary><b>by protocol</b></summary>
 
 | format | vless | vmess | ss | trojan | hysteria2 |
@@ -116,5 +106,5 @@ you can add new proxy source URLs via a pull request:
 
 new sources are automatically merged on the next update cycle.
 
-last updated: 2026-06-23 08:54:32
-proxies: 1525
+last updated: 2026-06-23 10:03:06
+proxies: 1487
