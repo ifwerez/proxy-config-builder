@@ -28,8 +28,10 @@
         " Unsorted 6ca7 | SNI - hy2.aspidnet.xyz",
         " Unsorted 841b | SNI - rug.xxee.ru",
         "🇫🇮 Finland 910f | SNI - fta.fontanvpn.com [CIDR]",
+        "🇫🇮 Finland ce69 | SNI - fta.fontanvpn.com [CIDR]",
         "🇫🇷 France 74e6 | SNI - www.microsoft.com",
-        "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz"
+        "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz",
+        "🇺🇸 United States ef6b | SNI - s559.ccgfw.top"
       ]
     },
     {
@@ -74,6 +76,18 @@
     },
     {
       "type": "hysteria2",
+      "tag": "🇫🇮 Finland ce69 | SNI - fta.fontanvpn.com [CIDR]",
+      "server": "185.75.135.220",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "fta.fontanvpn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
       "tag": "🇫🇷 France 74e6 | SNI - www.microsoft.com",
       "server": "62.210.124.146",
       "server_port": 22000,
@@ -93,6 +107,18 @@
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 United States ef6b | SNI - s559.ccgfw.top",
+      "server": "185.106.96.231",
+      "server_port": 443,
+      "password": "10550754-cf62-3d3b-ba6a-50be27a275d7",
+      "tls": {
+        "enabled": true,
+        "server_name": "s559.ccgfw.top",
         "insecure": false
       }
     }
