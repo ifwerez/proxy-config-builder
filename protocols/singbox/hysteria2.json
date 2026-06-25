@@ -26,10 +26,12 @@
       "tag": "proxy",
       "outbounds": [
         " Unsorted 6ca7 | SNI - hy2.aspidnet.xyz",
+        " Unsorted 8115 | SNI - vn2.yuntong.click",
         "🇫🇮 Finland 910f | SNI - fta.fontanvpn.com [CIDR]",
         "🇫🇮 Finland ce69 | SNI - fta.fontanvpn.com [CIDR]",
         "🇫🇷 France 74e6 | SNI - www.microsoft.com",
         "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz",
+        "🇳🇱 Netherlands 311d | SNI - u691611us504.csgfw.top",
         "🇺🇸 United States ef6b | SNI - s559.ccgfw.top"
       ]
     },
@@ -46,6 +48,18 @@
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": " Unsorted 8115 | SNI - vn2.yuntong.click",
+      "server": "vn2.yuntong.click",
+      "server_port": 443,
+      "password": "f7cb07a0-e6f9-4d22-a60e-c61854450c89",
+      "tls": {
+        "enabled": true,
+        "server_name": "vn2.yuntong.click",
         "insecure": false
       }
     },
@@ -94,6 +108,18 @@
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands 311d | SNI - u691611us504.csgfw.top",
+      "server": "88.151.33.158",
+      "server_port": 443,
+      "password": "9794d18f-9280-3553-a7a5-a23da75aca76",
+      "tls": {
+        "enabled": true,
+        "server_name": "u691611us504.csgfw.top",
         "insecure": false
       }
     },
