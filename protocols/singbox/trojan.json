@@ -291,6 +291,7 @@
         "🇩🇪 Germany 20d6 | SNI - 185.137.157.156",
         "🇩🇪 Germany 2f2a",
         "🇩🇪 Germany 2fd9 | SNI - 185.137.157.149",
+        "🇩🇪 Germany 30cc | SNI - fra250.clientfirewall.click",
         "🇩🇪 Germany 37e6",
         "🇩🇪 Germany 3b76 | SNI - www.lateralio.click",
         "🇩🇪 Germany 4a85",
@@ -570,7 +571,6 @@
         "🇺🇸 United States 66e3",
         "🇺🇸 United States 672c",
         "🇺🇸 United States 67d5 | SNI - tjsp.hhxaf.cc.cd",
-        "🇺🇸 United States 67e1 | SNI - tjsp.hhxaf.cc.cd",
         "🇺🇸 United States 6b5a",
         "🇺🇸 United States 6caa | SNI - hhcm.hhxaf.cc.cd",
         "🇺🇸 United States 6dc0",
@@ -3849,6 +3849,18 @@
       "tls": {
         "enabled": true,
         "server_name": "185.137.157.149",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇩🇪 Germany 30cc | SNI - fra250.clientfirewall.click",
+      "server": "185.137.157.250",
+      "server_port": 443,
+      "password": "n-S5Kuz58YgwljisuLEJltip2OWf1ourWz",
+      "tls": {
+        "enabled": true,
+        "server_name": "fra250.clientfirewall.click",
         "insecure": false
       }
     },
@@ -7192,18 +7204,6 @@
       "type": "trojan",
       "tag": "🇺🇸 United States 67d5 | SNI - tjsp.hhxaf.cc.cd",
       "server": "207.246.97.245",
-      "server_port": 443,
-      "password": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-      "tls": {
-        "enabled": true,
-        "server_name": "tjsp.hhxaf.cc.cd",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 United States 67e1 | SNI - tjsp.hhxaf.cc.cd",
-      "server": "157.254.18.193",
       "server_port": 443,
       "password": "eeb6823c-b926-4ea2-866a-5542edd26e59",
       "tls": {
