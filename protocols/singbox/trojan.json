@@ -290,7 +290,6 @@
         "🇩🇪 Germany 1671",
         "🇩🇪 Germany 20d6 | SNI - 185.137.157.156",
         "🇩🇪 Germany 2f2a",
-        "🇩🇪 Germany 2fd9 | SNI - 185.137.157.149",
         "🇩🇪 Germany 30cc | SNI - fra250.clientfirewall.click",
         "🇩🇪 Germany 37e6",
         "🇩🇪 Germany 3b76 | SNI - www.lateralio.click",
@@ -411,8 +410,10 @@
         "🇯🇵 Japan 7d58 | SNI - tjsp.hhxaf.cc.cd",
         "🇯🇵 Japan 8051 | SNI - hhcm.hhxaf.cc.cd",
         "🇯🇵 Japan 80fc | SNI - hhcm.hhxaf.cc.cd",
+        "🇯🇵 Japan 8187 | SNI - tjsp.hhxaf.cc.cd",
         "🇯🇵 Japan 8d5d | SNI - hhcm.hhxaf.cc.cd",
         "🇯🇵 Japan a10c",
+        "🇯🇵 Japan a4d7 | SNI - tjsp.hhxaf.cc.cd",
         "🇯🇵 Japan a7b8 | SNI - tjsp.hhxaf.cc.cd",
         "🇯🇵 Japan a83a | SNI - hhcm.hhxaf.cc.cd",
         "🇯🇵 Japan ab7a | SNI - hhcm.hhxaf.cc.cd",
@@ -429,7 +430,6 @@
         "🇯🇵 Japan d80c | SNI - tjsp.hhxaf.cc.cd",
         "🇯🇵 Japan dea4 | SNI - hhcm.hhxaf.cc.cd",
         "🇯🇵 Japan e0be | SNI - tjsp.hhxaf.cc.cd",
-        "🇯🇵 Japan e425 | SNI - hhcm.hhxaf.cc.cd",
         "🇯🇵 Japan e4d6 | SNI - tjsp.hhxaf.cc.cd",
         "🇯🇵 Japan e8c2 | SNI - hhcm.hhxaf.cc.cd",
         "🇯🇵 Japan e8ee | SNI - hhcm.hhxaf.cc.cd",
@@ -458,7 +458,6 @@
         "🇰🇷 South Korea 9a21 | SNI - hhcm.hhxaf.cc.cd",
         "🇰🇷 South Korea 9da0 | SNI - hhcm.hhxaf.cc.cd",
         "🇰🇷 South Korea 9ff3 | SNI - hhcm.hhxaf.cc.cd",
-        "🇰🇷 South Korea a66f | SNI - hhcm.hhxaf.cc.cd",
         "🇰🇷 South Korea adfd | SNI - hhcm.hhxaf.cc.cd",
         "🇰🇷 South Korea ba45 | SNI - tjsp.hhxaf.cc.cd",
         "🇰🇷 South Korea d6b6 | SNI - tjsp.hhxaf.cc.cd",
@@ -646,6 +645,7 @@
         "🇺🇸 United States fa43",
         "🇺🇸 United States fa4b",
         "🇺🇸 United States fa4f",
+        "🇺🇸 United States fd48 | SNI - 45.61.52.243",
         "🇺🇸 United States fd99 | SNI - tjsp.hhxaf.cc.cd",
         "🇺🇸 United States fda4 | SNI - www.f6r.ir",
         "🇻🇳 Vietnam 2fce",
@@ -3842,18 +3842,6 @@
     },
     {
       "type": "trojan",
-      "tag": "🇩🇪 Germany 2fd9 | SNI - 185.137.157.149",
-      "server": "185.137.157.149",
-      "server_port": 443,
-      "password": "dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q",
-      "tls": {
-        "enabled": true,
-        "server_name": "185.137.157.149",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇩🇪 Germany 30cc | SNI - fra250.clientfirewall.click",
       "server": "185.137.157.250",
       "server_port": 443,
@@ -5294,6 +5282,18 @@
     },
     {
       "type": "trojan",
+      "tag": "🇯🇵 Japan 8187 | SNI - tjsp.hhxaf.cc.cd",
+      "server": "153.121.32.71",
+      "server_port": 443,
+      "password": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+      "tls": {
+        "enabled": true,
+        "server_name": "tjsp.hhxaf.cc.cd",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
       "tag": "🇯🇵 Japan 8d5d | SNI - hhcm.hhxaf.cc.cd",
       "server": "207.65.189.9",
       "server_port": 443,
@@ -5313,6 +5313,18 @@
       "tls": {
         "enabled": true,
         "server_name": "103.125.216.11",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇯🇵 Japan a4d7 | SNI - tjsp.hhxaf.cc.cd",
+      "server": "161.33.190.243",
+      "server_port": 443,
+      "password": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+      "tls": {
+        "enabled": true,
+        "server_name": "tjsp.hhxaf.cc.cd",
         "insecure": false
       }
     },
@@ -5505,18 +5517,6 @@
       "tls": {
         "enabled": true,
         "server_name": "tjsp.hhxaf.cc.cd",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 Japan e425 | SNI - hhcm.hhxaf.cc.cd",
-      "server": "91.200.243.32",
-      "server_port": 443,
-      "password": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-      "tls": {
-        "enabled": true,
-        "server_name": "hhcm.hhxaf.cc.cd",
         "insecure": false
       }
     },
@@ -5849,18 +5849,6 @@
       "tag": "🇰🇷 South Korea 9ff3 | SNI - hhcm.hhxaf.cc.cd",
       "server": "158.247.255.3",
       "server_port": 8443,
-      "password": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-      "tls": {
-        "enabled": true,
-        "server_name": "hhcm.hhxaf.cc.cd",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇰🇷 South Korea a66f | SNI - hhcm.hhxaf.cc.cd",
-      "server": "211.49.57.175",
-      "server_port": 443,
       "password": "eeb6823c-b926-4ea2-866a-5542edd26e59",
       "tls": {
         "enabled": true,
@@ -8109,6 +8097,18 @@
       "tls": {
         "enabled": true,
         "server_name": "151.101.43.43",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 United States fd48 | SNI - 45.61.52.243",
+      "server": "45.61.52.243",
+      "server_port": 443,
+      "password": "O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk",
+      "tls": {
+        "enabled": true,
+        "server_name": "45.61.52.243",
         "insecure": false
       }
     },
