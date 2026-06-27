@@ -717,6 +717,17 @@ proxies:
   alterId: 0
   network: tcp
   tls: false
+- name: "🇨🇦 Canada 480b"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CA.png
+  server: 104.21.89.181
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: false
 - name: "🇨🇦 Canada 5801"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CA.png
   server: 104.17.77.77
@@ -958,6 +969,17 @@ proxies:
   alterId: 0
   network: tcp
   tls: false
+- name: "🇰🇷 South Korea 71a2"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KR.png
+  server: 140.238.2.250
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  cipher: auto
+  alterId: 0
+  network: raw
+  tls: false
 - name: "🇰🇷 South Korea da90"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/KR.png
   server: 152.67.218.38
@@ -1167,17 +1189,6 @@ proxies:
   alterId: 0
   network: tcp
   tls: false
-- name: "🇺🇸 United States 480b"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: 104.21.89.181
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
-  cipher: auto
-  alterId: 0
-  network: ws
-  tls: false
 - name: "🇺🇸 United States 50f8"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 216.106.183.35
@@ -1207,6 +1218,17 @@ proxies:
   udp: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  cipher: auto
+  alterId: 0
+  network: tcp
+  tls: false
+- name: "🇺🇸 United States 6fc6"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
+  server: 104.253.134.92
+  port: 13932
+  udp: true
+  type: vmess
+  uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
   cipher: auto
   alterId: 0
   network: tcp
@@ -1320,17 +1342,6 @@ proxies:
   cipher: auto
   alterId: 0
   network: raw
-  tls: false
-- name: "🇻🇳 Vietnam 09a1"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VN.png
-  server: 160.250.247.70
-  port: 49178
-  udp: true
-  type: vmess
-  uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
-  cipher: auto
-  alterId: 0
-  network: tcp
   tls: false
 rules:
 - GEOSITE,category-ads-all,REJECT
