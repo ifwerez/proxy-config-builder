@@ -27,14 +27,16 @@
       "outbounds": [
         " Unsorted 6ca7 | SNI - hy2.aspidnet.xyz",
         " Unsorted 8115 | SNI - vn2.yuntong.click",
-        " Unsorted 910f | SNI - fta.fontanvpn.com",
         "🇫🇮 Finland 0ff7 | SNI - testing3.nimarko.org [CIDR]",
+        "🇫🇮 Finland 910f | SNI - fta.fontanvpn.com [CIDR]",
         "🇫🇮 Finland ce69 | SNI - fta.fontanvpn.com [CIDR]",
         "🇫🇷 France 74e6 | SNI - www.microsoft.com",
         "🇮🇹 Italy dfee | SNI - itit.nimarko.org [CIDR]",
         "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz",
         "🇳🇱 Netherlands 3022 | SNI - testing6.nimarko.org [CIDR]",
         "🇳🇱 Netherlands 311d | SNI - u691611us504.csgfw.top",
+        "🇳🇱 Netherlands 657a | SNI - testing7.nimarko.org [CIDR]",
+        "🇺🇸 United States 02cc | SNI - testing8.nimarko.org [CIDR]",
         "🇺🇸 United States ef6b | SNI - s559.ccgfw.top"
       ]
     },
@@ -68,18 +70,6 @@
     },
     {
       "type": "hysteria2",
-      "tag": " Unsorted 910f | SNI - fta.fontanvpn.com",
-      "server": "fta.fontanvpn.com",
-      "server_port": 443,
-      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
-      "tls": {
-        "enabled": true,
-        "server_name": "fta.fontanvpn.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
       "tag": "🇫🇮 Finland 0ff7 | SNI - testing3.nimarko.org [CIDR]",
       "server": "wlte.nimarko.org",
       "server_port": 8445,
@@ -87,6 +77,18 @@
       "tls": {
         "enabled": true,
         "server_name": "testing3.nimarko.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇮 Finland 910f | SNI - fta.fontanvpn.com [CIDR]",
+      "server": "fta.fontanvpn.com",
+      "server_port": 443,
+      "password": "00dcd873-9211-4d61-ad35-87999906e5c8",
+      "tls": {
+        "enabled": true,
+        "server_name": "fta.fontanvpn.com",
         "insecure": false
       }
     },
@@ -159,6 +161,30 @@
       "tls": {
         "enabled": true,
         "server_name": "u691611us504.csgfw.top",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands 657a | SNI - testing7.nimarko.org [CIDR]",
+      "server": "wlte9.nimarko.org",
+      "server_port": 8451,
+      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
+      "tls": {
+        "enabled": true,
+        "server_name": "testing7.nimarko.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 United States 02cc | SNI - testing8.nimarko.org [CIDR]",
+      "server": "wlte3.nimarko.org",
+      "server_port": 8444,
+      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
+      "tls": {
+        "enabled": true,
+        "server_name": "testing8.nimarko.org",
         "insecure": false
       }
     },
