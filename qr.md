@@ -91,4 +91,4 @@ scan to import configurations into your client.
 
 > [!note]
 > qr codes are generated dynamically using [qrserver.com](https://goqr.me/api/).
-> last updated: 2026-06-27 16:09:05
+> last updated: 2026-06-27 17:18:02
