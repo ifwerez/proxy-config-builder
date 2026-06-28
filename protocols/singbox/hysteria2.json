@@ -25,16 +25,16 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
-        " Unsorted 0ff7 | SNI - testing3.nimarko.org",
-        " Unsorted 3022 | SNI - testing6.nimarko.org",
-        " Unsorted 657a | SNI - testing7.nimarko.org",
         " Unsorted 6ca7 | SNI - hy2.aspidnet.xyz",
         " Unsorted 8115 | SNI - vn2.yuntong.click",
-        " Unsorted dfee | SNI - itit.nimarko.org",
+        "🇫🇮 Finland 0ff7 | SNI - testing3.nimarko.org [CIDR]",
         "🇫🇮 Finland 910f | SNI - fta.fontanvpn.com [CIDR]",
         "🇫🇮 Finland ce69 | SNI - fta.fontanvpn.com [CIDR]",
         "🇫🇷 France 74e6 | SNI - www.microsoft.com",
+        "🇮🇹 Italy dfee | SNI - itit.nimarko.org [CIDR]",
         "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz",
+        "🇳🇱 Netherlands 3022 | SNI - testing6.nimarko.org [CIDR]",
+        "🇳🇱 Netherlands 657a | SNI - testing7.nimarko.org [CIDR]",
         "🇳🇱 Netherlands cb53 | SNI - gettestin.xxee.ru",
         "🇺🇸 United States 02cc | SNI - testing8.nimarko.org [CIDR]",
         "🇺🇸 United States ef6b | SNI - s559.ccgfw.top"
@@ -43,42 +43,6 @@
     {
       "type": "direct",
       "tag": "direct"
-    },
-    {
-      "type": "hysteria2",
-      "tag": " Unsorted 0ff7 | SNI - testing3.nimarko.org",
-      "server": "wlte.nimarko.org",
-      "server_port": 8445,
-      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
-      "tls": {
-        "enabled": true,
-        "server_name": "testing3.nimarko.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": " Unsorted 3022 | SNI - testing6.nimarko.org",
-      "server": "wlte8.nimarko.org",
-      "server_port": 8450,
-      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
-      "tls": {
-        "enabled": true,
-        "server_name": "testing6.nimarko.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": " Unsorted 657a | SNI - testing7.nimarko.org",
-      "server": "wlte9.nimarko.org",
-      "server_port": 8451,
-      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
-      "tls": {
-        "enabled": true,
-        "server_name": "testing7.nimarko.org",
-        "insecure": false
-      }
     },
     {
       "type": "hysteria2",
@@ -106,14 +70,14 @@
     },
     {
       "type": "hysteria2",
-      "tag": " Unsorted dfee | SNI - itit.nimarko.org",
+      "tag": "🇫🇮 Finland 0ff7 | SNI - testing3.nimarko.org [CIDR]",
       "server": "wlte.nimarko.org",
-      "server_port": 8465,
+      "server_port": 8445,
       "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
       "tls": {
         "enabled": true,
-        "server_name": "itit.nimarko.org",
-        "insecure": false
+        "server_name": "testing3.nimarko.org",
+        "insecure": true
       }
     },
     {
@@ -154,6 +118,18 @@
     },
     {
       "type": "hysteria2",
+      "tag": "🇮🇹 Italy dfee | SNI - itit.nimarko.org [CIDR]",
+      "server": "wlte.nimarko.org",
+      "server_port": 8465,
+      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
+      "tls": {
+        "enabled": true,
+        "server_name": "itit.nimarko.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
       "tag": "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz",
       "server": "130.49.161.70",
       "server_port": 443,
@@ -161,6 +137,30 @@
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands 3022 | SNI - testing6.nimarko.org [CIDR]",
+      "server": "wlte8.nimarko.org",
+      "server_port": 8450,
+      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
+      "tls": {
+        "enabled": true,
+        "server_name": "testing6.nimarko.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands 657a | SNI - testing7.nimarko.org [CIDR]",
+      "server": "wlte9.nimarko.org",
+      "server_port": 8451,
+      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
+      "tls": {
+        "enabled": true,
+        "server_name": "testing7.nimarko.org",
         "insecure": false
       }
     },
