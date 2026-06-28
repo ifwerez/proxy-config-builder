@@ -25,13 +25,17 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
+        " Unsorted 0ff7 | SNI - testing3.nimarko.org",
+        " Unsorted 3022 | SNI - testing6.nimarko.org",
+        " Unsorted 657a | SNI - testing7.nimarko.org",
         " Unsorted 6ca7 | SNI - hy2.aspidnet.xyz",
         " Unsorted 8115 | SNI - vn2.yuntong.click",
         " Unsorted 910f | SNI - fta.fontanvpn.com",
+        " Unsorted dfee | SNI - itit.nimarko.org",
         "🇫🇮 Finland ce69 | SNI - fta.fontanvpn.com [CIDR]",
         "🇫🇷 France 74e6 | SNI - www.microsoft.com",
         "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz",
-        "🇳🇱 Netherlands 311d | SNI - u691611us504.csgfw.top",
+        "🇳🇱 Netherlands cb53 | SNI - gettestin.xxee.ru",
         "🇺🇸 United States 02cc | SNI - testing8.nimarko.org [CIDR]",
         "🇺🇸 United States ef6b | SNI - s559.ccgfw.top"
       ]
@@ -39,6 +43,42 @@
     {
       "type": "direct",
       "tag": "direct"
+    },
+    {
+      "type": "hysteria2",
+      "tag": " Unsorted 0ff7 | SNI - testing3.nimarko.org",
+      "server": "wlte.nimarko.org",
+      "server_port": 8445,
+      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
+      "tls": {
+        "enabled": true,
+        "server_name": "testing3.nimarko.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": " Unsorted 3022 | SNI - testing6.nimarko.org",
+      "server": "wlte8.nimarko.org",
+      "server_port": 8450,
+      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
+      "tls": {
+        "enabled": true,
+        "server_name": "testing6.nimarko.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": " Unsorted 657a | SNI - testing7.nimarko.org",
+      "server": "wlte9.nimarko.org",
+      "server_port": 8451,
+      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
+      "tls": {
+        "enabled": true,
+        "server_name": "testing7.nimarko.org",
+        "insecure": false
+      }
     },
     {
       "type": "hysteria2",
@@ -73,6 +113,18 @@
       "tls": {
         "enabled": true,
         "server_name": "fta.fontanvpn.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": " Unsorted dfee | SNI - itit.nimarko.org",
+      "server": "wlte.nimarko.org",
+      "server_port": 8465,
+      "password": "c059a786-3a03-4300-9ace-4f9cda0f360c",
+      "tls": {
+        "enabled": true,
+        "server_name": "itit.nimarko.org",
         "insecure": false
       }
     },
@@ -114,13 +166,13 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands 311d | SNI - u691611us504.csgfw.top",
-      "server": "88.151.33.158",
+      "tag": "🇳🇱 Netherlands cb53 | SNI - gettestin.xxee.ru",
+      "server": "103.251.167.168",
       "server_port": 443,
-      "password": "9794d18f-9280-3553-a7a5-a23da75aca76",
+      "password": "gdubbi2zb6gdp0c8",
       "tls": {
         "enabled": true,
-        "server_name": "u691611us504.csgfw.top",
+        "server_name": "gettestin.xxee.ru",
         "insecure": false
       }
     },
