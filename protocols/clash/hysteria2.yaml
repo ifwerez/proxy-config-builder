@@ -25,27 +25,6 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
-- name: " Unsorted 0ff7 | SNI - testing3.nimarko.org"
-  server: wlte.nimarko.org
-  port: 8445
-  udp: true
-  type: hysteria2
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: testing3.nimarko.org
-- name: " Unsorted 3022 | SNI - testing6.nimarko.org"
-  server: wlte8.nimarko.org
-  port: 8450
-  udp: true
-  type: hysteria2
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: testing6.nimarko.org
-- name: " Unsorted 657a | SNI - testing7.nimarko.org"
-  server: wlte9.nimarko.org
-  port: 8451
-  udp: true
-  type: hysteria2
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: testing7.nimarko.org
 - name: " Unsorted 6ca7 | SNI - hy2.aspidnet.xyz"
   server: hy2.aspidnet.xyz
   port: 443
@@ -60,13 +39,15 @@ proxies:
   type: hysteria2
   password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
   sni: vn2.yuntong.click
-- name: " Unsorted dfee | SNI - itit.nimarko.org"
+- name: "🇫🇮 Finland 0ff7 | SNI - testing3.nimarko.org [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
   server: wlte.nimarko.org
-  port: 8465
+  port: 8445
   udp: true
   type: hysteria2
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  sni: itit.nimarko.org
+  sni: testing3.nimarko.org
+  skip-cert-verify: true
 - name: "🇫🇮 Finland 910f | SNI - fta.fontanvpn.com [CIDR]"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
   server: fta.fontanvpn.com
@@ -92,6 +73,14 @@ proxies:
   password: dongtaiwang.com
   sni: www.microsoft.com
   skip-cert-verify: true
+- name: "🇮🇹 Italy dfee | SNI - itit.nimarko.org [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IT.png
+  server: wlte.nimarko.org
+  port: 8465
+  udp: true
+  type: hysteria2
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  sni: itit.nimarko.org
 - name: "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
   server: 130.49.161.70
@@ -100,6 +89,23 @@ proxies:
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
+- name: "🇳🇱 Netherlands 3022 | SNI - testing6.nimarko.org [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
+  server: wlte8.nimarko.org
+  port: 8450
+  udp: true
+  type: hysteria2
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  sni: testing6.nimarko.org
+  skip-cert-verify: true
+- name: "🇳🇱 Netherlands 657a | SNI - testing7.nimarko.org [CIDR]"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
+  server: wlte9.nimarko.org
+  port: 8451
+  udp: true
+  type: hysteria2
+  password: c059a786-3a03-4300-9ace-4f9cda0f360c
+  sni: testing7.nimarko.org
 - name: "🇳🇱 Netherlands cb53 | SNI - gettestin.xxee.ru"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
   server: 103.251.167.168
