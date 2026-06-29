@@ -27,6 +27,7 @@
       "outbounds": [
         " Unsorted 02cc | SNI - testing8.nimarko.org",
         " Unsorted 3022 | SNI - testing6.nimarko.org",
+        " Unsorted 3ac5 | SNI - u691611us554.okgfw.top",
         " Unsorted 657a | SNI - testing7.nimarko.org",
         " Unsorted 6ca7 | SNI - hy2.aspidnet.xyz",
         " Unsorted 8115 | SNI - vn2.yuntong.click",
@@ -36,8 +37,11 @@
         "🇫🇷 France 74e6 | SNI - www.microsoft.com",
         "🇬🇧 United Kingdom ae37 | SNI - u691611us1244.csgfw.top [CIDR]",
         "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz",
-        "🇳🇱 Netherlands cb53 | SNI - gettestin.xxee.ru",
-        "🇺🇸 United States ef6b | SNI - s559.ccgfw.top"
+        "🇺🇸 United States 705b | SNI - u691611u2e827823s79.sspcccdn.xyz",
+        "🇺🇸 United States 7be2 | SNI - u691611udb8727a3s2316.sspcccdn.xyz",
+        "🇺🇸 United States ce92 | SNI - u691611us737.csgfw.top",
+        "🇺🇸 United States ef6b | SNI - s559.ccgfw.top",
+        "🇻🇳 Vietnam 094a | SNI - u691611u2dd066f2s226.sspcccdn.xyz"
       ]
     },
     {
@@ -65,6 +69,18 @@
       "tls": {
         "enabled": true,
         "server_name": "testing6.nimarko.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": " Unsorted 3ac5 | SNI - u691611us554.okgfw.top",
+      "server": "s554.okgfw.top",
+      "server_port": 443,
+      "password": "9794d18f-9280-3553-a7a5-a23da75aca76",
+      "tls": {
+        "enabled": true,
+        "server_name": "u691611us554.okgfw.top",
         "insecure": false
       }
     },
@@ -178,13 +194,37 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇳🇱 Netherlands cb53 | SNI - gettestin.xxee.ru",
-      "server": "103.251.167.168",
+      "tag": "🇺🇸 United States 705b | SNI - u691611u2e827823s79.sspcccdn.xyz",
+      "server": "23.166.40.27",
       "server_port": 443,
-      "password": "gdubbi2zb6gdp0c8",
+      "password": "9794d18f-9280-3553-a7a5-a23da75aca76",
       "tls": {
         "enabled": true,
-        "server_name": "gettestin.xxee.ru",
+        "server_name": "u691611u2e827823s79.sspcccdn.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 United States 7be2 | SNI - u691611udb8727a3s2316.sspcccdn.xyz",
+      "server": "192.3.118.133",
+      "server_port": 443,
+      "password": "9794d18f-9280-3553-a7a5-a23da75aca76",
+      "tls": {
+        "enabled": true,
+        "server_name": "u691611udb8727a3s2316.sspcccdn.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸 United States ce92 | SNI - u691611us737.csgfw.top",
+      "server": "198.12.124.74",
+      "server_port": 443,
+      "password": "9794d18f-9280-3553-a7a5-a23da75aca76",
+      "tls": {
+        "enabled": true,
+        "server_name": "u691611us737.csgfw.top",
         "insecure": false
       }
     },
@@ -197,6 +237,18 @@
       "tls": {
         "enabled": true,
         "server_name": "s559.ccgfw.top",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇻🇳 Vietnam 094a | SNI - u691611u2dd066f2s226.sspcccdn.xyz",
+      "server": "103.173.155.158",
+      "server_port": 443,
+      "password": "9794d18f-9280-3553-a7a5-a23da75aca76",
+      "tls": {
+        "enabled": true,
+        "server_name": "u691611u2dd066f2s226.sspcccdn.xyz",
         "insecure": false
       }
     }
