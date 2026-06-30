@@ -78,7 +78,14 @@ proxies:
   type: hysteria2
   password: 9794d18f-9280-3553-a7a5-a23da75aca76
   sni: u691611us1244.csgfw.top
-  skip-cert-verify: true
+- name: "🇳🇱 Netherlands 01df | SNI - nl.esimpson.org"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
+  server: 198.105.112.118
+  port: 443
+  udp: true
+  type: hysteria2
+  password: EsimHy2Game_7xK9mPq2
+  sni: nl.esimpson.org
 - name: "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/NL.png
   server: 130.49.161.70
@@ -135,6 +142,7 @@ proxies:
   type: hysteria2
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   sni: s559.ccgfw.top
+  skip-cert-verify: true
 - name: "🇻🇳 Vietnam 094a | SNI - u691611u2dd066f2s226.sspcccdn.xyz"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VN.png
   server: 103.173.155.158
@@ -143,6 +151,14 @@ proxies:
   type: hysteria2
   password: 9794d18f-9280-3553-a7a5-a23da75aca76
   sni: u691611u2dd066f2s226.sspcccdn.xyz
+- name: "🇻🇳 Vietnam 24e2 | SNI - u691611us785.csgfw.top"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VN.png
+  server: 160.25.74.91
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 9794d18f-9280-3553-a7a5-a23da75aca76
+  sni: u691611us785.csgfw.top
 rules:
 - GEOSITE,category-ads-all,REJECT
 - GEOSITE,cn,DIRECT
