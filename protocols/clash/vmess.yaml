@@ -125,16 +125,6 @@ proxies:
   alterId: 0
   network: ws
   tls: false
-- name: " Unsorted a436"
-  server: yg1.ygkkk.dpdns.org
-  port: 443
-  udp: true
-  type: vmess
-  uuid: b98325b3-0bc0-4149-9b0b-bf7dc1668ae9
-  cipher: auto
-  alterId: 0
-  network: ws
-  tls: true
 - name: " Unsorted a521"
   server: hl112.cowjump.site
   port: 443
@@ -306,6 +296,17 @@ proxies:
   alterId: 0
   network: tcp
   tls: false
+- name: "🇫🇮 Finland da74"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FI.png
+  server: 65.109.186.44
+  port: 433
+  udp: true
+  type: vmess
+  uuid: 0611401f-a49e-4a55-9954-e74d4af47100
+  cipher: auto
+  alterId: 0
+  network: tcp
+  tls: false
 - name: "🇬🇧 United Kingdom 0b43"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GB.png
   server: 66.163.117.58
@@ -346,6 +347,28 @@ proxies:
   udp: true
   type: vmess
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: false
+- name: "🇮🇳 India 9502"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IN.png
+  server: 138.252.100.85
+  port: 18746
+  udp: true
+  type: vmess
+  uuid: 5cae7714-9c61-4c5c-876e-c45a1cb13be4
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: false
+- name: "🇮🇳 India e3e7"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/IN.png
+  server: 138.252.100.85
+  port: 18746
+  udp: true
+  type: vmess
+  uuid: e314349a-7e56-4a3e-9318-eda62b5d6bd3
   cipher: auto
   alterId: 0
   network: ws
@@ -668,17 +691,6 @@ proxies:
   alterId: 0
   network: tcp
   tls: false
-- name: "🇺🇸 United States c65d"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: 165.140.216.141
-  port: 443
-  udp: true
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  cipher: auto
-  alterId: 0
-  network: raw
-  tls: false
 - name: "🇺🇸 United States d26c"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
   server: 82.198.246.97
@@ -711,17 +723,6 @@ proxies:
   cipher: auto
   alterId: 0
   network: tcp
-  tls: false
-- name: "🇺🇸 United States dff1"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png
-  server: 47.251.91.241
-  port: 42899
-  udp: true
-  type: vmess
-  uuid: 0925b355-2bcd-4eae-9720-d2709e4f7e36
-  cipher: auto
-  alterId: 0
-  network: raw
   tls: false
 rules:
 - GEOSITE,category-ads-all,REJECT
