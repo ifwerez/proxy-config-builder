@@ -7,16 +7,16 @@ auto-generated proxy configurations
 
 ## sources
 
-- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 232 proxies]
+- https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt [online, 281 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt [online, 144 proxies]
 - https://raw.githack.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt [online, 232 proxies]
-- https://internet-tenshi.kangel.tech/1 [online, 1053 proxies]
+- https://internet-tenshi.kangel.tech/1 [online, 1154 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/1.txt [online, 4597 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/6.txt [online, 141 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt [online, 480 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/22.txt [online, 385 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/23.txt [online, 238 proxies]
 - https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/24.txt [online, 755 proxies]
-- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt [online, 271 proxies]
+- https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/25.txt [online, 283 proxies]
 
 ## subscription urls
 
@@ -73,7 +73,6 @@ auto-generated proxy configurations
 |------|-------|----------|-----|
 | part 1 | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/clash_1.yaml` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/singbox_1.json` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/raw_1.txt` |
 | part 2 | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/clash_2.yaml` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/singbox_2.json` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/raw_2.txt` |
-| part 3 | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/clash_3.yaml` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/singbox_3.json` | `https://raw.githubusercontent.com/ifwerez/proxy-config-builder/main/raw_3.txt` |
 
 </details>
 
@@ -117,5 +116,5 @@ you can add new proxy source URLs via a pull request:
 
 new sources are automatically merged on the next update cycle.
 
-last updated: 2026-06-30 14:48:19
-proxies: 3069
+last updated: 2026-06-30 15:56:45
+proxies: 2995
