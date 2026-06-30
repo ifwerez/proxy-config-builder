@@ -72,13 +72,6 @@ proxies:
   type: trojan
   password: 2ebd88d01787434e8deed6bf5ef41d5c
   tls: true
-- name: " Unsorted 3058"
-  server: 38.60.136.156
-  port: 443
-  udp: true
-  type: trojan
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
-  tls: true
 - name: " Unsorted 34ec | SNI - space.byu.id.yxls.eu.cc"
   server: space.byu.id.yxls.eu.cc
   port: 443
@@ -832,6 +825,14 @@ proxies:
   password: humanity
   tls: true
   sni: www.creationlong.org
+- name: "🇩🇪 Germany 01d9"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
+  server: 92.119.35.117
+  port: 443
+  udp: true
+  type: trojan
+  password: "aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR"
+  tls: true
 - name: "🇩🇪 Germany 042a"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/DE.png
   server: 92.119.35.117
@@ -1230,6 +1231,14 @@ proxies:
   udp: true
   type: trojan
   password: "UBOzpg%2B8h40R7i18ZKAuTAumlAkEY6PYMiLOm4bbMaU%3D"
+  tls: true
+- name: "🇫🇷 France 3058"
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
+  server: 38.60.136.156
+  port: 443
+  udp: true
+  type: trojan
+  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
   tls: true
 - name: "🇫🇷 France 435e | SNI - www.calmlunch.com"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/FR.png
@@ -3753,15 +3762,7 @@ proxies:
   type: trojan
   password: "NAdtbpuyJXPH%3DCfKmdBqD2YVbzdvwAtuxw"
   tls: true
-- name: "🇻🇳 Vietnam 4b45"
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VN.png
-  server: 38.60.252.118
-  port: 443
-  udp: true
-  type: trojan
-  password: "NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw"
-  tls: true
-- name: "🇿🇦 South Africa df5c"
+- name: "🇿🇦 South Africa df5c | SNI - 38.54.64.247"
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ZA.png
   server: 38.54.64.247
   port: 443
@@ -3769,6 +3770,7 @@ proxies:
   type: trojan
   password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   tls: true
+  sni: 38.54.64.247
 rules:
 - GEOSITE,category-ads-all,REJECT
 - GEOSITE,cn,DIRECT
