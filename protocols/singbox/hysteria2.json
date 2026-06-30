@@ -32,6 +32,7 @@
         "🇫🇮 Finland ce69 | SNI - fta.fontanvpn.com",
         "🇫🇷 France 74e6 | SNI - www.microsoft.com",
         "🇬🇧 United Kingdom ae37 | SNI - u691611us1244.csgfw.top",
+        "🇳🇱 Netherlands 01df | SNI - nl.esimpson.org",
         "🇳🇱 Netherlands 1cc3 | SNI - hy2.aspidnet.xyz",
         "🇳🇱 Netherlands 3022 | SNI - testing6.nimarko.org [CIDR]",
         "🇳🇱 Netherlands 657a | SNI - testing7.nimarko.org [CIDR]",
@@ -39,7 +40,8 @@
         "🇺🇸 United States 7be2 | SNI - u691611udb8727a3s2316.sspcccdn.xyz",
         "🇺🇸 United States ce92 | SNI - u691611us737.csgfw.top",
         "🇺🇸 United States ef6b | SNI - s559.ccgfw.top",
-        "🇻🇳 Vietnam 094a | SNI - u691611u2dd066f2s226.sspcccdn.xyz"
+        "🇻🇳 Vietnam 094a | SNI - u691611u2dd066f2s226.sspcccdn.xyz",
+        "🇻🇳 Vietnam 24e2 | SNI - u691611us785.csgfw.top"
       ]
     },
     {
@@ -127,7 +129,19 @@
       "tls": {
         "enabled": true,
         "server_name": "u691611us1244.csgfw.top",
-        "insecure": true
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 Netherlands 01df | SNI - nl.esimpson.org",
+      "server": "198.105.112.118",
+      "server_port": 443,
+      "password": "EsimHy2Game_7xK9mPq2",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl.esimpson.org",
+        "insecure": false
       }
     },
     {
@@ -211,7 +225,7 @@
       "tls": {
         "enabled": true,
         "server_name": "s559.ccgfw.top",
-        "insecure": false
+        "insecure": true
       }
     },
     {
@@ -223,6 +237,18 @@
       "tls": {
         "enabled": true,
         "server_name": "u691611u2dd066f2s226.sspcccdn.xyz",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇻🇳 Vietnam 24e2 | SNI - u691611us785.csgfw.top",
+      "server": "160.25.74.91",
+      "server_port": 443,
+      "password": "9794d18f-9280-3553-a7a5-a23da75aca76",
+      "tls": {
+        "enabled": true,
+        "server_name": "u691611us785.csgfw.top",
         "insecure": false
       }
     }
