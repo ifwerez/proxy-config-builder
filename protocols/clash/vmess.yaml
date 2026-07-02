@@ -25,6 +25,16 @@ tun:
   auto-route: true
   auto-detect-interface: true
 proxies:
+- name: " Unsorted 0803"
+  server: yg1.ygkkk.dpdns.org
+  port: 443
+  udp: true
+  type: vmess
+  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
+  cipher: auto
+  alterId: 0
+  network: ws
+  tls: true
 - name: " Unsorted 0df4"
   server: yg1.ygkkk.dpdns.org
   port: 80
